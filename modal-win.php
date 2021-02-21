@@ -1,0 +1,29 @@
+<!-- В этом файле описываем все  всплывающие окна -->
+
+  <!-- Popup-1 -->
+  <div class="popup popup-callback">
+    <div class="popup-table table">
+      <div class="cell">
+        <div class="popup-content">
+          <div class="popup-close"></div>
+          <div class="popup__title"></div>
+          <div class="popup__txt"></div>
+          <form action="#" class="popup-form form">
+            <div class="form-input">
+              <input autocomplete="off" type="text" name="form[]" data-value="" class="input" />
+            </div>
+            <div class="form-input">
+              <input autocomplete="off" type="text" name="form[]" data-value="" class="input req email" />
+            </div>
+            <div class="form-input">
+              <input autocomplete="off" type="text" name="form[]" data-value="" class="input req" />
+            </div>
+            <div class="form-button">
+              <button type="submit" class="form__btn btn fw"></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <a href="#callback" class="link pl"></a> -->

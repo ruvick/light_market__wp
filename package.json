@@ -1,0 +1,51 @@
+{
+  "name": "light_market",
+  "version": "1.0.1",
+  "description": "Магазин дизайнерского света",
+  "main": "index.php",
+  "scripts": {
+    "test": "editorconfig-checker", 
+    "clear_r": "ssh u0743099@ftp.light-snab.ru \"rm  /marketsveta.su/wp-content/themes/light_market/*.*\"",
+    "send_r": "scp -C *.php *.png *.css u0743099@ftp.light-snab.ru:/marketsveta.su/wp-content/themes/light_market/",
+    "send_ms": "scp -C *.css u0743099@ftp.light-snab.ru:/marketsveta.su/wp-content/themes/light_market/",
+    "send_head": "scp -C header.php u0743099@ftp.light-snab.ru:/marketsveta.su/wp-content/themes/light_market/",
+    "send_func": "scp -C functions.php u0743099@ftp.light-snab.ru:/marketsveta.su/wp-content/themes/light_market/",
+    "send_index": "scp -C index.php u0743099@ftp.light-snab.ru:/marketsveta.su/wp-content/themes/light_market/",
+    "send_footer": "scp -C footer.php u0743099@ftp.light-snab.ru:/marketsveta.su/wp-content/themes/light_market/",
+    "send_one": "scp -C mailru-domain6RYVibgKzkiavY1a.html u0743099@ftp.light-snab.ru:/marketsveta.su/wp-content/themes/light_market/",
+    "mk_part_carbon": "ssh u0743099@ftp.light-snab.ru \"mkdir -p /marketsveta.su/wp-content/themes/light_market/inc\"",
+    "send_carbon": "scp -C -r inc u0743099@ftp.light-snab.ru:/marketsveta.su/wp-content/themes/light_market/",
+    "send_carbon_fild": "scp -C -r inc/custom-fields-options u0743099@ftp.light-snab.ru:/marketsveta.su/wp-content/themes/light_market/inc/",
+    "send_pars": "scp -C -r pars u0743099@ftp.light-snab.ru:/marketsveta.su/wp-content/themes/light_market/",
+    "mk_part_dir": "ssh u0743099@ftp.light-snab.ru \"mkdir -p /marketsveta.su/wp-content/themes/light_market/template-parts\"",
+    "send_part": "scp -C -r template-parts u0743099@ftp.light-snab.ru:/marketsveta.su/wp-content/themes/light_market/",
+    "mk_part_img": "ssh u0743099@ftp.light-snab.ru \"mkdir -p /marketsveta.su/wp-content/themes/light_market/img\"",
+    "send_img": "scp -r img u0743099@ftp.light-snab.ru:/marketsveta.su/wp-content/themes/light_market/",
+    "mk_part_images": "ssh u0743099@ftp.light-snab.ru \"mkdir -p /marketsveta.su/wp-content/themes/light_market/img\"",
+    "send_images": "scp -r images *.svg u0743099@ftp.light-snab.ru:/marketsveta.su/wp-content/themes/light_market/",
+    "mk_part_js": "ssh u0743099@ftp.light-snab.ru \"mkdir -p /marketsveta.su/wp-content/themes/light_market/js\"",
+    "send_js": "scp -r js u0743099@ftp.light-snab.ru:/marketsveta.su/wp-content/themes/light_market/",
+    "mk_part_css": "ssh u0743099@ftp.light-snab.ru \"mkdir -p /marketsveta.su/wp-content/themes/light_market/css\"",
+    "send_css": "scp -C -r css u0743099@ftp.light-snab.ru:/marketsveta.su/wp-content/themes/light_market/",
+    "mk_part_fonts": "ssh u0743099@ftp.light-snab.ru \"mkdir -p /marketsveta.su/wp-content/themes/light_market/fonts\"",
+    "send_fonts": "scp -C -r fonts u0743099@ftp.light-snab.ru:/marketsveta.su/wp-content/themes/light_market/",
+    "send_all": "npm run send_r & npm run send_css & npm run send_part & npm run send_img & npm run send_image & npm run send_js & npm run send_fonts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruvick/light_market__wp.git"
+  },
+  "keywords": [
+    "wp",
+    "WordPress"
+  ],
+  "author": "ruvick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruvick/light_market__wp/issues"
+  },
+  "homepage": "https://github.com/ruvick/light_market__wp#readme",
+  "dependencies": {
+    "group-css-media-queries": "^1.4.1"
+  }
+}
