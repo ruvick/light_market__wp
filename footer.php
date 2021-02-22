@@ -66,12 +66,12 @@
 
       <div class="footer-bot__item d-flex">
         <p>Способы оплаты</p>
-        <img src="img/mir.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri();?>/img/mir.jpg" alt="">
       </div>
 
       <div class="footer-bot__item d-flex">
         <p>Социальные сети</p>
-        <img src="img/social.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri();?>/img/social.jpg" alt="">
       </div>
 
     </div>

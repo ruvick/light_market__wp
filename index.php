@@ -12,13 +12,13 @@
 			<li><a href="#">Контакты</a></li>
 		</ul>
 	</div>
-</header>
+</header> 
 
 <header id="header" class="header">  
 	<div class="container">
 
 		<div class="header__row-top d-flex">
-			<a href="#" class="header__logo logo-icon"></a>
+			<a href="#" class="header__logo logo-icon"></a> 
 
 			<div class="menu__icon icon-menu">
 				<span></span>
@@ -36,7 +36,7 @@
 					<input type="text" placeholder="Поиск по сайту" class="search__input input">
 					<button type="submit" tabindex="2" id="searchsubmit" class="sub-search" value=""></button>
 				</div>
-				<button class="mob-search"></button>
+				<button class="mob-search"></button> 
 
 				<a href="#" class="header__bascket">Корзина</a>
 
@@ -98,37 +98,37 @@
 
 			<div class="info-sl__slider slider">
 				<div class="slider__item">
-					<img src="img/sl-1.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri();?>/img/sl-1.jpg" alt="">
 					<p>НОВИНКИ <br>2021</p>
 				</div>
 
 				<div class="slider__item">
-					<img src="img/sl-1.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri();?>/img/sl-1.jpg" alt=""> 
 					<p>НОВИНКИ <br>2021</p>
 				</div>
 
 				<div class="slider__item filter">
-					<img src="img/sl-1.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri();?>/img/sl-1.jpg" alt="">
 					<p>НОВИНКИ <br>2021</p>
 				</div>
 
 				<div class="slider__item">
-					<img src="img/sl-1.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri();?>/img/sl-1.jpg" alt="">
 					<p>НОВИНКИ <br>2021</p>
 				</div>
 
 				<div class="slider__item filter">
-					<img src="img/sl-1.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri();?>/img/sl-1.jpg" alt="">
 					<p>НОВИНКИ <br>2021</p>
 				</div>
 
 				<div class="slider__item">
-					<img src="img/sl-1.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri();?>/img/sl-1.jpg" alt="">
 					<p>НОВИНКИ <br>2021</p>
 				</div>
 
 				<div class="slider__item filter">
-					<img src="img/sl-1.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri();?>/img/sl-1.jpg" alt="">
 					<p>НОВИНКИ <br>2021</p>
 				</div>
 			</div>
@@ -136,7 +136,7 @@
 			<div class="info-sl__images d-flex">
 
 				<div class="info-sl__img-item img-item-l">
-					<img src="img/info-sl-1.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri();?>/img/info-sl-1.jpg" alt="">
 					<div class="img-l">
 						<p>Светильники <span>до 10 000 рублей</span></p>
 						<a href="#" class="btn">Смотреть</a>
@@ -144,7 +144,7 @@
 				</div>
 
 				<div class="info-sl__img-item img-item-r">
-					<img src="img/info-sl-2.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri();?>/img/info-sl-2.jpg" alt="">
 					<p>CYBER MONDAY <span>до -80%</span></p>
 				</div>
 
@@ -163,7 +163,7 @@
 			<div class="prod-card__body d-flex">
 				<!-- <span class="prod-card__sale">-40%</span> -->
 				<a href="#" class="prod-card__link">
-					<img src="img/product/pr-01.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri();?>/img/product/pr-01.jpg" alt="">
 				</a>
 
 				<div class="prod-card__text">
@@ -184,7 +184,7 @@
 			<div class="prod-card__body d-flex">
 				<span class="prod-card__sale">-40%</span>
 				<a href="#" class="prod-card__link">
-					<img src="img/product/pr-02.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri();?>/img/product/pr-02.jpg" alt="">
 				</a>
 
 				<div class="prod-card__text">
@@ -205,7 +205,7 @@
 			<div class="prod-card__body d-flex">
 				<!-- <span class="prod-card__sale">-40%</span> -->
 				<a href="#" class="prod-card__link">
-					<img src="img/product/pr-03.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri();?>/img/product/pr-03.jpg" alt="">
 				</a>
 
 				<div class="prod-card__text">
@@ -226,7 +226,7 @@
 			<div class="prod-card__body d-flex">
 				<span class="prod-card__sale">-20%</span>
 				<a href="#" class="prod-card__link">
-					<img src="img/product/pr-04.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri();?>/img/product/pr-04.jpg" alt="">
 				</a>
 
 				<div class="prod-card__text">
@@ -247,7 +247,7 @@
 			<div class="prod-card__body d-flex">
 				<!-- <span class="prod-card__sale">-40%</span> -->
 				<a href="#" class="prod-card__link">
-					<img src="img/product/pr-05.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri();?>/img/product/pr-05.jpg" alt="">
 				</a>
 
 				<div class="prod-card__text">
@@ -288,7 +288,7 @@
 			<div class="prod-card__body d-flex">
 				<span class="prod-card__sale new-sale">NEW</span>
 				<a href="#" class="prod-card__link">
-					<img src="img/product/pr-06.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri();?>/img/product/pr-06.jpg" alt="">
 				</a>
 
 				<div class="prod-card__text">
@@ -309,7 +309,7 @@
 			<div class="prod-card__body d-flex">
 				<span class="prod-card__sale new-sale">NEW</span>
 				<a href="#" class="prod-card__link">
-					<img src="img/product/pr-07.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri();?>/img/product/pr-07.jpg" alt="">
 				</a>
 
 				<div class="prod-card__text">
@@ -330,7 +330,7 @@
 			<div class="prod-card__body d-flex">
 				<span class="prod-card__sale new-sale">NEW</span>
 				<a href="#" class="prod-card__link">
-					<img src="img/product/pr-08.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri();?>/img/product/pr-08.jpg" alt="">
 				</a>
 
 				<div class="prod-card__text">
@@ -351,7 +351,7 @@
 			<div class="prod-card__body d-flex">
 				<span class="prod-card__sale new-sale">NEW</span>
 				<a href="#" class="prod-card__link">
-					<img src="img/product/pr-09.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri();?>/img/product/pr-09.jpg" alt="">
 				</a>
 
 				<div class="prod-card__text">
@@ -372,7 +372,7 @@
 			<div class="prod-card__body d-flex">
 				<span class="prod-card__sale new-sale">NEW</span>
 				<a href="#" class="prod-card__link">
-					<img src="img/product/pr-10.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri();?>/img/product/pr-10.jpg" alt="">
 				</a>
 
 				<div class="prod-card__text">
@@ -400,7 +400,7 @@
 		<div class="logist__row d-flex">
 
 			<div class="logist__item">
-				<img src="img/logic-01.jpg" alt="">
+				<img src="<?php echo get_template_directory_uri();?>/img/logic-01.jpg" alt="">
 				<div class="logist__item-text">
 					<h3>ДОСТАВКА</h3>
 					<p>С нашей помощью купить
@@ -419,7 +419,7 @@
 			</div>
 
 			<div class="logist__item">
-				<img src="img/logic-02.jpg" alt="">
+				<img src="<?php echo get_template_directory_uri();?>/img/logic-02.jpg" alt="">
 				<div class="logist__item-text">
 					<h3>ГАРАНТИЯ ЛУЧШЕЙ 
 						ЦЕНЫ
@@ -512,31 +512,31 @@
 		<div class="brands__row d-flex">
 
 			<div class="brands__item brands__item_gr">
-				<img src="img/brands/brands-01.jpg" alt="">
+				<img src="<?php echo get_template_directory_uri();?>/img/brands/brands-01.jpg" alt="">
 			</div>
 
 			<div class="brands__item">
-				<img src="img/brands/brands-02.jpg" alt="">
+				<img src="<?php echo get_template_directory_uri();?>/img/brands/brands-02.jpg" alt="">
 			</div>
 
 			<div class="brands__item brands__item_gr">
-				<img src="img/brands/brands-03.jpg" alt="">
+				<img src="<?php echo get_template_directory_uri();?>/img/brands/brands-03.jpg" alt="">
 			</div>
 
 			<div class="brands__item">
-				<img src="img/brands/brands-04.jpg" alt="">
+				<img src="<?php echo get_template_directory_uri();?>/img/brands/brands-04.jpg" alt="">
 			</div>
 
 			<div class="brands__item brands__item_gr">
-				<img src="img/brands/brands-05.jpg" alt="">
+				<img src="<?php echo get_template_directory_uri();?>/img/brands/brands-05.jpg" alt="">
 			</div>
 
 			<div class="brands__item">
-				<img src="img/brands/brands-06.jpg" alt="">
+				<img src="<?php echo get_template_directory_uri();?>/img/brands/brands-06.jpg" alt="">
 			</div>
 
 			<div class="brands__item brands__item_gr">
-				<img src="img/brands/brands-07.jpg" alt="">
+				<img src="<?php echo get_template_directory_uri();?>/img/brands/brands-07.jpg" alt="">
 			</div>
 
 		</div>

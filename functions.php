@@ -7,17 +7,17 @@
  * @package light_market
  */
 
-add_action( 'carbon_fields_register_fields', 'boots_register_custom_fields' );
-function boots_register_custom_fields() {
-// путь к пользовательскому файлу определения поля (полей), измените под себя
-require_once __DIR__ . '/inc/custom-fields-options/metaboxes.php';
-require_once __DIR__ . '/inc/custom-fields-options/theme-options.php';
-}
-add_action( 'after_setup_theme', 'crb_load' );
-function crb_load() {
-require_once( get_template_directory() . '/inc/carbon-fields/vendor/autoload.php' );
-\Carbon_Fields\Carbon_Fields::boot(); 
-}
+// add_action( 'carbon_fields_register_fields', 'boots_register_custom_fields' );
+// function boots_register_custom_fields() {
+// // путь к пользовательскому файлу определения поля (полей), измените под себя
+// require_once __DIR__ . '/inc/custom-fields-options/metaboxes.php';
+// require_once __DIR__ . '/inc/custom-fields-options/theme-options.php';
+// }
+// add_action( 'after_setup_theme', 'crb_load' );
+// function crb_load() {
+// require_once( get_template_directory() . '/inc/carbon-fields/vendor/autoload.php' );
+// \Carbon_Fields\Carbon_Fields::boot();  
+// }
 
 
 if ( ! defined( '_S_VERSION' ) ) {
@@ -69,8 +69,8 @@ if ( ! function_exists( 'light_market_setup' ) ) :
 // } );
 		register_nav_menus(
 			array(
-				'menu-1' => esc_html__( 'Меню в шапке', 'light_market' ),
-				'menu-2' => esc_html__( 'Мобильное меню', 'light_market' ),
+				'menu-1' => esc_html__( 'Меню в шапке', 'lipsky' ),
+				'menu-2' => esc_html__( 'Мобильное меню', 'lipsky' ),
 			)
 		);
 
@@ -131,22 +131,22 @@ add_action( 'after_setup_theme', 'light_market_setup' );
  *
  * @global int $content_width
  */
-function light_market_content_width() {
+function lipsky_content_width() {
 	$GLOBALS['content_width'] = apply_filters( 'light_market_content_width', 640 );
 }
-add_action( 'after_setup_theme', 'light_market_content_width', 0 );
+// add_action( 'after_setup_theme', 'light_market_content_width', 0 );
 
 /**
  * Register widget area.
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
-function lipsky_widgets_init() {
+function light_market_widgets_init() {
 	register_sidebar(
 		array(
-			'name'          => esc_html__( 'Sidebar', 'light_market' ),
+			'name'          => esc_html__( 'Sidebar', 'lipsky' ),
 			'id'            => 'sidebar-1',
-			'description'   => esc_html__( 'Add widgets here.', 'light_market' ),
+			'description'   => esc_html__( 'Add widgets here.', 'lipsky' ),
 			'before_widget' => '<section id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</section>',
 			'before_title'  => '<h2 class="widget-title">',
@@ -154,17 +154,25 @@ function lipsky_widgets_init() {
 		)
 	);
 }
-add_action( 'widgets_init', 'light_market_widgets_init' ); 
+// add_action( 'widgets_init', 'light_market_widgets_init' ); 
 
 /**
  * Enqueue scripts and styles.
  */
-function light_market_scripts() {
-	wp_enqueue_style( 'light_market-style', get_stylesheet_uri() );
+
+// Описываем функцию в которй будем подключать CSS и JS
+function light_market_scripts_styles(){
+    global $wp_styles;
+
+		wp_enqueue_style("light_market-fancybox", get_template_directory_uri()."/css/fancybox.css", array(), $style_version, 'all'); //Модальные окна (стили)
+
+		wp_enqueue_style( 'light_market-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'jquery');
 
-	// wp_enqueue_script( 'lipsky-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '1.0', true ); 
+	wp_enqueue_script( 'light_market-fancybox', get_template_directory_uri() . '/js/jquery.fancybox.min.js', array(), '1.0', true ); 
+
+	wp_enqueue_script( 'light_market-popover', get_template_directory_uri() . '/js/jquery.popover.min.js', array(), '1.0', true ); 
 
 	wp_enqueue_script( 'light_market-inputmask', get_template_directory_uri() . '/js/jquery.inputmask.bundle.js', array(), 1.0, true );
 
@@ -180,7 +188,9 @@ function light_market_scripts() {
 	}
 }
 
-add_action( 'wp_enqueue_scripts', 'light_market_scripts' );
+// Добавляем action для запуска этой функции
+add_action( 'wp_enqueue_scripts', 'light_market_scripts_styles', 1 );
+
 
 
 
@@ -208,46 +218,30 @@ add_action('init', 'page_excerpt');
 
 
 // Отправщик на почту
-add_action( 'wp_ajax_send_work', 'send_work' );
-add_action( 'wp_ajax_nopriv_send_work', 'send_work' );
+// add_action( 'wp_ajax_send_work', 'send_work' );
+// add_action( 'wp_ajax_nopriv_send_work', 'send_work' );
 
-  function send_work() {
-    if ( empty( $_REQUEST['nonce'] ) ) {
-      wp_die( '0' );
-    }
+//   function send_work() {
+//     if ( empty( $_REQUEST['nonce'] ) ) {
+//       wp_die( '0' );
+//     }
     
-    if ( check_ajax_referer( 'NEHERTUTLAZIT', 'nonce', false ) ) {
+//     if ( check_ajax_referer( 'NEHERTUTLAZIT', 'nonce', false ) ) {
       
-      $headers = array(
-        'From: Сайт «ЛИПСКИЙ И ПАРТНЕРЫ» <noreply@lipskiy-konsalting.ru>',
-        'content-type: text/html',
-      );
+//       $headers = array(
+//         'From: Сайт «ЛИПСКИЙ И ПАРТНЕРЫ» <noreply@lipskiy-konsalting.ru>',
+//         'content-type: text/html',
+//       );
     
-      add_filter('wp_mail_content_type', create_function('', 'return "text/html";'));
-      if (wp_mail(carbon_get_theme_option( 'as_email_send' ), 'Заявка с сайта «ЛИПСКИЙ И ПАРТНЕРЫ»', '<strong>Имя:</strong> '.$_REQUEST["name"]. '<br/> <strong>E-mail:</strong> '.$_REQUEST["email"]. ' <br/> <strong>Телефон:</strong> '.$_REQUEST["tel"], $headers))
-        wp_die("<span style = 'color:green;'>Мы свяжемся с Вами в ближайшее время.</span>");
-      else wp_die("<span style = 'color:red;'>Сервис недоступен попробуйте позднее.</span>");
+//       add_filter('wp_mail_content_type', create_function('', 'return "text/html";'));
+//       if (wp_mail(carbon_get_theme_option( 'as_email_send' ), 'Заявка с сайта «ЛИПСКИЙ И ПАРТНЕРЫ»', '<strong>Имя:</strong> '.$_REQUEST["name"]. '<br/> <strong>E-mail:</strong> '.$_REQUEST["email"]. ' <br/> <strong>Телефон:</strong> '.$_REQUEST["tel"], $headers))
+//         wp_die("<span style = 'color:green;'>Мы свяжемся с Вами в ближайшее время.</span>");
+//       else wp_die("<span style = 'color:red;'>Сервис недоступен попробуйте позднее.</span>");
       
-    } else {
-      wp_die( 'НО-НО-НО!', '', 403 );
-    }
-  }
+//     } else {
+//       wp_die( 'НО-НО-НО!', '', 403 );
+//     }
+//   }
 
-
-
-// Изменение цвета секции на стр Услуги
-function my_styles_method() {
-	// #ff0000
-	$color = carbon_get_the_post_meta('color_field');
-	$custom_css = "  
-		.services-info__g {
-			background: {$color} ;
-		}
-	";
-
-	wp_add_inline_style( 'light_market-style', $custom_css );
-}
-
-add_action( 'wp_enqueue_scripts', 'my_styles_method' );
 
 

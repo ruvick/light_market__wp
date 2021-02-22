@@ -1,7 +1,7 @@
 <!-- В этом файле описываем все  всплывающие окна -->
 
   <!-- Popup-1 -->
-  <div class="popup popup-callback">
+<!--   <div class="popup popup-callback">
     <div class="popup-table table">
       <div class="cell">
         <div class="popup-content">
@@ -25,5 +25,5 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- <a href="#callback" class="link pl"></a> -->
