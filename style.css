@@ -12,7 +12,7 @@ Version: 1.0.1
   src: url("fonts/Lato-Heavy.eot");
   src: local("☺"), url("fonts/Lato-Heavy.woff") format("woff"), url("fonts/Lato-Heavy.ttf") format("truetype"), url("fonts/Lato-Heavy.svg") format("svg");
   font-weight: 900;
-  font-style: normal; }
+  font-style: normal; } 
 
 @font-face {
   font-family: "Lato";
@@ -1966,13 +1966,13 @@ h2 {
 /* Стрелка влево */
 .sidebar-slider .slick-arrow.slick-prev {
   bottom: 10px;
-  background: url("../img/icons/triangle-gold.svg");
+  background: url("img/icons/triangle-gold.svg");
   background-repeat: no-repeat; }
 
 /* Стрелка вправо */
 .sidebar-slider .slick-arrow.slick-next {
   top: 10px;
-  background: url("../img/icons/sl-top.svg");
+  background: url("img/icons/sl-top.svg");
   background-repeat: no-repeat; }
 
 .page__main {
@@ -2094,7 +2094,7 @@ h2 {
       left: 10%;
       width: 5px;
       height: 10px;
-      background: url("../img/icons/pagination__back.svg");
+      background: url("img/icons/pagination__back.svg");
       background-repeat: no-repeat; }
   .pagination__numbers {
     margin-right: 20px;
@@ -2132,7 +2132,7 @@ h2 {
       right: 10%;
       width: 5px;
       height: 10px;
-      background: url("../img/icons/pagination__next.svg");
+      background: url("img/icons/pagination__next.svg");
       background-repeat: no-repeat; }
 
 .current {

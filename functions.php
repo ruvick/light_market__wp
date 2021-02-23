@@ -176,6 +176,11 @@ function light_market_scripts_styles(){
 
 	wp_enqueue_script( 'light_market-inputmask', get_template_directory_uri() . '/js/jquery.inputmask.bundle.js', array(), 1.0, true );
 
+	wp_enqueue_script( 'light_market-slick', get_template_directory_uri() . '/js/slick.min.js', array(), '1.0', true ); 
+
+  wp_enqueue_script( 'jquery-ui', 'https://code.jquery.com/ui/1.12.1/jquery-ui.min.js', array(), '1.0',  true );
+
+
 	wp_enqueue_script( 'light_market-main', get_template_directory_uri() . '/js/main.js', array(), 1.0, true );
 
 	wp_localize_script( 'light_market-main', 'allAjax', array(
