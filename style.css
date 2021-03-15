@@ -16,10 +16,10 @@ Version: 1.0.1
 
 @font-face {
   font-family: "Lato";
-  src: url("fonts/Lato-Light.eot");
+  src: url("fonts/Lato-Light.eot"); 
   src: local("☺"), url("fonts/Lato-Light.woff") format("woff"), url("fonts/Lato-Light.ttf") format("truetype"), url("fonts/Lato-Light.svg") format("svg");
   font-weight: 300;
-  font-style: normal; } 
+  font-style: normal; }  
 
 @font-face {
   font-family: "Lato";
@@ -1333,11 +1333,14 @@ body.ie .ibg img {
   display: none;
   position: absolute;
   z-index: 10;
-  background: #edeeef;
-  top: 0;
+  background: #fff;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
   max-width: 1330px;
   width: 100%;
-  margin-top: 48px;
   overflow: auto;
   border: 1px solid #d0d0d0;
   -webkit-box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.28);
@@ -1754,7 +1757,9 @@ h2 {
 .page {
   padding: 30px 0 10px 0; }
 
-.page .breadcrumb {
+
+
+.page .breadcrumb { 
   margin-bottom: 26.5px; }
 
 .breadcrumb {
@@ -1778,6 +1783,18 @@ h2 {
   line-height: 23px;
   margin-right: 5px;
   color: #5a5b5e; }
+
+
+
+.page #breadcrumbs { 
+  margin-bottom: 26.5px; }
+#breadcrumbs {
+  font-size: 12px;
+  line-height: 23px;
+  color: #5a5b5e;
+  padding-left: 13px; }
+
+
 
 .page__side {
   width: 20%; }

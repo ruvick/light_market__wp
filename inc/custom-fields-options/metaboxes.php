@@ -34,8 +34,11 @@ Container::make('post_meta', 'light_product_cr', 'Характеристики �
         'Цокольный (Со сменными лампами)' => 'Цокольный (Со сменными лампами)'
       ) )->set_width(100),
 
-       Field::make('text', 'offer_sku', 'Артикул (Базовый)')->set_width(50),
+      Field::make('text', 'offer_sku', 'Артикул (Базовый)')->set_width(50),
       Field::make('text', 'offer_nal', 'Наличие на складе')->set_default_value( 'В наличии')->set_width(50), 
+
+      Field::make('text', 'offer_sticker', 'Стикер')->set_width(50),
+      Field::make('text', 'offer_sale', 'Скидка')->set_width(50),
       
       Field::make( 'complex', 'offer_cherecter', "Характеристики товара" )
       ->add_fields( array(

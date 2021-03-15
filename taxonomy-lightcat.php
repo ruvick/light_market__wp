@@ -7,19 +7,18 @@
 	<section id="page" class="page"> 
 		<div class="container">
 
-			<div class="breadcrumb">
-				<ul>
-					<li><a href="#">Каталог</a></li>
-					<li>/ Люстры</li>
-				</ul>
-			</div>
+			<?php
+			if ( function_exists('yoast_breadcrumb') ) {
+				yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
+			}
+			?> 
 
 			<div class="page__body d-flex">
 
 				<aside class="page__side">
 					<nav class="menu-left">
 
-						<div class="menu-cat-left">
+						<div class="menu-cat-left"> 
 							<button id="cat" class="menu-cat-left__btn icon-menu-left">Каталог</button>
 							<ul id="catmenu" class="catmenu">
 								<li><label><input type="checkbox" name="type[]">Светильники</label></li>
@@ -139,7 +138,7 @@
 				</aside>
 
 				<main class="page__main main">
-					<h1>Люстры</h1>
+					<h1><?php single_cat_title( '', true );?></h1> 
 
 					<div class="main-block__choice d-flex">
 
@@ -182,177 +181,26 @@
 
 					<div class="main-prod-card prod-card d-flex">
 
-						<div class="prod-card__body d-flex">
-							<span class="prod-card__sale">-40%</span>
-							<a href="#" class="prod-card__link">
-								<img src="<?php echo get_template_directory_uri();?>/img/product/pr-11.jpg" alt="">
-							</a>
-
-							<div class="prod-card__text">
-								<a href="#">
-									<h4>Подвесной светильник 
-										Lightstar Escica 806010
-									</h4>
-								</a>
-								<p class="prod-card__manuf">Lightstar (ИТАЛИЯ)</p>
-								<p class="prod-card__avail">В наличии</p>
-							</div>
-							<div class="prod-card__price-item d-flex">
-								<p class="prod-card__price rub">6 463 </p>
-								<a href="#" class="btn">В корзину</a>
-							</div>
-						</div>
-
-						<div class="prod-card__body d-flex">
-							<span class="prod-card__sale">-50%</span>
-							<a href="#" class="prod-card__link">
-								<img src="<?php echo get_template_directory_uri();?>/img/product/pr-12.jpg" alt="">
-							</a>
-
-							<div class="prod-card__text">
-								<a href="#">
-									<h4>Подвесной светильник 
-										Lightstar Escica 806010
-									</h4>
-								</a>
-								<p class="prod-card__manuf">Lightstar (ИТАЛИЯ)</p>
-								<p class="prod-card__avail">В наличии</p>
-							</div>
-							<div class="prod-card__price-item d-flex">
-								<p class="prod-card__price rub">6 463 </p>
-								<a href="#" class="btn">В корзину</a>
-							</div>
-						</div>
-
-						<div class="prod-card__body d-flex">
-							<span class="prod-card__sale">-20%</span>
-							<a href="#" class="prod-card__link">
-								<img src="<?php echo get_template_directory_uri();?>/img/product/pr-13.jpg" alt="">
-							</a>
-
-							<div class="prod-card__text">
-								<a href="#">
-									<h4>Подвесной светильник 
-										Lightstar Escica 806010
-									</h4>
-								</a>
-								<p class="prod-card__manuf">Lightstar (ИТАЛИЯ)</p>
-								<p class="prod-card__avail">В наличии</p>
-							</div>
-							<div class="prod-card__price-item d-flex">
-								<p class="prod-card__price rub">6 463 </p>
-								<a href="#" class="btn">В корзину</a>
-							</div>
-						</div>
-
-						<div class="prod-card__body d-flex">
-							<span class="prod-card__sale">-40%</span>
-							<a href="#" class="prod-card__link">
-								<img src="<?php echo get_template_directory_uri();?>/img/product/pr-14.jpg" alt="">
-							</a>
-
-							<div class="prod-card__text">
-								<a href="#">
-									<h4>Подвесной светильник 
-										Lightstar Escica 806010
-									</h4>
-								</a>
-								<p class="prod-card__manuf">Lightstar (ИТАЛИЯ)</p>
-								<p class="prod-card__avail">В наличии</p>
-							</div>
-							<div class="prod-card__price-item d-flex">
-								<p class="prod-card__price rub">6 463 </p>
-								<a href="#" class="btn">В корзину</a>
-							</div>
-						</div>
-
-					</div>
-
-					<div class="main-prod-card prod-card d-flex">
-
-						<div class="prod-card__body d-flex">
-							<span class="prod-card__sale">-40%</span>
-							<a href="#" class="prod-card__link">
-								<img src="<?php echo get_template_directory_uri();?>/img/product/pr-06.jpg" alt="">
-							</a>
-
-							<div class="prod-card__text">
-								<a href="#">
-									<h4>Подвесной светильник 
-										Lightstar Escica 806010
-									</h4>
-								</a>
-								<p class="prod-card__manuf">Lightstar (ИТАЛИЯ)</p>
-								<p class="prod-card__avail">В наличии</p>
-							</div>
-							<div class="prod-card__price-item d-flex">
-								<p class="prod-card__price rub">6 463 </p>
-								<a href="#" class="btn">В корзину</a>
-							</div>
-						</div>
-
-						<div class="prod-card__body d-flex">
-							<span class="prod-card__sale">-50%</span>
-							<a href="#" class="prod-card__link">
-								<img src="<?php echo get_template_directory_uri();?>/img/product/pr-15.jpg" alt="">
-							</a>
-
-							<div class="prod-card__text">
-								<a href="#">
-									<h4>Подвесной светильник 
-										Lightstar Escica 806010
-									</h4>
-								</a>
-								<p class="prod-card__manuf">Lightstar (ИТАЛИЯ)</p>
-								<p class="prod-card__avail">В наличии</p>
-							</div>
-							<div class="prod-card__price-item d-flex">
-								<p class="prod-card__price rub">6 463 </p>
-								<a href="#" class="btn">В корзину</a>
-							</div>
-						</div>
-
-						<div class="prod-card__body d-flex">
-							<span class="prod-card__sale">-20%</span>
-							<a href="#" class="prod-card__link">
-								<img src="<?php echo get_template_directory_uri();?>/img/product/pr-16.jpg" alt="">
-							</a>
-
-							<div class="prod-card__text">
-								<a href="#">
-									<h4>Подвесной светильник 
-										Lightstar Escica 806010
-									</h4>
-								</a>
-								<p class="prod-card__manuf">Lightstar (ИТАЛИЯ)</p>
-								<p class="prod-card__avail">В наличии</p>
-							</div>
-							<div class="prod-card__price-item d-flex">
-								<p class="prod-card__price rub">6 463 </p>
-								<a href="#" class="btn">В корзину</a>
-							</div>
-						</div>
-
-						<div class="prod-card__body d-flex">
-							<!-- <span class="prod-card__sale">-40%</span> -->
-							<a href="#" class="prod-card__link">
-								<img src="<?php echo get_template_directory_uri();?>/img/product/pr-17.jpg" alt="">
-							</a>
-
-							<div class="prod-card__text">
-								<a href="#">
-									<h4>Подвесной светильник 
-										Lightstar Escica 806010
-									</h4>
-								</a>
-								<p class="prod-card__manuf">Lightstar (ИТАЛИЯ)</p>
-								<p class="prod-card__avail">В наличии</p>
-							</div>
-							<div class="prod-card__price-item d-flex">
-								<p class="prod-card__price rub">6 463 </p>
-								<a href="#" class="btn">В корзину</a>
-							</div>
-						</div>
+        <?
+           $args = array(
+            'posts_per_page' => 8,
+            'post_type' => 'light',
+            'tax_query' => array(
+              array(
+                'taxonomy' => 'lightcat',
+                'field' => 'id',
+                'terms' => array(4,5)
+              )
+            )
+          );
+          $query = new WP_Query($args);
+          
+          foreach( $query->posts as $post ){
+            $query->the_post();
+            get_template_part('template-parts/product-elem');
+          }  
+          wp_reset_postdata();
+        ?>
 
 					</div>
 

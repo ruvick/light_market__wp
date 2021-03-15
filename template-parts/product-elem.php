@@ -1,5 +1,17 @@
 <div class="prod-card__body d-flex">
-	<span class="prod-card__sale new-sale">NEW</span>
+
+    <? 
+    $sticker = carbon_get_post_meta(get_the_ID(),"offer_sticker");
+    if (!empty($sticker)) {?>
+        <span class="prod-card__sale new-sale"><?echo $sticker;?></span>
+    <?}?>
+
+    <? 
+    $sale = carbon_get_post_meta(get_the_ID(),"offer_sale");
+    if (!empty($sale)) {?>
+    		<span class="prod-card__sale"><?echo $sale;?></span>
+    <?}?>
+
 	<a href="<?echo get_the_permalink(get_the_ID());?>" class="prod-card__link">
 		<img src="<?php  $imgTm = get_the_post_thumbnail_url( get_the_ID(), "tominiatyre" ); echo empty($imgTm)?get_bloginfo("template_url")."/img/no-photo.jpg":$imgTm; ?>" alt="<? the_title();?>">
 	</a>
@@ -13,6 +25,6 @@
 	</div>
 	<div class="prod-card__price-item d-flex">
 		<p class="prod-card__price rub"><?echo carbon_get_post_meta(get_the_ID(),"offer_price"); ?> </p>
-		<a href="#" class="btn">В корзину</a>
+		<a href="#" class="btn">В корзину</a> 
 	</div>
 </div>
