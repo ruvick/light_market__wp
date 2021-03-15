@@ -293,7 +293,7 @@
 						<div class="prod-card__body d-flex">
 							<span class="prod-card__sale">-20%</span>
 							<a href="#" class="prod-card__link">
-								<img src="<?php echo get_template_directory_uri();?>img/product/pr-04.jpg" alt="">
+								<img src="<?php echo get_template_directory_uri();?>/img/product/pr-04.jpg" alt="">
 							</a>
 
 							<div class="prod-card__text">

@@ -17,7 +17,7 @@
 					<p>НОВИНКИ <br>2021</p>
 				</div>
 
-				<div class="slider__item filter">
+				<div class="slider__item filter"> 
 					<img src="<?php echo get_template_directory_uri();?>/img/sl-1.jpg" alt="">
 					<p>НОВИНКИ <br>2021</p>
 				</div>

@@ -8,7 +8,7 @@ Version: 1.0.1
 */
 
 @font-face {
-  font-family: "Lato";
+  font-family: "Lato"; 
   src: url("fonts/Lato-Heavy.eot");
   src: local("☺"), url("fonts/Lato-Heavy.woff") format("woff"), url("fonts/Lato-Heavy.ttf") format("truetype"), url("fonts/Lato-Heavy.svg") format("svg");
   font-weight: 900;
@@ -19,7 +19,7 @@ Version: 1.0.1
   src: url("fonts/Lato-Light.eot");
   src: local("☺"), url("fonts/Lato-Light.woff") format("woff"), url("fonts/Lato-Light.ttf") format("truetype"), url("fonts/Lato-Light.svg") format("svg");
   font-weight: 300;
-  font-style: normal; }
+  font-style: normal; } 
 
 @font-face {
   font-family: "Lato";
@@ -1537,6 +1537,7 @@ h2 {
     margin-bottom: 68px; }
 
 .prod-card {
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between; }
@@ -2012,17 +2013,18 @@ h2 {
   padding: 0 8px;
   cursor: pointer; }
 
-.main-prod-card {
-  margin-bottom: 18px; }
+/*.main-prod-card {
+  margin-bottom: 18px; }*/
 
 .main-prod-card .prod-card__body {
+  margin-bottom: 18px;
   -webkit-box-flex: 0;
   -ms-flex: 0 1 23.7%;
   flex: 0 1 23.7%; }
 
 .modern-baner {
   position: relative;
-  margin-top: 30px;
+  /*margin-top: 30px;*/
   margin-bottom: 30px; }
 
 .modern-baner img {
