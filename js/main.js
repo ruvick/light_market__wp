@@ -1,4 +1,16 @@
 
+function number_format () {
+	let elements = document.querySelectorAll('.price_formator');
+	for (let elem of elements) {
+	  elem.dataset.realPrice = elem.innerHTML; 
+	  elem.innerHTML = Number(elem.innerHTML).toLocaleString('ru-RU');
+	}
+  }
+
+  document.addEventListener("DOMContentLoaded", ()=>{ 
+	number_format ();
+  });
+
 $ = jQuery;
 
 $(document).ready(function() {
@@ -42,13 +54,16 @@ if (iconMenu) {
 // 		menuBody.classList.toggle("active");
 // 	});
 // }
+
 if (document.body.clientWidth>1024){
+
 function hideMenu() {
   $('.mob-menu').slideUp(600);
 }
 function showMenu() {
   $('.mob-menu').slideDown(600);
 }
+
 $(document).ready(function() {
   $(".menu__catalogy").on("mouseover", showMenu);
   $(".header__menu").on("mouseleave", hideMenu);

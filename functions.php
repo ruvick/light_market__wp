@@ -7,17 +7,40 @@
  * @package light_market
  */
 
-add_action( 'carbon_fields_register_fields', 'boots_register_custom_fields' );
-function boots_register_custom_fields() {
-// путь к пользовательскому файлу определения поля (полей), измените под себя
-require_once __DIR__ . '/inc/custom-fields-options/metaboxes.php';
-require_once __DIR__ . '/inc/custom-fields-options/theme-options.php';
+//----Подключене carbon fields
+//----Инструкции по подключению полей см. в комментариях themes-fields.php
+include "carbon-fields/carbon-fields-plugin.php";
+
+use Carbon_Fields\Container;
+use Carbon_Fields\Field;
+
+add_action( 'carbon_fields_register_fields', 'crb_attach_theme_options' ); 
+function crb_attach_theme_options() {
+	require_once __DIR__ . "/themes-fields.php";
 }
+
+
 add_action( 'after_setup_theme', 'crb_load' );
 function crb_load() {
-require_once( get_template_directory() . '/inc/carbon-fields/vendor/autoload.php' );
-\Carbon_Fields\Carbon_Fields::boot(); 
-}
+	require_once( 'carbon-fields/vendor/autoload.php' );
+	\Carbon_Fields\Carbon_Fields::boot();
+} 
+
+
+//-----Блок описания вывода меню
+// 1. Осмысленные названия для алиаса и для описания на русском.
+// если это меню в подвали пишем - Меню в подвале 
+// если в шапке то пишем - Меню в шапке 
+// если 2 меню в шапке пишем  - Меню в шапке (верхняя часть)
+
+
+add_action( 'after_setup_theme', function(){
+	register_nav_menus( [
+		'menu_hot' => 'Меню актуальных предложений (рядом с каталогом)',
+		'menu_cat' => 'Меню каталога',
+		'menu_corp' => 'Общекорпоративное меню (верхняя шапка)',
+	] );
+} ); 
 
 
 if ( ! defined( '_S_VERSION' ) ) {
@@ -67,12 +90,6 @@ if ( ! function_exists( 'light_market_setup' ) ) :
 // 		'menu-2' => 'Мобильное меню',
 // 	] ); 
 // } );
-		register_nav_menus(
-			array(
-				'menu-1' => esc_html__( 'Меню в шапке', 'lipsky' ),
-				'menu-2' => esc_html__( 'Мобильное меню', 'lipsky' ),
-			)
-		);
 
 		/*
 		 * Switch default core markup for search form, comment form, and comments
