@@ -1136,6 +1136,7 @@ body.ie .ibg img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
@@ -1148,6 +1149,20 @@ body.ie .ibg img {
     background-position: 0 0;
     background-repeat: no-repeat;
     background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNi4wMDEiIGhlaWdodD0iMjMuODI0IiB2aWV3Qm94PSIwIDAgMjYuMDAxIDIzLjgyNCI+DQogIDxnIGlkPSLQodCz0YDRg9C/0L/QuNGA0L7QstCw0YLRjF85IiBkYXRhLW5hbWU9ItCh0LPRgNGD0L/Qv9C40YDQvtCy0LDRgtGMIDkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xNTI1LjQyNyAtMTExLjEwNSkiPg0KICAgIDxwYXRoIGlkPSLQmtC+0L3RgtGD0YBfNSIgZGF0YS1uYW1lPSLQmtC+0L3RgtGD0YAgNSIgZD0iTTE1MzYuNzEsMTI5LjgyN2EyLjMsMi4zLDAsMSwxLTIuMywyLjMsMi4zLDIuMywwLDAsMSwyLjMtMi4zWiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZDM4MjBmIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS13aWR0aD0iMSIvPg0KICAgIDxwYXRoIGlkPSLQmtC+0L3RgtGD0YBfNiIgZGF0YS1uYW1lPSLQmtC+0L3RgtGD0YAgNiIgZD0iTTE1NDUuNTYzLDEyOS44MjdhMi4zLDIuMywwLDEsMS0yLjMsMi4zLDIuMywyLjMsMCwwLDEsMi4zLTIuM1oiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2QzODIwZiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2Utd2lkdGg9IjEiLz4NCiAgICA8cGF0aCBpZD0i0JrQvtC90YLRg9GAXzciIGRhdGEtbmFtZT0i0JrQvtC90YLRg9GAIDciIGQ9Ik0xNTI1LjQyNywxMTEuNmg0LjY3Nmw0LjMzNSwxNC4xNjNoMTQuNTA5IiBmaWxsPSJub25lIiBzdHJva2U9IiNkMzgyMGYiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLXdpZHRoPSIxIi8+DQogICAgPGxpbmUgaWQ9ItCb0LjQvdC40Y9fOSIgZGF0YS1uYW1lPSLQm9C40L3QuNGPIDkiIHgyPSIxNi44NTIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE1MzMuNjE3IDEyMi4wNDYpIiBmaWxsPSJub25lIiBzdHJva2U9IiNkMzgyMGYiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLXdpZHRoPSIxIi8+DQogICAgPGxpbmUgaWQ9ItCb0LjQvdC40Y9fMTAiIGRhdGEtbmFtZT0i0JvQuNC90LjRjyAxMCIgeDI9IjE4LjkyNyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTUzMi41MDEgMTE4LjMxOCkiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2QzODIwZiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2Utd2lkdGg9IjEiLz4NCiAgPC9nPg0KPC9zdmc+DQo="); }
+
+#bascet_head_elem {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  font-size: 9px;
+  text-align: center;
+  padding: 4px 0;
+  position: absolute;
+  left: 19px;
+  top: 1px;
+}
 
 .mob-search:before {
   display: none;

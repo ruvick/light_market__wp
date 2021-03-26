@@ -7,6 +7,78 @@ function number_format () {
 	}
   }
 
+//-------------------------------------Корзина
+
+let cart = [];
+let cartCount = 0;
+
+function cart_recalc () {
+	cart = JSON.parse(localStorage.getItem("cart"));
+	if (cart == null) cart = [];
+	cartCount = 0;
+	cartSumm = 0;
+	for (let i = 0; i<cart.length; i++){
+	  cartCount += Number(cart[i].count);
+  
+	  cartSumm += Number(cart[i].count) * parseFloat(cart[i].price);
+	}
+  
+	localStorage.setItem("cartcount", cartCount);
+	localStorage.setItem("cartsumm", cartSumm);
+  
+	let elements = document.querySelectorAll('.cart_count_input');
+	for (let elem of elements) {
+	  elem.innerHTML = cartCount;
+	}
+  
+  }
+  
+  function add_tocart(elem) {
+	  console.log(elem);
+	  console.log(elem.dataset.price);
+	  
+	  let cartElem = {
+		sku: elem.dataset.sku,
+		lnk:elem.dataset.lnk,
+		price: elem.dataset.price,
+		priceold: elem.dataset.oldprice,
+		subtotal:elem.dataset.price,
+		name: elem.dataset.name,
+		count: elem.dataset.count,
+		picture: elem.dataset.picture 
+	  };
+  
+	  if (cart.length == 0)
+	  {
+		cart.push(cartElem);
+	  } else {
+		let addet = true;
+		for (let i = 0; i<cart.length; i++){
+		  if (cart[i].sku == cartElem.sku) {
+			cart[i].count++;
+			cart[i].subtotal = Number(cart[i].count) * parseFloat(cart[i].price);
+			addet = false;
+			break;
+		  }
+		}
+  
+		if (addet)
+		  cart.push(cartElem);
+	  }
+	  
+	  localStorage.setItem("cart", JSON.stringify (cart) );
+	  to_bascet_msg.style.display = "block";
+	  cart_recalc ();
+  
+	  console.log(cartElem);
+  }
+
+//-------------------------------------
+
+
+
+
+
   document.addEventListener("DOMContentLoaded", ()=>{ 
 	number_format ();
   });

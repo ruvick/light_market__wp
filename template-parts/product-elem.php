@@ -25,6 +25,15 @@
 	</div>
 	<div class="prod-card__price-item d-flex">
 		<p class="prod-card__price rub"><? echo $mprice =  carbon_get_post_meta(get_the_ID(),"offer_price"); ?> </p>
-		<a href="#" class="btn" onclick = "add_tocart(this)" data-price = "<? echo $mprice?>">В корзину</a> 
+		<a href="#" class="btn" onclick = "add_tocart(this)" 
+			data-price = "<? echo $mprice?>"
+			data-sku = "<? echo carbon_get_post_meta(get_the_ID(),"offer_sku")?>"
+			data-oldprice = "<? echo carbon_get_post_meta(get_the_ID(),"mod_old_price")?>"
+			data-lnk = "<? echo  get_the_permalink(get_the_ID());?>"
+			data-name = "<? echo  get_the_title();?>"
+			data-count = "1"
+			data-picture = "<?echo $imgTm;?>"
+
+		>В корзину</a> 
 	</div>
 </div>
