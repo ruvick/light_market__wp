@@ -24,7 +24,7 @@
 		<p class="prod-card__avail"><?echo carbon_get_post_meta(get_the_ID(),"offer_nal"); ?></p>
 	</div>
 	<div class="prod-card__price-item d-flex">
-		<p class="prod-card__price rub"><?echo carbon_get_post_meta(get_the_ID(),"offer_price"); ?> </p>
-		<a href="#" class="btn">В корзину</a> 
+		<p class="prod-card__price rub"><? echo $mprice =  carbon_get_post_meta(get_the_ID(),"offer_price"); ?> </p>
+		<a href="#" class="btn" onclick = "add_tocart(this)" data-price = "<? echo $mprice?>">В корзину</a> 
 	</div>
 </div>
