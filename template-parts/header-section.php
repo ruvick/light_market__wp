@@ -27,7 +27,7 @@
 
 			<div class="header__middle d-flex">
 				<div class="header__callback callback d-flex">
-					<p><a href="tel:88007006045" class="callback__phone">8 (800) 700-60-45</a></p>
+					<p><a href="tel:<? echo preg_replace('/[^0-9]/', '', $tel); ?>" class="callback__phone"><? echo $tel = carbon_get_theme_option("as_phones_1"); ?></a></p>
 					<a href="#" class="callback__popup">Заказать обратный звонок</a>
 				</div>
 
