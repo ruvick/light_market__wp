@@ -71,7 +71,7 @@ Container::make( 'theme_options', __( 'Настройки темы', 'crb' ) )
           ->set_width(50),
         Field::make( 'text', 'as_vk', __( 'Вконтакте' ) )
           ->set_width(50),
-        Field::make( 'text', 'as_telegr', __( 'telegram' ) )
+        Field::make( 'text', 'as_youtube', __( 'youtube' ) )
           ->set_width(50),
         Field::make('text', 'map_point', 'Координаты карты')
           ->set_width(50),

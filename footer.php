@@ -69,9 +69,14 @@
         <img src="<?php echo get_template_directory_uri();?>/img/mir.jpg" alt="">
       </div>
 
-      <div class="footer-bot__item d-flex">
+      <div class="footer-bot__item footer-bot__item_l d-flex">
         <p>Социальные сети</p>
-        <img src="<?php echo get_template_directory_uri();?>/img/social.jpg" alt="">
+        <div class="footer-bot__item-icon d-flex">
+          <a href="<? echo carbon_get_theme_option("as_face"); ?>" aria-label="facebook" class="footer__icon icon-face"></a>
+          <a href="<? echo carbon_get_theme_option("as_vk"); ?>" aria-label="ВКонтакте" class="footer__icon icon-vk"></a>
+          <a href="<? echo carbon_get_theme_option("as_youtube"); ?>" aria-label="youtube" class="footer__icon icon-youtube"></a>
+          <a href="<? echo carbon_get_theme_option("as_insta"); ?>" aria-label="instagram" class="footer__icon icon-insta"></a>
+        </div>
       </div>
 
     </div>
