@@ -50,7 +50,7 @@
 		<div class="header__menu menu">
 			<nav class="menu__body">
 	
-				<ul class="menu__list d-flex">
+<!-- 				<ul class="menu__list d-flex">
 					<li class="menu__catalogy"><a href="#" class="menu__link">Каталог товаров</a></li>
 					<li>
 						<a href="#" class="menu__link">Люстры</a>
@@ -63,7 +63,9 @@
 					<li><a href="#" class="menu__link">Уличное освещение</a></li>
 					<li><a href="#" class="menu__link">Электротовары</a></li>
 					<li class="menu__shares"><a href="#" class="menu__link">Акции</a></li>
-				</ul>
+				</ul> -->
+
+	<?php wp_nav_menu( array('theme_location' => 'menu_main','menu_class' => 'menu__list','container_class' => 'menu__list','container' => false )); ?>
 			</nav>
 
 			<nav class="mob-menu">
