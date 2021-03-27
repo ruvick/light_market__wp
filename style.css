@@ -2566,7 +2566,8 @@ h2 {
 }
 .contacts ul li {
   font-size: 16px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+  line-height: 1.2;
 }
 .contacts ul li a {
   color: #1a1818;
@@ -3229,7 +3230,12 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
     max-width: 100%;
     margin-right: 0; }
   .tech-text__block-cl:last-child {
-    margin-top: 38px; } }
+    margin-top: 38px; } 
+  .block__map {
+    height: 300px; }
+ .ymaps-2-1-78-map, .ymaps-2-1-78-i-ua_js_yes, .ymaps-2-1-78-map-bg, .ymaps-2-1-78-islets_map-lang-ru {
+  height: 300px !important; }
+  }
 
 @media (max-width: 500px) {
   .selc-price {

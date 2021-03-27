@@ -53,16 +53,16 @@ get_header(); ?>
 					var myGeoObjects = [];
 
     // Указываем координаты метки
-    myGeoObjects = new ymaps.Placemark(<?php echo carbon_get_theme_option('map_point') ?>,{
+    myGeoObjects = new ymaps.Placemark([<?php echo carbon_get_theme_option('map_point') ?>],{
     								// hintContent: '<div class="map-hint">Авто профи, Курск, ул.Комарова, 16</div>',
     								balloonContent: '<div class="map-hint"><?php echo carbon_get_theme_option('text_map') ?>', },{
     									iconLayout: 'default#image',
                     // Путь до нашей картинки
                     iconImageHref: '<?php bloginfo("template_url"); ?>/img/icons/map-marker.svg',  
                     // Размеры иконки
-                    iconImageSize: [65, 65],
+                    iconImageSize: [60, 60],
                     // Смещение верхнего угла относительно основания иконки
-                    iconImageOffset: [-25, -100]
+                    iconImageOffset: [-25, -90]
                   });
 
     var clusterer = new ymaps.Clusterer({
