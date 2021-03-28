@@ -192,6 +192,8 @@ function light_market_widgets_init() {
  */
 
 // Описываем функцию в которй будем подключать CSS и JS
+
+define("ALL_VERSION", "1.0.3");
 function light_market_scripts_styles(){
     global $wp_styles;
 
@@ -222,6 +224,13 @@ function light_market_scripts_styles(){
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
+
+	if ( is_page(3682))
+		{
+				wp_enqueue_script( 'vue', get_template_directory_uri().'/js/vue.js', array(), ALL_VERSION , true);
+				wp_enqueue_script( 'axios', get_template_directory_uri().'/js/axios.min.js', array(), ALL_VERSION , true);
+				wp_enqueue_script( 'bascet', get_template_directory_uri().'/js/bascet.js', array(), ALL_VERSION , true);
+		}
 }
 
 // Добавляем action для запуска этой функции
