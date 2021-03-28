@@ -1215,8 +1215,8 @@ body.ie .ibg img {
 
 .header-bottom {
   border-top: 1px solid #edeeef;
-  -webkit-box-shadow: 0px 3px 2px 3px #edeeef;
-  box-shadow: 0px 3px 2px 3px #edeeef; }
+  -webkit-box-shadow: 0px 3px 6px 1px #edeeef;
+  box-shadow: 0px 3px 6px 1px #edeeef; }
 
 .header__menu {
   position: relative; }

@@ -67,7 +67,6 @@ function cart_recalc () {
 	  }
 	  
 	  localStorage.setItem("cart", JSON.stringify (cart) );
-	  to_bascet_msg.style.display = "block";
 	  cart_recalc ();
   
 	  console.log(cartElem);
@@ -81,6 +80,7 @@ function cart_recalc () {
 
   document.addEventListener("DOMContentLoaded", ()=>{ 
 	number_format ();
+	cart_recalc ();
   });
 
 $ = jQuery;

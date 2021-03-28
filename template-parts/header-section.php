@@ -37,7 +37,7 @@
 				</div>
 				<button class="mob-search"></button> 
 
-				<a href="#" class="header__bascket"> <span id = "bascet_head_elem">0</span> Корзина</a>
+				<a href="#" class="header__bascket"> <span class = "cart_count_input" id = "bascet_head_elem">0</span> Корзина</a>
 
 			</div>
 		</div>
