@@ -392,4 +392,74 @@ function posts_custom_columns($column_name, $id){
 }
 
 
+// Отправка корзины
+	
+add_action( 'wp_ajax_send_cart', 'send_cart' );
+add_action( 'wp_ajax_nopriv_send_cart', 'send_cart' );
+
+function send_cart() {
+	if ( empty( $_REQUEST['nonce'] ) ) {
+		wp_die( '0' );
+	}
+	
+	if ( check_ajax_referer( 'NEHERTUTLAZIT', 'nonce', false ) ) {
+
+		$headers = array(
+			'From: Сайт '.COMPANY_NAME.' <'.MAIL_RESEND.'>',
+			'content-type: text/html',
+		);
+	
+		add_filter('wp_mail_content_type', create_function('', 'return "text/html";'));
+		
+		$adr_to_send = carbon_get_theme_option("mail_to_send");
+		$adr_to_send = (empty($adr_to_send))?"asmi046@gmail.com":$adr_to_send;
+		
+		$zak_number = "LS-".date("H").date("s").date("s")."-".rand(100,999);
+
+		$mail_content = "<h1>Заказ на сате №".$zak_number."</h1>";
+		
+		$bscet_dec = json_decode(stripcslashes ($_REQUEST["bascet"]));
+		
+		$mail_content .= "<table style = 'text-align: left;' width = '100%'>";
+			$mail_content .= "<tr>";
+				$mail_content .= "<th></th>";
+				$mail_content .= "<th>ТОВАР</th>";
+				$mail_content .= "<th>КОЛЛИЧЕСТВО</th>";
+				$mail_content .= "<th>СУММА</th>";
+			$mail_content .= "</tr>";
+
+			for ($i = 0; $i<count($bscet_dec); $i++) {
+				$mail_content .= "<tr>";
+					$mail_content .= "<td><img src = '".$bscet_dec[$i]->picture."' width = '70' height = '70'></td>";
+					$mail_content .= "<td><a href = '".$bscet_dec[$i]->lnk."'>".$bscet_dec[$i]->name." / ".$bscet_dec[$i]->sku."</a></td>";
+					$mail_content .= "<td>".$bscet_dec[$i]->count."</td>";
+					$mail_content .= "<td>".$bscet_dec[$i]->subtotal." р.</td>";
+				$mail_content .= "</tr>";
+			}
+
+		$mail_content .= "</table>";
+		$mail_content .= "<h2>Сумма: ".$_REQUEST["bascetsumm"]." р.</h2>";
+
+		
+		$mail_content .= "<strong>Имя:</strong> ".$_REQUEST["name"]."<br/>";
+		$mail_content .= "<strong>Телефон:</strong> ".$_REQUEST["phone"]."<br/>";
+		$mail_content .= "<strong>e-mail:</strong> ".$_REQUEST["mail"]."<br/>";
+		$mail_content .= "<strong>Адрес:</strong> ".$_REQUEST["adres"]."<br/>";
+		$mail_content .= "<strong>Комментарий:</strong> ".$_REQUEST["comment"]."<br/>";
+
+		$mail_them = "Заказ на сайте Light-Snab.ru";
+
+		
+		if (wp_mail($adr_to_send, $mail_them, $mail_content, $headers)) {
+			wp_die(json_encode(array("send" => true )));
+		}
+		else {
+			wp_die( 'Ошибка отправки!', '', 403 );
+		}
+		
+	} else {
+		wp_die( 'НО-НО-НО!', '', 403 );
+	}
+}
+
 

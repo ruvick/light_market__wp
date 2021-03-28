@@ -2748,6 +2748,37 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   margin-bottom: 20px;
 }
 
+@media (max-width: 600px) {
+  .bascet_page_table .name {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .bascet_page_table img {
+      width: 45px;
+  }
+
+  .bascet_page_table .b_tov_sku,
+  .bascet_page_table {
+      font-size: 12px;
+  }
+
+  .bascet_form {
+    width: 100%;
+  }
+}
+
+.no_feild {
+  width:100%;
+  background-color: #e50019;
+  text-align: center;
+  color: white;
+  padding: 10px 2%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
 /* Оформление корзины */
 
 

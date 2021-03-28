@@ -128,7 +128,7 @@ get_header(); ?>
                 <div class = "form_submit_line btn-wrapper">
                     <button @click.self  = "sendBascet" type = "button" class = "btn">Оформить заказ</button>
                     <div v-show = "formNoValid" class = "no_feild">
-                        Заполните все обязательные поля помеченные <span style = "color:#d3820f;">"*"</span>
+                        Заполните все обязательные поля помеченные "*"
                     </div>
                 </div>
                 
