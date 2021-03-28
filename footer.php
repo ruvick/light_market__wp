@@ -11,7 +11,7 @@
         </form>
 
         <div class="header__callback callback d-flex">
-          <p><a href="tel:88007006045" class="callback__phone">8 (800) 700-60-45</a></p>
+          <p><a href="tel:<? echo preg_replace('/[^0-9]/', '', $tel); ?>" class="callback__phone"><? echo $tel = carbon_get_theme_option("as_phones_1"); ?></a></p>
           <a href="#" class="callback__popup">Заказать обратный звонок</a>
         </div>
 
@@ -69,9 +69,14 @@
         <img src="<?php echo get_template_directory_uri();?>/img/mir.jpg" alt="">
       </div>
 
-      <div class="footer-bot__item d-flex">
+      <div class="footer-bot__item footer-bot__item_l d-flex">
         <p>Социальные сети</p>
-        <img src="<?php echo get_template_directory_uri();?>/img/social.jpg" alt="">
+        <div class="footer-bot__item-icon d-flex">
+          <a href="<? echo carbon_get_theme_option("as_face"); ?>" aria-label="facebook" class="footer__icon icon-face"></a>
+          <a href="<? echo carbon_get_theme_option("as_vk"); ?>" aria-label="ВКонтакте" class="footer__icon icon-vk"></a>
+          <a href="<? echo carbon_get_theme_option("as_youtube"); ?>" aria-label="youtube" class="footer__icon icon-youtube"></a>
+          <a href="<? echo carbon_get_theme_option("as_insta"); ?>" aria-label="instagram" class="footer__icon icon-insta"></a>
+        </div>
       </div>
 
     </div>

@@ -38,10 +38,24 @@ add_action( 'after_setup_theme', function(){
 	register_nav_menus( [
 		'menu_hot' => 'Меню актуальных предложений (рядом с каталогом)',
 		'menu_cat' => 'Меню каталога',
+		'menu_main' => 'Меню основное',
 		'menu_corp' => 'Общекорпоративное меню (верхняя шапка)',
 	] );
 } ); 
 
+add_filter( 'nav_menu_css_class', 'change_menu_item_css_classes', 10, 4 );
+
+function change_menu_item_css_classes( $classes, $item, $args, $depth ) {
+	if( 3674 === $item->ID  && 'menu_main' === $args->theme_location ){
+		$classes[] = 'menu__catalogy';
+	}
+
+	if( 3670 === $item->ID  && 'menu_main' === $args->theme_location ){
+		$classes[] = 'menu__shares';
+	}
+
+	return $classes;
+}
 
 if ( ! defined( '_S_VERSION' ) ) {
 	// Replace the version number of the theme on each release. 

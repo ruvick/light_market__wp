@@ -27,7 +27,7 @@
 
 			<div class="header__middle d-flex">
 				<div class="header__callback callback d-flex">
-					<p><a href="tel:88007006045" class="callback__phone">8 (800) 700-60-45</a></p>
+					<p><a href="tel:<? echo preg_replace('/[^0-9]/', '', $tel); ?>" class="callback__phone"><? echo $tel = carbon_get_theme_option("as_phones_1"); ?></a></p>
 					<a href="#" class="callback__popup">Заказать обратный звонок</a>
 				</div>
 
@@ -50,7 +50,7 @@
 		<div class="header__menu menu">
 			<nav class="menu__body">
 	
-				<ul class="menu__list d-flex">
+<!-- 				<ul class="menu__list d-flex">
 					<li class="menu__catalogy"><a href="#" class="menu__link">Каталог товаров</a></li>
 					<li>
 						<a href="#" class="menu__link">Люстры</a>
@@ -63,7 +63,9 @@
 					<li><a href="#" class="menu__link">Уличное освещение</a></li>
 					<li><a href="#" class="menu__link">Электротовары</a></li>
 					<li class="menu__shares"><a href="#" class="menu__link">Акции</a></li>
-				</ul>
+				</ul> -->
+
+	<?php wp_nav_menu( array('theme_location' => 'menu_main','menu_class' => 'menu__list','container_class' => 'menu__list','container' => false )); ?>
 			</nav>
 
 			<nav class="mob-menu">
