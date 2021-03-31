@@ -7,6 +7,9 @@
  * @package light_market
  */
 
+define("COMPANY_NAME", "Магазин MarketSveta");
+define("MAIL_RESEND", "noreply@marketsveta.su");
+
 //----Подключене carbon fields
 //----Инструкции по подключению полей см. в комментариях themes-fields.php
 include "carbon-fields/carbon-fields-plugin.php";
@@ -40,6 +43,7 @@ add_action( 'after_setup_theme', function(){
 		'menu_cat' => 'Меню каталога',
 		'menu_main' => 'Меню основное',
 		'menu_corp' => 'Общекорпоративное меню (верхняя шапка)',
+		'menu_footer_actual' => 'Меню в подвале (Актуальные)',
 	] );
 } ); 
 
@@ -207,7 +211,8 @@ function light_market_scripts_styles(){
 
 	wp_enqueue_script( 'light_market-popover', get_template_directory_uri() . '/js/jquery.popover.min.js', array(), '1.0', true ); 
 
-	wp_enqueue_script( 'light_market-inputmask', get_template_directory_uri() . '/js/jquery.inputmask.bundle.js', array(), 1.0, true );
+	wp_enqueue_script( 'imasc', get_template_directory_uri().'/js/imask.js', array(), ALL_VERSION , true);
+
 
 	wp_enqueue_script( 'light_market-slick', get_template_directory_uri() . '/js/slick.min.js', array(), '1.0', true ); 
 
@@ -225,6 +230,7 @@ function light_market_scripts_styles(){
 		wp_enqueue_script( 'comment-reply' );
 	}
 
+	
 	if ( is_page(3682))
 		{
 				wp_enqueue_script( 'vue', get_template_directory_uri().'/js/vue.js', array(), ALL_VERSION , true);
@@ -412,11 +418,11 @@ function send_cart() {
 		add_filter('wp_mail_content_type', create_function('', 'return "text/html";'));
 		
 		$adr_to_send = carbon_get_theme_option("mail_to_send");
-		$adr_to_send = (empty($adr_to_send))?"asmi046@gmail.com":$adr_to_send;
+		$adr_to_send = (empty($adr_to_send))?"asmi046@gmail.com,info@light-snab.ru ":$adr_to_send;
 		
 		$zak_number = "LS-".date("H").date("s").date("s")."-".rand(100,999);
 
-		$mail_content = "<h1>Заказ на сате №".$zak_number."</h1>";
+		$mail_content = "<h1>Заказ на сайте №".$zak_number."</h1>";
 		
 		$bscet_dec = json_decode(stripcslashes ($_REQUEST["bascet"]));
 		
@@ -447,7 +453,7 @@ function send_cart() {
 		$mail_content .= "<strong>Адрес:</strong> ".$_REQUEST["adres"]."<br/>";
 		$mail_content .= "<strong>Комментарий:</strong> ".$_REQUEST["comment"]."<br/>";
 
-		$mail_them = "Заказ на сайте Light-Snab.ru";
+		$mail_them = "Заказ на сайте MarketSveta.su";
 
 		
 		if (wp_mail($adr_to_send, $mail_them, $mail_content, $headers)) {

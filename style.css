@@ -213,7 +213,7 @@ h1 {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
-  border-radius: 15px; }
+  border-radius: 20px; }
   .btn.fw {
     width: 100%; }
 
@@ -1188,7 +1188,7 @@ body.ie .ibg img {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background-color: red;
+  background-color: #e50019;
   color: white;
   font-size: 9px;
   text-align: center;
@@ -1883,8 +1883,7 @@ h2 {
 .page .breadcrumb { 
   margin-bottom: 26.5px; }
 
-.breadcrumb {
-  padding-left: 13px; }
+
 
 .breadcrumb ul {
   display: -webkit-box;
@@ -2203,13 +2202,31 @@ h2 {
 .pagination {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center; 
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+
+  .screen-reader-text {
+    display: none;
+  }
+
+  .pagination .nav-links {
+    display: flex;
+    justify-content: center;
+  }
+
+  .pagination .nav-links,
   .pagination__nav-links {
     max-width: 500px;
     width: 100%;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center; }
+    align-items: center; 
+    margin: 0 auto;}
+  .nav-links a.prev,
   .pagination__back {
     max-width: 93.5px;
     width: 100%;
@@ -2227,6 +2244,7 @@ h2 {
     border: 0.4px solid #c7c9cb;
     margin-right: 37px;
     position: relative; }
+    .nav-links a.prev:after,
     .pagination__back:before {
       content: "";
       position: absolute;
@@ -2236,9 +2254,13 @@ h2 {
       height: 10px;
       background: url("img/icons/pagination__back.svg");
       background-repeat: no-repeat; }
+  
+      .page-numbers, 
   .pagination__numbers {
     margin-right: 20px;
-    font-size: 16px; }
+    font-size: 16px; 
+  }
+
   .pagination__block-dot {
     margin-right: 20px;
     -webkit-box-pack: justify;
@@ -2248,6 +2270,8 @@ h2 {
   .pagination__dot {
     display: block;
     font-size: 16px; }
+
+  .nav-links a.next,
   .pagination__next {
     max-width: 93.5px;
     width: 100%;
@@ -2265,6 +2289,7 @@ h2 {
     border: 0.4px solid #c7c9cb;
     margin-left: 13px;
     position: relative; }
+    .nav-links a.next:after,
     .pagination__next:after {
       content: "";
       position: absolute;
@@ -2285,7 +2310,7 @@ h2 {
   padding-left: 0;
   margin-bottom: 19px; }
 
-.select-prod .breadcrumb a {
+.breadcrumb a {
   color: #d3820f; }
 
 .select-prod h1 {
@@ -2781,7 +2806,10 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
 /* Оформление корзины */
 
-
+#footer_cat_menu .menu__catalogy,
+#footer_cat_menu .menu__shares {
+  display: none;
+}
 
 @media (max-width: 1340px) {
   .container {

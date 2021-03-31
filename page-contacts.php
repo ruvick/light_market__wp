@@ -16,7 +16,7 @@ get_header(); ?>
 
 			<?php
 			if ( function_exists('yoast_breadcrumb') ) {
-				yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
+				yoast_breadcrumb( '<div class="breadcrumb">','</div>' );
 			}
 			?> 
 			<h1><?php the_title();?></h1>

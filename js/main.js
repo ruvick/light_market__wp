@@ -7,6 +7,18 @@ function number_format () {
 	}
   }
 
+//Маска для телефона
+  let mascedPhoneElem = document.querySelectorAll('input[type=tel]');
+ console.log(mascedPhoneElem); 
+  if (mascedPhoneElem != undefined) 
+  for (let elem of mascedPhoneElem) { 
+	IMask(elem, {
+		mask: '+{7}(000)000-00-00',
+		lazy: true,  // make placeholder always visible
+		placeholderChar: '_'     // defaults to '_'
+	});
+  }
+
 //-------------------------------------Корзина
 
 let cart = [];
@@ -33,9 +45,8 @@ function cart_recalc () {
   
   }
   
-  function add_tocart(elem) {
-	  console.log(elem);
-	  console.log(elem.dataset.price);
+  function add_tocart(elem, countElem) {
+	
 	  
 	  let cartElem = {
 		sku: elem.dataset.sku,
@@ -44,7 +55,7 @@ function cart_recalc () {
 		priceold: elem.dataset.oldprice,
 		subtotal:elem.dataset.price,
 		name: elem.dataset.name,
-		count: elem.dataset.count,
+		count: (countElem == 0)?elem.dataset.count:countElem,
 		picture: elem.dataset.picture 
 	  };
   
@@ -147,7 +158,8 @@ let triangle = document.querySelector(".icon-menu-left")
 let butcat = document.querySelector(".menu-cat-left__btn");
 let mcatalog = document.querySelector(".catmenu");
 if (butcat) {
-	butcat.addEventListener("click", function () {
+	butcat.addEventListener("click", function (e) {
+		e.preventDefault();
 		mcatalog.classList.toggle("active");
 		triangle.classList.toggle("active");
 	});
@@ -158,7 +170,8 @@ if (butcat) {
 let butmprice = document.querySelector(".menu-choice__btn");
 let sldform = document.querySelector(".form-choice");
 if (butmprice) {
-	butmprice.addEventListener("click", function () {
+	butmprice.addEventListener("click", function (e) {
+		e.preventDefault();
 		sldform.classList.toggle("active");
 		butmprice.classList.toggle("active");
 	});
@@ -175,8 +188,9 @@ if (mobsearch) {
 
 
 // Маска телефона
-var inputmask_phone = { "mask": "+9(999)999-99-99" };
-jQuery("input[type=tel]").inputmask(inputmask_phone);
+// var inputmask_phone = { "mask": "+9(999)999-99-99" };
+// jQuery("input[type=tel]").inputmask(inputmask_phone);
+
 
 
 

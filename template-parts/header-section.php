@@ -1,14 +1,11 @@
+<script>  
+    let bascet_page = "<?echo get_the_permalink(3682); ?>";
+    let thencs_page = "<?echo get_the_permalink(3684); ?>";
+    let nophoto_page = "<?echo get_bloginfo("template_url");?>/img/no-photo.jpg";
+</script>  
+
 <header id="header-top" class="header-top"> 
 	<div class="container">
-		<!-- <ul>
-			<li><a href="#">Акции</a></li>
-			<li><a href="#">Помощь</a></li>
-			<li><a href="#">Оплата</a></li>
-			<li><a href="#">Доставка</a></li>
-			<li><a href="#">О компании</a></li>
-			<li><a href="#">Бренды</a></li>
-			<li><a href="#">Контакты</a></li>
-		</ul> -->
 		<?php wp_nav_menu( array('theme_location' => 'menu_corp', 'container' => false )); ?>
 	</div>
 </header>  
@@ -49,23 +46,7 @@
 
 		<div class="header__menu menu">
 			<nav class="menu__body">
-	
-<!-- 				<ul class="menu__list d-flex">
-					<li class="menu__catalogy"><a href="#" class="menu__link">Каталог товаров</a></li>
-					<li>
-						<a href="#" class="menu__link">Люстры</a>
-					</li>
-					<li><a href="#" class="menu__link">Светильники</a></li>
-					<li><a href="#" class="menu__link">Бра</a></li>
-					<li><a href="#" class="menu__link">Настольные лампы</a></li>
-					<li><a href="#" class="menu__link">Споты</a></li>
-					<li><a href="#" class="menu__link">Торшеры</a></li>
-					<li><a href="#" class="menu__link">Уличное освещение</a></li>
-					<li><a href="#" class="menu__link">Электротовары</a></li>
-					<li class="menu__shares"><a href="#" class="menu__link">Акции</a></li>
-				</ul> -->
-
-	<?php wp_nav_menu( array('theme_location' => 'menu_main','menu_class' => 'menu__list','container_class' => 'menu__list','container' => false )); ?>
+				<?php wp_nav_menu( array('theme_location' => 'menu_main','menu_class' => 'menu__list','container_class' => 'menu__list','container' => false )); ?>
 			</nav>
 
 			<nav class="mob-menu">

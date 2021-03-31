@@ -73,6 +73,7 @@ $category = get_the_category();
                             </div>
 
                         <?
+                                if ($pictIndex == 0 ) $imgTm = wp_get_attachment_image_src($item['gal_img'], 'full')[0];
                                 $pictIndex++;
                             }
                             }
@@ -123,10 +124,20 @@ $category = get_the_category();
 							<div class="selc-price__bascet d-flex">
 								<div class="number d-flex">
 									<span class="minus">-</span>
-									<input type="text" value="1" size="5"/>
+									<input id = "pageNumeric" type="text" value="1" size="5"/>
 									<span class="plus">+</span>
 								</div>
-								<a href="#" class="btn">В корзину</a>
+								<a href="#" class="btn" onclick = "add_tocart(this, document.getElementById('pageNumeric').value); return false;"
+                                
+                                    data-price = "<? echo $pagePrice?>"
+			                        data-sku = "<? echo carbon_get_post_meta(get_the_ID(),"offer_sku")?>"
+			                        data-oldprice = "<? echo $pagePriceOld?>"
+			                        data-lnk = "<? echo  get_the_permalink(get_the_ID());?>"
+			                        data-name = "<? echo  get_the_title();?>"
+			                        data-count = "1"
+			                        data-picture = "<?echo $imgTm;?>"
+                                
+                                >В корзину</a>
 							</div>
 							<p class="selc-price___cheap tip" data-content="Нашли дешевле? Сделаем скидку.">Нашли дешевле</p>
 						</div>
@@ -148,7 +159,7 @@ $category = get_the_category();
 							<input class="callback-form__input" type="tel" placeholder="+ 7 (___)___-__-__">
 							<button class="callback-form__btn btn">Перезвонить</button>
 							<label>
-								<input type="checkbox" name="type[]">
+								<input checked type="checkbox" name="type[]">
 								<p>
 									Я ознакомился и принимаю условия"Политики 
 									конфиденциальности" и "Информированного согласия"

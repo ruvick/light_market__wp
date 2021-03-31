@@ -3,10 +3,10 @@
     <div class="footer__row d-flex">
 
       <div class="footer__col footer__col_forms">
-        <h3>Подпишитесь на нашу рассылку!</h3>
+        <h3>Закажите обратный звонок:</h3>
 
         <form action="#" class="footer__forms d-flex">
-          <input type="email" placeholder="E-mail" name="email" class="input">
+          <input type="tel" placeholder="+7(___)___-__-__" name="tel" class="input">
           <button class="btn">Подписаться</button>
         </form>
 
@@ -20,40 +20,19 @@
         </p>
       </div>
 
-      <div class="footer__col">
+      <div class="footer__col" id = "footer_cat_menu">
         <h3>Каталог товаров</h3>
-        <ul class="footer__menu">
-          <li><a href="#">Люстры</a></li>
-          <li><a href="#">Уличные светильники</a></li>
-          <li><a href="#">Бра</a></li>
-          <li><a href="#">Настольные лампы</a></li>
-          <li><a href="#">Торшеры</a></li>
-          <li><a href="#">Потолочные светильники</a></li>
-          <li><a href="#">Встраиваемые светильники</a></li>
-          <li><a href="#">Аксессуары</a></li>
-          <li><a href="#">Декор</a></li>
-          <li><a href="#">Распродажа</a></li>
-        </ul>
+        <?php wp_nav_menu( array('theme_location' => 'menu_main','container' => false )); ?>
       </div>
 
       <div class="footer__col">
-        <h3>Помощь покупателю</h3>
-        <ul class="footer__menu">
-          <li><a href="#">Главная</a></li>
-          <li><a href="#">Оплата и доставка</a></li>
-          <li><a href="#">Акции</a></li>
-          <li><a href="#">Бренды</a></li>
-          <li><a href="#">Гарантия</a></li>
-        </ul>
+        <h3>Актуальные предложения</h3>
+        <?php wp_nav_menu( array('theme_location' => 'menu_footer_actual','container' => false )); ?>
       </div>
 
       <div class="footer__col">
         <h3>Информация</h3>
-        <ul class="footer__menu">
-          <li><a href="#">О компании</a></li>
-          <li><a href="#">Контакты</a></li>
-          <li><a href="#">Политика конфиденциальности</a></li>
-        </ul>
+        <?php wp_nav_menu( array('theme_location' => 'menu_corp', 'container' => false )); ?>
       </div>
 
     </div>

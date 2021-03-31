@@ -144,6 +144,7 @@ Vue.component('bascetform', {
                 window.location.href = thencs_page;
               })
               .catch(function (error) {
+                console.log(error);
                 alert(error);
               });
         }

@@ -16,11 +16,17 @@
 			<div class="page__body d-flex">
 
 				<aside class="page__side">
-					<nav class="menu-left">
+					<form class="menu-left">
 
 						<div class="menu-cat-left"> 
-							<button id="cat" class="menu-cat-left__btn icon-menu-left">Каталог</button>
-							<ul id="catmenu" class="catmenu">
+							<button id="cat" class="menu-cat-left__btn icon-menu-left active">Подкатегории</button>
+							<ul id="catmenu" class="catmenu active">
+								<?
+								echo "<pre>";
+								print_r($wp_query->queried_object_id);
+								echo "</pre>";
+									
+								?>
 								<li><label><input type="checkbox" name="type[]">Светильники</label></li>
 								<li><label><input type="checkbox" name="type[]">Подвесные</label></li>
 								<li><label><input type="checkbox" name="type[]">Потолочные</label></li>
@@ -39,7 +45,7 @@
 						<div class="menu-choice">
 							<button id="cat" class="menu-choice__btn icon-menu-left">Цена, P</button>
 
-							<form class="block__form form-block form-choice" action="#">
+							<div class="block__form form-block form-choice" >
 								<div class="form-block__item">
 									<div class="category-params-item-price">
 										<div class="category-params-item-price-table table">
@@ -53,7 +59,7 @@
 										<div id="range" class="category-params-item-price-range"></div>
 									</div>
 								</div>
-							</form> 
+							</div> 
 
 						</div>
 
@@ -103,7 +109,7 @@
 
 						</div>
 
-					</nav>
+					</form>
 
 					<div class="sidebar-sl">
 						<h3>Лучшие бренды</h3>
@@ -146,26 +152,81 @@
 							<p>Сортировать по</p>
 
 							<select name="form[]" id="" class="select-block">
-								<option value="1">Популярные</option>
-								<option value="2" option="">Популярные 2</option>
-								<option value="3" option="">Популярные 3</option>
-								<option value="3" option="">Популярные 4</option>
+								<option value="1">По умолчанию</option>
+								<option value="2" option="">По возростанию цены</option>
+								<option value="3" option="">По убыванию цены</option>
 							</select>
 
 						</div>
+						<? 
+							$arg = $wp_query->query;
 
-						<p>Товары 1-40 из 20975</p>
+							$startPrice = empty($_REQUEST["price_from"])?"0":$_REQUEST["price_from"];
+							$endPrice = empty($_REQUEST["price_to"])?PHP_INT_MAX:$_REQUEST["price_to"];
+
+							$metaquery = array(
+								'relation' => 'AND',
+								
+								'priceStart' => array (
+									'key'     => '_offer_price',
+									'value' => $startPrice,
+									'compare' => '>=',
+									'type'    => 'NUMERIC',
+								),
+								
+								'priceEnd' => array (
+									'key'     => '_offer_price',
+									'value' => $endPrice,
+									'compare' => '<=',
+									'type'    => 'NUMERIC',
+								)
+							);
+
+							$arg['meta_query'] = $metaquery;
+							$queryM = new WP_Query($arg);
+
+							// echo "<pre>";
+							// print_r($queryM);
+							// echo "</pre>";
+
+							$post_count_start = (int)$queryM->query_vars["posts_per_page"] * (int)$queryM->query["paged"];
+							$post_count_start = (empty($post_count_start))?1:$post_count_start;
+							
+							$post_count_end = $post_count_start + $queryM->query_vars["posts_per_page"];
+							$post_count_end = (empty($post_count_end))?1:$post_count_end;
+							$post_count_end = ($post_count_end > $queryM->post_count)?$queryM->post_count:$post_count_end;
+
+						
+
+						?>
+						<p>Товары <?echo $post_count_start?>-<?echo $post_count_end?> из <?echo $queryM->found_posts?></p>
 					</div>
 
 					<div class="main-prod-card prod-card d-flex">
 						<?php
-						while(have_posts()):
-							the_post();
+								
+
+							
+							
+						
+						
+							while($queryM->have_posts()):
+							$queryM->the_post();
 							get_template_part('template-parts/product-elem'); 
 						endwhile;
+						wp_reset_postdata();
 						?>
 					</div>
 
+
+					<nav class="navigation pagination " role="navigation">
+						<?php 
+							the_posts_pagination( array(
+							'mid_size' => 2,
+							'prev_next'    => true,
+							) ); 
+						?>
+					</nav>
 
 					<div class="modern-baner">
 						<img src="<?php echo get_template_directory_uri();?>/img/modern-baner.jpg" alt="">
@@ -204,11 +265,13 @@
 
 					</div>
 
-					<div class="show-link">
+					<!-- <div class="show-link">
 						<a href="#" class="show-link__btn">Показать еще</a>
-					</div>
+					</div> -->
 
-					<nav class="pagination d-flex">
+					<!-- <nav class="pagination d-flex">
+				
+
 						<div class="pagination__nav-links d-flex">
 							<a class="pagination__back" href="#">Назад</a>
 							<span class="pagination__numbers">1</span>
@@ -224,11 +287,9 @@
 							<a class="pagination__numbers" href="#">60</a>
 							<a class="pagination__next" href="#">Вперед</a>
 						</div>
-					</nav>
+					</nav> -->
 
-					<nav class="navigation pagination" role="navigation">
 
-					</nav>
 
 				</main>
 
