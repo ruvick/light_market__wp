@@ -1665,6 +1665,7 @@ h2 {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between; }
+
   .prod-card__body {
     padding: 15px 20px 15px 22px;
     -webkit-box-orient: vertical;
@@ -1674,7 +1675,12 @@ h2 {
     border: 0.4px solid #c7c9cb;
     -webkit-box-flex: 0;
     -ms-flex: 0 1 19%;
-    flex: 0 1 19%; }
+    flex: 0 1 19%;
+    min-width: 252px; 
+    margin-bottom: 20px;
+  }
+
+
   .prod-card__link {
     margin: 0 auto 13px auto;
     -webkit-box-flex: 1;

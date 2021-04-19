@@ -24,11 +24,16 @@
 		<p class="prod-card__avail"><?echo carbon_get_post_meta(get_the_ID(),"offer_nal"); ?></p>
 	</div>
 	<div class="prod-card__price-item d-flex">
-		<p class="prod-card__price rub"><? echo $mprice =  carbon_get_post_meta(get_the_ID(),"offer_price"); ?> </p>
+		<?
+			$mprice = (float)carbon_get_post_meta(get_the_ID(),"offer_price");		
+			$mpriceold = (float)carbon_get_post_meta(get_the_ID(),"mod_old_price");		
+		?>
+
+		<p class="prod-card__price rub price_formator"><? echo $mprice; ?> </p>
 		<a href="#" class="btn" onclick = "add_tocart(this, 0); return false;" 
 			data-price = "<? echo $mprice?>"
 			data-sku = "<? echo carbon_get_post_meta(get_the_ID(),"offer_sku")?>"
-			data-oldprice = "<? echo carbon_get_post_meta(get_the_ID(),"mod_old_price")?>"
+			data-oldprice = "<? echo $mpriceold;?>"
 			data-lnk = "<? echo  get_the_permalink(get_the_ID());?>"
 			data-name = "<? echo  get_the_title();?>"
 			data-count = "1"
