@@ -58,6 +58,13 @@
             echo (string)$elem->name;
             echo "\n\r";
 
+            //if ((string)$elem->vendorCode !== "ST210.548.12") continue;
+            if ($offerIndex < 1000) {
+                
+                $offerIndex++;
+                continue;
+            }
+
             $to_post_meta  = [ 
                 '_offer_smile_descr' => empty((string)$elem->description)?(string)$elem->name:(string)$elem->description, 
                 '_offer_sku' => (string)$elem->vendorCode, 
