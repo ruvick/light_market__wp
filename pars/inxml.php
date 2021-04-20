@@ -1,7 +1,7 @@
 <?
 
 //php marketsveta.su/wp-content/themes/light_market/pars/inxml.php
-    ini_set('max_execution_time', 900);
+    ini_set('max_execution_time', 9000);
 
     require_once("../../../../wp-config.php");
             
@@ -115,17 +115,47 @@
                 $indexCh++;
             }
 
-
-            $post_id = wp_insert_post(  wp_slash( array(
-                'post_type'     => 'light',
-                'post_author'    => 1,
-                'post_status'    => 'publish',
-                'post_title' => (string)$elem->name,
-                'post_excerpt'  => empty((string)$elem->description)?(string)$elem->name:(string)$elem->description,
-                'post_content'  => empty((string)$elem->description)?(string)$elem->name:(string)$elem->description,
-                'meta_input'     => $to_post_meta,
+            $args = array(
+                'posts_per_page' => -1,
+                'post_type' => 'light',
                 
-            ) ) );
+                'meta_query' => [
+                        'relation' => 'OR',
+                        [
+                            'key' => '_offer_sku',
+                            'value' => (string)$elem->vendorCode
+                        ]
+                ]
+              );
+            $posts = new WP_Query($args);
+
+            if (empty($posts->posts[0])) {
+                echo "Добавление нового поста.\n\r";
+                
+                $post_id = wp_insert_post(  wp_slash( array(
+                    'post_type'     => 'light',
+                    'post_author'    => 1,
+                    'post_status'    => 'publish',
+                    'post_title' => (string)$elem->name,
+                    'post_excerpt'  => empty((string)$elem->description)?(string)$elem->name:(string)$elem->description,
+                    'post_content'  => empty((string)$elem->description)?(string)$elem->name:(string)$elem->description,
+                    'meta_input'     => $to_post_meta,
+                    
+                ) ) );
+            } else {
+                echo "Обновление поста: ". $posts->posts[0]->post_title." id: ".$posts->posts[0]->ID.".\n\r";
+                $post_id = wp_update_post(  wp_slash( array(
+                    'ID' => $posts->posts[0]->ID,
+                    'post_type'     => 'light',
+                    'post_author'    => 1,
+                    'post_status'    => 'publish',
+                    'post_title' => (string)$elem->name,
+                    'post_excerpt'  => empty((string)$elem->description)?(string)$elem->name:(string)$elem->description,
+                    'post_content'  => empty((string)$elem->description)?(string)$elem->name:(string)$elem->description,
+                    'meta_input'     => $to_post_meta,
+                    
+                ) ) );
+            }
 
             wp_set_object_terms( $post_id, $to_post_meta["_offer_brend"], "lightbrand" );
 
@@ -140,19 +170,28 @@
 
             wp_set_object_terms( $post_id, $catArray, "lightcat" );   
            
-            
+            echo "Удаление старых вложений: \n\r";
+
+            $media = get_attached_media( 'image', $post_id );
+            foreach ($media as $mf)
+            {
+                $atdelrez = wp_delete_attachment( $mf->ID );
+                echo empty($atdelrez)?"Ничего не удалено. \n\r":"Удалено вложение. \n\r";
+            }
+
+            echo "Галерея: \n\r";
 
             $indexImg = 0;
             foreach ($elem->picture as $galery)
             {
             
-                $img1 = (string)$galery;
+                echo $img1 = (string)$galery;
                 $ttl = (string)$elem->vendor." ".(string)$elem->name." ".(string)$elem->vendorCode;
                 $img_id = media_sideload_image( $img1, $post_id, $ttl, "id" );
             
-                add_post_meta( $post_id, '_offer_picture|gal_img|'.$indexImg.'|0|value', $img_id, true );
-                add_post_meta( $post_id, '_offer_picture|gal_img_sku|'.$indexImg.'|0|value',  "", true );
-                add_post_meta( $post_id, '_offer_picture|gal_img_alt|'.$indexImg.'|0|value', $ttl, true );
+                update_post_meta( $post_id, '_offer_picture|gal_img|'.$indexImg.'|0|value', $img_id, true );
+                update_post_meta( $post_id, '_offer_picture|gal_img_sku|'.$indexImg.'|0|value',  "", true );
+                update_post_meta( $post_id, '_offer_picture|gal_img_alt|'.$indexImg.'|0|value', $ttl, true );
 
                 if ($indexImg == 0) set_post_thumbnail($post_id, $img_id);
             
@@ -160,7 +199,10 @@
             }
 
 
-            if ($offerIndex > 50) break;
+            echo "\n\r";
+            echo "\n\r";
+
+            if ($offerIndex > 1000) break;
 
             $offerIndex ++;
         }    

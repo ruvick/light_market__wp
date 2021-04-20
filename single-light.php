@@ -26,8 +26,8 @@ $category = get_the_category();
             ?>
 
             <?
-                $pagePrice = (int)carbon_get_the_post_meta('offer_price' );
-                $pagePriceOld = (int)carbon_get_the_post_meta('offer_old_price' );
+                $pagePrice = (float)carbon_get_the_post_meta('offer_price' );
+                $pagePriceOld = (float)carbon_get_the_post_meta('offer_old_price' );
             ?>
 
 			<h1><?the_title();?></h1>

@@ -18,6 +18,7 @@
     "send_carbon": "scp -C -r carbon-fields u0743099@ftp.light-snab.ru:marketsveta.su/wp-content/themes/light_market/",
     "send_carbon_fild": "scp -C themes-fields.php u0743099@ftp.light-snab.ru:marketsveta.su/wp-content/themes/light_market/",
     "send_pars": "scp -C -r pars u0743099@ftp.light-snab.ru:marketsveta.su/wp-content/themes/light_market/",
+    "send_pars_one": "scp -C pars/*.php u0743099@ftp.light-snab.ru:marketsveta.su/wp-content/themes/light_market/pars/",
     "send_isxml": "scp -C  pars/inxml.php u0743099@ftp.light-snab.ru:marketsveta.su/wp-content/themes/light_market/pars/",
     "mk_part_dir": "ssh u0743099@ftp.light-snab.ru \"mkdir -p marketsveta.su/wp-content/themes/light_market/template-parts\"",
     "send_part": "scp -C -r template-parts u0743099@ftp.light-snab.ru:marketsveta.su/wp-content/themes/light_market/",
