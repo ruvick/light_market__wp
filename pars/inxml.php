@@ -9,8 +9,8 @@
     require_once ABSPATH . 'wp-admin/includes/file.php';
     require_once ABSPATH . 'wp-admin/includes/image.php';
 
-    if (file_exists('xml/Arlight.xml')) {
-        $xml = simplexml_load_file('xml/Novotech.xml');
+    if (file_exists('xml/100625.xml')) {
+        $xml = simplexml_load_file('xml/100625.xml');
         
         $curentTerm = array();
 
@@ -186,12 +186,18 @@
             {
             
                 echo $img1 = (string)$galery;
+                echo "\n\r";
                 $ttl = (string)$elem->vendor." ".(string)$elem->name." ".(string)$elem->vendorCode;
                 $img_id = media_sideload_image( $img1, $post_id, $ttl, "id" );
             
-                update_post_meta( $post_id, '_offer_picture|gal_img|'.$indexImg.'|0|value', $img_id, true );
-                update_post_meta( $post_id, '_offer_picture|gal_img_sku|'.$indexImg.'|0|value',  "", true );
-                update_post_meta( $post_id, '_offer_picture|gal_img_alt|'.$indexImg.'|0|value', $ttl, true );
+            
+                delete_post_meta( $post_id, '_offer_picture|gal_img|'.$indexImg.'|0|value');
+                delete_post_meta( $post_id, '_offer_picture|gal_img_sku|'.$indexImg.'|0|value');
+                delete_post_meta( $post_id, '_offer_picture|gal_img_alt|'.$indexImg.'|0|value');
+            
+                add_post_meta( $post_id, '_offer_picture|gal_img|'.$indexImg.'|0|value', $img_id, true );
+                add_post_meta( $post_id, '_offer_picture|gal_img_sku|'.$indexImg.'|0|value',  "", true );
+                add_post_meta( $post_id, '_offer_picture|gal_img_alt|'.$indexImg.'|0|value', $ttl, true );
 
                 if ($indexImg == 0) set_post_thumbnail($post_id, $img_id);
             
@@ -202,7 +208,7 @@
             echo "\n\r";
             echo "\n\r";
 
-            if ($offerIndex > 1000) break;
+            //if ($offerIndex > 3) break;
 
             $offerIndex ++;
         }    
