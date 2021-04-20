@@ -154,28 +154,32 @@ $(document).ready(function() {
 }
 
 // Открытие каталога
-let triangle = document.querySelector(".icon-menu-left")
-let butcat = document.querySelector(".menu-cat-left__btn");
-let mcatalog = document.querySelector(".catmenu");
-if (butcat) {
-	butcat.addEventListener("click", function (e) {
-		e.preventDefault();
-		mcatalog.classList.toggle("active");
-		triangle.classList.toggle("active");
-	});
+
+let butcat = document.querySelectorAll(".menu-cat-left__btn");
+
+if (butcat != undefined) {
+	for (let btnElem of butcat) { 
+		btnElem.addEventListener("click", function (e) {
+			e.preventDefault();
+			//let triangle = btnElem.querySelector(".icon-menu-left");
+			let mcatalog = btnElem.nextElementSibling ;
+			mcatalog.classList.toggle("active");
+			this.classList.toggle("active");
+		});
+	}
 }
 
 
 // Открытие меню ползунков
-let butmprice = document.querySelector(".menu-choice__btn");
-let sldform = document.querySelector(".form-choice");
-if (butmprice) {
-	butmprice.addEventListener("click", function (e) {
-		e.preventDefault();
-		sldform.classList.toggle("active");
-		butmprice.classList.toggle("active");
-	});
-}
+// let butmprice = document.querySelector(".menu-choice__btn");
+// let sldform = document.querySelector(".form-choice");
+// if (butmprice) {
+// 	butmprice.addEventListener("click", function (e) {
+// 		e.preventDefault();
+// 		sldform.classList.toggle("active");
+// 		butmprice.classList.toggle("active");
+// 	});
+// }
 
 // Строка поиска на мобилках
 let mobsearch = document.querySelector(".mob-search");
@@ -307,8 +311,8 @@ $('.plus').click(function () {
 		$("#range" ).slider({
 			range: true,
 			min: 0,
-			max: 50000,
-			values: [0, 50000],
+			max: 500000,
+			values: [$("#rangefrom").val(), $("#rangeto").val()],
 			slide: function( event, ui ){
 				$('#rangefrom').val(ui.values[0]);
 				$('#rangeto').val(ui.values[1]);
@@ -323,8 +327,12 @@ $('.plus').click(function () {
 				}
 			}
 		});
+	
 		$('#rangefrom').val($( "#range" ).slider( "values", 0 )); 
 		$('#rangeto').val($( "#range" ).slider( "values", 1 ));
+		
+		// $('#rangefrom').val($("#rangefrom").val()); 
+		// $('#rangeto').val($("#rangeto").val());
 
 		$("#range" ).find('.ui-slider-handle').eq(0).html('<span>'+$( "#range" ).slider( "option","min")+'</span>');
 		$("#range" ).find('.ui-slider-handle').eq(1).html('<span>'+$( "#range" ).slider( "option","max")+'</span>');

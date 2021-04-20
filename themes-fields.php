@@ -77,7 +77,9 @@ Container::make( 'theme_options', __( 'Настройки темы', 'crb' ) )
           ->set_width(50),
         Field::make('text', 'text_map', 'Текст метки карты')
           ->set_width(50),
-    ) );
+    ) )->add_tab('О компании на главной', array(
+      Field::make('rich_text', 'about_main', 'Текст о компании для главной страницы')->set_width(100)
+    ));;
     
 Container::make('post_meta', 'light_product_cr', 'Характеристики товара') 
     ->show_on_post_type(array( 'light'))

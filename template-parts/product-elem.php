@@ -28,7 +28,7 @@
 		<a href="#" class="btn" onclick = "add_tocart(this, 0); return false;" 
 			data-price = "<? echo $mprice?>"
 			data-sku = "<? echo carbon_get_post_meta(get_the_ID(),"offer_sku")?>"
-			data-oldprice = "<? echo carbon_get_post_meta(get_the_ID(),"mod_old_price")?>"
+			data-oldprice = "<? echo carbon_get_post_meta(get_the_ID(),"offer_old_price")?>"
 			data-lnk = "<? echo  get_the_permalink(get_the_ID());?>"
 			data-name = "<? echo  get_the_title();?>"
 			data-count = "1"

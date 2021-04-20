@@ -179,4 +179,10 @@
 	</div>
 </section>
 
+<section id="about_main" class="about_main page">
+	<div class="container">
+		<?echo carbon_get_theme_option("about_main");?>
+	</div>
+</section>
+
 <?php get_footer(); ?>

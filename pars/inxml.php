@@ -10,7 +10,7 @@
     require_once ABSPATH . 'wp-admin/includes/image.php';
 
     if (file_exists('xml/Arlight.xml')) {
-        $xml = simplexml_load_file('xml/Arlight.xml');
+        $xml = simplexml_load_file('xml/Novotech.xml');
         
         $curentTerm = array();
 
@@ -126,6 +126,8 @@
                 'meta_input'     => $to_post_meta,
                 
             ) ) );
+
+            wp_set_object_terms( $post_id, $to_post_meta["_offer_brend"], "lightbrand" );
 
             $term = get_term_by('name', $curentTerm[(string)$elem->categoryId], 'lightcat');
 

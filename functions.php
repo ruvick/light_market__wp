@@ -30,6 +30,21 @@ function crb_load() {
 } 
 
 
+function getFilterList($queryParam, $metafeild) {
+	
+	$queryParam["posts_per_page"] = -1;
+	$queryMain = new WP_Query($queryParam);
+
+	$resultFeild = array();
+	foreach($queryMain->posts as $postM) {
+		$fVal = get_post_meta($postM->ID, $metafeild, true);
+		$resultFeild[$fVal] = $fVal;
+	}
+
+	
+	return $resultFeild;
+}
+
 //-----Блок описания вывода меню
 // 1. Осмысленные названия для алиаса и для описания на русском.
 // если это меню в подвали пишем - Меню в подвале 
@@ -201,9 +216,9 @@ define("ALL_VERSION", "1.0.3");
 function light_market_scripts_styles(){
     global $wp_styles;
 
-		wp_enqueue_style("light_market-fancybox", get_template_directory_uri()."/css/fancybox.css", array(), $style_version, 'all'); //Модальные окна (стили)
+	wp_enqueue_style("light_market-fancybox", get_template_directory_uri()."/css/fancybox.css", array(), $style_version, 'all'); //Модальные окна (стили)
 
-		wp_enqueue_style( 'light_market-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'light_market-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'jquery');
 
@@ -213,11 +228,9 @@ function light_market_scripts_styles(){
 
 	wp_enqueue_script( 'imasc', get_template_directory_uri().'/js/imask.js', array(), ALL_VERSION , true);
 
-
 	wp_enqueue_script( 'light_market-slick', get_template_directory_uri() . '/js/slick.min.js', array(), '1.0', true ); 
 
-  wp_enqueue_script( 'jquery-ui', 'https://code.jquery.com/ui/1.12.1/jquery-ui.min.js', array(), '1.0',  true );
-
+  	wp_enqueue_script( 'jquery-ui', 'https://code.jquery.com/ui/1.12.1/jquery-ui.min.js', array(), '1.0',  true );
 
 	wp_enqueue_script( 'light_market-main', get_template_directory_uri() . '/js/main.js', array(), 1.0, true );
 
@@ -226,17 +239,18 @@ function light_market_scripts_styles(){
       'nonce'   => wp_create_nonce( 'NEHERTUTLAZIT' )
     ) );
 
-	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) 
+	{
 		wp_enqueue_script( 'comment-reply' );
 	}
 
 	
 	if ( is_page(3682))
-		{
-				wp_enqueue_script( 'vue', get_template_directory_uri().'/js/vue.js', array(), ALL_VERSION , true);
-				wp_enqueue_script( 'axios', get_template_directory_uri().'/js/axios.min.js', array(), ALL_VERSION , true);
-				wp_enqueue_script( 'bascet', get_template_directory_uri().'/js/bascet.js', array(), ALL_VERSION , true);
-		}
+	{
+		wp_enqueue_script( 'vue', get_template_directory_uri().'/js/vue.js', array(), ALL_VERSION , true);
+		wp_enqueue_script( 'axios', get_template_directory_uri().'/js/axios.min.js', array(), ALL_VERSION , true);
+		wp_enqueue_script( 'bascet', get_template_directory_uri().'/js/bascet.js', array(), ALL_VERSION , true);
+	}
 }
 
 // Добавляем action для запуска этой функции
@@ -268,7 +282,7 @@ add_post_type_support('page', array('excerpt'));
 add_action('init', 'page_excerpt');
 
 
-	// Регистрация кастомного поста
+// Регистрация кастомного поста
 
 add_action( 'init', 'create_taxonomies' );
 
@@ -297,22 +311,22 @@ function create_taxonomies(){
 		'show_admin_column'     => true,
 	));
 
-	register_taxonomy('lightstyle', array('light'), array(
+	register_taxonomy('lightbrand', array('light'), array(
 		'hierarchical'  => false,
 		'labels'        => array(
-			'name'              => "Стиль дизайна",
-			'singular_name'     => "Стиль дизайна",
-			'search_items'      => "Найти стиль",
-			'all_items'         => __( 'Все стили' ),
-			'parent_item'       => __( 'Дочерние стили' ),
-			'parent_item_colon' => __( 'Дочерние стили:' ),
-			'edit_item'         => __( 'Редактировать стиль' ),
-			'update_item'       => __( 'Обновить стиль' ),
-			'add_new_item'      => __( 'Добавить новый стиль' ),
-			'new_item_name'     => __( 'Имя новго стиля товара' ),
-			'menu_name'         => __( 'Стили товара' ),
+			'name'              => "Бренд",
+			'singular_name'     => "Бренд",
+			'search_items'      => "Найти бренд",
+			'all_items'         => __( 'Все бренды' ),
+			'parent_item'       => __( 'Дочерние бренды' ),
+			'parent_item_colon' => __( 'Дочерние бренды:' ),
+			'edit_item'         => __( 'Редактировать бренд' ),
+			'update_item'       => __( 'Обновить бренд' ),
+			'add_new_item'      => __( 'Добавить новый бренд' ),
+			'new_item_name'     => __( 'Имя новго бренда' ),
+			'menu_name'         => __( 'Бренд товара' ),
 		),
-		'description' => "Стиль дизайна товаров",
+		'description' => "Бренд товаров",
 		'public' => true,
 		'show_ui'       => true,
 		'query_var'     => true,
