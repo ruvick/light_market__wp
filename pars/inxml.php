@@ -9,8 +9,8 @@
     require_once ABSPATH . 'wp-admin/includes/file.php';
     require_once ABSPATH . 'wp-admin/includes/image.php';
 
-    if (file_exists('xml/100659.xml')) {
-        $xml = simplexml_load_file('xml/100659.xml');
+    if (file_exists('xml/100696.xml')) {
+        $xml = simplexml_load_file('xml/100696.xml');
         
         $curentTerm = array();
 
@@ -55,15 +55,17 @@
         $offerIndex = 0;
         foreach ($xml->shop->offers->children() as $elem)
         { 
+            echo "#: ".$offerIndex;
+            echo "\n\r";
             echo (string)$elem->name;
             echo "\n\r";
 
             //if ((string)$elem->vendorCode !== "ST210.548.12") continue;
-            // if ($offerIndex < 1000) {
+            if ($offerIndex < 1700) {
                 
-            //     $offerIndex++;
-            //     continue;
-            // }
+                $offerIndex++;
+                continue;
+            }
 
             $to_post_meta  = [ 
                 '_offer_smile_descr' => empty((string)$elem->description)?(string)$elem->name:(string)$elem->description, 
