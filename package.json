@@ -28,6 +28,7 @@
     "send_images": "scp -r images *.svg u0743099@ftp.light-snab.ru:marketsveta.su/wp-content/themes/light_market/",
     "mk_part_js": "ssh u0743099@ftp.light-snab.ru \"mkdir -p marketsveta.su/wp-content/themes/light_market/js\"",
     "send_js": "scp -r js u0743099@ftp.light-snab.ru:marketsveta.su/wp-content/themes/light_market/",
+    "send_js_one": "scp -C js/main.js u0743099@ftp.light-snab.ru:marketsveta.su/wp-content/themes/light_market/js/",
     "mk_part_css": "ssh u0743099@ftp.light-snab.ru \"mkdir -p marketsveta.su/wp-content/themes/light_market/css\"",
     "send_css": "scp -C -r css u0743099@ftp.light-snab.ru:marketsveta.su/wp-content/themes/light_market/",
     "mk_part_fonts": "ssh u0743099@ftp.light-snab.ru \"mkdir -p marketsveta.su/wp-content/themes/light_market/fonts\"",

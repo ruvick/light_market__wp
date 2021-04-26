@@ -30,6 +30,9 @@ function crb_load() {
 } 
 
 
+
+// Получение параметров списка фильтров
+
 function getFilterList($queryParam, $metafeild) {
 	
 	$queryParam["posts_per_page"] = -1;
@@ -44,6 +47,29 @@ function getFilterList($queryParam, $metafeild) {
 	
 	return $resultFeild;
 }
+
+function getMinMaxPrice($queryParam) {
+	
+	$queryParam["posts_per_page"] = -1;
+	$queryMain = new WP_Query($queryParam);
+
+	$min = 9999999999;
+	$max = -9999999999;
+	
+	foreach($queryMain->posts as $postM) {
+		$fVal = get_post_meta($postM->ID, "_offer_price", true);
+		if ($min >  (int)$fVal) 
+			$min = (int)$fVal;
+
+		if ($max <  (int)$fVal) 
+			$max = (int)$fVal;
+	}
+
+	if ($min == 9999999999) $min = 0;
+	if ($max == -9999999999) $max = 100;
+	return array($min, $max);
+}
+
 
 //-----Блок описания вывода меню
 // 1. Осмысленные названия для алиаса и для описания на русском.
