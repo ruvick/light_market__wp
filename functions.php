@@ -38,7 +38,7 @@ function getFilterList($queryParam, $metafeild) {
 	$resultFeild = array();
 	foreach($queryMain->posts as $postM) {
 		$fVal = get_post_meta($postM->ID, $metafeild, true);
-		$resultFeild[$fVal] = $fVal;
+		if (!empty($fVal)) $resultFeild[$fVal] = $fVal;
 	}
 
 	

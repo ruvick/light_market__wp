@@ -2072,6 +2072,27 @@ line-height: 1.2;}
 
   .filter_wrapper ul{
     margin-bottom: 20px;
+    list-style: none;
+  }
+
+  .filter_wrapper ul li::before {
+    display: none;
+  }
+
+  .filter_wrapper ul li::before {
+    display: none;
+  }
+
+  .filter_wrapper ul li {
+    margin: 0;
+  }
+
+  .filter_wrapper ul li label {
+    display: inline-flex;
+  }
+
+  .filter_wrapper ul li label input[type=checkbox] {
+    margin: auto 10px auto auto;
   }
 
 .form-choice .category-params-item-price-table .cell input {
