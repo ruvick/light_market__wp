@@ -67,7 +67,7 @@ Container::make( 'theme_options', __( 'Настройки темы', 'crb' ) )
         Field::make('text', 'main_slider_text', 'Текст')->set_width(30),
         Field::make('text', 'main_slider_lnk', 'Ссылка')->set_width(30),
         Field::make('image', 'main_slider_img', 'Картинка')->set_width(30),
-      ) )
+      ) ),
 
       Field::make('text', 'mini_banner_top_text', 'Маленький верхний баннер (Текст)')->set_width(30),
       Field::make('text', 'mini_banner_top_lnk', 'Маленький верхний баннер  (Ссылка)')->set_width(30),
