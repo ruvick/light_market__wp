@@ -28,10 +28,11 @@
 					<a href="#" class="callback__popup">Заказать обратный звонок</a>
 				</div>
 
-				<div class="header__search search">
-					<input type="text" placeholder="Поиск по сайту" class="search__input input">
-					<button type="submit" tabindex="2" id="searchsubmit" class="sub-search" value=""></button>
-				</div>
+				<form action = "<?php echo home_url( '/' ) ?>" class="header__search search">
+					<input type="text" placeholder="Поиск по сайту" name = "s" value = "<?php echo get_search_query() ?>" class="search__input input">
+					<button type="submit" tabindex="2" id="searchsubmit" class="sub-search" value=""></button>	
+				</form>
+				
 				<button class="mob-search"></button> 
 
 				<a href="<?echo get_the_permalink(3682);?>" class="header__bascket"> <span class = "cart_count_input" id = "bascet_head_elem">0</span> Корзина</a>
@@ -52,33 +53,7 @@
 			<nav class="mob-menu">
 				<div class="mob-menu__df d-flex">
 				<?php wp_nav_menu( array('theme_location' => 'menu_cat', 'container' => false )); ?>
-					<!-- <ul class="mob-menu__list">
-						<li>
-							<a href="#" class="menu__link">Люстры</a>
-							<ul>
-								<li><a href = "#">Пункт1</a></li>
-								<li><a href = "#">Пункт1</a></li>
-								<li><a href = "#">Пункт1</a></li>
-							</ul>
-						</li>
-						<li><a href="#" class="menu__link">Светильники</a></li>
-						<li><a href="#" class="menu__link">Бра</a></li>
-						<li><a href="#" class="menu__link">Настольные лампы</a></li>
-						<li><a href="#" class="menu__link">Споты</a></li>
-						<li><a href="#" class="menu__link">Торшеры</a></li>
-						<li><a href="#" class="menu__link">Уличное освещение</a></li>
-						<li><a href="#" class="menu__link">Электротовары</a></li>
-						<li><a href="#" class="menu__link">Акции</a></li>
-					</ul> -->
-
-					<!-- <ul class="mob-menu__addit">
-						<li><a href="#">Помощь</a></li>
-						<li><a href="#">Оплата</a></li>
-						<li><a href="#">Доставка</a></li>
-						<li><a href="#">О компании</a></li>
-						<li><a href="#">Бренды</a></li>
-						<li><a href="#">Контакты</a></li>
-					</ul> -->
+					
 				</div>
 			</nav>
 		</div>

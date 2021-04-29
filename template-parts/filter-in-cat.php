@@ -1,6 +1,7 @@
 
 <form id = "filterForm" class="menu-left">
 						<input id = "sortByParam" type = "hidden" name = "sortByParam" value = "def">
+						<input id = "sortByParam" type = "hidden" name = "s" value = "<?php echo get_search_query() ?>">
 						<?
 							$listCat = wp_list_categories (array(
 								'hierarchical' => true,
@@ -12,7 +13,7 @@
 								'show_option_none'   => "",
 							) );
 						?>
-						<? if (!empty($listCat)) {?>
+						<? if ((!empty($listCat))&&(!is_search())) {?>
 							<div class="menu-choice"> 
 								<button id="cat" class="menu-cat-left__btn icon-menu-left">Подкатегории</button>
 								<div class="block__form form-block form-choice" >
