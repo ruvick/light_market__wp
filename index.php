@@ -2,67 +2,7 @@
 
 <?php get_template_part('template-parts/header-section');?>
 
-<section id="info-sl" class="info-sl"> 
-	<div class="container">
-		<div class="info-sl__row d-flex">
-
-			<div class="info-sl__slider slider">
-				<div class="slider__item">
-					<img src="<?php echo get_template_directory_uri();?>/img/sl-1.jpg" alt="">
-					<p>НОВИНКИ <br>2021</p>
-				</div>
-
-				<div class="slider__item">
-					<img src="<?php echo get_template_directory_uri();?>/img/sl-1.jpg" alt=""> 
-					<p>НОВИНКИ <br>2021</p>
-				</div>
-
-				<div class="slider__item filter"> 
-					<img src="<?php echo get_template_directory_uri();?>/img/sl-1.jpg" alt="">
-					<p>НОВИНКИ <br>2021</p>
-				</div>
-
-				<div class="slider__item">
-					<img src="<?php echo get_template_directory_uri();?>/img/sl-1.jpg" alt="">
-					<p>НОВИНКИ <br>2021</p>
-				</div>
-
-				<div class="slider__item filter">
-					<img src="<?php echo get_template_directory_uri();?>/img/sl-1.jpg" alt="">
-					<p>НОВИНКИ <br>2021</p>
-				</div>
-
-				<div class="slider__item">
-					<img src="<?php echo get_template_directory_uri();?>/img/sl-1.jpg" alt="">
-					<p>НОВИНКИ <br>2021</p>
-				</div>
-
-				<div class="slider__item filter">
-					<img src="<?php echo get_template_directory_uri();?>/img/sl-1.jpg" alt="">
-					<p>НОВИНКИ <br>2021</p>
-				</div>
-			</div>
-
-			<div class="info-sl__images d-flex">
-
-				<div class="info-sl__img-item img-item-l">
-					<img src="<?php echo get_template_directory_uri();?>/img/info-sl-1.jpg" alt="">
-					<div class="img-l">
-						<p>Светильники <span>до 10 000 рублей</span></p>
-						<a href="#" class="btn">Смотреть</a>
-					</div>
-				</div>
-
-				<div class="info-sl__img-item img-item-r">
-					<img src="<?php echo get_template_directory_uri();?>/img/info-sl-2.jpg" alt="">
-					<p>CYBER MONDAY <span>до -80%</span></p>
-				</div>
-
-			</div>
-
-		</div>
-	</div>
-</section>
+<?php  get_template_part('template-parts/main', 'slider-blk'); ?>
 
 <section id="popular" class="popular">
 	<div class="container">
@@ -93,14 +33,7 @@
 
 		</div>
 
-		<div class="popular__baner">
-			<div class="popular__baner-text">
-				<h2>ПРЕИМУЩЕСТВА <br> 
-					В СТИЛЕ <span>VELE LUCE</span>
-				</h2>
-				<a href="#" class="btn">Смотреть</a>
-			</div>
-		</div>
+		<?php  get_template_part('template-parts/banner', 'main-smile'); ?>
 
 	</div>
 </section>

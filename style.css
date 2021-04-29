@@ -79,6 +79,10 @@ header,
 section {
   display: block; }
 
+strong {
+  font-weight: 900;
+}
+
 html,
 body {
   height: 100%;
@@ -1585,7 +1589,6 @@ h2 {
 
 .img-l p {
   font-size: 32px;
-  font-weight: 900;
   margin-bottom: 30px; }
 
 .img-l span {
@@ -1600,7 +1603,7 @@ h2 {
   width: 100%;
   font-size: 32px;
   line-height: 37.38px;
-  font-weight: 900; }
+}
 
 .img-item-r span {
   font-size: 37.38px;
@@ -1610,7 +1613,6 @@ h2 {
   max-width: 248px;
   width: 100%;
   font-size: 47px;
-  font-weight: 900;
   position: absolute;
   top: 38%;
   right: 8%;
@@ -1633,13 +1635,15 @@ h2 {
   width: 183px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: flex-start;
   position: absolute;
   bottom: 20px;
   left: 25px; }
 
 .info-sl__slider .slick-dots li {
-  list-style: none; }
+  list-style: none; 
+  margin-right: 10px;
+}
 
 /* Элемент точки */
 .info-sl__slider .slick-dots li button {
@@ -2267,6 +2271,11 @@ line-height: 1.2;}
   left: 7%;
   max-width: 181px;
   width: 100%; }
+
+  .modern-baner__text strong{ 
+    margin: 10px 0;
+    display: inline-block;
+  }
 
 .modern-baner__text h3 {
   font-size: 28px;
