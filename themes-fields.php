@@ -58,9 +58,9 @@ Container::make( 'theme_options', __( 'Настройки темы', 'crb' ) )
       Field::make('text', 'bnr_cat_lnk', 'Банер категории (Ссылка)')->set_width(30),
       Field::make('image', 'bnr_cat_img', 'Банер категории (Картинка)')->set_width(30),
 
-      Field::make('text', 'bnr_main_text', 'Банер категории (Текст)')->set_width(30),
-      Field::make('text', 'bnr_main_lnk', 'Банер категории (Ссылка)')->set_width(30),
-      Field::make('image', 'bnr_main_img', 'Банер категории (Картинка)')->set_width(30),
+      Field::make('text', 'bnr_main_text', 'Банер главной (Текст)')->set_width(30),
+      Field::make('text', 'bnr_main_lnk', 'Банер главной (Ссылка)')->set_width(30),
+      Field::make('image', 'bnr_main_img', 'Банер главной (Картинка)')->set_width(30),
     ))->add_tab('Баннеры (Основные) ', array(
       Field::make( 'complex', 'main_page_slider', "Основной слайдер" )
       ->add_fields( array(
