@@ -12,32 +12,6 @@ use Carbon_Fields\Container;
 use Carbon_Fields\Field;
 
 Container::make( 'theme_options', __( 'Настройки темы', 'crb' ) ) 
-    // ->add_fields( array(
-    //   Field::make( 'text', 'mail_to_send', 'E-mail для отправки' ),
-    //   Field::make('rich_text', 'main_fulltext_top', 'Текст для главной страницы (Верхний)')->set_width(100),
-    //   Field::make('rich_text', 'main_fulltext', 'Текст для главной страницы (SEO)')->set_width(100),
-    //   Field::make('rich_text', 'obmen_fulltext', 'Текст в раздел обмен возврат')->set_width(100),
-    // ) );
-
-    // ->add_tab('Главная', array(
-    //   Field::make( 'image', 'as_logo', 'Логотип в шапке')
-    //     ->set_width(30),
-    //   Field::make( 'image', 'as_logo_white', 'Логотип в подвале')
-    //     ->set_width(30),
-    //   // Field::make('text', 'about_home_title', 'Заголовок на главной'),
-    //   // Field::make('rich_text', 'about_home', 'О нашей компании')
-    // ))
-    // ->add_tab('Баннер', array(
-    //   Field::make('complex', 'auto_banner', 'Баннер на главной')
-    //     ->add_fields(array(
-    //       Field::make('image', 'auto_banner_img', 'Картинка')
-    //         ->set_width(30),
-    //       Field::make('text', 'auto_banner_title', 'Заголовок на главной')
-    //         ->set_width(30),
-    //       Field::make('text', 'auto_banner_subtitle', 'Подзаголовок на главной')
-    //         ->set_width(30),
-    //     ))
-    // ))
     ->add_tab('Контакты', array(
         Field::make( 'text', 'as_company', __( 'Название' ) )
           ->set_width(50),
@@ -79,7 +53,30 @@ Container::make( 'theme_options', __( 'Настройки темы', 'crb' ) )
           ->set_width(50),
     ) )->add_tab('О компании на главной', array(
       Field::make('rich_text', 'about_main', 'Текст о компании для главной страницы')->set_width(100)
-    ));;
+    ))->add_tab('Баннеры (Категория / главная) ', array(
+      Field::make('text', 'bnr_cat_text', 'Банер категории (Текст)')->set_width(30),
+      Field::make('text', 'bnr_cat_lnk', 'Банер категории (Ссылка)')->set_width(30),
+      Field::make('image', 'bnr_cat_img', 'Банер категории (Картинка)')->set_width(30),
+
+      Field::make('text', 'bnr_main_text', 'Банер категории (Текст)')->set_width(30),
+      Field::make('text', 'bnr_main_lnk', 'Банер категории (Ссылка)')->set_width(30),
+      Field::make('image', 'bnr_main_img', 'Банер категории (Картинка)')->set_width(30),
+    ))->add_tab('Баннеры (Основные) ', array(
+      Field::make( 'complex', 'main_page_slider', "Основной слайдер" )
+      ->add_fields( array(
+        Field::make('text', 'main_slider_text', 'Текст')->set_width(30),
+        Field::make('text', 'main_slider_lnk', 'Ссылка')->set_width(30),
+        Field::make('image', 'main_slider_img', 'Картинка')->set_width(30),
+      ) )
+
+      Field::make('text', 'mini_banner_top_text', 'Маленький верхний баннер (Текст)')->set_width(30),
+      Field::make('text', 'mini_banner_top_lnk', 'Маленький верхний баннер  (Ссылка)')->set_width(30),
+      Field::make('image', 'mini_banner_top_img', 'Маленький верхний баннер  (Картинка)')->set_width(30),
+
+      Field::make('text', 'mini_banner_bottom_text', 'Маленький верхний нижний (Текст)')->set_width(30),
+      Field::make('text', 'mini_banner_bottom_lnk', 'Маленький верхний нижний  (Ссылка)')->set_width(30),
+      Field::make('image', 'mini_banner_bottom_img', 'Маленький верхний нижний  (Картинка)')->set_width(30),
+    ));
     
 Container::make('post_meta', 'light_product_cr', 'Характеристики товара') 
     ->show_on_post_type(array( 'light'))

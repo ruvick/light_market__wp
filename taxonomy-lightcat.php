@@ -141,8 +141,8 @@
 							// echo "<pre>";
 							// print_r($queryM);
 							// echo "</pre>";
-
-							$post_count_start = (int)$queryM->query_vars["posts_per_page"] * (int)$queryM->query["paged"];
+							$paget = isset ($queryM->query["paged"])?$queryM->query["paged"]:0;
+							$post_count_start = (int)$queryM->query_vars["posts_per_page"] * (int)$paget;
 							$post_count_start = (empty($post_count_start))?1:$post_count_start;
 							
 							$post_count_end = $post_count_start + $queryM->query_vars["posts_per_page"];
@@ -154,7 +154,7 @@
 
 				<aside class="page__side">
 					
-					<?php  get_template_part('template-parts/filter-in-cat');?>		
+					<?php  get_template_part('template-parts/filter','in-cat', array("wp_query" => $wp_query));?>		
 					<?php  get_template_part('template-parts/brand-slider-in-cat');?>		
 					
 				</aside>
@@ -162,21 +162,7 @@
 				<main class="page__main main">
 					<h1><?php single_cat_title( '', true );?></h1> 
 
-					<div class="main-block__choice d-flex">
-
-						<div class="main-block__select d-flex">
-							<p>Сортировать по</p>
-							<form id="sortForm" action="">				
-							<select onchange= "document.getElementById('sortByParam').value = this.value; document.getElementById('filterForm').submit();" name="sortparam" id="sortSel" class="select-block">
-								<option value="def">По умолчанию</option>
-								<option value="ASC" option="">По возростанию цены</option>
-								<option value="DESC" option="">По убыванию цены</option>
-							</select>
-							</form>
-						</div>
-
-						<p>Товары <?echo $post_count_start?>-<?echo $post_count_end?> из <?echo $queryM->found_posts?></p>
-					</div>
+					<?php  get_template_part('template-parts/sort', 'blk-in-cat', array("post_count_start" => $post_count_start, "post_count_end" => $post_count_end, "found_posts" =>  $queryM->found_posts));?>
 
 					<div class="main-prod-card prod-card d-flex">
 						<?php
@@ -188,30 +174,8 @@
 						?>
 					</div>
 
+					<?php  get_template_part('template-parts/page','navigation-in-cat', array("max_num_pages" => $queryM->max_num_pages));?>
 
-					<nav class="navigation pagination " role="navigation">
-						<?php 
-							$big = 999999999; // уникальное число
-
-							the_posts_pagination( array(
-								'base'    => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
-								'current' => max( 1, get_query_var('paged') ),
-								'total'   => $queryM->max_num_pages,
-
-								'mid_size' => 2,
-								'prev_next'    => true,
-							) ); 
-
-							
-
-							// echo paginate_links( array(
-							// 	'base'    => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
-							// 	'current' => max( 1, get_query_var('paged') ),
-							// 	'total'   => $queryM->max_num_pages
-							// ) );
-								
-						?>
-					</nav>
 
 					<div class="modern-baner">
 						<img src="<?php echo get_template_directory_uri();?>/img/modern-baner.jpg" alt="">

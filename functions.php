@@ -242,7 +242,7 @@ define("ALL_VERSION", "1.0.3");
 function light_market_scripts_styles(){
     global $wp_styles;
 
-	wp_enqueue_style("light_market-fancybox", get_template_directory_uri()."/css/fancybox.css", array(), $style_version, 'all'); //Модальные окна (стили)
+	wp_enqueue_style("light_market-fancybox", get_template_directory_uri()."/css/fancybox.css", array(), ALL_VERSION, 'all'); //Модальные окна (стили)
 
 	wp_enqueue_style( 'light_market-style', get_stylesheet_uri() );
 

@@ -1,10 +1,11 @@
+
 <form id = "filterForm" class="menu-left">
 						<input id = "sortByParam" type = "hidden" name = "sortByParam" value = "def">
 						<?
 							$listCat = wp_list_categories (array(
 								'hierarchical' => true,
 								'taxonomy' => "lightcat",
-								'child_of' => $wp_query->queried_object_id,
+								'child_of' => $args["wp_query"]->queried_object_id,
 								'hide_empty' => false,
 								'title_li' => '',
 								'echo' => 0,
@@ -28,7 +29,7 @@
 							<button id="cat" class="menu-cat-left__btn icon-menu-left active">Цена, P</button>
 
 							<div class="block__form form-block form-choice active" >
-								<? $minmax =  getMinMaxPrice($wp_query->query); ?>
+								<? $minmax =  getMinMaxPrice($args["wp_query"]->query); ?>
 								<script>
 									const renge_min = <?echo $minmax[0]?>;
 									const renge_max = <?echo $minmax[1]?>;
@@ -59,7 +60,7 @@
 								<div class = "filter_wrapper">
 								<ul>
 									<?php 
-										foreach (getFilterList($wp_query->query, "_offer_style") as $elem){
+										foreach (getFilterList($args["wp_query"]->query, "_offer_style") as $elem){
 									?>
 										<li><label><input type="checkbox" name="style[]" <? if (in_array($elem, $styleArr)) echo "checked"; ?> value = "<?echo $elem;?>"><?echo $elem;?></label></li>
 									
@@ -80,7 +81,7 @@
 								<ul>
 									<?php 
 										
-										foreach (getFilterList($wp_query->query, "_offer_forma") as $elem){	
+										foreach (getFilterList($args["wp_query"]->query, "_offer_forma") as $elem){	
 									?>
 										<li><label><input type="checkbox" name="forma[]" <? if (in_array($elem, $formaArr)) echo "checked"; ?> value = "<?echo $elem;?>"><?echo $elem;?></label></li>
 									<?}?>
@@ -97,7 +98,7 @@
 								<div class = "filter_wrapper">
 								<ul>
 									<?php 
-										foreach (getFilterList($wp_query->query, "_offer_material_plaf") as $elem){	
+										foreach (getFilterList($args["wp_query"]->query, "_offer_material_plaf") as $elem){	
 									?>
 										<li><label><input type="checkbox" name="plafmat[]" <? if (in_array($elem, $plafonMatArr)) echo "checked"; ?> value = "<?echo $elem;?>"><?echo $elem;?></label></li>
 									<?}?>
@@ -116,7 +117,7 @@
 								<div class = "filter_wrapper">
 								<ul>
 									<?php 
-										foreach (getFilterList($wp_query->query, "_offer_color_plaf") as $elem){
+										foreach (getFilterList($args["wp_query"]->query, "_offer_color_plaf") as $elem){
 									?>
 										<li><label><input type="checkbox" name="plafclr[]" <? if (in_array($elem, $plafonColorArr)) echo "checked"; ?> value = "<?echo $elem;?>"><?echo $elem;?></label></li>
 									<?}?>
@@ -133,7 +134,7 @@
 								<div class = "filter_wrapper">
 								<ul>
 									<?php 
-										foreach (getFilterList($wp_query->query, "_offer_lamp_type") as $elem){
+										foreach (getFilterList($args["wp_query"]->query, "_offer_lamp_type") as $elem){
 									?>
 										<li><label><input type="checkbox" name="lamptyp[]" <? if (in_array($elem, $lampTypeArr)) echo "checked"; ?> value = "<?echo $elem;?>"><?echo $elem;?></label></li>
 									<?}?>
@@ -151,7 +152,7 @@
 								<div class = "filter_wrapper">
 								<ul>
 									<?php 
-										foreach (getFilterList($wp_query->query, "_offer_tsokol") as $elem){
+										foreach (getFilterList($args["wp_query"]->query, "_offer_tsokol") as $elem){
 									?>
 										<li><label><input type="checkbox" name="tsotyp[]" <? if (in_array($elem, $tsokTypeArr)) echo "checked"; ?> value = "<?echo $elem;?>"><?echo $elem;?></label></li>
 									<?}?>
