@@ -74,43 +74,9 @@
 
 <?php get_template_part('template-parts/advant-section');?>
 
-<section id="brands" class="brands">
-	<div class="container">
-		<h2>Только лучшие бренды</h2>
+<?php get_template_part('template-parts/brand-in-main');?>
 
-		<div class="brands__row d-flex">
 
-			<div class="brands__item brands__item_gr">
-				<img src="<?php echo get_template_directory_uri();?>/img/brands/brands-01.jpg" alt="">
-			</div>
-
-			<div class="brands__item">
-				<img src="<?php echo get_template_directory_uri();?>/img/brands/brands-02.jpg" alt="">
-			</div>
-
-			<div class="brands__item brands__item_gr">
-				<img src="<?php echo get_template_directory_uri();?>/img/brands/brands-03.jpg" alt="">
-			</div>
-
-			<div class="brands__item">
-				<img src="<?php echo get_template_directory_uri();?>/img/brands/brands-04.jpg" alt="">
-			</div>
-
-			<div class="brands__item brands__item_gr">
-				<img src="<?php echo get_template_directory_uri();?>/img/brands/brands-05.jpg" alt="">
-			</div>
-
-			<div class="brands__item">
-				<img src="<?php echo get_template_directory_uri();?>/img/brands/brands-06.jpg" alt="">
-			</div>
-
-			<div class="brands__item brands__item_gr">
-				<img src="<?php echo get_template_directory_uri();?>/img/brands/brands-07.jpg" alt="">
-			</div>
-
-		</div>
-	</div>
-</section>
 
 <section id="about_main" class="about_main page">
 	<div class="container">

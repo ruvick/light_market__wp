@@ -2,15 +2,10 @@
 						<h3>Лучшие бренды</h3>
 						<div class="sidebar-slider">
 							<?
-                                $taxonomies = get_taxonomies(array("name" => "lightbrand"));
-                                
                                 $terms = get_terms( 'lightbrand', [
                                     'hide_empty' => false,
                                 ] );
 
-                                // echo "<pre>";
-                                //    print_r($terms); 
-                                // echo "</pre>";
                                 foreach( $terms as $term ) {
                             ?>
                                 <div class="sidebar-slider__item">
