@@ -6,8 +6,13 @@
         <h3>Закажите обратный звонок:</h3>
 
         <form action="#" class="footer__forms d-flex">
-          <input type="tel" placeholder="+7(___)___-__-__" name="tel" class="input">
-          <button class="btn">Подписаться</button>
+          <div class="headen_form_blk">
+            <input type="tel" id="form-subscribe-tel" placeholder="+7(___)___-__-__" name="tel" class="input">
+          </div>
+          <div class="SendetMsg">
+            <input type="text" placeholder="Заявка отпраленна!" name="tel" class="input">
+          </div>
+          <button class="subscribe__btn btn">Подписаться</button>
         </form>
 
         <div class="header__callback callback d-flex">
@@ -62,12 +67,6 @@
   </div>
 </footer> 
 </div>
-
-<!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-<script src="js/vendors.js"></script>
-<script src="js/main.js"></script>
-<script src="js/custom.js" ></script>  -->
 
 <?php wp_footer(); ?> 
 </body>

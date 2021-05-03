@@ -156,8 +156,13 @@ $category = get_the_category();
 					<div class="select-prod__callback">
 
 						<form class="callback-form d-flex" action="#">
-							<input class="callback-form__input" type="tel" placeholder="+ 7 (___)___-__-__">
-							<button class="callback-form__btn btn">Перезвонить</button>
+              <div class="headen_form_blk">
+							  <input id="form-callback-tel" class="callback-form__input" type="tel" placeholder="+ 7 (___)___-__-__">
+              </div>
+              <div class="SendetMsg">
+							  <input class="callback-form__input" type="tel" placeholder="Заявка отправленна!">
+              </div>
+							<button class="callback-form__btn btn">Перезвонить</button> 
 							<label>
 								<input checked type="checkbox" name="type[]">
 								<p>

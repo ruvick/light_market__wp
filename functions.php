@@ -242,15 +242,19 @@ define("ALL_VERSION", "1.0.3");
 function light_market_scripts_styles(){
     global $wp_styles;
 
+	wp_enqueue_style("light_market-style-modal", get_template_directory_uri()."/css/jquery.arcticmodal-0.3.css", array(), ALL_VERSION, 'all'); //Модальные окна (стили)
+
 	wp_enqueue_style("light_market-fancybox", get_template_directory_uri()."/css/fancybox.css", array(), ALL_VERSION, 'all'); //Модальные окна (стили)
 
 	wp_enqueue_style( 'light_market-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'jquery');
 
+	wp_enqueue_script( 'light_market-arcticmodal', get_template_directory_uri().'/js/jquery.arcticmodal-0.3.min.js', array(), '1.0', true); //Модальные окна
+
 	wp_enqueue_script( 'light_market-fancybox', get_template_directory_uri() . '/js/jquery.fancybox.min.js', array(), '1.0', true ); 
 
-	wp_enqueue_script( 'light_market-popover', get_template_directory_uri() . '/js/jquery.popover.min.js', array(), '1.0', true ); 
+	wp_enqueue_script( 'light_market-popover', get_template_directory_uri() . '/js/jquery.popover.min.js', array(), '1.0', true );  
 
 	wp_enqueue_script( 'imasc', get_template_directory_uri().'/js/imask.js', array(), ALL_VERSION , true);
 
@@ -509,3 +513,78 @@ function send_cart() {
 }
 
 
+add_action( 'wp_ajax_sendphone', 'sendphone' );
+add_action( 'wp_ajax_nopriv_sendphone', 'sendphone' );
+
+  function sendphone() {
+    if ( empty( $_REQUEST['nonce'] ) ) {
+      wp_die( '0' );
+    }
+    
+    if ( check_ajax_referer( 'NEHERTUTLAZIT', 'nonce', false ) ) {
+      
+      $headers = array(
+        'From: Сайт '.COMPANY_NAME.' <'.MAIL_RESEND.'>', 
+        'content-type: text/html',
+      );
+    
+      add_filter('wp_mail_content_type', create_function('', 'return "text/html";'));
+       if (wp_mail(carbon_get_theme_option( 'as_email_send' ), 'Заказ звонка', '<strong>Имя:</strong> '.$_REQUEST["name"]. ' <br/> <strong>Телефон:</strong> '.$_REQUEST["tel"], $headers))
+        wp_die("<span style = 'color:green;'>Мы свяжемся с Вами в ближайшее время.</span>");
+      else wp_die("<span style = 'color:red;'>Сервис недоступен попробуйте позднее.</span>"); 
+      
+    } else {
+      wp_die( 'НО-НО-НО!', '', 403 );
+    }
+  }
+
+
+	add_action( 'wp_ajax_subscribephone', 'subscribephone' );
+	add_action( 'wp_ajax_nopriv_subscribephone', 'subscribephone' );
+	
+		function subscribephone() {
+			if ( empty( $_REQUEST['nonce'] ) ) {
+				wp_die( '0' );
+			}
+			
+			if ( check_ajax_referer( 'NEHERTUTLAZIT', 'nonce', false ) ) {
+				
+				$headers = array(
+					'From: Сайт '.COMPANY_NAME.' <'.MAIL_RESEND.'>', 
+					'content-type: text/html',
+				);
+			
+				add_filter('wp_mail_content_type', create_function('', 'return "text/html";'));
+				 if (wp_mail(carbon_get_theme_option( 'as_email_send' ), 'Заявка "Подписаться"', '<strong>Телефон:</strong> '.$_REQUEST["telScribe"], $headers))
+					wp_die("<span style = 'color:green;'>Мы свяжемся с Вами в ближайшее время.</span>");
+				else wp_die("<span style = 'color:red;'>Сервис недоступен попробуйте позднее.</span>"); 
+				
+			} else {
+				wp_die( 'НО-НО-НО!', '', 403 );
+			}
+		}
+
+		add_action( 'wp_ajax_callphone', 'callphone' );
+		add_action( 'wp_ajax_nopriv_callphone', 'callphone' );
+		
+			function callphone() {
+				if ( empty( $_REQUEST['nonce'] ) ) {
+					wp_die( '0' );
+				}
+				
+				if ( check_ajax_referer( 'NEHERTUTLAZIT', 'nonce', false ) ) {
+					
+					$headers = array(
+						'From: Сайт '.COMPANY_NAME.' <'.MAIL_RESEND.'>', 
+						'content-type: text/html',
+					);
+				
+					add_filter('wp_mail_content_type', create_function('', 'return "text/html";'));
+					 if (wp_mail(carbon_get_theme_option( 'as_email_send' ), 'Заявка со страницы товаров', '<strong>Телефон:</strong> '.$_REQUEST["telcallback"], $headers))
+						wp_die("<span style = 'color:green;'>Мы свяжемся с Вами в ближайшее время.</span>");
+					else wp_die("<span style = 'color:red;'>Сервис недоступен попробуйте позднее.</span>"); 
+					
+				} else {
+					wp_die( 'НО-НО-НО!', '', 403 );
+				}
+			}
