@@ -1,8 +1,18 @@
 
 <form id = "filterForm" class="menu-left">
 						<input id = "sortByParam" type = "hidden" name = "sortByParam" value = "def">
-						<input id = "sortByParam" type = "hidden" name = "s" value = "<?php echo get_search_query() ?>">
 						<?
+							$sqr =  get_search_query();
+							if (!empty($sqr)) {
+
+							
+						?>
+							<input id = "sortByParam" type = "hidden" name = "s" value = "<?php echo $sqr; ?>">
+						<?
+							}
+						?>
+						<?
+
 							$listCat = wp_list_categories (array(
 								'hierarchical' => true,
 								'taxonomy' => "lightcat",
