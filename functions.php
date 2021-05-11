@@ -95,7 +95,7 @@ function change_menu_item_css_classes( $classes, $item, $args, $depth ) {
 		$classes[] = 'menu__catalogy';
 	}
 
-	if( 3670 === $item->ID  && 'menu_main' === $args->theme_location ){
+	if( 76021 === $item->ID  && 'menu_main' === $args->theme_location ){
 		$classes[] = 'menu__shares';
 	}
 
