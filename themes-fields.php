@@ -177,6 +177,21 @@ Container::make('post_meta', 'light_product_cr', 'Характеристики �
         Field::make('text', 'offer_sposob_krep', 'КодТовара')->set_width(100),
         Field::make('text', 'offer_kod_tov', 'Cпособ крепления')->set_width(100), // -
             
+    )); 
+
+    Container::make('post_meta', 'page-promo', 'Доп поля')
+    ->show_on_template(array('page-promo.php'))
+        ->add_fields(array(   
+        Field::make( 'complex', 'promo__complex', "Вывод акций" )
+        ->add_fields( array(
+          Field::make("checkbox", "promo_checkbox", "Дефолтная картинка") 
+          ->help_text('Выводит картинку без текста и затемнения')
+            ->set_width( 100 ),
+          Field::make('image', 'promo_img', 'Изображение' )->set_width(30),
+          Field::make('text', 'promo_subtitle', 'Текст акции')->set_width(30),
+          Field::make('text', 'promo_link', 'Ссылка на акцию')->set_width(30)        
+        ) ),
+  
     ));
 
       
