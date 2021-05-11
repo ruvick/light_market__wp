@@ -23,42 +23,35 @@ get_header(); ?>
 			<h1><?php the_title();?></h1>
 
       <div class="promo__row d-flex">
+      <?
+        $prom = carbon_get_the_post_meta('promo__complex');
+          if($prom) {
+            $promIndex = 0;
+            foreach($prom as $itemPr) {
+      ?>
 
-        <a href="#" class="promo__item">
-          <img src="<?php echo get_template_directory_uri();?>/img/promo-1.jpg" class="promo__img" alt="">
-          <p class="promo__subtitle">Акция #1</p>
-          <div class="nuar_blk"></div>
-        </a>
+      <?php	if (!empty($itemPr['promo_checkbox'])) {
+				echo 
+          "<a href='" . $itemPr['promo_link'] . "' class='promo__item'>
+            <img src='" . wp_get_attachment_image_src($itemPr['promo_img'], 'full')[0] . "' class='promo__img'>
+          </a>";
+			}
+			else {
+				echo 
+        "<a href='" . $itemPr['promo_link'] . "' class='promo__item'>
+          <img src='" . wp_get_attachment_image_src($itemPr['promo_img'], 'full')[0] . "' class='promo__img'>
+          <p class='promo__subtitle'>" . $itemPr['promo_subtitle'] . "</p>
+          <div class='nuar_blk'></div>
+        </a>";
+			}
 
-        <a href="#" class="promo__item">
-          <img src="<?php echo get_template_directory_uri();?>/img/promo-2.jpg" class="promo__img" alt="">
-          <p class="promo__subtitle">Акция #2</p>
-          <div class="nuar_blk"></div>
-        </a>
+			?> 
 
-        <a href="#" class="promo__item">
-          <img src="<?php echo get_template_directory_uri();?>/img/promo-1.jpg" class="promo__img" alt="">
-          <p class="promo__subtitle">Акция #3</p>
-          <div class="nuar_blk"></div>
-        </a>
-
-        <a href="#" class="promo__item">
-          <img src="<?php echo get_template_directory_uri();?>/img/promo-2.jpg" class="promo__img" alt="">
-          <p class="promo__subtitle">Акция #4</p>
-          <div class="nuar_blk"></div>
-        </a>
-
-        <a href="#" class="promo__item">
-          <img src="<?php echo get_template_directory_uri();?>/img/promo-1.jpg" class="promo__img" alt="">
-          <p class="promo__subtitle">Акция #5</p>
-          <div class="nuar_blk"></div>
-        </a>
-
-        <a href="#" class="promo__item">
-          <img src="<?php echo get_template_directory_uri();?>/img/promo-2.jpg" class="promo__img" alt="">
-          <p class="promo__subtitle">Акция #6</p>
-          <div class="nuar_blk"></div>
-        </a>
+      <?
+        $promIndex++;
+          }
+        }
+      ?>
 
       </div>
 
