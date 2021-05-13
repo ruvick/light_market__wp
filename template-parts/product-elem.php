@@ -21,7 +21,13 @@
 			<h4><? the_title();?></h4>
 		</a>
 		<p class="prod-card__manuf"><?echo carbon_get_post_meta(get_the_ID(),"offer_manufact"); ?></p>
-		<p class="prod-card__avail"><?echo carbon_get_post_meta(get_the_ID(),"offer_nal"); ?></p>
+		<p class="prod-card__avail"><?
+			$count = carbon_get_post_meta(get_the_ID(),"offer_nal_count");
+			if (!empty($count))
+				echo "В наличии";
+			else 	
+				echo "Под заказ";
+			?></p>
 	</div>
 	<div class="prod-card__price-item d-flex">
 		<?
