@@ -3069,8 +3069,9 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 }
 .promo__img {
   max-width: 100%;
-  /* height: 100%; */
+  height: 100%;
   object-fit: cover;
+  width: 100%;
 }
 .promo__subtitle {
   position: absolute;
