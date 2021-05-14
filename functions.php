@@ -260,7 +260,7 @@ function light_market_scripts_styles(){
 
 	wp_enqueue_script( 'light_market-slick', get_template_directory_uri() . '/js/slick.min.js', array(), '1.0', true ); 
 
-  	wp_enqueue_script( 'jquery-ui', 'https://code.jquery.com/ui/1.12.1/jquery-ui.min.js', array(), '1.0',  true );
+	if( is_tax()) wp_enqueue_script( 'jquery-ui', 'https://code.jquery.com/ui/1.12.1/jquery-ui.min.js', array(), '1.0',  true );
 
 	wp_enqueue_script( 'light_market-main', get_template_directory_uri() . '/js/main.js', array(), 1.0, true );
 
@@ -461,7 +461,7 @@ function send_cart() {
 	
 		add_filter('wp_mail_content_type', create_function('', 'return "text/html";'));
 		
-		$adr_to_send = carbon_get_theme_option("mail_to_send");
+		$adr_to_send = carbon_get_theme_option("as_email_send");
 		$adr_to_send = (empty($adr_to_send))?"asmi046@gmail.com,info@light-snab.ru ":$adr_to_send;
 		
 		$zak_number = "LS-".date("H").date("s").date("s")."-".rand(100,999);

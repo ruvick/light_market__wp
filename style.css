@@ -12,42 +12,42 @@ Version: 1.0.1
   src: url("fonts/Lato-Heavy.eot");
   src: local("☺"), url("fonts/Lato-Heavy.woff") format("woff"), url("fonts/Lato-Heavy.ttf") format("truetype"), url("fonts/Lato-Heavy.svg") format("svg");
   font-weight: 900;
-  font-style: normal; } 
+  font-style: normal; font-display: swap;} 
 
 @font-face {
   font-family: "Lato"; 
   src: url("fonts/Lato-Light.eot"); 
   src: local("☺"), url("fonts/Lato-Light.woff") format("woff"), url("fonts/Lato-Light.ttf") format("truetype"), url("fonts/Lato-Light.svg") format("svg");
   font-weight: 300;
-  font-style: normal; }   
+  font-style: normal; font-display: swap;}   
 
 @font-face {
   font-family: "Lato";
   src: url("fonts/Lato-Medium.eot"); 
   src: local("☺"), url("fonts/Lato-Medium.woff") format("woff"), url("fonts/Lato-Medium.ttf") format("truetype"), url("fonts/Lato-Medium.svg") format("svg");
   font-weight: 500;
-  font-style: normal; }
+  font-style: normal; font-display: swap;}
 
 @font-face {
   font-family: "Lato";
   src: url("fonts/Lato-Regular.eot");
   src: local("☺"), url("fonts/Lato-Regular.woff") format("woff"), url("fonts/Lato-Regular.ttf") format("truetype"), url("fonts/Lato-Regular.svg") format("svg");
   font-weight: 400;
-  font-style: normal; }
+  font-style: normal; font-display: swap;}
 
 @font-face {
   font-family: "Lato";
   src: url("fonts/Lato-Semibold.eot");
   src: local("☺"), url("fonts/Lato-Semibold.woff") format("woff"), url("fonts/Lato-Semibold.ttf") format("truetype"), url("fonts/Lato-Semibold.svg") format("svg");
   font-weight: 600;
-  font-style: normal; }
+  font-style: normal; font-display: swap;}
 
 @font-face {
   font-family: "Lato";
   src: url("fonts/Lato-Bold.eot");
   src: local("☺"), url("fonts/Lato-Bold.woff") format("woff"), url("fonts/Lato-Bold.ttf") format("truetype"), url("fonts/Lato-Bold.svg") format("svg");
   font-weight: 700;
-  font-style: normal; }
+  font-style: normal; font-display: swap;}
 
 * {
   padding: 0px;
@@ -1407,7 +1407,8 @@ body.ie .ibg img {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column; }
+    flex-direction: column; 
+    padding-bottom: 65px;}
 
 .mob-menu #menu-ves-katalog {
   background: #edeeef;
@@ -1415,7 +1416,7 @@ body.ie .ibg img {
   position: relative;
   display: grid;  
   grid-template-rows: auto;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 1em;
   padding: 1em;
 }
@@ -3417,16 +3418,23 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   .popular__baner {
     min-height: 260px;
     background-position: 40% 0; }
-  .mob-menu.active {
-    display: block !important;
+  
+    .mob-menu.active {
+      display: initial !important;
+      position: fixed;
+      height: 100vh;
+      top: 0;
+    /* display: block !important;
     position: fixed;
     height: 100%;
     margin-top: 75px;
     width: 50%;
-    right: 0% !important;
+    right: 0% !important; */
     -webkit-transition: all 0.65s;
     -o-transition: all 0.65s;
-    transition: all 0.65s; }
+    transition: all 0.65s; 
+  }
+
   .mob-menu ul {
     max-width: 100%; }
   .slider__item p {
@@ -3641,6 +3649,8 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
     .text-content h1, .text-content h2, .text-content h3, .text-content h4, .text-content h5 {
       margin: 0 0 20px 0;
   }
+
+
 }
 
 @media (max-width: 600px) {
@@ -3717,10 +3727,11 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   .popular__row {
     margin-bottom: 0px; }
   .mob-menu.active {
-    width: 100%;
+    /* width: 100%;
     left: 0%;
     padding: 65px 0 5px 0;
-    margin-top: 5px; }
+    margin-top: 5px;  */
+  }
   .logist {
     padding: 20px 0 33px 0; }
   .advant__item {
@@ -3898,6 +3909,11 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   .promo__item {
     height: 200px;
   } 
+
+  .mob-menu #menu-ves-katalog {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
  }
 
 @media (max-width: 340px) {
