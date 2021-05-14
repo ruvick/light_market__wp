@@ -32,7 +32,7 @@
 			<div class="info-sl__images d-flex">
 
 				<div class="info-sl__img-item img-item-l">
-					<img src="<?php echo wp_get_attachment_image_src( carbon_get_theme_option('mini_banner_top_img'), 'full')[0];?>" alt="">
+					<img loading="lazy" src="<?php echo wp_get_attachment_image_src( carbon_get_theme_option('mini_banner_top_img'), 'full')[0];?>" alt="">
 					<div class="img-l">
 						<p><? echo carbon_get_theme_option('mini_banner_top_text');?></p>
 						<a href="<? echo carbon_get_theme_option('mini_banner_top_lnk');?>" class="btn">Смотреть</a>
@@ -40,7 +40,7 @@
 				</div>
 
 				<div class="info-sl__img-item img-item-r">
-					<img src="<?php echo wp_get_attachment_image_src( carbon_get_theme_option('mini_banner_bottom_img'), 'full')[0];?>" alt="">
+					<img loading="lazy" src="<?php echo wp_get_attachment_image_src( carbon_get_theme_option('mini_banner_bottom_img'), 'full')[0];?>" alt="">
 					<p><? echo carbon_get_theme_option('mini_banner_bottom_text');?></p>
 				</div>
 

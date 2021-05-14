@@ -3,7 +3,7 @@
 		<div class="logist__row d-flex">
 
 			<div class="logist__item">
-				<img src="<?php echo get_template_directory_uri();?>/img/logic-01.jpg" alt="">
+				<img loading="lazy" src="<?php echo get_template_directory_uri();?>/img/logic-01.jpg" alt="">
 				<div class="logist__item-text">
 					<h3>ДОСТАВКА</h3>
 					<p>С нашей помощью купить
@@ -22,7 +22,7 @@
 			</div>
 
 			<div class="logist__item">
-				<img src="<?php echo get_template_directory_uri();?>/img/logic-02.jpg" alt="">
+				<img loading="lazy" src="<?php echo get_template_directory_uri();?>/img/logic-02.jpg" alt="">
 				<div class="logist__item-text">
 					<h3>ГАРАНТИЯ ЛУЧШЕЙ 
 						ЦЕНЫ
