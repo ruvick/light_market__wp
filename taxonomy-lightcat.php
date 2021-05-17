@@ -128,7 +128,7 @@
 								} 
 							}
 
-							$arg['meta_query'] = $metaquery;
+							 $arg['meta_query'] = $metaquery;
 							
 							if (isset($_REQUEST["sortByParam"]) && ($_REQUEST["sortByParam"] !== "def")) {
 								$arg['orderby'] = 'priceStart';

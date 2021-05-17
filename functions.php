@@ -238,7 +238,7 @@ function light_market_widgets_init() {
 
 // Описываем функцию в которй будем подключать CSS и JS
 
-define("ALL_VERSION", "1.0.3");
+define("ALL_VERSION", "1.0.10");
 function light_market_scripts_styles(){
     global $wp_styles;
 

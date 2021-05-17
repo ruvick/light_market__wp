@@ -544,7 +544,10 @@ textarea.input {
 
 .rub:after {
   content: "₽";
-  font-size: 23.5px; }
+    font-size: 20px;
+    font-family: arial;
+    font-weight: normal;
+    margin-left: 6px;}
 
 .noselect {
   -webkit-touch-callout: none;
@@ -1408,7 +1411,7 @@ body.ie .ibg img {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column; 
-    padding-bottom: 65px;}
+    }
 
 .mob-menu #menu-ves-katalog {
   background: #edeeef;
@@ -1416,7 +1419,7 @@ body.ie .ibg img {
   position: relative;
   display: grid;  
   grid-template-rows: auto;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 1em;
   padding: 1em;
 }
@@ -3650,7 +3653,14 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
       margin: 0 0 20px 0;
   }
 
+  .mob-menu #menu-ves-katalog {
+  
+    grid-template-columns: repeat(2, 1fr);
+  }
 
+  .mob-menu__df {
+    padding-bottom: 65px;
+  }
 }
 
 @media (max-width: 600px) {
