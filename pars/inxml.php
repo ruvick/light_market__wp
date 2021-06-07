@@ -1,16 +1,15 @@
 <?
-
+ini_set('max_execution_time', 1000);
+set_time_limit ( 1000);
 //php marketsveta.su/wp-content/themes/light_market/pars/inxml.php
-    ini_set('max_execution_time', 9000);
-
     require_once("../../../../wp-config.php");
             
     require_once ABSPATH . 'wp-admin/includes/media.php';
     require_once ABSPATH . 'wp-admin/includes/file.php';
     require_once ABSPATH . 'wp-admin/includes/image.php';
 
-    if (file_exists('xml/100810.xml')) {
-        $xml = simplexml_load_file('xml/100810.xml');
+    if (file_exists('xml/100667.xml')) {
+        $xml = simplexml_load_file('xml/100667.xml');
         
         $curentTerm = array();
 
@@ -61,11 +60,11 @@
             echo "\n\r";
 
             //if ((string)$elem->vendorCode !== "ST210.548.12") continue;
-            // if ($offerIndex < 950) {
+            if ($offerIndex < 936) {
                 
-            //     $offerIndex++;
-            //     continue;
-            // }
+                $offerIndex++;
+                continue;
+            }
 
             $to_post_meta  = [ 
                 '_offer_smile_descr' => empty((string)$elem->description)?(string)$elem->name:(string)$elem->description, 
@@ -152,6 +151,8 @@
                     
                 ) ) );
             } else {
+                
+               
                 echo "Обновление поста: ". $posts->posts[0]->post_title." id: ".$posts->posts[0]->ID.".\n\r";
                 $post_id = wp_update_post(  wp_slash( array(
                     'ID' => $posts->posts[0]->ID,
