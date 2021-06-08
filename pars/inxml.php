@@ -1,6 +1,14 @@
 <?
-ini_set('max_execution_time', 1000);
-set_time_limit ( 1000);
+
+// ini_set('error_reporting', E_ALL);
+// ini_set('display_errors', 1);
+// ini_set('display_startup_errors', 1);
+
+ini_set('memory_limit','-1');
+ini_set('post_max_size','256M');
+ini_set('upload_max_filesize','256M');
+
+
 //php marketsveta.su/wp-content/themes/light_market/pars/inxml.php
     require_once("../../../../wp-config.php");
             
@@ -8,8 +16,68 @@ set_time_limit ( 1000);
     require_once ABSPATH . 'wp-admin/includes/file.php';
     require_once ABSPATH . 'wp-admin/includes/image.php';
 
-    if (file_exists('xml/100667.xml')) {
-        $xml = simplexml_load_file('xml/100667.xml');
+    global $wpdb;
+
+
+    $files = [
+        ["name" => "100735.xml", "count" => 106],
+        ["name" => "100667.xml", "count" => 1632],
+        ["name" => "100673.xml", "count" => 544],
+        ["name" => "100684.xml", "count" => 1343],
+        ["name" => "100711.xml", "count" => 793],
+        ["name" => "100713.xml", "count" => 236],
+        ["name" => "100729.xml", "count" => 1210],
+        ["name" => "100741.xml", "count" => 1299],
+        ["name" => "100745.xml", "count" => 1751],
+        ["name" => "100759.xml", "count" => 4136],
+        ["name" => "100766.xml","count" => 198],
+        ["name" => "100774.xml", "count" => 1085],
+        ["name" => "119048.xml","count" => 713],
+        ["name" => "119176.xml","count" => 381],
+        ["name" => "123759.xml","count" => 1640],
+        ["name" => "128936.xml","count" => 391],
+        ["name" => "130784.xml", "count" => 744],
+        ["name" => "134571.xml", "count" => 676],
+        ["name" => "141653.xml","count" => 718],
+        ["name" => "141789.xml","count" => 428],
+        ["name" => "142306.xml","count" => 453],
+        ["name" => "143862.xml", "count" => 398]
+
+    ];
+
+    $startIndex = 0;
+    $filename = "";
+    $fileincrement = 40;
+    foreach ($files as $fe) {
+        $rez = $wpdb->get_results( "SELECT * FROM `mrksv_parsing_index` WHERE `file` = '".$fe["name"]."' ORDER BY `data` DESC" );
+        
+    
+
+        if (empty($rez)){
+            $startIndex = 0;
+            $filename = $fe["name"];
+            break;
+        }
+
+        if ($rez[0]->p_index < $fe["count"]) {
+            $startIndex = $rez[0]->p_index;
+            $filename = $fe["name"];
+            break;
+        }
+    }
+
+
+    if ($filename == "") {
+        die("Все файлыпройдены");
+        return;
+    }
+    
+    echo  "Файл: ".$startIndex."\n\r";
+    echo  "Начало: ".$filename."\n\r";
+
+   
+    if (file_exists('xml/'.$filename)) {
+        $xml = simplexml_load_file('xml/'.$filename);
         
         $curentTerm = array();
 
@@ -51,20 +119,28 @@ set_time_limit ( 1000);
         echo  "Иерархия категорий выстроена\n\r";
         echo  "\n\rНачато добавление товаров:\n\r\n\r";
         
-        $offerIndex = 0;
+        
+        
+        
+
+        $i = 0;
+        $of = $xml->shop->offers->children();
         foreach ($xml->shop->offers->children() as $elem)
+        // for ($offerIndex = $startIndex; $offerIndex<$startIndex+100; $offerIndex++)
         { 
-            echo "#: ".$offerIndex;
+            // if ((string)$elem->vendorCode !== "ST210.548.12") continue;
+            if ($i < $startIndex)  {
+                $i++;
+                continue;
+            }
+            
+
+            echo "#: ".$i;
             echo "\n\r";
             echo (string)$elem->name;
             echo "\n\r";
 
-            //if ((string)$elem->vendorCode !== "ST210.548.12") continue;
-            if ($offerIndex < 936) {
-                
-                $offerIndex++;
-                continue;
-            }
+
 
             $to_post_meta  = [ 
                 '_offer_smile_descr' => empty((string)$elem->description)?(string)$elem->name:(string)$elem->description, 
@@ -153,18 +229,26 @@ set_time_limit ( 1000);
             } else {
                 
                
-                echo "Обновление поста: ". $posts->posts[0]->post_title." id: ".$posts->posts[0]->ID.".\n\r";
-                $post_id = wp_update_post(  wp_slash( array(
-                    'ID' => $posts->posts[0]->ID,
-                    'post_type'     => 'light',
-                    'post_author'    => 1,
-                    'post_status'    => 'publish',
-                    'post_title' => (string)$elem->name,
-                    'post_excerpt'  => empty((string)$elem->description)?(string)$elem->name:(string)$elem->description,
-                    'post_content'  => empty((string)$elem->description)?(string)$elem->name:(string)$elem->description,
-                    'meta_input'     => $to_post_meta,
+                echo "Пост существует: ". $posts->posts[0]->post_title." id: ".$posts->posts[0]->ID.".\n\r";
+                $i++;
+                if ($i>$startIndex+$fileincrement)  {
+                    echo "Тута.\n\r";
+                    break;
+                } 
+                continue;
+
+                 // echo "Обновление поста: ". $posts->posts[0]->post_title." id: ".$posts->posts[0]->ID.".\n\r";
+                // $post_id = wp_update_post(  wp_slash( array(
+                //     'ID' => $posts->posts[0]->ID,
+                //     'post_type'     => 'light',
+                //     'post_author'    => 1,
+                //     'post_status'    => 'publish',
+                //     'post_title' => (string)$elem->name,
+                //     'post_excerpt'  => empty((string)$elem->description)?(string)$elem->name:(string)$elem->description,
+                //     'post_content'  => empty((string)$elem->description)?(string)$elem->name:(string)$elem->description,
+                //     'meta_input'     => $to_post_meta,
                     
-                ) ) );
+                // ) ) );
             }
 
             wp_set_object_terms( $post_id, $to_post_meta["_offer_brend"], "lightbrand" );
@@ -218,10 +302,16 @@ set_time_limit ( 1000);
             echo "\n\r";
             echo "\n\r";
 
-            //if ($offerIndex > 3) break;
-
-            $offerIndex ++;
-        }    
+            
+            if ($i>$startIndex+$fileincrement)  break;
+            $i++;
+           
+        }  
+        
+        $wpdb->insert( 'mrksv_parsing_index', array(
+            "p_index" => $startIndex+$fileincrement,
+            "file" => $filename
+        ) );
     } 
 
 
