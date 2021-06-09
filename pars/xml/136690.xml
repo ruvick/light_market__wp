@@ -1,0 +1,4181 @@
+<yml_catalog date="2021-06-09 08:45">
+<shop>
+<name>Интернет-магазин "Дивайн Лайт"</name>
+<company>Интернет-магазин "Дивайн Лайт"</company>
+<currencies>
+<currency id="RUB" rate="1"/>
+</currencies>
+<categories>
+<category id="2861" urlXml="category/2861.xml"><![CDATA[Свет для дома]]></category>
+<category id="2862" parentId="2861" urlXml="category/2862.xml"><![CDATA[Светильники для картин и зеркал]]></category>
+<category id="2863" parentId="2861" urlXml="category/2863.xml"><![CDATA[Мебельные светильники]]></category>
+<category id="2864" parentId="2861" urlXml="category/2864.xml"><![CDATA[Настенные бра]]></category>
+<category id="2865" parentId="2861" urlXml="category/2865.xml"><![CDATA[Настольные лампы]]></category>
+<category id="2866" parentId="2861" urlXml="category/2866.xml"><![CDATA[Ночники]]></category>
+<category id="2867" parentId="2861" urlXml="category/2867.xml"><![CDATA[Подсветка стен и ступеней]]></category>
+<category id="2868" parentId="2861" urlXml="category/2868.xml"><![CDATA[Потолочные люстры]]></category>
+<category id="2869" parentId="2868" urlXml="category/2869.xml"><![CDATA[Люстры на штанге]]></category>
+<category id="2870" parentId="2868" urlXml="category/2870.xml"><![CDATA[Люстры накладные]]></category>
+<category id="2871" parentId="2868" urlXml="category/2871.xml"><![CDATA[Люстры подвесные]]></category>
+<category id="13902" parentId="2868" urlXml="category/13902.xml"><![CDATA[Люстры каскадные]]></category>
+<category id="2872" parentId="2861" urlXml="category/2872.xml"><![CDATA[Потолочные светильники]]></category>
+<category id="2874" parentId="2872" urlXml="category/2874.xml"><![CDATA[Накладные светильники]]></category>
+<category id="2875" parentId="2872" urlXml="category/2875.xml"><![CDATA[Подвесные светильники]]></category>
+<category id="14597" parentId="2872" urlXml="category/14597.xml"><![CDATA[Линейные светильники]]></category>
+<category id="2876" parentId="2861" urlXml="category/2876.xml"><![CDATA[Детские светильники]]></category>
+<category id="2877" parentId="2876" urlXml="category/2877.xml"><![CDATA[Детские люстры]]></category>
+<category id="2878" parentId="2876" urlXml="category/2878.xml"><![CDATA[Детские бра]]></category>
+<category id="2879" parentId="2876" urlXml="category/2879.xml"><![CDATA[Детские настольные лампы]]></category>
+<category id="2880" parentId="2876" urlXml="category/2880.xml"><![CDATA[Детские ночники]]></category>
+<category id="2881" parentId="2876" urlXml="category/2881.xml"><![CDATA[Детские светильники]]></category>
+<category id="2882" parentId="2876" urlXml="category/2882.xml"><![CDATA[Детские споты]]></category>
+<category id="2883" parentId="2876" urlXml="category/2883.xml"><![CDATA[Детские торшеры]]></category>
+<category id="9930" parentId="2876" urlXml="category/9930.xml"><![CDATA[Детские точечные светильники]]></category>
+<category id="2884" parentId="2861" urlXml="category/2884.xml"><![CDATA[Светодиодные ленты]]></category>
+<category id="2885" parentId="2884" urlXml="category/2885.xml"><![CDATA[Светодиодные ленты]]></category>
+<category id="2886" parentId="2884" urlXml="category/2886.xml"><![CDATA[Драйверы для светодиодных лент]]></category>
+<category id="2887" parentId="2884" urlXml="category/2887.xml"><![CDATA[Усилители для светодиодных лент]]></category>
+<category id="2888" parentId="2884" urlXml="category/2888.xml"><![CDATA[Контроллеры для светодиодных лент]]></category>
+<category id="2889" parentId="2884" urlXml="category/2889.xml"><![CDATA[Блоки питания для светодиодных лент]]></category>
+<category id="2890" parentId="2884" urlXml="category/2890.xml"><![CDATA[Экраны для светодиодных лент]]></category>
+<category id="2891" parentId="2884" urlXml="category/2891.xml"><![CDATA[Профили для светодиодных лент]]></category>
+<category id="2892" parentId="2884" urlXml="category/2892.xml"><![CDATA[Комплектующие для светодиодных лент]]></category>
+<category id="14107" parentId="2892" urlXml="category/14107.xml"><![CDATA[Декодеры]]></category>
+<category id="14108" parentId="2892" urlXml="category/14108.xml"><![CDATA[Заглушки для лент]]></category>
+<category id="14109" parentId="2892" urlXml="category/14109.xml"><![CDATA[Соединители для лент]]></category>
+<category id="14110" parentId="2892" urlXml="category/14110.xml"><![CDATA[Пульты управления]]></category>
+<category id="14111" parentId="2892" urlXml="category/14111.xml"><![CDATA[Панели управления]]></category>
+<category id="14114" parentId="2892" urlXml="category/14114.xml"><![CDATA[Крепежные элементы для лент]]></category>
+<category id="14115" parentId="2892" urlXml="category/14115.xml"><![CDATA[Датчики]]></category>
+<category id="14116" parentId="2892" urlXml="category/14116.xml"><![CDATA[Конвертеры]]></category>
+<category id="11043" parentId="2884" urlXml="category/11043.xml"><![CDATA[Комплектующие для профилей]]></category>
+<category id="14091" parentId="11043" urlXml="category/14091.xml"><![CDATA[Заглушки для профилей]]></category>
+<category id="14092" parentId="11043" urlXml="category/14092.xml"><![CDATA[Крепежные элементы для профилей]]></category>
+<category id="14093" parentId="11043" urlXml="category/14093.xml"><![CDATA[Соединители для профилей]]></category>
+<category id="14094" parentId="11043" urlXml="category/14094.xml"><![CDATA[Подвесные комплекты для профилей]]></category>
+<category id="14095" parentId="11043" urlXml="category/14095.xml"><![CDATA[Тубусы для упаковки профилей]]></category>
+<category id="14096" parentId="11043" urlXml="category/14096.xml"><![CDATA[Рамки к профилю]]></category>
+<category id="14097" parentId="11043" urlXml="category/14097.xml"><![CDATA[Сальники для профилей]]></category>
+<category id="14098" parentId="11043" urlXml="category/14098.xml"><![CDATA[Диммеры встраиваемые в профиль]]></category>
+<category id="14099" parentId="11043" urlXml="category/14099.xml"><![CDATA[Прокладки для профилей]]></category>
+<category id="14100" parentId="11043" urlXml="category/14100.xml"><![CDATA[Микровыключатели]]></category>
+<category id="14101" parentId="11043" urlXml="category/14101.xml"><![CDATA[Тросики для профилей]]></category>
+<category id="14102" parentId="11043" urlXml="category/14102.xml"><![CDATA[Приспособления для монтажа прокладок]]></category>
+<category id="14103" parentId="11043" urlXml="category/14103.xml"><![CDATA[Подложки для фиксации лент]]></category>
+<category id="14104" parentId="11043" urlXml="category/14104.xml"><![CDATA[Перфорированные сетки]]></category>
+<category id="14105" parentId="11043" urlXml="category/14105.xml"><![CDATA[Противоскользящие резиновые вставки]]></category>
+<category id="14106" parentId="11043" urlXml="category/14106.xml"><![CDATA[Муфты]]></category>
+<category id="11628" parentId="2884" urlXml="category/11628.xml"><![CDATA[Диммеры]]></category>
+<category id="2893" parentId="2861" urlXml="category/2893.xml"><![CDATA[Споты]]></category>
+<category id="2894" parentId="2861" urlXml="category/2894.xml"><![CDATA[Торшеры и напольные светильники]]></category>
+<category id="2895" parentId="2861" urlXml="category/2895.xml"><![CDATA[Точечные светильники]]></category>
+<category id="2896" parentId="2895" urlXml="category/2896.xml"><![CDATA[Влагозащищенные точечные светильники]]></category>
+<category id="2897" parentId="2895" urlXml="category/2897.xml"><![CDATA[Встраиваемые точечные светильники]]></category>
+<category id="2898" parentId="2895" urlXml="category/2898.xml"><![CDATA[Накладные точечные светильники]]></category>
+<category id="2899" parentId="2861" urlXml="category/2899.xml"><![CDATA[Шинные и струнные системы]]></category>
+<category id="2900" parentId="2899" urlXml="category/2900.xml"><![CDATA[Комплектующие]]></category>
+<category id="2901" parentId="2899" urlXml="category/2901.xml"><![CDATA[Трековые светильники]]></category>
+<category id="10205" parentId="2899" urlXml="category/10205.xml"><![CDATA[Готовые решения]]></category>
+<category id="10389" parentId="2899" urlXml="category/10389.xml"><![CDATA[Шинопроводы]]></category>
+<category id="14065" parentId="2899" urlXml="category/14065.xml"><![CDATA[Комплектующие для трековых светильников]]></category>
+<category id="14074" parentId="14065" urlXml="category/14074.xml"><![CDATA[Линзы]]></category>
+<category id="14078" parentId="14065" urlXml="category/14078.xml"><![CDATA[Кольца]]></category>
+<category id="14079" parentId="14065" urlXml="category/14079.xml"><![CDATA[Плафоны]]></category>
+<category id="14083" parentId="14065" urlXml="category/14083.xml"><![CDATA[Основания для трековых светильников]]></category>
+<category id="14066" parentId="2899" urlXml="category/14066.xml"><![CDATA[Комплектующие для шинопроводов]]></category>
+<category id="14067" parentId="14066" urlXml="category/14067.xml"><![CDATA[Коннекторы]]></category>
+<category id="14068" parentId="14066" urlXml="category/14068.xml"><![CDATA[Крепежные элементы]]></category>
+<category id="14069" parentId="14066" urlXml="category/14069.xml"><![CDATA[Подвесные комплекты]]></category>
+<category id="14070" parentId="14066" urlXml="category/14070.xml"><![CDATA[Заглушки]]></category>
+<category id="14071" parentId="14066" urlXml="category/14071.xml"><![CDATA[Тросики]]></category>
+<category id="14072" parentId="14066" urlXml="category/14072.xml"><![CDATA[Адаптеры]]></category>
+<category id="14073" parentId="14066" urlXml="category/14073.xml"><![CDATA[Подводы питания]]></category>
+<category id="14075" parentId="14066" urlXml="category/14075.xml"><![CDATA[Стойки]]></category>
+<category id="14076" parentId="14066" urlXml="category/14076.xml"><![CDATA[Накладки]]></category>
+<category id="14077" parentId="14066" urlXml="category/14077.xml"><![CDATA[Усилители стыков]]></category>
+<category id="14081" parentId="14066" urlXml="category/14081.xml"><![CDATA[Коробки для драйверов]]></category>
+<category id="14085" parentId="14066" urlXml="category/14085.xml"><![CDATA[Розетки для шинопроводов]]></category>
+<category id="14086" parentId="14066" urlXml="category/14086.xml"><![CDATA[Пульты управления для шинопроводов]]></category>
+<category id="14087" parentId="14066" urlXml="category/14087.xml"><![CDATA[Выключатели для шинопроводов]]></category>
+<category id="14088" parentId="14066" urlXml="category/14088.xml"><![CDATA[Профили для шинопроводов]]></category>
+<category id="14089" parentId="14066" urlXml="category/14089.xml"><![CDATA[Соединители профилей для шинопроводов]]></category>
+<category id="14090" parentId="14066" urlXml="category/14090.xml"><![CDATA[Гибочные устройства]]></category>
+<category id="14559" parentId="14066" urlXml="category/14559.xml"><![CDATA[Настенные панели управления]]></category>
+<category id="14560" parentId="14066" urlXml="category/14560.xml"><![CDATA[WI-FI конвертеры]]></category>
+<category id="14620" parentId="14066" urlXml="category/14620.xml"><![CDATA[Углы профиля]]></category>
+<category id="14080" parentId="2899" urlXml="category/14080.xml"><![CDATA[Драйверы для шинопроводов]]></category>
+<category id="14082" parentId="2899" urlXml="category/14082.xml"><![CDATA[Диммеры для шинопроводов]]></category>
+<category id="14084" parentId="2899" urlXml="category/14084.xml"><![CDATA[Датчики движения для шинопроводов]]></category>
+<category id="14589" parentId="2899" urlXml="category/14589.xml"><![CDATA[Струнные светильники]]></category>
+<category id="14592" parentId="2899" urlXml="category/14592.xml"><![CDATA[Струнные шинопроводы]]></category>
+<category id="2902" parentId="2861" urlXml="category/2902.xml"><![CDATA[Комплектующие]]></category>
+<category id="2903" parentId="2902" urlXml="category/2903.xml"><![CDATA[Аксессуары]]></category>
+<category id="2905" parentId="2902" urlXml="category/2905.xml"><![CDATA[Блоки защиты]]></category>
+<category id="2906" parentId="2902" urlXml="category/2906.xml"><![CDATA[Блоки питания AC]]></category>
+<category id="14117" parentId="2902" urlXml="category/14117.xml"><![CDATA[Подвесы]]></category>
+<category id="14118" parentId="2902" urlXml="category/14118.xml"><![CDATA[Рамки декоративные]]></category>
+<category id="14119" parentId="2902" urlXml="category/14119.xml"><![CDATA[Модули]]></category>
+<category id="14120" parentId="2902" urlXml="category/14120.xml"><![CDATA[Корпусы светильников]]></category>
+<category id="14121" parentId="2902" urlXml="category/14121.xml"><![CDATA[Вставки декоративные]]></category>
+<category id="14122" parentId="2902" urlXml="category/14122.xml"><![CDATA[Коннекторы модульных светильников]]></category>
+<category id="14123" parentId="2902" urlXml="category/14123.xml"><![CDATA[Базы встраиваемые]]></category>
+<category id="14124" parentId="2902" urlXml="category/14124.xml"><![CDATA[Базы накладные]]></category>
+<category id="14125" parentId="2902" urlXml="category/14125.xml"><![CDATA[Линзы для светильников]]></category>
+<category id="14126" parentId="2902" urlXml="category/14126.xml"><![CDATA[Крепежные элементы для светильников]]></category>
+<category id="14127" parentId="2902" urlXml="category/14127.xml"><![CDATA[Драйверы для модульных светильников]]></category>
+<category id="14128" parentId="2902" urlXml="category/14128.xml"><![CDATA[Стойки для светильников]]></category>
+<category id="14129" parentId="2902" urlXml="category/14129.xml"><![CDATA[Рефлекторы]]></category>
+<category id="14130" parentId="2902" urlXml="category/14130.xml"><![CDATA[Монтажные коробки]]></category>
+<category id="14131" parentId="2902" urlXml="category/14131.xml"><![CDATA[Платы для светодиодов]]></category>
+<category id="14132" parentId="2902" urlXml="category/14132.xml"><![CDATA[Разветвители]]></category>
+<category id="14133" parentId="2902" urlXml="category/14133.xml"><![CDATA[Клеммы]]></category>
+<category id="14134" parentId="2902" urlXml="category/14134.xml"><![CDATA[Удлинители кабелей]]></category>
+<category id="14135" parentId="2902" urlXml="category/14135.xml"><![CDATA[Стекла с наклейками]]></category>
+<category id="14596" parentId="2902" urlXml="category/14596.xml"><![CDATA[Тубусы картонные]]></category>
+<category id="14619" parentId="2902" urlXml="category/14619.xml"><![CDATA[Wi-Fi реле]]></category>
+<category id="2908" parentId="2861" urlXml="category/2908.xml"><![CDATA[Лампы]]></category>
+<category id="2909" parentId="2908" urlXml="category/2909.xml"><![CDATA[Галогеновые лампы]]></category>
+<category id="2911" parentId="2908" urlXml="category/2911.xml"><![CDATA[Металлогалогеновые лампы]]></category>
+<category id="2912" parentId="2908" urlXml="category/2912.xml"><![CDATA[Лампы накаливания]]></category>
+<category id="2913" parentId="2908" urlXml="category/2913.xml"><![CDATA[Светодиодные лампы]]></category>
+<category id="2914" parentId="2908" urlXml="category/2914.xml"><![CDATA[Ретро лампы]]></category>
+<category id="13905" parentId="2908" urlXml="category/13905.xml"><![CDATA[Люминесцентные лампы]]></category>
+<category id="14588" parentId="2908" urlXml="category/14588.xml"><![CDATA[Светодиодные модули]]></category>
+<category id="9794" parentId="2861" urlXml="category/9794.xml"><![CDATA[Лайтбоксы]]></category>
+<category id="2915" urlXml="category/2915.xml"><![CDATA[Свет для улицы]]></category>
+<category id="2916" parentId="2915" urlXml="category/2916.xml"><![CDATA[Грунтовые светильники]]></category>
+<category id="2917" parentId="2915" urlXml="category/2917.xml"><![CDATA[Светильники для стен и ступеней]]></category>
+<category id="2918" parentId="2915" urlXml="category/2918.xml"><![CDATA[Светильники для фонтанов и бассейнов]]></category>
+<category id="2920" parentId="2915" urlXml="category/2920.xml"><![CDATA[Уличные настенные светильники]]></category>
+<category id="2921" parentId="2915" urlXml="category/2921.xml"><![CDATA[Уличные потолочные светильники]]></category>
+<category id="2922" parentId="2921" urlXml="category/2922.xml"><![CDATA[Встраиваемые уличные светильники]]></category>
+<category id="2923" parentId="2921" urlXml="category/2923.xml"><![CDATA[Накладные уличные светильники]]></category>
+<category id="2924" parentId="2921" urlXml="category/2924.xml"><![CDATA[Подвесные уличные светильники]]></category>
+<category id="2925" parentId="2915" urlXml="category/2925.xml"><![CDATA[Прожекторы]]></category>
+<category id="2926" parentId="2915" urlXml="category/2926.xml"><![CDATA[Садово-парковые светильники]]></category>
+<category id="11682" parentId="2926" urlXml="category/11682.xml"><![CDATA[Низкие уличные фонари]]></category>
+<category id="11683" parentId="2926" urlXml="category/11683.xml"><![CDATA[Высокие уличные фонари]]></category>
+<category id="11684" parentId="2926" urlXml="category/11684.xml"><![CDATA[Средние уличные фонари]]></category>
+<category id="2927" parentId="2915" urlXml="category/2927.xml"><![CDATA[Садовые фигуры]]></category>
+<category id="2928" parentId="2915" urlXml="category/2928.xml"><![CDATA[Праздничное освещение]]></category>
+<category id="2929" parentId="2928" urlXml="category/2929.xml"><![CDATA[Светодиодная бахрома]]></category>
+<category id="2930" parentId="2928" urlXml="category/2930.xml"><![CDATA[Светодиодные гирлянды]]></category>
+<category id="2931" parentId="2928" urlXml="category/2931.xml"><![CDATA[LED гирлянды на деревья]]></category>
+<category id="2932" parentId="2928" urlXml="category/2932.xml"><![CDATA[Светодиодные деревья]]></category>
+<category id="2933" parentId="2928" urlXml="category/2933.xml"><![CDATA[Светодиодные нити]]></category>
+<category id="2934" parentId="2928" urlXml="category/2934.xml"><![CDATA[Светодиодные занавесы]]></category>
+<category id="2935" parentId="2928" urlXml="category/2935.xml"><![CDATA[Светодиодные фигуры]]></category>
+<category id="9761" parentId="2928" urlXml="category/9761.xml"><![CDATA[Светодиодные сети]]></category>
+<category id="11029" parentId="2928" urlXml="category/11029.xml"><![CDATA[Дюралайт]]></category>
+<category id="11676" parentId="2928" urlXml="category/11676.xml"><![CDATA[Комплектующие]]></category>
+<category id="14136" parentId="11676" urlXml="category/14136.xml"><![CDATA[Трансформаторы]]></category>
+<category id="14137" parentId="11676" urlXml="category/14137.xml"><![CDATA[Контроллеры]]></category>
+<category id="14138" parentId="11676" urlXml="category/14138.xml"><![CDATA[Силовые провода]]></category>
+<category id="14139" parentId="11676" urlXml="category/14139.xml"><![CDATA[Шнуры питания]]></category>
+<category id="14140" parentId="11676" urlXml="category/14140.xml"><![CDATA[Провода питания]]></category>
+<category id="14141" parentId="11676" urlXml="category/14141.xml"><![CDATA[Выпрямители для гирлянд]]></category>
+<category id="14142" parentId="11676" urlXml="category/14142.xml"><![CDATA[Разветвители для нитей]]></category>
+<category id="14143" parentId="11676" urlXml="category/14143.xml"><![CDATA[Удлинители для гирлянд]]></category>
+<category id="14144" parentId="11676" urlXml="category/14144.xml"><![CDATA[Соединители для гирлянд]]></category>
+<category id="14145" parentId="11676" urlXml="category/14145.xml"><![CDATA[Заглушки для дюралайта]]></category>
+<category id="14146" parentId="11676" urlXml="category/14146.xml"><![CDATA[Крепеж для дюралайта]]></category>
+<category id="14147" parentId="11676" urlXml="category/14147.xml"><![CDATA[Соединители для дюралайта]]></category>
+<category id="14148" parentId="11676" urlXml="category/14148.xml"><![CDATA[Комплекты подключения для дюралайта]]></category>
+<category id="14149" parentId="11676" urlXml="category/14149.xml"><![CDATA[Заглушки для гирлянд]]></category>
+<category id="14150" parentId="11676" urlXml="category/14150.xml"><![CDATA[Комплекты подключения для гирлянд]]></category>
+<category id="14151" parentId="11676" urlXml="category/14151.xml"><![CDATA[Батареечные блоки]]></category>
+<category id="3064" parentId="2915" urlXml="category/3064.xml"><![CDATA[Уличные настольные светильники]]></category>
+<category id="9351" parentId="2915" urlXml="category/9351.xml"><![CDATA[Уличные блоки розеток]]></category>
+<category id="9677" parentId="2915" urlXml="category/9677.xml"><![CDATA[Тротуарные светильники]]></category>
+<category id="10238" parentId="2915" urlXml="category/10238.xml"><![CDATA[Фонари]]></category>
+<category id="3201" urlXml="category/3201.xml"><![CDATA[Электроустановка]]></category>
+<category id="3385" parentId="3201" urlXml="category/3385.xml"><![CDATA[Выключатели]]></category>
+<category id="3386" parentId="3201" urlXml="category/3386.xml"><![CDATA[Клавиши. Накладки]]></category>
+<category id="3387" parentId="3201" urlXml="category/3387.xml"><![CDATA[Рамки]]></category>
+<category id="3388" parentId="3201" urlXml="category/3388.xml"><![CDATA[Розетки]]></category>
+<category id="10447" parentId="3201" urlXml="category/10447.xml"><![CDATA[Радиовыключатели]]></category>
+<category id="11637" parentId="3201" urlXml="category/11637.xml"><![CDATA[Терморегулятор]]></category>
+<category id="13675" parentId="3201" urlXml="category/13675.xml"><![CDATA[Комплектующие]]></category>
+<category id="2904" parentId="13675" urlXml="category/2904.xml"><![CDATA[Пульты управления]]></category>
+<category id="2907" parentId="13675" urlXml="category/2907.xml"><![CDATA[Датчики движения]]></category>
+<category id="13676" parentId="13675" urlXml="category/13676.xml"><![CDATA[Патроны]]></category>
+<category id="13677" parentId="13675" urlXml="category/13677.xml"><![CDATA[Шнур с выключателем]]></category>
+<category id="13760" parentId="13675" urlXml="category/13760.xml"><![CDATA[Диммеры]]></category>
+<category id="13878" parentId="13675" urlXml="category/13878.xml"><![CDATA[Ваттметры]]></category>
+<category id="13879" parentId="13675" urlXml="category/13879.xml"><![CDATA[Реле напряжения]]></category>
+<category id="13683" parentId="3201" urlXml="category/13683.xml"><![CDATA[Стабилизаторы напряжения]]></category>
+<category id="10207" urlXml="category/10207.xml"><![CDATA[Технический свет]]></category>
+<category id="6059" parentId="10207" urlXml="category/6059.xml"><![CDATA[Консольные светильники]]></category>
+<category id="10208" parentId="10207" urlXml="category/10208.xml"><![CDATA[Светильники Downlight]]></category>
+<category id="10209" parentId="10207" urlXml="category/10209.xml"><![CDATA[Светодиодные панели]]></category>
+<category id="10210" parentId="10207" urlXml="category/10210.xml"><![CDATA[Пылевлагозащищенные светильники]]></category>
+<category id="10211" parentId="10207" urlXml="category/10211.xml"><![CDATA[Световые указатели]]></category>
+<category id="10220" parentId="10207" urlXml="category/10220.xml"><![CDATA[Аварийные светильники]]></category>
+<category id="10221" parentId="10207" urlXml="category/10221.xml"><![CDATA[Потолочные светильники]]></category>
+<category id="10222" parentId="10207" urlXml="category/10222.xml"><![CDATA[Купольные светильники]]></category>
+<category id="10223" parentId="10207" urlXml="category/10223.xml"><![CDATA[Светильники офисные накладные]]></category>
+<category id="10224" parentId="10207" urlXml="category/10224.xml"><![CDATA[Светильники подвесные промышленные]]></category>
+<category id="10225" parentId="10207" urlXml="category/10225.xml"><![CDATA[Cветильники потолочные встраиваемые]]></category>
+<category id="10226" parentId="10207" urlXml="category/10226.xml"><![CDATA[Светильники для потолка грильято]]></category>
+<category id="10230" parentId="10207" urlXml="category/10230.xml"><![CDATA[Светильники Армстронг]]></category>
+<category id="10231" parentId="10207" urlXml="category/10231.xml"><![CDATA[Светильники настенно-потолочные]]></category>
+<category id="10232" parentId="10207" urlXml="category/10232.xml"><![CDATA[Комплектующие]]></category>
+<category id="10250" parentId="10207" urlXml="category/10250.xml"><![CDATA[Светильники модульные]]></category>
+</categories>
+<offers><offer id="977644" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/bra_wl_51481/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385361_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385362_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-51481]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-51481]]></vendorCode>
+<model><![CDATA[WL-51481]]></model>
+<description><![CDATA[]]></description>
+<quantity>54</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="ширина/диаметр">100</param>
+<param name="длина">385</param>
+<param name="высота">45</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5148</param>
+<param name="Назначение помещения">кафе, рестораны</param>
+<param name="форма плафона">Без плафона</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-51481</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520358</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977646" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/bra_wl_51787/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385375_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385376_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385377_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-51787]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-51787]]></vendorCode>
+<model><![CDATA[WL-51787]]></model>
+<description><![CDATA[]]></description>
+<quantity>73</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">85</param>
+<param name="длина">115</param>
+<param name="высота">400</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5178</param>
+<param name="Назначение помещения">кафе, рестораны</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-51787</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520360</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001956" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/lampa_nastennaya_wl_50004/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507356_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-50004]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-50004]]></vendorCode>
+<model><![CDATA[WL-50004]]></model>
+<description><![CDATA[]]></description>
+<quantity>70</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">80</param>
+<param name="длина">200</param>
+<param name="высота">85</param>
+<param name="тип лампы">галогеновая или LED</param>
+<param name="мощность лампы">25</param>
+<param name="мощность общая">25</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">GU10</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5000</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-50004</param>
+<param name="площадь освещения">1.5</param>
+<param name="поворотный">Да</param>
+<param name="подсветка">Нет</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">520669</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="986158" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/lampa-nastennaya-wl-50719_520378/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/454/000454869_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-50719]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-50719]]></vendorCode>
+<model><![CDATA[WL-50719]]></model>
+<description><![CDATA[]]></description>
+<quantity>16</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">латунь</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">90</param>
+<param name="длина">150</param>
+<param name="высота">90</param>
+<param name="тип лампы">галогеновая или LED</param>
+<param name="мощность лампы">25</param>
+<param name="мощность общая">25</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">GU10</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5071</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Полукруг</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-50719</param>
+<param name="площадь освещения">1.5</param>
+<param name="поворотный">Да</param>
+<param name="подсветка">Нет</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">520378</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977642" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/bra_wl_59912/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385397_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385398_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385399_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-59912]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-59912]]></vendorCode>
+<model><![CDATA[WL-59912]]></model>
+<description><![CDATA[]]></description>
+<quantity>31</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">210</param>
+<param name="длина">950</param>
+<param name="высота">160</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5991</param>
+<param name="Назначение помещения">кафе, рестораны</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-59912</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Да</param>
+<param name="КодТовара">520356</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977643" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/bra_wl_51375/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385357_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385358_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-51375]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-51375]]></vendorCode>
+<model><![CDATA[WL-51375]]></model>
+<description><![CDATA[]]></description>
+<quantity>40</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">оранжевый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">320</param>
+<param name="длина">720</param>
+<param name="высота">175</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5137</param>
+<param name="Назначение помещения">кафе, рестораны</param>
+<param name="форма плафона">Конусный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-51375</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520357</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977647" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/bra_wl_51387/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385359_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385360_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-51387]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-51387]]></vendorCode>
+<model><![CDATA[WL-51387]]></model>
+<description><![CDATA[]]></description>
+<quantity>27</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">80</param>
+<param name="высота">310</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">25</param>
+<param name="мощность общая">25</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E14</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5138</param>
+<param name="Назначение помещения">кафе, рестораны</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-51387</param>
+<param name="площадь освещения">3</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520361</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977659" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/lampa_nastennaya_wl_51579/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385368_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385369_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385370_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/635/000635966_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/635/000635967_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/635/000635968_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-51579]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-51579]]></vendorCode>
+<model><![CDATA[WL-51579]]></model>
+<description><![CDATA[]]></description>
+<quantity>34</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">прямоугольник</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">510</param>
+<param name="длина">115</param>
+<param name="высота">75</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5157</param>
+<param name="Назначение помещения">кафе, рестораны</param>
+<param name="форма плафона">Декоративный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-51579</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520377</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977660" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/lampa_nastennaya_wl_59802/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385387_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-59802]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-59802]]></vendorCode>
+<model><![CDATA[WL-59802]]></model>
+<description><![CDATA[]]></description>
+<quantity>40</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">65</param>
+<param name="длина">195</param>
+<param name="высота">255</param>
+<param name="тип лампы">галогеновая или LED</param>
+<param name="мощность лампы">25</param>
+<param name="мощность общая">50</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">2</param>
+<param name="тип цоколя">GU10</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5980</param>
+<param name="Назначение помещения">кафе, рестораны</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-59802</param>
+<param name="площадь освещения">3</param>
+<param name="поворотный">Да</param>
+<param name="КодТовара">520379</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977661" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/lampa_nastennaya_wl_51691/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385372_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-51691]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-51691]]></vendorCode>
+<model><![CDATA[WL-51691]]></model>
+<description><![CDATA[]]></description>
+<quantity>35</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">65</param>
+<param name="длина">510</param>
+<param name="высота">90</param>
+<param name="тип лампы">галогеновая или LED</param>
+<param name="мощность лампы">25</param>
+<param name="мощность общая">25</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">GU10</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5169</param>
+<param name="Назначение помещения">кафе, рестораны</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-51691</param>
+<param name="площадь освещения">1.5</param>
+<param name="поворотный">Да</param>
+<param name="КодТовара">520380</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977662" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/lampa_nastennaya_wl_59772/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385384_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385385_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385386_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-59772]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-59772]]></vendorCode>
+<model><![CDATA[WL-59772]]></model>
+<description><![CDATA[]]></description>
+<quantity>34</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">500</param>
+<param name="длина">120</param>
+<param name="высота">120</param>
+<param name="тип лампы">галогеновая или LED</param>
+<param name="мощность лампы">25</param>
+<param name="мощность общая">75</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">3</param>
+<param name="тип цоколя">GU10</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5980</param>
+<param name="Назначение помещения">кафе, рестораны</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-59772</param>
+<param name="площадь освещения">4.5</param>
+<param name="поворотный">Да</param>
+<param name="КодТовара">520381</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977677" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/lampa_nastennaya_wl_51819/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385378_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385379_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-51819]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-51819]]></vendorCode>
+<model><![CDATA[WL-51819]]></model>
+<description><![CDATA[]]></description>
+<quantity>32</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">120</param>
+<param name="длина">770</param>
+<param name="высота">145</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">80</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">2</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5181</param>
+<param name="Назначение помещения">кафе, рестораны</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-51819</param>
+<param name="площадь освещения">8</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520397</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977682" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/lampa_nastennaya_wl_59857/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385390_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385391_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-59857]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-59857]]></vendorCode>
+<model><![CDATA[WL-59857]]></model>
+<description><![CDATA[]]></description>
+<quantity>39</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">90</param>
+<param name="высота">780</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5990</param>
+<param name="Назначение помещения">кафе, рестораны</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-59857</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Да</param>
+<param name="КодТовара">520402</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977683" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/lampa_nastennaya_wl_50288/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385353_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-50288]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-50288]]></vendorCode>
+<model><![CDATA[WL-50288]]></model>
+<description><![CDATA[]]></description>
+<quantity>36</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">прямоугольник</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">220</param>
+<param name="длина">45</param>
+<param name="высота">310</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">25</param>
+<param name="мощность общая">25</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E14</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5028</param>
+<param name="Назначение помещения">кафе, рестораны</param>
+<param name="форма плафона">Конусный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-50288</param>
+<param name="площадь освещения">3</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520403</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977684" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/lampa_nastennaya_wl_51740_podsvetka_dlya_kartiny/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385374_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-51740]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-51740]]></vendorCode>
+<model><![CDATA[WL-51740]]></model>
+<description><![CDATA[]]></description>
+<quantity>45</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">380</param>
+<param name="длина">160</param>
+<param name="высота">220</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">25</param>
+<param name="мощность общая">25</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5174</param>
+<param name="Назначение помещения">кафе, рестораны</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-51740</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520404</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001945" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/lampa_nastennaya_wl_51451/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507359_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-51451]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-51451]]></vendorCode>
+<model><![CDATA[WL-51451]]></model>
+<description><![CDATA[]]></description>
+<quantity>24</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">250</param>
+<param name="длина">170</param>
+<param name="высота">80</param>
+<param name="тип лампы">галогеновая или LED</param>
+<param name="мощность лампы">25</param>
+<param name="мощность общая">50</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">2</param>
+<param name="тип цоколя">GU10</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5145</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-51451</param>
+<param name="площадь освещения">3</param>
+<param name="поворотный">Да</param>
+<param name="подсветка">Нет</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">520330</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001951" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/lampa_nastennaya_wl_57142/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507371_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-57142]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-57142]]></vendorCode>
+<model><![CDATA[WL-57142]]></model>
+<description><![CDATA[]]></description>
+<quantity>26</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">125</param>
+<param name="длина">380</param>
+<param name="высота">290</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">25</param>
+<param name="мощность общая">25</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E14</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5714</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Конусный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-57142</param>
+<param name="площадь освещения">3</param>
+<param name="поворотный">Да</param>
+<param name="подсветка">Нет</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">520664</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001960" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/svetilniki_nastennye_i_bra_1/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507351_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-30526]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-30526]]></vendorCode>
+<model><![CDATA[WL-30526]]></model>
+<description><![CDATA[]]></description>
+<quantity>35</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">латунный</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">латунь</param>
+<param name="материал плафона">металл</param>
+<param name="ширина/диаметр">100</param>
+<param name="длина">160</param>
+<param name="высота">300</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">3052</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-30526</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="подсветка">Нет</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">539428</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001961" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/svetilniki_nastennye_i_bra_2/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507362_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-51570]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-51570]]></vendorCode>
+<model><![CDATA[WL-51570]]></model>
+<description><![CDATA[]]></description>
+<quantity>33</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">современный</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">110</param>
+<param name="длина">220</param>
+<param name="высота">125</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5157</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Конусный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-51570</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="подсветка">Нет</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">539429</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001962" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/svetilniki_nastennye_i_bra_3/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507355_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-30857]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-30857]]></vendorCode>
+<model><![CDATA[WL-30857]]></model>
+<description><![CDATA[]]></description>
+<quantity>27</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">прозрачный</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">200</param>
+<param name="длина">230</param>
+<param name="высота">280</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">3085</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-30857</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="подсветка">Нет</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">539437</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001947" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/lampa_nastennaya_wl_51499/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507360_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-51499]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-51499]]></vendorCode>
+<model><![CDATA[WL-51499]]></model>
+<description><![CDATA[]]></description>
+<quantity>15</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">черный</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">черный</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">240</param>
+<param name="длина">820</param>
+<param name="высота">110</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5149</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-51499</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Да</param>
+<param name="подсветка">Нет</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">520405</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001948" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/wl_012_svetilnik_nastennyy_bra_patron_e14/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507377_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/511/000511351_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-012]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-012]]></vendorCode>
+<model><![CDATA[WL-012]]></model>
+<description><![CDATA[]]></description>
+<quantity>4</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">черный</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">черный</param>
+<param name="материал плафона">металл</param>
+<param name="ширина/диаметр">230</param>
+<param name="длина">305</param>
+<param name="высота">195</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">012</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Конусный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-012</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Да</param>
+<param name="подсветка">Нет</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">520651</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977651" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/lampa_nastennaya_wl_51548/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385365_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385366_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385367_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-51548]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-51548]]></vendorCode>
+<model><![CDATA[WL-51548]]></model>
+<description><![CDATA[]]></description>
+<quantity>23</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">прозрачный</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">120</param>
+<param name="высота">350</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5154</param>
+<param name="Назначение помещения">кафе, рестораны</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-51548</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520365</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977676" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/lampa_nastennaya_wl_50411/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385354_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385355_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-50411]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-50411]]></vendorCode>
+<model><![CDATA[WL-50411]]></model>
+<description><![CDATA[]]></description>
+<quantity>15</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">65</param>
+<param name="длина">185</param>
+<param name="высота">285</param>
+<param name="тип лампы">галогеновая или LED</param>
+<param name="мощность лампы">25</param>
+<param name="мощность общая">75</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">3</param>
+<param name="тип цоколя">GU10</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5041</param>
+<param name="Назначение помещения">кафе, рестораны</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-50411</param>
+<param name="площадь освещения">4.5</param>
+<param name="поворотный">Да</param>
+<param name="КодТовара">520396</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001950" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/lampa_nastennaya_wl_51977/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507367_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/507/000507368_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-51977]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-51977]]></vendorCode>
+<model><![CDATA[WL-51977]]></model>
+<description><![CDATA[]]></description>
+<quantity>15</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">150</param>
+<param name="длина">150</param>
+<param name="высота">540</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5197</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Полукруг</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-51977</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Да</param>
+<param name="подсветка">Нет</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">520663</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001952" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/lampa_nastennaya_wl_59939/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507375_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/507/000507376_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-59939]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-59939]]></vendorCode>
+<model><![CDATA[WL-59939]]></model>
+<description><![CDATA[]]></description>
+<quantity>18</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">1820</param>
+<param name="длина">1100</param>
+<param name="высота">170</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">80</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">2</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5993</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-59939</param>
+<param name="площадь освещения">8</param>
+<param name="поворотный">Да</param>
+<param name="подсветка">Нет</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">520665</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001953" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/lampa_nastennaya_wl_51816/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507364_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/507/000507365_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/507/000507366_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-51816]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-51816]]></vendorCode>
+<model><![CDATA[WL-51816]]></model>
+<description><![CDATA[]]></description>
+<quantity>18</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">200</param>
+<param name="длина">970</param>
+<param name="высота">1740</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">80</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">2</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5181</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-51816</param>
+<param name="площадь освещения">8</param>
+<param name="поворотный">Да</param>
+<param name="подсветка">Нет</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">520666</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001954" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/lampa_nastennaya_wl_52013/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507369_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/507/000507370_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-52013]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-52013]]></vendorCode>
+<model><![CDATA[WL-52013]]></model>
+<description><![CDATA[]]></description>
+<quantity>20</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">510</param>
+<param name="длина">150</param>
+<param name="высота">130</param>
+<param name="тип лампы">галогеновая или LED</param>
+<param name="мощность лампы">25</param>
+<param name="мощность общая">25</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">GU10</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5201</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-52013</param>
+<param name="площадь освещения">1.5</param>
+<param name="поворотный">Нет</param>
+<param name="подсветка">Нет</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">520667</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001955" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/lampa_nastennaya_wl_51450/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507358_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-51450]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-51450]]></vendorCode>
+<model><![CDATA[WL-51450]]></model>
+<description><![CDATA[]]></description>
+<quantity>13</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">500</param>
+<param name="длина">170</param>
+<param name="высота">80</param>
+<param name="тип лампы">галогеновая или LED</param>
+<param name="мощность лампы">25</param>
+<param name="мощность общая">75</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">3</param>
+<param name="тип цоколя">GU10</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5145</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-51450</param>
+<param name="площадь освещения">4.5</param>
+<param name="поворотный">Да</param>
+<param name="подсветка">Нет</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">520668</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001959" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/svetilniki_nastennye_i_bra/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507374_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-58877]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-58877]]></vendorCode>
+<model><![CDATA[WL-58877]]></model>
+<description><![CDATA[]]></description>
+<quantity>15</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">современный</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">130</param>
+<param name="длина">300</param>
+<param name="высота">200</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">25</param>
+<param name="мощность общая">25</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E14</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5887</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Цилиндр</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-58877</param>
+<param name="площадь освещения">3</param>
+<param name="поворотный">Да</param>
+<param name="подсветка">Нет</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">539394</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977663" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/lampa_nastennaya_wl_51327/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385356_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-51327]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-51327]]></vendorCode>
+<model><![CDATA[WL-51327]]></model>
+<description><![CDATA[]]></description>
+<quantity>10</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">80</param>
+<param name="длина">185</param>
+<param name="высота">1230</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5132</param>
+<param name="Назначение помещения">кафе, рестораны</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-51327</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520382</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977670" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/lampa_nastennaya_wl_59902/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385394_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385395_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385396_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-59902]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-59902]]></vendorCode>
+<model><![CDATA[WL-59902]]></model>
+<description><![CDATA[]]></description>
+<quantity>2</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">170</param>
+<param name="длина">400</param>
+<param name="высота">100</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5990</param>
+<param name="Назначение помещения">кафе, рестораны</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-59902</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Да</param>
+<param name="КодТовара">520389</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001949" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/lampa_nastennaya_wl_30588/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507352_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/507/000507353_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра Covali WL-30588]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-30588]]></vendorCode>
+<model><![CDATA[WL-30588]]></model>
+<description><![CDATA[]]></description>
+<quantity>9</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">черный</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">прозрачный</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">80</param>
+<param name="длина">120</param>
+<param name="высота">515</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">3058</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Прямоугольный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-30588</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="подсветка">Нет</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">520662</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977665" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastolnye_lampy/lampa_nastolnaya_nl_59814/</url>
+<categoryId>2865</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385337_800_800.jpg</picture>
+<typePrefix><![CDATA[Настольная лампа]]></typePrefix>
+<name><![CDATA[Настольная лампа Covali NL-59814]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[NL-59814]]></vendorCode>
+<model><![CDATA[NL-59814]]></model>
+<description><![CDATA[]]></description>
+<quantity>43</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">прямоугольник</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">65</param>
+<param name="длина">520</param>
+<param name="высота">390</param>
+<param name="тип лампы">галогеновая или LED</param>
+<param name="мощность лампы">25</param>
+<param name="мощность общая">25</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">GU10</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Да</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стол</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5981</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">NL-59814</param>
+<param name="площадь освещения">1.5</param>
+<param name="поворотный">Да</param>
+<param name="способ крепления">Струбцина</param>
+<param name="КодТовара">520384</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977685" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastolnye_lampy/lampa_nastolnaya_nl_51994/</url>
+<categoryId>2865</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385334_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385335_800_800.jpg</picture>
+<typePrefix><![CDATA[Настольная лампа]]></typePrefix>
+<name><![CDATA[Настольная лампа Covali NL-51994]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[NL-51994]]></vendorCode>
+<model><![CDATA[NL-51994]]></model>
+<description><![CDATA[]]></description>
+<quantity>41</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">65</param>
+<param name="высота">510</param>
+<param name="тип лампы">галогеновая или LED</param>
+<param name="мощность лампы">25</param>
+<param name="мощность общая">25</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">GU10</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Да</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стол</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5199</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">NL-51994</param>
+<param name="площадь освещения">1.5</param>
+<param name="поворотный">Да</param>
+<param name="КодТовара">520407</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001957" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastolnye_lampy/lampa_nastolnaya_nl_51449/</url>
+<categoryId>2865</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507332_800_800.jpg</picture>
+<typePrefix><![CDATA[Настольная лампа]]></typePrefix>
+<name><![CDATA[Настольная лампа Covali NL-51449]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[NL-51449]]></vendorCode>
+<model><![CDATA[NL-51449]]></model>
+<description><![CDATA[]]></description>
+<quantity>28</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">140</param>
+<param name="длина">140</param>
+<param name="высота">480</param>
+<param name="тип лампы">галогеновая или LED</param>
+<param name="мощность лампы">25</param>
+<param name="мощность общая">25</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">GU10</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Да</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стол</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="особенности">Гнущиеся </param>
+<param name="коллекция">5144</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">NL-51449</param>
+<param name="площадь освещения">1.5</param>
+<param name="поворотный">Нет</param>
+<param name="подсветка">Нет</param>
+<param name="КодТовара">520673</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977652" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastolnye_lampy/lampa_nastolnaya_nl_51564/</url>
+<categoryId>2865</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385416_800_800.jpg</picture>
+<typePrefix><![CDATA[Настольная лампа]]></typePrefix>
+<name><![CDATA[Настольная лампа Covali NL-51564]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[NL-51564]]></vendorCode>
+<model><![CDATA[NL-51564]]></model>
+<description><![CDATA[]]></description>
+<quantity>21</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">прозрачный</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">250</param>
+<param name="длина">510</param>
+<param name="высота">280</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Да</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стол</param>
+<param name="Страна происхождения">Россия</param>
+<param name="особенности">Дизайнерская настольная лампа</param>
+<param name="коллекция">5154</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">NL-51564</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520366</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977664" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastolnye_lampy/lampa_nastolnaya_nl_59161/</url>
+<categoryId>2865</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385336_800_800.jpg</picture>
+<typePrefix><![CDATA[Настольная лампа]]></typePrefix>
+<name><![CDATA[Настольная лампа Covali NL-59161]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[NL-59161]]></vendorCode>
+<model><![CDATA[NL-59161]]></model>
+<description><![CDATA[]]></description>
+<quantity>21</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">850</param>
+<param name="длина">660</param>
+<param name="высота">190</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Да</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стол</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5917</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">NL-59161</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Да</param>
+<param name="КодТовара">520383</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977653" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastolnye_lampy/lampa_nastolnaya_nl_51321/</url>
+<categoryId>2865</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385328_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385329_800_800.jpg</picture>
+<typePrefix><![CDATA[Настольная лампа]]></typePrefix>
+<name><![CDATA[Настольная лампа Covali NL-51321]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[NL-51321]]></vendorCode>
+<model><![CDATA[NL-51321]]></model>
+<description><![CDATA[]]></description>
+<quantity>9</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">прямоугольник</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">140</param>
+<param name="длина">350</param>
+<param name="высота">310</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">25</param>
+<param name="мощность общая">25</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E14</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Да</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стол</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5132</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Прямоугольный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">NL-51321</param>
+<param name="вид выключателя">кнопка</param>
+<param name="площадь освещения">3</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520367</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977657" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastolnye_lampy/lampa_nastolnaya_nl_51633/</url>
+<categoryId>2865</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385331_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385332_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385333_800_800.jpg</picture>
+<typePrefix><![CDATA[Настольная лампа]]></typePrefix>
+<name><![CDATA[Настольная лампа Covali NL-51633]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[NL-51633]]></vendorCode>
+<model><![CDATA[NL-51633]]></model>
+<description><![CDATA[]]></description>
+<quantity>11</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">200</param>
+<param name="высота">300</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Да</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стол</param>
+<param name="Страна происхождения">Россия</param>
+<param name="особенности">Дизайнерская настольная лампа</param>
+<param name="коллекция">5163</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">NL-51633</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520374</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977658" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustri-na-shtange/lampa_potolochnaya_pl_51527/</url>
+<categoryId>2869</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385344_800_800.jpg</picture>
+<typePrefix><![CDATA[Люстра на штанге]]></typePrefix>
+<name><![CDATA[Люстра на штанге Covali PL-51527]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[PL-51527]]></vendorCode>
+<model><![CDATA[PL-51527]]></model>
+<description><![CDATA[]]></description>
+<quantity>21</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">треугольник</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="ширина/диаметр">1350</param>
+<param name="длина">950</param>
+<param name="высота">870</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">120</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">3</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5152</param>
+<param name="Назначение помещения">кафе, рестораны</param>
+<param name="форма плафона">Без плафона</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">PL-51527</param>
+<param name="площадь освещения">12</param>
+<param name="поворотный">Да</param>
+<param name="КодТовара">520376</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977668" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustri-na-shtange/lampa_potolochnaya_pl_59936/</url>
+<categoryId>2869</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385349_800_800.jpg</picture>
+<typePrefix><![CDATA[Люстра на штанге]]></typePrefix>
+<name><![CDATA[Люстра на штанге Covali PL-59936]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[PL-59936]]></vendorCode>
+<model><![CDATA[PL-59936]]></model>
+<description><![CDATA[]]></description>
+<quantity>24</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">прямоугольник</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">310</param>
+<param name="длина">1740</param>
+<param name="высота">860</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">120</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">3</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5993</param>
+<param name="Назначение помещения">кафе, рестораны</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">PL-59936</param>
+<param name="площадь освещения">12</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520387</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977669" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustri-na-shtange/lampa_potolochnaya_pl_59866/</url>
+<categoryId>2869</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385348_800_800.jpg</picture>
+<typePrefix><![CDATA[Люстра на штанге]]></typePrefix>
+<name><![CDATA[Люстра на штанге Covali PL-59866]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[PL-59866]]></vendorCode>
+<model><![CDATA[PL-59866]]></model>
+<description><![CDATA[]]></description>
+<quantity>29</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">прямоугольник</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">310</param>
+<param name="длина">1240</param>
+<param name="высота">880</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">80</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">2</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5993</param>
+<param name="Назначение помещения">кафе, рестораны</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">PL-59866</param>
+<param name="площадь освещения">8</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520388</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001958" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustri-na-shtange/lampa_potolochnaya_rl_51117/</url>
+<categoryId>2869</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507340_800_800.jpg</picture>
+<typePrefix><![CDATA[Люстра на штанге]]></typePrefix>
+<name><![CDATA[Люстра на штанге Covali PL-51117]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[PL-51117]]></vendorCode>
+<model><![CDATA[PL-51117]]></model>
+<description><![CDATA[]]></description>
+<quantity>15</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">500</param>
+<param name="высота">1230</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">160</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">4</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5111</param>
+<param name="Назначение помещения">кухня</param>
+<param name="форма плафона">Конусный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">PL-51117</param>
+<param name="площадь освещения">16</param>
+<param name="поворотный">Нет</param>
+<param name="подсветка">Нет</param>
+<param name="тип подвеса">штанга</param>
+<param name="способ крепления">Крюк</param>
+<param name="КодТовара">520677</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977674" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustra-podvesnaya/potolochnyy_svetilnik_pl_50133/</url>
+<categoryId>2871</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385338_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385339_800_800.jpg</picture>
+<typePrefix><![CDATA[Подвесная люстра]]></typePrefix>
+<name><![CDATA[Подвесная люстра Covali PL-50133]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[PL-50133]]></vendorCode>
+<model><![CDATA[PL-50133]]></model>
+<description><![CDATA[]]></description>
+<quantity>14</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">прямоугольник</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">1170</param>
+<param name="высота">580</param>
+<param name="тип лампы">галогеновая или LED</param>
+<param name="мощность лампы">25</param>
+<param name="мощность общая">150</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">6</param>
+<param name="тип цоколя">GU10</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5013</param>
+<param name="Назначение помещения">кафе, рестораны</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">PL-50133</param>
+<param name="площадь освещения">9</param>
+<param name="поворотный">Да</param>
+<param name="КодТовара">520393</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977654" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustra-podvesnaya/lampa_potolochnaya_pl_51557/</url>
+<categoryId>2871</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385346_800_800.jpg</picture>
+<typePrefix><![CDATA[Подвесная люстра]]></typePrefix>
+<name><![CDATA[Подвесная люстра Covali PL-51557]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[PL-51557]]></vendorCode>
+<model><![CDATA[PL-51557]]></model>
+<description><![CDATA[]]></description>
+<quantity>6</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">прямоугольник</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">100</param>
+<param name="длина">1910</param>
+<param name="высота">440</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">200</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">5</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5155</param>
+<param name="Назначение помещения">кафе, рестораны</param>
+<param name="форма плафона">Декоративный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">PL-51557</param>
+<param name="площадь освещения">20</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520368</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977687" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustra-podvesnaya/lampa_potolochnaya_pl_51547/</url>
+<categoryId>2871</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385345_800_800.jpg</picture>
+<typePrefix><![CDATA[Подвесная люстра]]></typePrefix>
+<name><![CDATA[Подвесная люстра Covali PL-51547]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[PL-51547]]></vendorCode>
+<model><![CDATA[PL-51547]]></model>
+<description><![CDATA[]]></description>
+<quantity>4</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">квадрат</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">прозрачный</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">120</param>
+<param name="длина">920</param>
+<param name="высота">1160</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">160</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">4</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5154</param>
+<param name="Назначение помещения">кафе, рестораны</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">PL-51547</param>
+<param name="площадь освещения">16</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520411</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001946" type="vendor.model">
+<url>https://divine-light.ru/catalog/potolochnie-svetilniki-nakladnie/lampa_potolochnaya_pl_51685/</url>
+<categoryId>2874</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507344_800_800.jpg</picture>
+<typePrefix><![CDATA[Накладной светильник]]></typePrefix>
+<name><![CDATA[Накладной светильник Covali PL-51685]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[PL-51685]]></vendorCode>
+<model><![CDATA[PL-51685]]></model>
+<description><![CDATA[]]></description>
+<quantity>20</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">прозрачный</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">125</param>
+<param name="высота">315</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5168</param>
+<param name="Назначение помещения">прихожая</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">PL-51685</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="подсветка">Нет</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">520371</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977680" type="vendor.model">
+<url>https://divine-light.ru/catalog/potolochnie-svetilniki-podvesnie/lampa_potolochnaya_pl_51164_tolko_osnovanie_bez_lampochki/</url>
+<categoryId>2875</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385340_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385341_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385342_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385343_800_800.jpg</picture>
+<typePrefix><![CDATA[Подвесной светильник]]></typePrefix>
+<name><![CDATA[Подвесной светильник Covali PL-51164]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[PL-51164]]></vendorCode>
+<model><![CDATA[PL-51164]]></model>
+<description><![CDATA[]]></description>
+<quantity>37</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="ширина/диаметр">135</param>
+<param name="высота">70</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5116</param>
+<param name="Назначение помещения">кафе, рестораны</param>
+<param name="форма плафона">Без плафона</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">PL-51164</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520400</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977686" type="vendor.model">
+<url>https://divine-light.ru/catalog/potolochnie-svetilniki-podvesnie/potolochnyy_svetilnik_pl_51996/</url>
+<categoryId>2875</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385347_800_800.jpg</picture>
+<typePrefix><![CDATA[Подвесной светильник]]></typePrefix>
+<name><![CDATA[Подвесной светильник Covali PL-51996]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[PL-51996]]></vendorCode>
+<model><![CDATA[PL-51996]]></model>
+<description><![CDATA[]]></description>
+<quantity>35</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">современный</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">прозрачный</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">225</param>
+<param name="высота">630</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5199</param>
+<param name="Назначение помещения">кафе, рестораны</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">PL-51996</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520410</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001971" type="vendor.model">
+<url>https://divine-light.ru/catalog/potolochnie-svetilniki-podvesnie/lampa_potolochnaya_rl_90180/</url>
+<categoryId>2875</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507345_800_800.jpg</picture>
+<typePrefix><![CDATA[Подвесной светильник]]></typePrefix>
+<name><![CDATA[Подвесной светильник Covali PL-90180]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[PL-90180]]></vendorCode>
+<model><![CDATA[PL-90180]]></model>
+<description><![CDATA[]]></description>
+<quantity>33</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">прозрачный</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">140</param>
+<param name="высота">800</param>
+<param name="высота минимальная">280</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">9018</param>
+<param name="Назначение помещения">кухня</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">PL-90180</param>
+<param name="длина цепи">520</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="подсветка">Нет</param>
+<param name="тип подвеса">цепь</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">520675</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001978" type="vendor.model">
+<url>https://divine-light.ru/catalog/potolochnie-svetilniki-podvesnie/svetilniki_potolochnye_2/</url>
+<categoryId>2875</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507336_800_800.jpg</picture>
+<typePrefix><![CDATA[Подвесной светильник]]></typePrefix>
+<name><![CDATA[Подвесной светильник Covali PL-30725]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[PL-30725]]></vendorCode>
+<model><![CDATA[PL-30725]]></model>
+<description><![CDATA[]]></description>
+<quantity>33</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">латунный</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">прозрачный</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">160</param>
+<param name="высота">1200</param>
+<param name="высота минимальная">390</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">3072</param>
+<param name="Назначение помещения">кухня</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">PL-30725</param>
+<param name="длина цепи">810</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="подсветка">Нет</param>
+<param name="тип подвеса">трос (провод)</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">539478</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001979" type="vendor.model">
+<url>https://divine-light.ru/catalog/potolochnie-svetilniki-podvesnie/svetilniki_potolochnye_3/</url>
+<categoryId>2875</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507335_800_800.jpg</picture>
+<typePrefix><![CDATA[Подвесной светильник]]></typePrefix>
+<name><![CDATA[Подвесной светильник Covali PL-30724]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[PL-30724]]></vendorCode>
+<model><![CDATA[PL-30724]]></model>
+<description><![CDATA[]]></description>
+<quantity>33</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">латунный</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">прозрачный</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">100</param>
+<param name="высота">1200</param>
+<param name="высота минимальная">280</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">3072</param>
+<param name="Назначение помещения">кухня</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">PL-30724</param>
+<param name="длина цепи">920</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="подсветка">Нет</param>
+<param name="тип подвеса">трос (провод)</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">539479</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001980" type="vendor.model">
+<url>https://divine-light.ru/catalog/potolochnie-svetilniki-podvesnie/svetilniki_potolochnye_4/</url>
+<categoryId>2875</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507339_800_800.jpg</picture>
+<typePrefix><![CDATA[Подвесной светильник]]></typePrefix>
+<name><![CDATA[Подвесной светильник Covali PL-50614]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[PL-50614]]></vendorCode>
+<model><![CDATA[PL-50614]]></model>
+<description><![CDATA[]]></description>
+<quantity>22</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">255</param>
+<param name="высота">1050</param>
+<param name="высота минимальная">280</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5061</param>
+<param name="Назначение помещения">кухня</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">PL-50614</param>
+<param name="длина цепи">770</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="подсветка">Нет</param>
+<param name="тип подвеса">трос (провод)</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">539493</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001963" type="vendor.model">
+<url>https://divine-light.ru/catalog/potolochnie-svetilniki-podvesnie/lampa_potolochnaya_pl_51558/</url>
+<categoryId>2875</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507342_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/507/000507343_800_800.jpg</picture>
+<typePrefix><![CDATA[Подвесной светильник]]></typePrefix>
+<name><![CDATA[Подвесной светильник Covali PL-51558]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[PL-51558]]></vendorCode>
+<model><![CDATA[PL-51558]]></model>
+<description><![CDATA[]]></description>
+<quantity>6</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">100</param>
+<param name="длина">2620</param>
+<param name="высота">1200</param>
+<param name="высота минимальная">440</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5155</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">PL-51558</param>
+<param name="длина цепи">760</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="подсветка">Нет</param>
+<param name="тип подвеса">цепь</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">520369</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001976" type="vendor.model">
+<url>https://divine-light.ru/catalog/potolochnie-svetilniki-podvesnie/svetilniki_potolochnye/</url>
+<categoryId>2875</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507333_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/507/000507334_800_800.jpg</picture>
+<typePrefix><![CDATA[Подвесной светильник]]></typePrefix>
+<name><![CDATA[Подвесной светильник Covali PL-30201]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[PL-30201]]></vendorCode>
+<model><![CDATA[PL-30201]]></model>
+<description><![CDATA[]]></description>
+<quantity>3</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">бронзовый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">510</param>
+<param name="высота">1500</param>
+<param name="высота минимальная">630</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">3020</param>
+<param name="Назначение помещения">кухня</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">PL-30201</param>
+<param name="длина цепи">970</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="подсветка">Нет</param>
+<param name="тип подвеса">цепь</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">539464</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001977" type="vendor.model">
+<url>https://divine-light.ru/catalog/potolochnie-svetilniki-podvesnie/svetilniki_potolochnye_1/</url>
+<categoryId>2875</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507337_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/507/000507338_800_800.jpg</picture>
+<typePrefix><![CDATA[Подвесной светильник]]></typePrefix>
+<name><![CDATA[Подвесной светильник Covali PL-30859]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[PL-30859]]></vendorCode>
+<model><![CDATA[PL-30859]]></model>
+<description><![CDATA[]]></description>
+<quantity>1</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">латунный</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">латунь</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">300</param>
+<param name="высота">1300</param>
+<param name="высота минимальная">300</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">3085</param>
+<param name="Назначение помещения">кухня</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">PL-30859</param>
+<param name="длина цепи">1000</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="подсветка">Нет</param>
+<param name="тип подвеса">цепь</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">539470</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977671" type="vendor.model">
+<url>https://divine-light.ru/catalog/torshery_i_napolnye_svetilniki/torsher_fl_59171/</url>
+<categoryId>2894</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385413_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385414_800_800.jpg</picture>
+<typePrefix><![CDATA[Торшер]]></typePrefix>
+<name><![CDATA[Торшер Covali FL-59171]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[FL-59171]]></vendorCode>
+<model><![CDATA[FL-59171]]></model>
+<description><![CDATA[]]></description>
+<quantity>31</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">240</param>
+<param name="длина">520</param>
+<param name="высота">1560</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Да</param>
+<param name="Место установки">На пол</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5917</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">FL-59171</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Да</param>
+<param name="КодТовара">520390</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977672" type="vendor.model">
+<url>https://divine-light.ru/catalog/torshery_i_napolnye_svetilniki/torsher_fl_50936/</url>
+<categoryId>2894</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385411_800_800.jpg</picture>
+<typePrefix><![CDATA[Торшер]]></typePrefix>
+<name><![CDATA[Торшер Covali FL-50936]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[FL-50936]]></vendorCode>
+<model><![CDATA[FL-50936]]></model>
+<description><![CDATA[]]></description>
+<quantity>21</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">240</param>
+<param name="длина">600</param>
+<param name="высота">1550</param>
+<param name="тип лампы">галогеновая или LED</param>
+<param name="мощность лампы">25</param>
+<param name="мощность общая">25</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">GU10</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Да</param>
+<param name="Место установки">На пол</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5981</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">FL-50936</param>
+<param name="площадь освещения">1.5</param>
+<param name="поворотный">Да</param>
+<param name="КодТовара">520391</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001966" type="vendor.model">
+<url>https://divine-light.ru/catalog/torshery_i_napolnye_svetilniki/torsher_fl_51519/</url>
+<categoryId>2894</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507331_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/507/000507378_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/507/000507379_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/507/000507380_800_800.jpg</picture>
+<typePrefix><![CDATA[Торшер]]></typePrefix>
+<name><![CDATA[Торшер Covali FL-51519]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[FL-51519]]></vendorCode>
+<model><![CDATA[FL-51519]]></model>
+<description><![CDATA[]]></description>
+<quantity>20</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">треугольник</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">210</param>
+<param name="длина">620</param>
+<param name="высота">1460</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Да</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На пол</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5151</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Конусный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">FL-51519</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="подсветка">Нет</param>
+<param name="КодТовара">520406</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977681" type="vendor.model">
+<url>https://divine-light.ru/catalog/torshery_i_napolnye_svetilniki/torsher_fl_50728/</url>
+<categoryId>2894</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385410_800_800.jpg</picture>
+<typePrefix><![CDATA[Торшер]]></typePrefix>
+<name><![CDATA[Торшер Covali FL-50728]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[FL-50728]]></vendorCode>
+<model><![CDATA[FL-50728]]></model>
+<description><![CDATA[]]></description>
+<quantity>7</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">400</param>
+<param name="высота">2350</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Да</param>
+<param name="Место установки">На пол</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5072</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">FL-50728</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Да</param>
+<param name="КодТовара">520401</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977673" type="vendor.model">
+<url>https://divine-light.ru/catalog/torshery_i_napolnye_svetilniki/torsher_fl_50286/</url>
+<categoryId>2894</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385407_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385408_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385409_800_800.jpg</picture>
+<typePrefix><![CDATA[Торшер]]></typePrefix>
+<name><![CDATA[Торшер Covali FL-50286]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[FL-50286]]></vendorCode>
+<model><![CDATA[FL-50286]]></model>
+<description><![CDATA[]]></description>
+<quantity>4</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">треугольник</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">520</param>
+<param name="высота">1590</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Да</param>
+<param name="Место установки">На пол</param>
+<param name="Страна происхождения">Россия</param>
+<param name="коллекция">5028</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">FL-50286</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Да</param>
+<param name="КодТовара">520392</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977639" type="vendor.model">
+<url>https://divine-light.ru/catalog/ulichnoe_osveshchenie-nastennye_i_bra/lampa_nastennaya_wl_59895/</url>
+<categoryId>2920</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385392_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385393_800_800.jpg</picture>
+<typePrefix><![CDATA[Светильник настенный]]></typePrefix>
+<name><![CDATA[Светильник настенный Covali WL-59895]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-59895]]></vendorCode>
+<model><![CDATA[WL-59895]]></model>
+<description><![CDATA[]]></description>
+<quantity>32</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">прозрачный</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">135</param>
+<param name="длина">290</param>
+<param name="высота">200</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">54</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5989</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-59895</param>
+<param name="датчик освещенности">Нет</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520353</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977640" type="vendor.model">
+<url>https://divine-light.ru/catalog/ulichnoe_osveshchenie-nastennye_i_bra/lampa_nastennaya_wl_51726/</url>
+<categoryId>2920</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385373_800_800.jpg</picture>
+<typePrefix><![CDATA[Светильник настенный]]></typePrefix>
+<name><![CDATA[Светильник настенный Covali WL-51726]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-51726]]></vendorCode>
+<model><![CDATA[WL-51726]]></model>
+<description><![CDATA[]]></description>
+<quantity>17</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">прозрачный</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">215</param>
+<param name="высота">320</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">54</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5172</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-51726</param>
+<param name="датчик освещенности">Нет</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520354</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977641" type="vendor.model">
+<url>https://divine-light.ru/catalog/ulichnoe_osveshchenie-nastennye_i_bra/lampa_nastennaya_wl_50126/</url>
+<categoryId>2920</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385352_800_800.jpg</picture>
+<typePrefix><![CDATA[Светильник настенный]]></typePrefix>
+<name><![CDATA[Светильник настенный Covali WL-50126]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-50126]]></vendorCode>
+<model><![CDATA[WL-50126]]></model>
+<description><![CDATA[]]></description>
+<quantity>41</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">прозрачный</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">220</param>
+<param name="длина">110</param>
+<param name="высота">150</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">54</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5012</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-50126</param>
+<param name="датчик освещенности">Нет</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520355</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977645" type="vendor.model">
+<url>https://divine-light.ru/catalog/ulichnoe_osveshchenie-nastennye_i_bra/lampa_nastennaya_wl_57489/</url>
+<categoryId>2920</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385380_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385381_800_800.jpg</picture>
+<typePrefix><![CDATA[Светильник настенный]]></typePrefix>
+<name><![CDATA[Светильник настенный Covali WL-57489]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-57489]]></vendorCode>
+<model><![CDATA[WL-57489]]></model>
+<description><![CDATA[]]></description>
+<quantity>23</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">300</param>
+<param name="длина">490</param>
+<param name="высота">330</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">54</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5748</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-57489</param>
+<param name="датчик освещенности">Нет</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520359</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977648" type="vendor.model">
+<url>https://divine-light.ru/catalog/ulichnoe_osveshchenie-nastennye_i_bra/lampa_nastenaya_wl_59951/</url>
+<categoryId>2920</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385400_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385401_800_800.jpg</picture>
+<typePrefix><![CDATA[Светильник настенный]]></typePrefix>
+<name><![CDATA[Светильник настенный Covali WL-59951]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-59951]]></vendorCode>
+<model><![CDATA[WL-59951]]></model>
+<description><![CDATA[]]></description>
+<quantity>17</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">110</param>
+<param name="длина">610</param>
+<param name="высота">240</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">54</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5199</param>
+<param name="форма плафона">Декоративный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-59951</param>
+<param name="датчик освещенности">Нет</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520362</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977649" type="vendor.model">
+<url>https://divine-light.ru/catalog/ulichnoe_osveshchenie-nastennye_i_bra/lampa_nastennaya_wl_59986/</url>
+<categoryId>2920</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385405_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385406_800_800.jpg</picture>
+<typePrefix><![CDATA[Светильник настенный]]></typePrefix>
+<name><![CDATA[Светильник настенный Covali WL-59986]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-59986]]></vendorCode>
+<model><![CDATA[WL-59986]]></model>
+<description><![CDATA[]]></description>
+<quantity>18</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">прозрачный</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">340</param>
+<param name="высота">110</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">54</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5998</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-59986</param>
+<param name="датчик освещенности">Нет</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520363</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977650" type="vendor.model">
+<url>https://divine-light.ru/catalog/ulichnoe_osveshchenie-nastennye_i_bra/lampa_nastennaya_wl_51505/</url>
+<categoryId>2920</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385363_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385364_800_800.jpg</picture>
+<typePrefix><![CDATA[Светильник настенный]]></typePrefix>
+<name><![CDATA[Светильник настенный Covali WL-51505]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-51505]]></vendorCode>
+<model><![CDATA[WL-51505]]></model>
+<description><![CDATA[]]></description>
+<quantity>80</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">прозрачный</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">95</param>
+<param name="длина">125</param>
+<param name="высота">95</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">54</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5150</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-51505</param>
+<param name="датчик освещенности">Нет</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520364</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977655" type="vendor.model">
+<url>https://divine-light.ru/catalog/ulichnoe_osveshchenie-nastennye_i_bra/lampa_nastennaya_wl_59489/</url>
+<categoryId>2920</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385383_800_800.jpg</picture>
+<typePrefix><![CDATA[Светильник настенный]]></typePrefix>
+<name><![CDATA[Светильник настенный Covali WL-59489]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-59489]]></vendorCode>
+<model><![CDATA[WL-59489]]></model>
+<description><![CDATA[]]></description>
+<quantity>9</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">прозрачный</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">450</param>
+<param name="длина">840</param>
+<param name="высота">580</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">54</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5948</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-59489</param>
+<param name="датчик освещенности">Нет</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520370</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977656" type="vendor.model">
+<url>https://divine-light.ru/catalog/ulichnoe_osveshchenie-nastennye_i_bra/lampa_nastennaya_wl_30031/</url>
+<categoryId>2920</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385350_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385351_800_800.jpg</picture>
+<typePrefix><![CDATA[Светильник настенный]]></typePrefix>
+<name><![CDATA[Светильник настенный Covali WL-30031]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-30031]]></vendorCode>
+<model><![CDATA[WL-30031]]></model>
+<description><![CDATA[]]></description>
+<quantity>9</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">черный</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">черный</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">400</param>
+<param name="длина">740</param>
+<param name="высота">590</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">54</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">3003</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-30031</param>
+<param name="датчик освещенности">Нет</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520373</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977666" type="vendor.model">
+<url>https://divine-light.ru/catalog/ulichnoe_osveshchenie-nastennye_i_bra/lampa_nastennaya_wl_59854/</url>
+<categoryId>2920</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385388_800_800.jpg</picture>
+<typePrefix><![CDATA[Светильник настенный]]></typePrefix>
+<name><![CDATA[Светильник настенный Covali WL-59854]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-59854]]></vendorCode>
+<model><![CDATA[WL-59854]]></model>
+<description><![CDATA[]]></description>
+<quantity>15</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">прозрачный</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">100</param>
+<param name="высота">285</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">25</param>
+<param name="мощность общая">25</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">54</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5985</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-59854</param>
+<param name="датчик освещенности">Нет</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520385</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977667" type="vendor.model">
+<url>https://divine-light.ru/catalog/ulichnoe_osveshchenie-nastennye_i_bra/lampa_nastennaya_wl_59977/</url>
+<categoryId>2920</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385402_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385403_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/385/000385404_800_800.jpg</picture>
+<typePrefix><![CDATA[Светильник настенный]]></typePrefix>
+<name><![CDATA[Светильник настенный Covali WL-59977]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-59977]]></vendorCode>
+<model><![CDATA[WL-59977]]></model>
+<description><![CDATA[]]></description>
+<quantity>14</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">прозрачный</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">220</param>
+<param name="высота">230</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">54</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5997</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-59977</param>
+<param name="датчик освещенности">Нет</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520386</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977675" type="vendor.model">
+<url>https://divine-light.ru/catalog/ulichnoe_osveshchenie-nastennye_i_bra/lampa_nastennaya_wl_59855/</url>
+<categoryId>2920</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385389_800_800.jpg</picture>
+<typePrefix><![CDATA[Светильник настенный]]></typePrefix>
+<name><![CDATA[Светильник настенный Covali WL-59855]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-59855]]></vendorCode>
+<model><![CDATA[WL-59855]]></model>
+<description><![CDATA[]]></description>
+<quantity>20</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">прозрачный</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">210</param>
+<param name="длина">370</param>
+<param name="высота">320</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">25</param>
+<param name="мощность общая">25</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">54</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5985</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-59855</param>
+<param name="датчик освещенности">Нет</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520395</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977678" type="vendor.model">
+<url>https://divine-light.ru/catalog/ulichnoe_osveshchenie-nastennye_i_bra/lampa_nastennaya_wl_51687/</url>
+<categoryId>2920</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385371_800_800.jpg</picture>
+<typePrefix><![CDATA[Светильник настенный]]></typePrefix>
+<name><![CDATA[Светильник настенный Covali WL-51687]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-51687]]></vendorCode>
+<model><![CDATA[WL-51687]]></model>
+<description><![CDATA[]]></description>
+<quantity>22</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">черный</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">черный</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">250</param>
+<param name="высота">700</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">54</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5168</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-51687</param>
+<param name="датчик освещенности">Нет</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520398</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="977679" type="vendor.model">
+<url>https://divine-light.ru/catalog/ulichnoe_osveshchenie-nastennye_i_bra/lampa_nastennaya_wl_58847/</url>
+<categoryId>2920</categoryId>
+<picture>https://img.divine-light.ru/0/385/000385382_800_800.jpg</picture>
+<typePrefix><![CDATA[Светильник настенный]]></typePrefix>
+<name><![CDATA[Светильник настенный Covali WL-58847]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-58847]]></vendorCode>
+<model><![CDATA[WL-58847]]></model>
+<description><![CDATA[]]></description>
+<quantity>13</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">прозрачный</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">450</param>
+<param name="длина">1070</param>
+<param name="высота">520</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">54</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5884</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-58847</param>
+<param name="датчик освещенности">Нет</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">520399</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001964" type="vendor.model">
+<url>https://divine-light.ru/catalog/ulichnoe_osveshchenie-nastennye_i_bra/lampa_nastennaya_wl_51506/</url>
+<categoryId>2920</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507361_800_800.jpg</picture>
+<typePrefix><![CDATA[Светильник настенный]]></typePrefix>
+<name><![CDATA[Светильник настенный Covali WL-51506]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-51506]]></vendorCode>
+<model><![CDATA[WL-51506]]></model>
+<description><![CDATA[]]></description>
+<quantity>8</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">черный</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">черный</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">480</param>
+<param name="длина">670</param>
+<param name="высота">940</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">54</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5150</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-51506</param>
+<param name="датчик освещенности">Нет</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="подсветка">Нет</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">520372</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001965" type="vendor.model">
+<url>https://divine-light.ru/catalog/ulichnoe_osveshchenie-nastennye_i_bra/lampa_nastennaya_wl_58830/</url>
+<categoryId>2920</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507373_800_800.jpg</picture>
+<typePrefix><![CDATA[Светильник настенный]]></typePrefix>
+<name><![CDATA[Светильник настенный Covali WL-58830]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-58830]]></vendorCode>
+<model><![CDATA[WL-58830]]></model>
+<description><![CDATA[]]></description>
+<quantity>7</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">прямоугольник</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">прозрачный</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">130</param>
+<param name="длина">1100</param>
+<param name="высота">320</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">54</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5883</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-58830</param>
+<param name="датчик освещенности">Нет</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="подсветка">Нет</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">520375</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001967" type="vendor.model">
+<url>https://divine-light.ru/catalog/ulichnoe_osveshchenie-nastennye_i_bra/lampa_nastennaya_wl_30176/</url>
+<categoryId>2920</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507346_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/507/000507347_800_800.jpg</picture>
+<typePrefix><![CDATA[Светильник настенный]]></typePrefix>
+<name><![CDATA[Светильник настенный Covali WL-30176]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-30176]]></vendorCode>
+<model><![CDATA[WL-30176]]></model>
+<description><![CDATA[]]></description>
+<quantity>30</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">черный</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">прозрачный</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">220</param>
+<param name="длина">150</param>
+<param name="высота">110</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">54</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">3017</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-30176</param>
+<param name="датчик освещенности">Нет</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="подсветка">Нет</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">520659</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001968" type="vendor.model">
+<url>https://divine-light.ru/catalog/ulichnoe_osveshchenie-nastennye_i_bra/lampa_nastennaya_wl_50839/</url>
+<categoryId>2920</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507357_800_800.jpg</picture>
+<typePrefix><![CDATA[Светильник настенный]]></typePrefix>
+<name><![CDATA[Светильник настенный Covali WL-50839]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-50839]]></vendorCode>
+<model><![CDATA[WL-50839]]></model>
+<description><![CDATA[]]></description>
+<quantity>31</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">прозрачный</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">150</param>
+<param name="длина">160</param>
+<param name="высота">260</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">54</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5083</param>
+<param name="форма плафона">Цилиндр</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-50839</param>
+<param name="датчик освещенности">Нет</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="подсветка">Нет</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">520660</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001969" type="vendor.model">
+<url>https://divine-light.ru/catalog/ulichnoe_osveshchenie-nastennye_i_bra/lampa_nastennaya_wl_30480/</url>
+<categoryId>2920</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507348_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/507/000507349_800_800.jpg</picture>
+<typePrefix><![CDATA[Светильник настенный]]></typePrefix>
+<name><![CDATA[Светильник настенный Covali WL-30480]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-30480]]></vendorCode>
+<model><![CDATA[WL-30480]]></model>
+<description><![CDATA[]]></description>
+<quantity>27</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">черный</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">прозрачный</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">150</param>
+<param name="длина">165</param>
+<param name="высота">260</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">54</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">3048</param>
+<param name="форма плафона">Цилиндр</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-30480</param>
+<param name="датчик освещенности">Нет</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="подсветка">Нет</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">520661</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001972" type="vendor.model">
+<url>https://divine-light.ru/catalog/ulichnoe_osveshchenie-nastennye_i_bra/svetilniki_nastennye_i_bra_4/</url>
+<categoryId>2920</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507350_800_800.jpg</picture>
+<typePrefix><![CDATA[Светильник настенный]]></typePrefix>
+<name><![CDATA[Светильник настенный Covali WL-30517]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-30517]]></vendorCode>
+<model><![CDATA[WL-30517]]></model>
+<description><![CDATA[]]></description>
+<quantity>39</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">черный</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">прозрачный</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">100</param>
+<param name="длина">170</param>
+<param name="высота">300</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">54</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">3051</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-30517</param>
+<param name="датчик освещенности">Нет</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="подсветка">Нет</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">539430</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001973" type="vendor.model">
+<url>https://divine-light.ru/catalog/ulichnoe_osveshchenie-nastennye_i_bra/svetilniki_nastennye_i_bra_5/</url>
+<categoryId>2920</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507372_800_800.jpg</picture>
+<typePrefix><![CDATA[Светильник настенный]]></typePrefix>
+<name><![CDATA[Светильник настенный Covali WL-57478]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-57478]]></vendorCode>
+<model><![CDATA[WL-57478]]></model>
+<description><![CDATA[]]></description>
+<quantity>34</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">современный</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">серый</param>
+<param name="материал плафона">латунь</param>
+<param name="ширина/диаметр">120</param>
+<param name="длина">350</param>
+<param name="высота">520</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">54</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5747</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-57478</param>
+<param name="датчик освещенности">Нет</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="подсветка">Нет</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">539440</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001974" type="vendor.model">
+<url>https://divine-light.ru/catalog/ulichnoe_osveshchenie-nastennye_i_bra/svetilniki_nastennye_i_bra_6/</url>
+<categoryId>2920</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507354_800_800.jpg</picture>
+<typePrefix><![CDATA[Светильник настенный]]></typePrefix>
+<name><![CDATA[Светильник настенный Covali WL-30740]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-30740]]></vendorCode>
+<model><![CDATA[WL-30740]]></model>
+<description><![CDATA[]]></description>
+<quantity>23</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">современный</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">черный</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">прозрачный</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">220</param>
+<param name="длина">170</param>
+<param name="высота">220</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">54</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">3074</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-30740</param>
+<param name="датчик освещенности">Нет</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="подсветка">Нет</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">539442</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001975" type="vendor.model">
+<url>https://divine-light.ru/catalog/ulichnoe_osveshchenie-nastennye_i_bra/svetilniki_nastennye_i_bra_7/</url>
+<categoryId>2920</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507363_800_800.jpg</picture>
+<typePrefix><![CDATA[Светильник настенный]]></typePrefix>
+<name><![CDATA[Светильник настенный Covali WL-51713]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[WL-51713]]></vendorCode>
+<model><![CDATA[WL-51713]]></model>
+<description><![CDATA[]]></description>
+<quantity>20</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">современный</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">прозрачный</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">220</param>
+<param name="длина">170</param>
+<param name="высота">220</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">54</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5171</param>
+<param name="форма плафона">Круглый</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">WL-51713</param>
+<param name="датчик освещенности">Нет</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="подсветка">Нет</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">539445</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="1001970" type="vendor.model">
+<url>https://divine-light.ru/catalog/ulichnoe_osveshchenie-potolochnye-podvesnye/lampa_potolochnaya_pl_51277/</url>
+<categoryId>2924</categoryId>
+<picture>https://img.divine-light.ru/0/507/000507341_800_800.jpg</picture>
+<typePrefix><![CDATA[Уличный светильник]]></typePrefix>
+<name><![CDATA[Уличный светильник Covali PL-51277]]></name>
+<vendor><![CDATA[Covali]]></vendor>
+<vendorCode><![CDATA[PL-51277]]></vendorCode>
+<model><![CDATA[PL-51277]]></model>
+<description><![CDATA[]]></description>
+<quantity>27</quantity>
+<param name="Бренд">Covali</param>
+<param name="стиль">лофт</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">серый</param>
+<param name="материал арматуры">латунь</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">210</param>
+<param name="высота">320</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">54</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Россия</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">5127</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">PL-51277</param>
+<param name="датчик освещенности">Нет</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="подсветка">Нет</param>
+<param name="тип подвеса">цепь</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">520674</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+</offers>
+</shop>
+</yml_catalog>

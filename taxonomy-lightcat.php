@@ -128,7 +128,7 @@
 								} 
 							}
 
-							 $arg['meta_query'] = $metaquery;
+							// $arg['meta_query'] = $metaquery;
 							
 							if (isset($_REQUEST["sortByParam"]) && ($_REQUEST["sortByParam"] !== "def")) {
 								$arg['orderby'] = 'priceStart';
@@ -154,7 +154,7 @@
 
 				<aside class="page__side">
 					
-					<?php  get_template_part('template-parts/filter','in-cat', array("wp_query" => $wp_query));?>		
+					<?php  //get_template_part('template-parts/filter','in-cat', array("wp_query" => $wp_query));?>		
 					<?php  get_template_part('template-parts/brand-slider-in-cat');?>		
 					
 				</aside>

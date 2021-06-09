@@ -1,0 +1,2586 @@
+<yml_catalog date="2021-06-09 08:45">
+<shop>
+<name>Интернет-магазин "Дивайн Лайт"</name>
+<company>Интернет-магазин "Дивайн Лайт"</company>
+<currencies>
+<currency id="RUB" rate="1"/>
+</currencies>
+<categories>
+<category id="2861" urlXml="category/2861.xml"><![CDATA[Свет для дома]]></category>
+<category id="2862" parentId="2861" urlXml="category/2862.xml"><![CDATA[Светильники для картин и зеркал]]></category>
+<category id="2863" parentId="2861" urlXml="category/2863.xml"><![CDATA[Мебельные светильники]]></category>
+<category id="2864" parentId="2861" urlXml="category/2864.xml"><![CDATA[Настенные бра]]></category>
+<category id="2865" parentId="2861" urlXml="category/2865.xml"><![CDATA[Настольные лампы]]></category>
+<category id="2866" parentId="2861" urlXml="category/2866.xml"><![CDATA[Ночники]]></category>
+<category id="2867" parentId="2861" urlXml="category/2867.xml"><![CDATA[Подсветка стен и ступеней]]></category>
+<category id="2868" parentId="2861" urlXml="category/2868.xml"><![CDATA[Потолочные люстры]]></category>
+<category id="2869" parentId="2868" urlXml="category/2869.xml"><![CDATA[Люстры на штанге]]></category>
+<category id="2870" parentId="2868" urlXml="category/2870.xml"><![CDATA[Люстры накладные]]></category>
+<category id="2871" parentId="2868" urlXml="category/2871.xml"><![CDATA[Люстры подвесные]]></category>
+<category id="13902" parentId="2868" urlXml="category/13902.xml"><![CDATA[Люстры каскадные]]></category>
+<category id="2872" parentId="2861" urlXml="category/2872.xml"><![CDATA[Потолочные светильники]]></category>
+<category id="2874" parentId="2872" urlXml="category/2874.xml"><![CDATA[Накладные светильники]]></category>
+<category id="2875" parentId="2872" urlXml="category/2875.xml"><![CDATA[Подвесные светильники]]></category>
+<category id="14597" parentId="2872" urlXml="category/14597.xml"><![CDATA[Линейные светильники]]></category>
+<category id="2876" parentId="2861" urlXml="category/2876.xml"><![CDATA[Детские светильники]]></category>
+<category id="2877" parentId="2876" urlXml="category/2877.xml"><![CDATA[Детские люстры]]></category>
+<category id="2878" parentId="2876" urlXml="category/2878.xml"><![CDATA[Детские бра]]></category>
+<category id="2879" parentId="2876" urlXml="category/2879.xml"><![CDATA[Детские настольные лампы]]></category>
+<category id="2880" parentId="2876" urlXml="category/2880.xml"><![CDATA[Детские ночники]]></category>
+<category id="2881" parentId="2876" urlXml="category/2881.xml"><![CDATA[Детские светильники]]></category>
+<category id="2882" parentId="2876" urlXml="category/2882.xml"><![CDATA[Детские споты]]></category>
+<category id="2883" parentId="2876" urlXml="category/2883.xml"><![CDATA[Детские торшеры]]></category>
+<category id="9930" parentId="2876" urlXml="category/9930.xml"><![CDATA[Детские точечные светильники]]></category>
+<category id="2884" parentId="2861" urlXml="category/2884.xml"><![CDATA[Светодиодные ленты]]></category>
+<category id="2885" parentId="2884" urlXml="category/2885.xml"><![CDATA[Светодиодные ленты]]></category>
+<category id="2886" parentId="2884" urlXml="category/2886.xml"><![CDATA[Драйверы для светодиодных лент]]></category>
+<category id="2887" parentId="2884" urlXml="category/2887.xml"><![CDATA[Усилители для светодиодных лент]]></category>
+<category id="2888" parentId="2884" urlXml="category/2888.xml"><![CDATA[Контроллеры для светодиодных лент]]></category>
+<category id="2889" parentId="2884" urlXml="category/2889.xml"><![CDATA[Блоки питания для светодиодных лент]]></category>
+<category id="2890" parentId="2884" urlXml="category/2890.xml"><![CDATA[Экраны для светодиодных лент]]></category>
+<category id="2891" parentId="2884" urlXml="category/2891.xml"><![CDATA[Профили для светодиодных лент]]></category>
+<category id="2892" parentId="2884" urlXml="category/2892.xml"><![CDATA[Комплектующие для светодиодных лент]]></category>
+<category id="14107" parentId="2892" urlXml="category/14107.xml"><![CDATA[Декодеры]]></category>
+<category id="14108" parentId="2892" urlXml="category/14108.xml"><![CDATA[Заглушки для лент]]></category>
+<category id="14109" parentId="2892" urlXml="category/14109.xml"><![CDATA[Соединители для лент]]></category>
+<category id="14110" parentId="2892" urlXml="category/14110.xml"><![CDATA[Пульты управления]]></category>
+<category id="14111" parentId="2892" urlXml="category/14111.xml"><![CDATA[Панели управления]]></category>
+<category id="14114" parentId="2892" urlXml="category/14114.xml"><![CDATA[Крепежные элементы для лент]]></category>
+<category id="14115" parentId="2892" urlXml="category/14115.xml"><![CDATA[Датчики]]></category>
+<category id="14116" parentId="2892" urlXml="category/14116.xml"><![CDATA[Конвертеры]]></category>
+<category id="11043" parentId="2884" urlXml="category/11043.xml"><![CDATA[Комплектующие для профилей]]></category>
+<category id="14091" parentId="11043" urlXml="category/14091.xml"><![CDATA[Заглушки для профилей]]></category>
+<category id="14092" parentId="11043" urlXml="category/14092.xml"><![CDATA[Крепежные элементы для профилей]]></category>
+<category id="14093" parentId="11043" urlXml="category/14093.xml"><![CDATA[Соединители для профилей]]></category>
+<category id="14094" parentId="11043" urlXml="category/14094.xml"><![CDATA[Подвесные комплекты для профилей]]></category>
+<category id="14095" parentId="11043" urlXml="category/14095.xml"><![CDATA[Тубусы для упаковки профилей]]></category>
+<category id="14096" parentId="11043" urlXml="category/14096.xml"><![CDATA[Рамки к профилю]]></category>
+<category id="14097" parentId="11043" urlXml="category/14097.xml"><![CDATA[Сальники для профилей]]></category>
+<category id="14098" parentId="11043" urlXml="category/14098.xml"><![CDATA[Диммеры встраиваемые в профиль]]></category>
+<category id="14099" parentId="11043" urlXml="category/14099.xml"><![CDATA[Прокладки для профилей]]></category>
+<category id="14100" parentId="11043" urlXml="category/14100.xml"><![CDATA[Микровыключатели]]></category>
+<category id="14101" parentId="11043" urlXml="category/14101.xml"><![CDATA[Тросики для профилей]]></category>
+<category id="14102" parentId="11043" urlXml="category/14102.xml"><![CDATA[Приспособления для монтажа прокладок]]></category>
+<category id="14103" parentId="11043" urlXml="category/14103.xml"><![CDATA[Подложки для фиксации лент]]></category>
+<category id="14104" parentId="11043" urlXml="category/14104.xml"><![CDATA[Перфорированные сетки]]></category>
+<category id="14105" parentId="11043" urlXml="category/14105.xml"><![CDATA[Противоскользящие резиновые вставки]]></category>
+<category id="14106" parentId="11043" urlXml="category/14106.xml"><![CDATA[Муфты]]></category>
+<category id="11628" parentId="2884" urlXml="category/11628.xml"><![CDATA[Диммеры]]></category>
+<category id="2893" parentId="2861" urlXml="category/2893.xml"><![CDATA[Споты]]></category>
+<category id="2894" parentId="2861" urlXml="category/2894.xml"><![CDATA[Торшеры и напольные светильники]]></category>
+<category id="2895" parentId="2861" urlXml="category/2895.xml"><![CDATA[Точечные светильники]]></category>
+<category id="2896" parentId="2895" urlXml="category/2896.xml"><![CDATA[Влагозащищенные точечные светильники]]></category>
+<category id="2897" parentId="2895" urlXml="category/2897.xml"><![CDATA[Встраиваемые точечные светильники]]></category>
+<category id="2898" parentId="2895" urlXml="category/2898.xml"><![CDATA[Накладные точечные светильники]]></category>
+<category id="2899" parentId="2861" urlXml="category/2899.xml"><![CDATA[Шинные и струнные системы]]></category>
+<category id="2900" parentId="2899" urlXml="category/2900.xml"><![CDATA[Комплектующие]]></category>
+<category id="2901" parentId="2899" urlXml="category/2901.xml"><![CDATA[Трековые светильники]]></category>
+<category id="10205" parentId="2899" urlXml="category/10205.xml"><![CDATA[Готовые решения]]></category>
+<category id="10389" parentId="2899" urlXml="category/10389.xml"><![CDATA[Шинопроводы]]></category>
+<category id="14065" parentId="2899" urlXml="category/14065.xml"><![CDATA[Комплектующие для трековых светильников]]></category>
+<category id="14074" parentId="14065" urlXml="category/14074.xml"><![CDATA[Линзы]]></category>
+<category id="14078" parentId="14065" urlXml="category/14078.xml"><![CDATA[Кольца]]></category>
+<category id="14079" parentId="14065" urlXml="category/14079.xml"><![CDATA[Плафоны]]></category>
+<category id="14083" parentId="14065" urlXml="category/14083.xml"><![CDATA[Основания для трековых светильников]]></category>
+<category id="14066" parentId="2899" urlXml="category/14066.xml"><![CDATA[Комплектующие для шинопроводов]]></category>
+<category id="14067" parentId="14066" urlXml="category/14067.xml"><![CDATA[Коннекторы]]></category>
+<category id="14068" parentId="14066" urlXml="category/14068.xml"><![CDATA[Крепежные элементы]]></category>
+<category id="14069" parentId="14066" urlXml="category/14069.xml"><![CDATA[Подвесные комплекты]]></category>
+<category id="14070" parentId="14066" urlXml="category/14070.xml"><![CDATA[Заглушки]]></category>
+<category id="14071" parentId="14066" urlXml="category/14071.xml"><![CDATA[Тросики]]></category>
+<category id="14072" parentId="14066" urlXml="category/14072.xml"><![CDATA[Адаптеры]]></category>
+<category id="14073" parentId="14066" urlXml="category/14073.xml"><![CDATA[Подводы питания]]></category>
+<category id="14075" parentId="14066" urlXml="category/14075.xml"><![CDATA[Стойки]]></category>
+<category id="14076" parentId="14066" urlXml="category/14076.xml"><![CDATA[Накладки]]></category>
+<category id="14077" parentId="14066" urlXml="category/14077.xml"><![CDATA[Усилители стыков]]></category>
+<category id="14081" parentId="14066" urlXml="category/14081.xml"><![CDATA[Коробки для драйверов]]></category>
+<category id="14085" parentId="14066" urlXml="category/14085.xml"><![CDATA[Розетки для шинопроводов]]></category>
+<category id="14086" parentId="14066" urlXml="category/14086.xml"><![CDATA[Пульты управления для шинопроводов]]></category>
+<category id="14087" parentId="14066" urlXml="category/14087.xml"><![CDATA[Выключатели для шинопроводов]]></category>
+<category id="14088" parentId="14066" urlXml="category/14088.xml"><![CDATA[Профили для шинопроводов]]></category>
+<category id="14089" parentId="14066" urlXml="category/14089.xml"><![CDATA[Соединители профилей для шинопроводов]]></category>
+<category id="14090" parentId="14066" urlXml="category/14090.xml"><![CDATA[Гибочные устройства]]></category>
+<category id="14559" parentId="14066" urlXml="category/14559.xml"><![CDATA[Настенные панели управления]]></category>
+<category id="14560" parentId="14066" urlXml="category/14560.xml"><![CDATA[WI-FI конвертеры]]></category>
+<category id="14620" parentId="14066" urlXml="category/14620.xml"><![CDATA[Углы профиля]]></category>
+<category id="14080" parentId="2899" urlXml="category/14080.xml"><![CDATA[Драйверы для шинопроводов]]></category>
+<category id="14082" parentId="2899" urlXml="category/14082.xml"><![CDATA[Диммеры для шинопроводов]]></category>
+<category id="14084" parentId="2899" urlXml="category/14084.xml"><![CDATA[Датчики движения для шинопроводов]]></category>
+<category id="14589" parentId="2899" urlXml="category/14589.xml"><![CDATA[Струнные светильники]]></category>
+<category id="14592" parentId="2899" urlXml="category/14592.xml"><![CDATA[Струнные шинопроводы]]></category>
+<category id="2902" parentId="2861" urlXml="category/2902.xml"><![CDATA[Комплектующие]]></category>
+<category id="2903" parentId="2902" urlXml="category/2903.xml"><![CDATA[Аксессуары]]></category>
+<category id="2905" parentId="2902" urlXml="category/2905.xml"><![CDATA[Блоки защиты]]></category>
+<category id="2906" parentId="2902" urlXml="category/2906.xml"><![CDATA[Блоки питания AC]]></category>
+<category id="14117" parentId="2902" urlXml="category/14117.xml"><![CDATA[Подвесы]]></category>
+<category id="14118" parentId="2902" urlXml="category/14118.xml"><![CDATA[Рамки декоративные]]></category>
+<category id="14119" parentId="2902" urlXml="category/14119.xml"><![CDATA[Модули]]></category>
+<category id="14120" parentId="2902" urlXml="category/14120.xml"><![CDATA[Корпусы светильников]]></category>
+<category id="14121" parentId="2902" urlXml="category/14121.xml"><![CDATA[Вставки декоративные]]></category>
+<category id="14122" parentId="2902" urlXml="category/14122.xml"><![CDATA[Коннекторы модульных светильников]]></category>
+<category id="14123" parentId="2902" urlXml="category/14123.xml"><![CDATA[Базы встраиваемые]]></category>
+<category id="14124" parentId="2902" urlXml="category/14124.xml"><![CDATA[Базы накладные]]></category>
+<category id="14125" parentId="2902" urlXml="category/14125.xml"><![CDATA[Линзы для светильников]]></category>
+<category id="14126" parentId="2902" urlXml="category/14126.xml"><![CDATA[Крепежные элементы для светильников]]></category>
+<category id="14127" parentId="2902" urlXml="category/14127.xml"><![CDATA[Драйверы для модульных светильников]]></category>
+<category id="14128" parentId="2902" urlXml="category/14128.xml"><![CDATA[Стойки для светильников]]></category>
+<category id="14129" parentId="2902" urlXml="category/14129.xml"><![CDATA[Рефлекторы]]></category>
+<category id="14130" parentId="2902" urlXml="category/14130.xml"><![CDATA[Монтажные коробки]]></category>
+<category id="14131" parentId="2902" urlXml="category/14131.xml"><![CDATA[Платы для светодиодов]]></category>
+<category id="14132" parentId="2902" urlXml="category/14132.xml"><![CDATA[Разветвители]]></category>
+<category id="14133" parentId="2902" urlXml="category/14133.xml"><![CDATA[Клеммы]]></category>
+<category id="14134" parentId="2902" urlXml="category/14134.xml"><![CDATA[Удлинители кабелей]]></category>
+<category id="14135" parentId="2902" urlXml="category/14135.xml"><![CDATA[Стекла с наклейками]]></category>
+<category id="14596" parentId="2902" urlXml="category/14596.xml"><![CDATA[Тубусы картонные]]></category>
+<category id="14619" parentId="2902" urlXml="category/14619.xml"><![CDATA[Wi-Fi реле]]></category>
+<category id="2908" parentId="2861" urlXml="category/2908.xml"><![CDATA[Лампы]]></category>
+<category id="2909" parentId="2908" urlXml="category/2909.xml"><![CDATA[Галогеновые лампы]]></category>
+<category id="2911" parentId="2908" urlXml="category/2911.xml"><![CDATA[Металлогалогеновые лампы]]></category>
+<category id="2912" parentId="2908" urlXml="category/2912.xml"><![CDATA[Лампы накаливания]]></category>
+<category id="2913" parentId="2908" urlXml="category/2913.xml"><![CDATA[Светодиодные лампы]]></category>
+<category id="2914" parentId="2908" urlXml="category/2914.xml"><![CDATA[Ретро лампы]]></category>
+<category id="13905" parentId="2908" urlXml="category/13905.xml"><![CDATA[Люминесцентные лампы]]></category>
+<category id="14588" parentId="2908" urlXml="category/14588.xml"><![CDATA[Светодиодные модули]]></category>
+<category id="9794" parentId="2861" urlXml="category/9794.xml"><![CDATA[Лайтбоксы]]></category>
+<category id="2915" urlXml="category/2915.xml"><![CDATA[Свет для улицы]]></category>
+<category id="2916" parentId="2915" urlXml="category/2916.xml"><![CDATA[Грунтовые светильники]]></category>
+<category id="2917" parentId="2915" urlXml="category/2917.xml"><![CDATA[Светильники для стен и ступеней]]></category>
+<category id="2918" parentId="2915" urlXml="category/2918.xml"><![CDATA[Светильники для фонтанов и бассейнов]]></category>
+<category id="2920" parentId="2915" urlXml="category/2920.xml"><![CDATA[Уличные настенные светильники]]></category>
+<category id="2921" parentId="2915" urlXml="category/2921.xml"><![CDATA[Уличные потолочные светильники]]></category>
+<category id="2922" parentId="2921" urlXml="category/2922.xml"><![CDATA[Встраиваемые уличные светильники]]></category>
+<category id="2923" parentId="2921" urlXml="category/2923.xml"><![CDATA[Накладные уличные светильники]]></category>
+<category id="2924" parentId="2921" urlXml="category/2924.xml"><![CDATA[Подвесные уличные светильники]]></category>
+<category id="2925" parentId="2915" urlXml="category/2925.xml"><![CDATA[Прожекторы]]></category>
+<category id="2926" parentId="2915" urlXml="category/2926.xml"><![CDATA[Садово-парковые светильники]]></category>
+<category id="11682" parentId="2926" urlXml="category/11682.xml"><![CDATA[Низкие уличные фонари]]></category>
+<category id="11683" parentId="2926" urlXml="category/11683.xml"><![CDATA[Высокие уличные фонари]]></category>
+<category id="11684" parentId="2926" urlXml="category/11684.xml"><![CDATA[Средние уличные фонари]]></category>
+<category id="2927" parentId="2915" urlXml="category/2927.xml"><![CDATA[Садовые фигуры]]></category>
+<category id="2928" parentId="2915" urlXml="category/2928.xml"><![CDATA[Праздничное освещение]]></category>
+<category id="2929" parentId="2928" urlXml="category/2929.xml"><![CDATA[Светодиодная бахрома]]></category>
+<category id="2930" parentId="2928" urlXml="category/2930.xml"><![CDATA[Светодиодные гирлянды]]></category>
+<category id="2931" parentId="2928" urlXml="category/2931.xml"><![CDATA[LED гирлянды на деревья]]></category>
+<category id="2932" parentId="2928" urlXml="category/2932.xml"><![CDATA[Светодиодные деревья]]></category>
+<category id="2933" parentId="2928" urlXml="category/2933.xml"><![CDATA[Светодиодные нити]]></category>
+<category id="2934" parentId="2928" urlXml="category/2934.xml"><![CDATA[Светодиодные занавесы]]></category>
+<category id="2935" parentId="2928" urlXml="category/2935.xml"><![CDATA[Светодиодные фигуры]]></category>
+<category id="9761" parentId="2928" urlXml="category/9761.xml"><![CDATA[Светодиодные сети]]></category>
+<category id="11029" parentId="2928" urlXml="category/11029.xml"><![CDATA[Дюралайт]]></category>
+<category id="11676" parentId="2928" urlXml="category/11676.xml"><![CDATA[Комплектующие]]></category>
+<category id="14136" parentId="11676" urlXml="category/14136.xml"><![CDATA[Трансформаторы]]></category>
+<category id="14137" parentId="11676" urlXml="category/14137.xml"><![CDATA[Контроллеры]]></category>
+<category id="14138" parentId="11676" urlXml="category/14138.xml"><![CDATA[Силовые провода]]></category>
+<category id="14139" parentId="11676" urlXml="category/14139.xml"><![CDATA[Шнуры питания]]></category>
+<category id="14140" parentId="11676" urlXml="category/14140.xml"><![CDATA[Провода питания]]></category>
+<category id="14141" parentId="11676" urlXml="category/14141.xml"><![CDATA[Выпрямители для гирлянд]]></category>
+<category id="14142" parentId="11676" urlXml="category/14142.xml"><![CDATA[Разветвители для нитей]]></category>
+<category id="14143" parentId="11676" urlXml="category/14143.xml"><![CDATA[Удлинители для гирлянд]]></category>
+<category id="14144" parentId="11676" urlXml="category/14144.xml"><![CDATA[Соединители для гирлянд]]></category>
+<category id="14145" parentId="11676" urlXml="category/14145.xml"><![CDATA[Заглушки для дюралайта]]></category>
+<category id="14146" parentId="11676" urlXml="category/14146.xml"><![CDATA[Крепеж для дюралайта]]></category>
+<category id="14147" parentId="11676" urlXml="category/14147.xml"><![CDATA[Соединители для дюралайта]]></category>
+<category id="14148" parentId="11676" urlXml="category/14148.xml"><![CDATA[Комплекты подключения для дюралайта]]></category>
+<category id="14149" parentId="11676" urlXml="category/14149.xml"><![CDATA[Заглушки для гирлянд]]></category>
+<category id="14150" parentId="11676" urlXml="category/14150.xml"><![CDATA[Комплекты подключения для гирлянд]]></category>
+<category id="14151" parentId="11676" urlXml="category/14151.xml"><![CDATA[Батареечные блоки]]></category>
+<category id="3064" parentId="2915" urlXml="category/3064.xml"><![CDATA[Уличные настольные светильники]]></category>
+<category id="9351" parentId="2915" urlXml="category/9351.xml"><![CDATA[Уличные блоки розеток]]></category>
+<category id="9677" parentId="2915" urlXml="category/9677.xml"><![CDATA[Тротуарные светильники]]></category>
+<category id="10238" parentId="2915" urlXml="category/10238.xml"><![CDATA[Фонари]]></category>
+<category id="3201" urlXml="category/3201.xml"><![CDATA[Электроустановка]]></category>
+<category id="3385" parentId="3201" urlXml="category/3385.xml"><![CDATA[Выключатели]]></category>
+<category id="3386" parentId="3201" urlXml="category/3386.xml"><![CDATA[Клавиши. Накладки]]></category>
+<category id="3387" parentId="3201" urlXml="category/3387.xml"><![CDATA[Рамки]]></category>
+<category id="3388" parentId="3201" urlXml="category/3388.xml"><![CDATA[Розетки]]></category>
+<category id="10447" parentId="3201" urlXml="category/10447.xml"><![CDATA[Радиовыключатели]]></category>
+<category id="11637" parentId="3201" urlXml="category/11637.xml"><![CDATA[Терморегулятор]]></category>
+<category id="13675" parentId="3201" urlXml="category/13675.xml"><![CDATA[Комплектующие]]></category>
+<category id="2904" parentId="13675" urlXml="category/2904.xml"><![CDATA[Пульты управления]]></category>
+<category id="2907" parentId="13675" urlXml="category/2907.xml"><![CDATA[Датчики движения]]></category>
+<category id="13676" parentId="13675" urlXml="category/13676.xml"><![CDATA[Патроны]]></category>
+<category id="13677" parentId="13675" urlXml="category/13677.xml"><![CDATA[Шнур с выключателем]]></category>
+<category id="13760" parentId="13675" urlXml="category/13760.xml"><![CDATA[Диммеры]]></category>
+<category id="13878" parentId="13675" urlXml="category/13878.xml"><![CDATA[Ваттметры]]></category>
+<category id="13879" parentId="13675" urlXml="category/13879.xml"><![CDATA[Реле напряжения]]></category>
+<category id="13683" parentId="3201" urlXml="category/13683.xml"><![CDATA[Стабилизаторы напряжения]]></category>
+<category id="10207" urlXml="category/10207.xml"><![CDATA[Технический свет]]></category>
+<category id="6059" parentId="10207" urlXml="category/6059.xml"><![CDATA[Консольные светильники]]></category>
+<category id="10208" parentId="10207" urlXml="category/10208.xml"><![CDATA[Светильники Downlight]]></category>
+<category id="10209" parentId="10207" urlXml="category/10209.xml"><![CDATA[Светодиодные панели]]></category>
+<category id="10210" parentId="10207" urlXml="category/10210.xml"><![CDATA[Пылевлагозащищенные светильники]]></category>
+<category id="10211" parentId="10207" urlXml="category/10211.xml"><![CDATA[Световые указатели]]></category>
+<category id="10220" parentId="10207" urlXml="category/10220.xml"><![CDATA[Аварийные светильники]]></category>
+<category id="10221" parentId="10207" urlXml="category/10221.xml"><![CDATA[Потолочные светильники]]></category>
+<category id="10222" parentId="10207" urlXml="category/10222.xml"><![CDATA[Купольные светильники]]></category>
+<category id="10223" parentId="10207" urlXml="category/10223.xml"><![CDATA[Светильники офисные накладные]]></category>
+<category id="10224" parentId="10207" urlXml="category/10224.xml"><![CDATA[Светильники подвесные промышленные]]></category>
+<category id="10225" parentId="10207" urlXml="category/10225.xml"><![CDATA[Cветильники потолочные встраиваемые]]></category>
+<category id="10226" parentId="10207" urlXml="category/10226.xml"><![CDATA[Светильники для потолка грильято]]></category>
+<category id="10230" parentId="10207" urlXml="category/10230.xml"><![CDATA[Светильники Армстронг]]></category>
+<category id="10231" parentId="10207" urlXml="category/10231.xml"><![CDATA[Светильники настенно-потолочные]]></category>
+<category id="10232" parentId="10207" urlXml="category/10232.xml"><![CDATA[Комплектующие]]></category>
+<category id="10250" parentId="10207" urlXml="category/10250.xml"><![CDATA[Светильники модульные]]></category>
+</categories>
+<offers><offer id="520758" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/ma_01625w_002_chrome/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/046/000046290_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра BRIZZI Modern MA 01625W/002 Chrome]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 01625W/002 Chrome]]></vendorCode>
+<model><![CDATA[MA 01625W/002 Chrome]]></model>
+<description><![CDATA[]]></description>
+<quantity>38</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">370</param>
+<param name="высота">290</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">80</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">2</param>
+<param name="тип цоколя">E14</param>
+<param name="степень защиты ip">20</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">01625</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Конусный</param>
+<param name="Артикул">MA 01625W/002 Chrome</param>
+<param name="площадь освещения">6</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">35035</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="519987" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/ma_02640w_001_chrome/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/023/000023711_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра BRIZZI Modern MA 02640W/001 Chrome]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02640W/001 Chrome]]></vendorCode>
+<model><![CDATA[MA 02640W/001 Chrome]]></model>
+<description><![CDATA[]]></description>
+<quantity>31</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">230</param>
+<param name="высота">240</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">02640</param>
+<param name="Назначение помещения">прихожая</param>
+<param name="форма плафона">Овал</param>
+<param name="Артикул">MA 02640W/001 Chrome</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">36421</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="519994" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/ma_02401w_001_ch/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/023/000023712_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра BRIZZI Modern MA 02401W/001 Ch]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02401W/001 Ch]]></vendorCode>
+<model><![CDATA[MA 02401W/001 Ch]]></model>
+<description><![CDATA[]]></description>
+<quantity>13</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">170</param>
+<param name="высота">220</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="выключатель">Нет</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">02401</param>
+<param name="Артикул">MA 02401W/001 Ch</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">36429</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="923690" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/bb_03203_2_chrome/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/046/000046437_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра BRIZZI Modern BB 03203/2 Chrome]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[BB 03203/2 Chrome]]></vendorCode>
+<model><![CDATA[BB 03203/2 Chrome]]></model>
+<description><![CDATA[]]></description>
+<quantity>18</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">420</param>
+<param name="длина">170</param>
+<param name="высота">280</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">80</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">2</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">03203</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Конусный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">BB 03203/2 Chrome</param>
+<param name="площадь освещения">8</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">36383</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="554107" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/bra_ma_02640w_002_chrome/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/035/000035952_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/035/000035951_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра BRIZZI Modern MA 02640W/002 Chrome]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02640W/002 Chrome]]></vendorCode>
+<model><![CDATA[MA 02640W/002 Chrome]]></model>
+<description><![CDATA[]]></description>
+<quantity>3</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">350</param>
+<param name="высота">240</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">80</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">2</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">02640</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Овал</param>
+<param name="Артикул">MA 02640W/002 Chrome</param>
+<param name="площадь освещения">8</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">36420</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="519982" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/ma_02640w_001_bronze/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/035/000035950_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра BRIZZI Modern MA 02640W/001 Bronze]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02640W/001 Bronze]]></vendorCode>
+<model><![CDATA[MA 02640W/001 Bronze]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">230</param>
+<param name="высота">240</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">02640</param>
+<param name="Назначение помещения">прихожая</param>
+<param name="форма плафона">Овал</param>
+<param name="Артикул">MA 02640W/001 Bronze</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">36415</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="520000" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/ma_02401w_001_br/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/035/000035954_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра BRIZZI Modern MA 02401W/001 Br]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02401W/001 Br]]></vendorCode>
+<model><![CDATA[MA 02401W/001 Br]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">170</param>
+<param name="высота">220</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="выключатель">Нет</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">02401</param>
+<param name="Артикул">MA 02401W/001 Br</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">36435</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="483227" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/ma_01625w_001_bronze_cream/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/136/000136582_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра BRIZZI Modern MA 01625W/001 Bronze Cream]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 01625W/001 Bronze Cream]]></vendorCode>
+<model><![CDATA[MA 01625W/001 Bronze Cream]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">бежевый</param>
+<param name="материал плафона">ткань</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E14</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">01625</param>
+<param name="Назначение помещения">спальня</param>
+<param name="форма плафона">Конусный</param>
+<param name="Артикул">MA 01625W/001 Bronze Cream</param>
+<param name="площадь освещения">3</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">120556</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="520757" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/ma_01625w_001_chrome/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/035/000035927_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра BRIZZI Modern MA 01625W/001 Chrome]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 01625W/001 Chrome]]></vendorCode>
+<model><![CDATA[MA 01625W/001 Chrome]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">190</param>
+<param name="высота">270</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E14</param>
+<param name="степень защиты ip">20</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">01625</param>
+<param name="Назначение помещения">спальня</param>
+<param name="форма плафона">Конусный</param>
+<param name="Артикул">MA 01625W/001 Chrome</param>
+<param name="площадь освещения">3</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">35034</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="519981" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/ma_02640w_002_bronze/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/042/000042124_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/042/000042125_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра BRIZZI Modern MA 02640W/002 Bronze]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02640W/002 Bronze]]></vendorCode>
+<model><![CDATA[MA 02640W/002 Bronze]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">350</param>
+<param name="высота">240</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">80</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">2</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">02640</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Овал</param>
+<param name="Артикул">MA 02640W/002 Bronze</param>
+<param name="площадь освещения">8</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">36414</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="554194" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/bra_ma_01625w_002_bronze_cream/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/074/000074261_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра BRIZZI Modern MA 01625W/002 Bronze Cream]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 01625W/002 Bronze Cream]]></vendorCode>
+<model><![CDATA[MA 01625W/002 Bronze Cream]]></model>
+<description><![CDATA[]]></description>
+<quantity>1</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">овал</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">кремовый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">370</param>
+<param name="высота">290</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">80</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">2</param>
+<param name="тип цоколя">E14</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">01625</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Конусный</param>
+<param name="Артикул">MA 01625W/002 Bronze Cream</param>
+<param name="площадь освещения">6</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">307180</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="872846" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/ma_02244wa_001_bronze/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/227/000227174_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра BRIZZI Modern MA 02244WA/001 Bronze]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02244WA/001 Bronze]]></vendorCode>
+<model><![CDATA[MA 02244WA/001 Bronze]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">кремовый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">194</param>
+<param name="длина">180</param>
+<param name="высота">300</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E14</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Испания</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">02244</param>
+<param name="Назначение помещения">спальня</param>
+<param name="форма плафона">Конусный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">MA 02244WA/001 Bronze</param>
+<param name="площадь освещения">3</param>
+<param name="поворотный">Нет</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">371484</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="923687" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/bb_03203_1_bronze_cream/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/012/000012253_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра BRIZZI Modern BB 03203/1 Bronze Cream]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[BB 03203/1 Bronze Cream]]></vendorCode>
+<model><![CDATA[BB 03203/1 Bronze Cream]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">кремовый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">180</param>
+<param name="длина">200</param>
+<param name="высота">350</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">03203</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Конусный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">BB 03203/1 Bronze Cream</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">3689</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="923689" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastennye_i_bra/bb_03203_1_shrome/</url>
+<categoryId>2864</categoryId>
+<picture>https://img.divine-light.ru/0/014/000014413_800_800.jpg</picture>
+<typePrefix><![CDATA[Бра]]></typePrefix>
+<name><![CDATA[Бра BRIZZI Modern BB 03203/1 Сhrome]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[BB 03203/1 Сhrome]]></vendorCode>
+<model><![CDATA[BB 03203/1 Сhrome]]></model>
+<description><![CDATA[]]></description>
+<quantity>2</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">180</param>
+<param name="длина">200</param>
+<param name="высота">350</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стену</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">03203</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Конусный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">BB 03203/1 Сhrome</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">36382</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="554193" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastolnye_lampy/nastolnaya_lampa_ma_01625t_001_chrome/</url>
+<categoryId>2865</categoryId>
+<picture>https://img.divine-light.ru/0/112/000112002_800_800.jpg</picture>
+<typePrefix><![CDATA[Настольная лампа]]></typePrefix>
+<name><![CDATA[Настольная лампа BRIZZI Modern MA 01625T/001 Chrome]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 01625T/001 Chrome]]></vendorCode>
+<model><![CDATA[MA 01625T/001 Chrome]]></model>
+<description><![CDATA[]]></description>
+<quantity>12</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">170</param>
+<param name="высота">410</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E14</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Да</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стол</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">01625</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Конусный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">MA 01625T/001 Chrome</param>
+<param name="вид выключателя">кнопка</param>
+<param name="материал декора">стекло</param>
+<param name="площадь освещения">3</param>
+<param name="цвет декора">прозрачный</param>
+<param name="КодТовара">307178</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="872819" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastolnye_lampy/ma_02640t_001_chrome/</url>
+<categoryId>2865</categoryId>
+<picture>https://img.divine-light.ru/0/014/000014416_800_800.jpg</picture>
+<typePrefix><![CDATA[Настольная лампа]]></typePrefix>
+<name><![CDATA[Настольная лампа BRIZZI Modern MA 02640Т/001 Chrome]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02640Т/001 Chrome]]></vendorCode>
+<model><![CDATA[MA 02640Т/001 Chrome]]></model>
+<description><![CDATA[]]></description>
+<quantity>12</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">160</param>
+<param name="длина">160</param>
+<param name="высота">400</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Да</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стол</param>
+<param name="Страна происхождения">Испания</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">02640</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">MA 02640Т/001 Chrome</param>
+<param name="вид выключателя">кнопка</param>
+<param name="материал декора">стекло</param>
+<param name="площадь освещения">4</param>
+<param name="цвет декора">прозрачный</param>
+<param name="КодТовара">36422</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="483226" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastolnye_lampy/nastolnaya_lampa_ma_01625t_001_bronze_cream/</url>
+<categoryId>2865</categoryId>
+<picture>https://img.divine-light.ru/0/136/000136581_800_800.jpg</picture>
+<typePrefix><![CDATA[Настольная лампа]]></typePrefix>
+<name><![CDATA[Настольная лампа BRIZZI Modern MA 01625T/001 Bronze Cream]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 01625T/001 Bronze Cream]]></vendorCode>
+<model><![CDATA[MA 01625T/001 Bronze Cream]]></model>
+<description><![CDATA[]]></description>
+<quantity>2</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">кремовый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">170</param>
+<param name="высота">410</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E14</param>
+<param name="степень защиты ip">20</param>
+<param name="выключатель">Да</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стол</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">01625</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Конусный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">MA 01625T/001 Bronze Cream</param>
+<param name="вид выключателя">кнопка</param>
+<param name="материал декора">стекло</param>
+<param name="площадь освещения">3</param>
+<param name="цвет декора">прозрачный</param>
+<param name="КодТовара">120555</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="923691" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastolnye_lampy/bt_03203_1_chrome/</url>
+<categoryId>2865</categoryId>
+<picture>https://img.divine-light.ru/0/035/000035947_800_800.jpg</picture>
+<typePrefix><![CDATA[Настольная лампа]]></typePrefix>
+<name><![CDATA[Настольная лампа BRIZZI Modern BT 03203/1 Chrome]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[BT 03203/1 Chrome]]></vendorCode>
+<model><![CDATA[BT 03203/1 Chrome]]></model>
+<description><![CDATA[]]></description>
+<quantity>2</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">260</param>
+<param name="высота">590</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Да</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стол</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">03203</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Конусный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">BT 03203/1 Chrome</param>
+<param name="вид выключателя">кнопка</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">36384</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="923695" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastolnye_lampy/bt_03203_1_bronze_cream/</url>
+<categoryId>2865</categoryId>
+<picture>https://img.divine-light.ru/0/136/000136600_800_800.jpg</picture>
+<typePrefix><![CDATA[Настольная лампа]]></typePrefix>
+<name><![CDATA[Настольная лампа BRIZZI Modern BT 03203/1 Bronze Cream]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[BT 03203/1 Bronze Cream]]></vendorCode>
+<model><![CDATA[BT 03203/1 Bronze Cream]]></model>
+<description><![CDATA[]]></description>
+<quantity>4</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">кремовый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">260</param>
+<param name="высота">590</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Да</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стол</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">03203</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Конусный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">BT 03203/1 Bronze Cream</param>
+<param name="вид выключателя">кнопка</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">120587</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="872845" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastolnye_lampy/ma_02244t_001_bronze/</url>
+<categoryId>2865</categoryId>
+<picture>https://img.divine-light.ru/0/227/000227173_800_800.jpg</picture>
+<typePrefix><![CDATA[Настольная лампа]]></typePrefix>
+<name><![CDATA[Настольная лампа BRIZZI Modern MA 02244T/001 Bronze]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02244T/001 Bronze]]></vendorCode>
+<model><![CDATA[MA 02244T/001 Bronze]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">кремовый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">140</param>
+<param name="длина">140</param>
+<param name="высота">430</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E14</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Да</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стол</param>
+<param name="Страна происхождения">Испания</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">02244</param>
+<param name="Назначение помещения">спальня</param>
+<param name="форма плафона">Конусный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">MA 02244T/001 Bronze</param>
+<param name="вид выключателя">кнопка</param>
+<param name="материал декора">стекло</param>
+<param name="площадь освещения">3</param>
+<param name="цвет декора">бронзовый</param>
+<param name="КодТовара">371483</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="519983" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastolnye_lampy/nastolnaya_lampa_ma_02640t_001_bronze/</url>
+<categoryId>2865</categoryId>
+<picture>https://img.divine-light.ru/0/019/000019135_800_800.jpg</picture>
+<typePrefix><![CDATA[Настольная лампа]]></typePrefix>
+<name><![CDATA[Настольная лампа BRIZZI Modern MA 02640Т/001 Bronze]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02640Т/001 Bronze]]></vendorCode>
+<model><![CDATA[MA 02640Т/001 Bronze]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">400</param>
+<param name="высота">160</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="выключатель">Да</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стол</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">02640</param>
+<param name="Назначение помещения">прихожая</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">MA 02640Т/001 Bronze</param>
+<param name="вид выключателя">кнопка</param>
+<param name="материал декора">стекло</param>
+<param name="площадь освещения">4</param>
+<param name="цвет декора">прозрачный</param>
+<param name="КодТовара">36416</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="923693" type="vendor.model">
+<url>https://divine-light.ru/catalog/nastolnye_lampy/ma_02401t_001_ch/</url>
+<categoryId>2865</categoryId>
+<picture>https://img.divine-light.ru/0/019/000019139_800_800.jpg</picture>
+<picture>https://img.divine-light.ru/0/019/000019138_800_800.jpg</picture>
+<typePrefix><![CDATA[Настольная лампа]]></typePrefix>
+<name><![CDATA[Настольная лампа BRIZZI Modern MA 02401T/001 Ch]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02401T/001 Ch]]></vendorCode>
+<model><![CDATA[MA 02401T/001 Ch]]></model>
+<description><![CDATA[]]></description>
+<quantity>2</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">современный</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">190</param>
+<param name="высота">350</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="выключатель">Да</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На стол</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">02401</param>
+<param name="Назначение помещения">спальня</param>
+<param name="форма плафона">Конусный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">MA 02401T/001 Ch</param>
+<param name="вид выключателя">кнопка</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">36431</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="483224" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustri-na-shtange/lyustra_na_shtange_ma_01625ca_005_bronze_cream/</url>
+<categoryId>2869</categoryId>
+<picture>https://img.divine-light.ru/0/136/000136578_800_800.jpg</picture>
+<typePrefix><![CDATA[Люстра на штанге]]></typePrefix>
+<name><![CDATA[Люстра на штанге BRIZZI Modern MA 01625CA/005 Bronze Cream]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 01625CA/005 Bronze Cream]]></vendorCode>
+<model><![CDATA[MA 01625CA/005 Bronze Cream]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">кремовый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">530</param>
+<param name="высота">800</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">200</param>
+<param name="количество ламп">5</param>
+<param name="тип цоколя">E14</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">01625</param>
+<param name="Назначение помещения">спальня</param>
+<param name="форма плафона">Конусный</param>
+<param name="Артикул">MA 01625CA/005 Bronze Cream</param>
+<param name="площадь освещения">15</param>
+<param name="КодТовара">120551</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="520761" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustri-na-shtange/lyustra_na_shtange_ma_01625ca_005_chrome/</url>
+<categoryId>2869</categoryId>
+<picture>https://img.divine-light.ru/0/019/000019114_800_800.jpg</picture>
+<typePrefix><![CDATA[Люстра на штанге]]></typePrefix>
+<name><![CDATA[Люстра на штанге BRIZZI Modern MA 01625CA/005 Chrome]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 01625CA/005 Chrome]]></vendorCode>
+<model><![CDATA[MA 01625CA/005 Chrome]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">620</param>
+<param name="высота">800</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">200</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">5</param>
+<param name="тип цоколя">E14</param>
+<param name="степень защиты ip">20</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">01625</param>
+<param name="Назначение помещения">спальня</param>
+<param name="форма плафона">Конусный</param>
+<param name="Артикул">MA 01625CA/005 Chrome</param>
+<param name="площадь освещения">15</param>
+<param name="КодТовара">35038</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="483225" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustri-na-shtange/lyustra_na_shtange_ma_01625ca_008_bronze_cream/</url>
+<categoryId>2869</categoryId>
+<picture>https://img.divine-light.ru/0/136/000136579_800_800.jpg</picture>
+<typePrefix><![CDATA[Люстра на штанге]]></typePrefix>
+<name><![CDATA[Люстра на штанге BRIZZI Modern MA 01625CA/008 Bronze Cream]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 01625CA/008 Bronze Cream]]></vendorCode>
+<model><![CDATA[MA 01625CA/008 Bronze Cream]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">кремовый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">720</param>
+<param name="высота">800</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">320</param>
+<param name="количество ламп">8</param>
+<param name="тип цоколя">E14</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">01625</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Конусный</param>
+<param name="Артикул">MA 01625CA/008 Bronze Cream</param>
+<param name="площадь освещения">24</param>
+<param name="КодТовара">120552</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="519978" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustri-na-shtange/lyustra_na_shtange_ma_02640c_008_bronze/</url>
+<categoryId>2869</categoryId>
+<picture>https://img.divine-light.ru/0/036/000036948_800_800.jpg</picture>
+<typePrefix><![CDATA[Люстра на штанге]]></typePrefix>
+<name><![CDATA[Люстра на штанге BRIZZI Modern MA 02640C/008 Bronze]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02640C/008 Bronze]]></vendorCode>
+<model><![CDATA[MA 02640C/008 Bronze]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">700</param>
+<param name="высота">450</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">320</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">8</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">02640</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Овал</param>
+<param name="Артикул">MA 02640C/008 Bronze</param>
+<param name="площадь освещения">32</param>
+<param name="КодТовара">36411</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="519979" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustri-na-shtange/lyustra_na_shtange_ma_02640c_005_bronze/</url>
+<categoryId>2869</categoryId>
+<picture>https://img.divine-light.ru/0/046/000046443_800_800.jpg</picture>
+<typePrefix><![CDATA[Люстра на штанге]]></typePrefix>
+<name><![CDATA[Люстра на штанге BRIZZI Modern MA 02640C/005 Bronze]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02640C/005 Bronze]]></vendorCode>
+<model><![CDATA[MA 02640C/005 Bronze]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">580</param>
+<param name="высота">450</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">200</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">5</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">02640</param>
+<param name="Назначение помещения">спальня</param>
+<param name="форма плафона">Овал</param>
+<param name="Артикул">MA 02640C/005 Bronze</param>
+<param name="площадь освещения">20</param>
+<param name="КодТовара">36412</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="519984" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustri-na-shtange/lyustra_na_shtange_ma_02640c_008_chrome/</url>
+<categoryId>2869</categoryId>
+<picture>https://img.divine-light.ru/0/014/000014415_800_800.jpg</picture>
+<typePrefix><![CDATA[Люстра на штанге]]></typePrefix>
+<name><![CDATA[Люстра на штанге BRIZZI Modern MA 02640C/008 Chrome]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02640C/008 Chrome]]></vendorCode>
+<model><![CDATA[MA 02640C/008 Chrome]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">700</param>
+<param name="высота">450</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">320</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">8</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">02640</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Овал</param>
+<param name="Артикул">MA 02640C/008 Chrome</param>
+<param name="площадь освещения">32</param>
+<param name="КодТовара">36417</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="519985" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustri-na-shtange/lyustra_na_shtange_ma_02640c_005_chrome/</url>
+<categoryId>2869</categoryId>
+<picture>https://img.divine-light.ru/0/023/000023710_800_800.jpg</picture>
+<typePrefix><![CDATA[Люстра на штанге]]></typePrefix>
+<name><![CDATA[Люстра на штанге BRIZZI Modern MA 02640C/005 Chrome]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02640C/005 Chrome]]></vendorCode>
+<model><![CDATA[MA 02640C/005 Chrome]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">580</param>
+<param name="высота">450</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">200</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">5</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">02640</param>
+<param name="Назначение помещения">спальня</param>
+<param name="форма плафона">Овал</param>
+<param name="Артикул">MA 02640C/005 Chrome</param>
+<param name="площадь освещения">20</param>
+<param name="КодТовара">36418</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="520762" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustri-na-shtange/lyustra_na_shtange_ma_01625ca_008_chrome/</url>
+<categoryId>2869</categoryId>
+<picture>https://img.divine-light.ru/0/014/000014348_800_800.jpg</picture>
+<typePrefix><![CDATA[Люстра на штанге]]></typePrefix>
+<name><![CDATA[Люстра на штанге BRIZZI Modern MA 01625CA/008 Chrome]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 01625CA/008 Chrome]]></vendorCode>
+<model><![CDATA[MA 01625CA/008 Chrome]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">720</param>
+<param name="высота">800</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">320</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">8</param>
+<param name="тип цоколя">E14</param>
+<param name="степень защиты ip">20</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Испания</param>
+<param name="особенности">Дизайнерская люстра на штанге </param>
+<param name="коллекция">01625</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Конусный</param>
+<param name="Артикул">MA 01625CA/008 Chrome</param>
+<param name="площадь освещения">24</param>
+<param name="КодТовара">35040</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="872840" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustri-na-shtange/ma_02244c_005_chrome/</url>
+<categoryId>2869</categoryId>
+<picture>https://img.divine-light.ru/0/227/000227169_800_800.jpg</picture>
+<typePrefix><![CDATA[Люстра на штанге]]></typePrefix>
+<name><![CDATA[Люстра на штанге BRIZZI Modern MA 02244C/005 Chrome]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02244C/005 Chrome]]></vendorCode>
+<model><![CDATA[MA 02244C/005 Chrome]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">910</param>
+<param name="длина">910</param>
+<param name="высота">570</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">200</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">5</param>
+<param name="тип цоколя">E14</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Испания</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">02244</param>
+<param name="Назначение помещения">спальня</param>
+<param name="форма плафона">Конусный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">MA 02244C/005 Chrome</param>
+<param name="площадь освещения">15</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">371478</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="872842" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustri-na-shtange/ma_02244c_006_bronze/</url>
+<categoryId>2869</categoryId>
+<picture>https://img.divine-light.ru/0/227/000227170_800_800.jpg</picture>
+<typePrefix><![CDATA[Люстра на штанге]]></typePrefix>
+<name><![CDATA[Люстра на штанге BRIZZI Modern MA 02244C/006 Bronze]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02244C/006 Bronze]]></vendorCode>
+<model><![CDATA[MA 02244C/006 Bronze]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">кремовый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">910</param>
+<param name="длина">910</param>
+<param name="высота">570</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">240</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">6</param>
+<param name="тип цоколя">E14</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Испания</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">02244</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Конусный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">MA 02244C/006 Bronze</param>
+<param name="площадь освещения">18</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">371480</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="872843" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustri-na-shtange/ma_02244c_008_chrome/</url>
+<categoryId>2869</categoryId>
+<picture>https://img.divine-light.ru/0/227/000227172_800_800.jpg</picture>
+<typePrefix><![CDATA[Люстра на штанге]]></typePrefix>
+<name><![CDATA[Люстра на штанге BRIZZI Modern MA 02244C/008 Chrome]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02244C/008 Chrome]]></vendorCode>
+<model><![CDATA[MA 02244C/008 Chrome]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">910</param>
+<param name="длина">910</param>
+<param name="высота">570</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">320</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">8</param>
+<param name="тип цоколя">E14</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Испания</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">02244</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Конусный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">MA 02244C/008 Chrome</param>
+<param name="площадь освещения">24</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">371481</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="872844" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustri-na-shtange/ma_02244c_008_bronze/</url>
+<categoryId>2869</categoryId>
+<picture>https://img.divine-light.ru/0/227/000227171_800_800.jpg</picture>
+<typePrefix><![CDATA[Люстра на штанге]]></typePrefix>
+<name><![CDATA[Люстра на штанге BRIZZI Modern MA 02244C/008 Bronze]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02244C/008 Bronze]]></vendorCode>
+<model><![CDATA[MA 02244C/008 Bronze]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">кремовый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">910</param>
+<param name="длина">910</param>
+<param name="высота">570</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">320</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">8</param>
+<param name="тип цоколя">E14</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Испания</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">02244</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Конусный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">MA 02244C/008 Bronze</param>
+<param name="площадь освещения">24</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">371482</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="923604" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustri-na-shtange/bx_03203_5_chrome/</url>
+<categoryId>2869</categoryId>
+<picture>https://img.divine-light.ru/0/019/000019132_800_800.jpg</picture>
+<typePrefix><![CDATA[Люстра на штанге]]></typePrefix>
+<name><![CDATA[Люстра на штанге BRIZZI Modern BX 03203/5 Chrome]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[BX 03203/5 Chrome]]></vendorCode>
+<model><![CDATA[BX 03203/5 Chrome]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">кремовый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">540</param>
+<param name="высота">575</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">60</param>
+<param name="мощность общая">300</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">5</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">03203</param>
+<param name="Назначение помещения">спальня</param>
+<param name="форма плафона">Конусный</param>
+<param name="Артикул">BX 03203/5 Chrome</param>
+<param name="площадь освещения">20</param>
+<param name="КодТовара">36380</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="923605" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustri-na-shtange/bx_03203_5_bronze_cream/</url>
+<categoryId>2869</categoryId>
+<picture>https://img.divine-light.ru/0/136/000136601_800_800.jpg</picture>
+<typePrefix><![CDATA[Люстра на штанге]]></typePrefix>
+<name><![CDATA[Люстра на штанге BRIZZI Modern BX 03203/5 Bronze Cream]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[BX 03203/5 Bronze Cream]]></vendorCode>
+<model><![CDATA[BX 03203/5 Bronze Cream]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">бежевый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">590</param>
+<param name="высота">575</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">60</param>
+<param name="мощность общая">300</param>
+<param name="количество ламп">5</param>
+<param name="тип цоколя">E27</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">03203</param>
+<param name="Назначение помещения">спальня</param>
+<param name="форма плафона">Конусный</param>
+<param name="Артикул">BX 03203/5 Bronze Cream</param>
+<param name="площадь освещения">20</param>
+<param name="КодТовара">120589</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="923688" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustri-na-shtange/bx_03203_6_chrome/</url>
+<categoryId>2869</categoryId>
+<picture>https://img.divine-light.ru/0/019/000019131_800_800.jpg</picture>
+<typePrefix><![CDATA[Люстра на штанге]]></typePrefix>
+<name><![CDATA[Люстра на штанге BRIZZI Modern BX 03203/6 Chrome]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[BX 03203/6 Chrome]]></vendorCode>
+<model><![CDATA[BX 03203/6 Chrome]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">730</param>
+<param name="высота">550</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">240</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">6</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">03203</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Конусный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">BX 03203/6 Chrome</param>
+<param name="площадь освещения">24</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">36379</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="923696" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustri-na-shtange/bx_03203_6_bronze_cream/</url>
+<categoryId>2869</categoryId>
+<picture>https://img.divine-light.ru/0/136/000136602_800_800.jpg</picture>
+<typePrefix><![CDATA[Люстра на штанге]]></typePrefix>
+<name><![CDATA[Люстра на штанге BRIZZI Modern BX 03203/6 Bronze Cream]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[BX 03203/6 Bronze Cream]]></vendorCode>
+<model><![CDATA[BX 03203/6 Bronze Cream]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">кремовый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">730</param>
+<param name="высота">550</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">240</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">6</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">03203</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Конусный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">BX 03203/6 Bronze Cream</param>
+<param name="площадь освещения">24</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">120590</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="872837" type="vendor.model">
+<url>https://divine-light.ru/catalog/nakladnye/bx03203_80_chrome/</url>
+<categoryId>2870</categoryId>
+<picture>https://img.divine-light.ru/0/621/000621007_800_800.jpg</picture>
+<typePrefix><![CDATA[Накладная люстра]]></typePrefix>
+<name><![CDATA[Накладная люстра BRIZZI Modern BX03203/80 Chrome]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[BX03203/80 Chrome]]></vendorCode>
+<model><![CDATA[BX03203/80 Chrome]]></model>
+<description><![CDATA[]]></description>
+<quantity>10</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">современный</param>
+<param name="Форма">цветок</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">800</param>
+<param name="высота">170</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">320</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">8</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На потолок</param>
+<param name="Страна происхождения">Испания</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">03203</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Декоративный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">BX03203/80 Chrome</param>
+<param name="площадь освещения">32</param>
+<param name="поворотный">Нет</param>
+<param name="способ крепления">Монтажная пластина</param>
+<param name="КодТовара">371475</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="519993" type="vendor.model">
+<url>https://divine-light.ru/catalog/nakladnye/lyustra_ma_02401sv_004_ch/</url>
+<categoryId>2870</categoryId>
+<picture>https://img.divine-light.ru/0/021/000021029_800_800.jpg</picture>
+<typePrefix><![CDATA[Накладная люстра]]></typePrefix>
+<name><![CDATA[Накладная люстра BRIZZI Modern MA 02401CB/004 Ch]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02401CB/004 Ch]]></vendorCode>
+<model><![CDATA[MA 02401CB/004 Ch]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">современный</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">620</param>
+<param name="высота">480</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">4</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">02401</param>
+<param name="Артикул">MA 02401CB/004 Ch</param>
+<param name="площадь освещения">16</param>
+<param name="КодТовара">36428</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="519999" type="vendor.model">
+<url>https://divine-light.ru/catalog/nakladnye/lyustra_ma_02401sv_004_br/</url>
+<categoryId>2870</categoryId>
+<picture>https://img.divine-light.ru/0/046/000046445_800_800.jpg</picture>
+<typePrefix><![CDATA[Накладная люстра]]></typePrefix>
+<name><![CDATA[Накладная люстра BRIZZI Modern MA 02401CB/004 Br]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02401CB/004 Br]]></vendorCode>
+<model><![CDATA[MA 02401CB/004 Br]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">современный</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">620</param>
+<param name="высота">360</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">4</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">02401</param>
+<param name="Артикул">MA 02401CB/004 Br</param>
+<param name="площадь освещения">16</param>
+<param name="КодТовара">36434</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="519989" type="vendor.model">
+<url>https://divine-light.ru/catalog/nakladnye/lyustra_ma_02401sv_008_ch/</url>
+<categoryId>2870</categoryId>
+<picture>https://img.divine-light.ru/0/042/000042126_800_800.jpg</picture>
+<typePrefix><![CDATA[Накладная люстра]]></typePrefix>
+<name><![CDATA[Накладная люстра BRIZZI Modern MA 02401CB/008 Ch]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02401CB/008 Ch]]></vendorCode>
+<model><![CDATA[MA 02401CB/008 Ch]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">современный</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">1000</param>
+<param name="высота">480</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">8</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">02401</param>
+<param name="Артикул">MA 02401CB/008 Ch</param>
+<param name="площадь освещения">32</param>
+<param name="КодТовара">36424</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="519991" type="vendor.model">
+<url>https://divine-light.ru/catalog/nakladnye/lyustra_ma_02401sv_006_ch/</url>
+<categoryId>2870</categoryId>
+<picture>https://img.divine-light.ru/0/035/000035953_800_800.jpg</picture>
+<typePrefix><![CDATA[Накладная люстра]]></typePrefix>
+<name><![CDATA[Накладная люстра BRIZZI Modern MA 02401CB/006 Ch]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02401CB/006 Ch]]></vendorCode>
+<model><![CDATA[MA 02401CB/006 Ch]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">современный</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">700</param>
+<param name="высота">370</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">6</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="Страна происхождения">Испания</param>
+<param name="особенности">Дизайнерская люстра накладная</param>
+<param name="коллекция">02401</param>
+<param name="Артикул">MA 02401CB/006 Ch</param>
+<param name="площадь освещения">24</param>
+<param name="КодТовара">36426</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="519997" type="vendor.model">
+<url>https://divine-light.ru/catalog/nakladnye/lyustra_ma_02401sv_008_br/</url>
+<categoryId>2870</categoryId>
+<picture>https://img.divine-light.ru/0/014/000014417_800_800.jpg</picture>
+<typePrefix><![CDATA[Накладная люстра]]></typePrefix>
+<name><![CDATA[Накладная люстра BRIZZI Modern MA 02401CB/008 Br]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02401CB/008 Br]]></vendorCode>
+<model><![CDATA[MA 02401CB/008 Br]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">современный</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">1000</param>
+<param name="высота">480</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">8</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">02401</param>
+<param name="Артикул">MA 02401CB/008 Br</param>
+<param name="площадь освещения">32</param>
+<param name="КодТовара">36432</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="519998" type="vendor.model">
+<url>https://divine-light.ru/catalog/nakladnye/lyustra_ma_02401sv_006_br/</url>
+<categoryId>2870</categoryId>
+<picture>https://img.divine-light.ru/0/014/000014418_800_800.jpg</picture>
+<typePrefix><![CDATA[Накладная люстра]]></typePrefix>
+<name><![CDATA[Накладная люстра BRIZZI Modern MA 02401CB/006 Br]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02401CB/006 Br]]></vendorCode>
+<model><![CDATA[MA 02401CB/006 Br]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">современный</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">700</param>
+<param name="высота">370</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">6</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">02401</param>
+<param name="Артикул">MA 02401CB/006 Br</param>
+<param name="площадь освещения">24</param>
+<param name="КодТовара">36433</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="519992" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustra-podvesnaya/lyustra_ma_02401sa_004_ch/</url>
+<categoryId>2871</categoryId>
+<picture>https://img.divine-light.ru/0/046/000046444_800_800.jpg</picture>
+<typePrefix><![CDATA[Подвесная люстра]]></typePrefix>
+<name><![CDATA[Подвесная люстра BRIZZI Modern MA 02401CA/004 Ch]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02401CA/004 Ch]]></vendorCode>
+<model><![CDATA[MA 02401CA/004 Ch]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">современный</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">620</param>
+<param name="высота">550</param>
+<param name="тип лампы">КЛЛ</param>
+<param name="мощность лампы">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">4</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">02401</param>
+<param name="Артикул">MA 02401CA/004 Ch</param>
+<param name="площадь освещения">16</param>
+<param name="КодТовара">36427</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="566504" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustra-podvesnaya/potolochnaya_lyustra_podvesnaya_ma_02401ca_004_br/</url>
+<categoryId>2871</categoryId>
+<picture>https://img.divine-light.ru/0/136/000136585_800_800.jpg</picture>
+<typePrefix><![CDATA[Подвесная люстра]]></typePrefix>
+<name><![CDATA[Подвесная люстра BRIZZI Modern MA 02401CA/004 Br]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02401CA/004 Br]]></vendorCode>
+<model><![CDATA[MA 02401CA/004 Br]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">современный</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">620</param>
+<param name="высота">950</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">4</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">02401</param>
+<param name="Артикул">MA 02401CA/004 Br</param>
+<param name="площадь освещения">16</param>
+<param name="КодТовара">120564</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="519990" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustra-podvesnaya/lyustra_ma_02401sa_006_ch/</url>
+<categoryId>2871</categoryId>
+<picture>https://img.divine-light.ru/0/042/000042127_800_800.jpg</picture>
+<typePrefix><![CDATA[Подвесная люстра]]></typePrefix>
+<name><![CDATA[Подвесная люстра BRIZZI Modern MA 02401CA/006 Ch]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02401CA/006 Ch]]></vendorCode>
+<model><![CDATA[MA 02401CA/006 Ch]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">современный</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">700</param>
+<param name="высота">550</param>
+<param name="тип лампы">КЛЛ</param>
+<param name="мощность лампы">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">6</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="Страна происхождения">Испания</param>
+<param name="особенности">Дизайнерская люстра подвесная</param>
+<param name="коллекция">02401</param>
+<param name="Артикул">MA 02401CA/006 Ch</param>
+<param name="площадь освещения">24</param>
+<param name="КодТовара">36425</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="566505" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustra-podvesnaya/potolochnaya_lyustra_podvesnaya_ma_02401ca_006_br/</url>
+<categoryId>2871</categoryId>
+<picture>https://img.divine-light.ru/0/136/000136586_800_800.jpg</picture>
+<typePrefix><![CDATA[Подвесная люстра]]></typePrefix>
+<name><![CDATA[Подвесная люстра BRIZZI Modern MA 02401CA/006 Br]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02401CA/006 Br]]></vendorCode>
+<model><![CDATA[MA 02401CA/006 Br]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">современный</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">700</param>
+<param name="высота">950</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">6</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">02401</param>
+<param name="Артикул">MA 02401CA/006 Br</param>
+<param name="площадь освещения">24</param>
+<param name="КодТовара">120565</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="519988" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustra-podvesnaya/lyustra_ma_02401sa_008_ch/</url>
+<categoryId>2871</categoryId>
+<picture>https://img.divine-light.ru/0/036/000036949_800_800.jpg</picture>
+<typePrefix><![CDATA[Подвесная люстра]]></typePrefix>
+<name><![CDATA[Подвесная люстра BRIZZI Modern MA 02401CA/008 Ch]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02401CA/008 Ch]]></vendorCode>
+<model><![CDATA[MA 02401CA/008 Ch]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">современный</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">1000</param>
+<param name="высота">650</param>
+<param name="тип лампы">КЛЛ</param>
+<param name="мощность лампы">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">8</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">02401</param>
+<param name="Артикул">MA 02401CA/008 Ch</param>
+<param name="площадь освещения">32</param>
+<param name="КодТовара">36423</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="566506" type="vendor.model">
+<url>https://divine-light.ru/catalog/lustra-podvesnaya/potolochnaya_lyustra_podvesnaya_ma_02401ca_008_br/</url>
+<categoryId>2871</categoryId>
+<picture>https://img.divine-light.ru/0/085/000085860_800_800.jpg</picture>
+<typePrefix><![CDATA[Подвесная люстра]]></typePrefix>
+<name><![CDATA[Подвесная люстра BRIZZI Modern MA 02401CA/008 Br]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02401CA/008 Br]]></vendorCode>
+<model><![CDATA[MA 02401CA/008 Br]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">современный</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">1000</param>
+<param name="высота">950</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">8</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Нет</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">02401</param>
+<param name="Артикул">MA 02401CA/008 Br</param>
+<param name="площадь освещения">32</param>
+<param name="КодТовара">120566</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="554047" type="vendor.model">
+<url>https://divine-light.ru/catalog/torshery_i_napolnye_svetilniki/svetilnik_napolnyy_ma_01625f_003_bronze_cream/</url>
+<categoryId>2894</categoryId>
+<picture>https://img.divine-light.ru/0/136/000136580_800_800.jpg</picture>
+<typePrefix><![CDATA[Торшер]]></typePrefix>
+<name><![CDATA[Торшер BRIZZI Modern MA 01625F/003 Bronze Cream]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 01625F/003 Bronze Cream]]></vendorCode>
+<model><![CDATA[MA 01625F/003 Bronze Cream]]></model>
+<description><![CDATA[]]></description>
+<quantity>2</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">кремовый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">400</param>
+<param name="высота">1700</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">120</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">3</param>
+<param name="тип цоколя">E14</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Да</param>
+<param name="Место установки">На пол</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">01625</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Конусный</param>
+<param name="Артикул">MA 01625F/003 Bronze Cream</param>
+<param name="вид выключателя">ножной</param>
+<param name="площадь освещения">9</param>
+<param name="КодТовара">120554</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="519995" type="vendor.model">
+<url>https://divine-light.ru/catalog/torshery_i_napolnye_svetilniki/svetilnik_napolnyy_ma_02401f_003_ch/</url>
+<categoryId>2894</categoryId>
+<picture>https://img.divine-light.ru/0/019/000019137_800_800.jpg</picture>
+<typePrefix><![CDATA[Торшер]]></typePrefix>
+<name><![CDATA[Торшер BRIZZI Modern MA 02401F/003 Ch]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02401F/003 Ch]]></vendorCode>
+<model><![CDATA[MA 02401F/003 Ch]]></model>
+<description><![CDATA[]]></description>
+<quantity>11</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">500</param>
+<param name="высота">1650</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">3</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="выключатель">Да</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">02401</param>
+<param name="Артикул">MA 02401F/003 Ch</param>
+<param name="вид выключателя">ножной</param>
+<param name="площадь освещения">12</param>
+<param name="КодТовара">36430</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="520759" type="vendor.model">
+<url>https://divine-light.ru/catalog/torshery_i_napolnye_svetilniki/svetilnik_napolnyy_ma_01625f_003_chrome/</url>
+<categoryId>2894</categoryId>
+<picture>https://img.divine-light.ru/0/020/000020915_800_800.jpg</picture>
+<typePrefix><![CDATA[Торшер]]></typePrefix>
+<name><![CDATA[Торшер BRIZZI Modern MA 01625F/003 Chrome]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 01625F/003 Chrome]]></vendorCode>
+<model><![CDATA[MA 01625F/003 Chrome]]></model>
+<description><![CDATA[]]></description>
+<quantity>7</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">400</param>
+<param name="высота">1700</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">120</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">3</param>
+<param name="тип цоколя">E14</param>
+<param name="степень защиты ip">20</param>
+<param name="выключатель">Да</param>
+<param name="Место установки">На пол</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">01625</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Конусный</param>
+<param name="Артикул">MA 01625F/003 Chrome</param>
+<param name="вид выключателя">ножной</param>
+<param name="площадь освещения">9</param>
+<param name="КодТовара">35036</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="566508" type="vendor.model">
+<url>https://divine-light.ru/catalog/torshery_i_napolnye_svetilniki/svetilnik_napolnyy_ma_02640f_003_chrome/</url>
+<categoryId>2894</categoryId>
+<picture>https://img.divine-light.ru/0/136/000136592_800_800.jpg</picture>
+<typePrefix><![CDATA[Торшер]]></typePrefix>
+<name><![CDATA[Торшер BRIZZI Modern MA 02640F/003 Chrome]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02640F/003 Chrome]]></vendorCode>
+<model><![CDATA[MA 02640F/003 Chrome]]></model>
+<description><![CDATA[]]></description>
+<quantity>10</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">460</param>
+<param name="высота">1700</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">120</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">3</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Да</param>
+<param name="Место установки">На пол</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">02640</param>
+<param name="Назначение помещения">большие залы</param>
+<param name="форма плафона">Овал</param>
+<param name="Артикул">MA 02640F/003 Chrome</param>
+<param name="вид выключателя">ножной</param>
+<param name="площадь освещения">12</param>
+<param name="КодТовара">120575</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="923692" type="vendor.model">
+<url>https://divine-light.ru/catalog/torshery_i_napolnye_svetilniki/bl_03203_1_chrome/</url>
+<categoryId>2894</categoryId>
+<picture>https://img.divine-light.ru/0/046/000046438_800_800.jpg</picture>
+<typePrefix><![CDATA[Торшер]]></typePrefix>
+<name><![CDATA[Торшер BRIZZI Modern BL 03203/1 Chrome]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[BL 03203/1 Chrome]]></vendorCode>
+<model><![CDATA[BL 03203/1 Chrome]]></model>
+<description><![CDATA[]]></description>
+<quantity>8</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">хром</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">390</param>
+<param name="высота">1730</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Да</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На пол</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">03203</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Конусный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">BL 03203/1 Chrome</param>
+<param name="вид выключателя">ножной</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">36385</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="554048" type="vendor.model">
+<url>https://divine-light.ru/catalog/torshery_i_napolnye_svetilniki/svetilnik_napolnyy_ma_02401f_003_br/</url>
+<categoryId>2894</categoryId>
+<picture>https://img.divine-light.ru/0/092/000092926_800_800.jpg</picture>
+<typePrefix><![CDATA[Торшер]]></typePrefix>
+<name><![CDATA[Торшер BRIZZI Modern MA 02401F/003 Br]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02401F/003 Br]]></vendorCode>
+<model><![CDATA[MA 02401F/003 Br]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">500</param>
+<param name="высота">1650</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">3</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Да</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">02401</param>
+<param name="Артикул">MA 02401F/003 Br</param>
+<param name="вид выключателя">ножной</param>
+<param name="площадь освещения">12</param>
+<param name="КодТовара">120563</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="872831" type="vendor.model">
+<url>https://divine-light.ru/catalog/torshery_i_napolnye_svetilniki/ma_02640f_003_bronze/</url>
+<categoryId>2894</categoryId>
+<picture>https://img.divine-light.ru/0/085/000085861_800_800.jpg</picture>
+<typePrefix><![CDATA[Торшер]]></typePrefix>
+<name><![CDATA[Торшер BRIZZI Modern MA 02640F/003 Bronze]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[MA 02640F/003 Bronze]]></vendorCode>
+<model><![CDATA[MA 02640F/003 Bronze]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">белый</param>
+<param name="материал плафона">стекло</param>
+<param name="ширина/диаметр">460</param>
+<param name="длина">460</param>
+<param name="высота">1600</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">120</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">3</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Да</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На пол</param>
+<param name="Страна происхождения">Испания</param>
+<param name="солнечная батарея">Нет</param>
+<param name="датчик движения">Нет</param>
+<param name="коллекция">02640</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Овал</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">MA 02640F/003 Bronze</param>
+<param name="вид выключателя">ножной</param>
+<param name="площадь освещения">12</param>
+<param name="КодТовара">120574</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+<offer id="923694" type="vendor.model">
+<url>https://divine-light.ru/catalog/torshery_i_napolnye_svetilniki/bl_03203_1_bronze_cream/</url>
+<categoryId>2894</categoryId>
+<picture>https://img.divine-light.ru/0/136/000136599_800_800.jpg</picture>
+<typePrefix><![CDATA[Торшер]]></typePrefix>
+<name><![CDATA[Торшер BRIZZI Modern BL 03203/1 Bronze Cream]]></name>
+<vendor><![CDATA[BRIZZI Modern]]></vendor>
+<vendorCode><![CDATA[BL 03203/1 Bronze Cream]]></vendorCode>
+<model><![CDATA[BL 03203/1 Bronze Cream]]></model>
+<description><![CDATA[]]></description>
+<quantity>0</quantity>
+<param name="Бренд">BRIZZI Modern</param>
+<param name="стиль">классический</param>
+<param name="Форма">круг</param>
+<param name="цвет арматуры">бронзовый</param>
+<param name="материал арматуры">металл</param>
+<param name="цвет плафона">кремовый</param>
+<param name="материал плафона">ткань</param>
+<param name="ширина/диаметр">390</param>
+<param name="высота">1730</param>
+<param name="тип лампы">накаливания или LED</param>
+<param name="мощность лампы">40</param>
+<param name="мощность общая">40</param>
+<param name="напряжение">220</param>
+<param name="количество ламп">1</param>
+<param name="тип цоколя">E27</param>
+<param name="степень защиты ip">20</param>
+<param name="пульт управления">Нет</param>
+<param name="выключатель">Да</param>
+<param name="диммируемость">Нет</param>
+<param name="Место установки">На пол</param>
+<param name="Страна происхождения">Испания</param>
+<param name="коллекция">03203</param>
+<param name="Назначение помещения">гостиная</param>
+<param name="форма плафона">Конусный</param>
+<param name="лампы в комплекте">Нет</param>
+<param name="Артикул">BL 03203/1 Bronze Cream</param>
+<param name="вид выключателя">ножной</param>
+<param name="площадь освещения">4</param>
+<param name="поворотный">Нет</param>
+<param name="КодТовара">120586</param>
+<delivery>true</delivery>
+<pickup>true</pickup>
+</offer>
+</offers>
+</shop>
+</yml_catalog>

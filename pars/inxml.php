@@ -20,17 +20,6 @@ ini_set('upload_max_filesize','256M');
 
 
     $files = [
-        ["name" => "100735.xml", "count" => 106],
-        ["name" => "100667.xml", "count" => 1632],
-        ["name" => "100673.xml", "count" => 544],
-        ["name" => "100684.xml", "count" => 1343],
-        ["name" => "100711.xml", "count" => 793],
-        ["name" => "100713.xml", "count" => 236],
-        ["name" => "100729.xml", "count" => 1210],
-        ["name" => "100741.xml", "count" => 1299],
-        ["name" => "100745.xml", "count" => 1751],
-        ["name" => "100759.xml", "count" => 4136],
-        ["name" => "100766.xml","count" => 198],
         ["name" => "100774.xml", "count" => 1085],
         ["name" => "119048.xml","count" => 713],
         ["name" => "119176.xml","count" => 381],
