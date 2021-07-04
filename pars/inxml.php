@@ -20,69 +20,12 @@ ini_set('upload_max_filesize','256M');
 
 
     $files = [
-        ["name" => "143862.xml", "count" => 398],
-        ["name" => "100615.xml", "count" => 275],
-        ["name" => "100620.xml", "count" => 913],
-        ["name" => "100626.xml", "count" => 1236],
-        ["name" => "100629.xml", "count" => 595],
-        ["name" => "100632.xml", "count" => 1107],
-        ["name" => "100634.xml", "count" => 1590],
-        ["name" => "100661.xml", "count" => 332],
-        ["name" => "100678.xml", "count" => 445],
-        ["name" => "100693.xml", "count" => 793],
-        ["name" => "100699.xml", "count" => 2],
-        ["name" => "100701.xml", "count" => 9],
-        ["name" => "100715.xml", "count" => 186],
-        ["name" => "100725.xml", "count" => 368],
-        ["name" => "100731.xml", "count" => 176],
-        ["name" => "100752.xml", "count" => 212],
-        ["name" => "100753.xml", "count" => 59],
-        ["name" => "100767.xml", "count" => 514],
-        ["name" => "100777.xml", "count" => 168],
-        ["name" => "100778.xml", "count" => 531],
-        ["name" => "100798.xml", "count" => 147],
-        ["name" => "100814.xml", "count" => 2227],
-        ["name" => "100816.xml", "count" => 1510],
-        ["name" => "100817.xml", "count" => 209],
-        ["name" => "100821.xml", "count" => 927],
-        ["name" => "100830.xml", "count" => 491],
-        ["name" => "119047.xml", "count" => 325],
-        ["name" => "119167.xml", "count" => 380],
-        ["name" => "119385.xml", "count" => 390],
-        ["name" => "119929.xml", "count" => 516],
-        ["name" => "123663.xml", "count" => 285],
-        ["name" => "123773.xml", "count" => 388],
-        ["name" => "127107.xml", "count" => 92],
-        ["name" => "127750.xml", "count" => 343],
-        ["name" => "128273.xml", "count" => 76],
-        ["name" => "128329.xml", "count" => 94],
-        ["name" => "128567.xml", "count" => 115],
-        ["name" => "129972.xml", "count" => 18],
-        ["name" => "130078.xml", "count" => 154],
-        ["name" => "130612.xml", "count" => 10],
-        ["name" => "131128.xml", "count" => 87],
-        ["name" => "133838.xml", "count" => 304],
-        ["name" => "133873.xml", "count" => 1213],
-        ["name" => "134823.xml", "count" => 462],
-        ["name" => "135915.xml", "count" => 635],
-        ["name" => "136690.xml", "count" => 86],
-        ["name" => "138237.xml", "count" => 177],
-        ["name" => "138961.xml", "count" => 63],
-        ["name" => "141496.xml", "count" => 91],
-        ["name" => "141866.xml", "count" => 94],
-        ["name" => "142003.xml", "count" => 181],
-        ["name" => "143862.xml", "count" => 397],
-        ["name" => "173331.xml", "count" => 346],
-        ["name" => "173350.xml", "count" => 510],
-        ["name" => "174371.xml", "count" => 326],
-        ["name" => "174688.xml", "count" => 644],
-        ["name" => "179924.xml", "count" => 106],
-
+        ["name" => "100782.xml", "count" => 5153]
     ];
 
     $startIndex = 0;
     $filename = "";
-    $fileincrement = 40;
+    $fileincrement = 20;
     foreach ($files as $fe) {
         $rez = $wpdb->get_results( "SELECT * FROM `mrksv_parsing_index` WHERE `file` = '".$fe["name"]."' ORDER BY `data` DESC" );
         
@@ -264,26 +207,26 @@ ini_set('upload_max_filesize','256M');
             } else {
                 
                
-                echo "Пост существует: ". $posts->posts[0]->post_title." id: ".$posts->posts[0]->ID.".\n\r";
-                $i++;
-                if ($i>$startIndex+$fileincrement)  {
-                    echo "Тута.\n\r";
-                    break;
-                } 
-                continue;
+                // echo "Пост существует: ". $posts->posts[0]->post_title." id: ".$posts->posts[0]->ID.".\n\r";
+                // $i++;
+                // if ($i>$startIndex+$fileincrement)  {
+                //     echo "Тута.\n\r";
+                //     break;
+                // } 
+                // continue;
 
-                 // echo "Обновление поста: ". $posts->posts[0]->post_title." id: ".$posts->posts[0]->ID.".\n\r";
-                // $post_id = wp_update_post(  wp_slash( array(
-                //     'ID' => $posts->posts[0]->ID,
-                //     'post_type'     => 'light',
-                //     'post_author'    => 1,
-                //     'post_status'    => 'publish',
-                //     'post_title' => (string)$elem->name,
-                //     'post_excerpt'  => empty((string)$elem->description)?(string)$elem->name:(string)$elem->description,
-                //     'post_content'  => empty((string)$elem->description)?(string)$elem->name:(string)$elem->description,
-                //     'meta_input'     => $to_post_meta,
+                 echo "Обновление поста: ". $posts->posts[0]->post_title." id: ".$posts->posts[0]->ID.".\n\r";
+                $post_id = wp_update_post(  wp_slash( array(
+                    'ID' => $posts->posts[0]->ID,
+                    'post_type'     => 'light',
+                    'post_author'    => 1,
+                    'post_status'    => 'publish',
+                    'post_title' => (string)$elem->name,
+                    'post_excerpt'  => empty((string)$elem->description)?(string)$elem->name:(string)$elem->description,
+                    'post_content'  => empty((string)$elem->description)?(string)$elem->name:(string)$elem->description,
+                    'meta_input'     => $to_post_meta,
                     
-                // ) ) );
+                ) ) );
             }
 
             wp_set_object_terms( $post_id, $to_post_meta["_offer_brend"], "lightbrand" );
