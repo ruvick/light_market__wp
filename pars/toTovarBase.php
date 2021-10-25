@@ -11,7 +11,7 @@
     $posts = get_posts( array(
         'numberposts' => 500,
         'post_type' => "light",
-        'offset' => 23000,
+        'offset' => 62500,
 
         // 'tax_query' => array(
         //     array(

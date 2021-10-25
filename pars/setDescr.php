@@ -22,9 +22,9 @@
         
 
 
-        // $curPrice = carbon_get_post_meta($post->ID,"offer_price");
+        //  $curPrice = carbon_get_post_meta($post->ID,"offer_price");
         // $curPriceNew = round($curPrice * 0.9);
-        // update_post_meta( $post->ID, '_offer_price', $curPriceNew);    
+        update_post_meta( $post->ID, '_offer_strana', "Россия");    
         
         echo $post->post_title ."\n\r";
         
