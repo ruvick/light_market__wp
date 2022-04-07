@@ -104,7 +104,7 @@ function change_menu_item_css_classes( $classes, $item, $args, $depth ) {
 
 if ( ! defined( '_S_VERSION' ) ) {
 	// Replace the version number of the theme on each release. 
-	define( '_S_VERSION', '1.0.1' );
+	define( '_S_VERSION', '1.0.11' );
 }
 
 if ( ! function_exists( 'light_market_setup' ) ) :
@@ -588,3 +588,39 @@ add_action( 'wp_ajax_nopriv_sendphone', 'sendphone' );
 					wp_die( 'НО-НО-НО!', '', 403 );
 				}
 			}
+
+// Инфа для подсказки
+add_action('wp_ajax_get_clue', 'get_clue');
+add_action('wp_ajax_nopriv_get_clue', 'get_clue');
+
+function get_clue()
+{
+	if (empty($_REQUEST['nonce'])) {
+		wp_die('0');
+	}
+
+	if (check_ajax_referer('NEHERTUTLAZIT', 'nonce', false)) {
+		$args = array(
+			'posts_per_page' => 300,
+			'post_type' => 'light',
+			's' => $_REQUEST['str']
+		);
+		$query = new WP_Query($args);
+
+		$rez = [];
+		foreach ($query->posts as $p)
+		{
+			$rez[] = array(
+				"lnk" => get_the_permalink($p->ID), 
+				"name" => $p->post_title, 
+				"price" => get_post_meta($p->ID, "_offer_price", true),
+				"img" => get_the_post_thumbnail_url($p->ID,"thumbnail")
+
+			);
+		}
+
+		wp_die(json_encode($rez));
+	} else {
+		wp_die('НО-НО-НО!', '', 403);
+	}
+}

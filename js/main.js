@@ -500,3 +500,124 @@ $(document).ready(function () {
 	}
 
 });
+
+
+
+
+// Подсказка в поиске
+
+function all_component_set_display(componrnt = "", param = "") {
+	let components = document.querySelectorAll(componrnt);
+	for (let ic = 0; ic < components.length; ic++) {
+		components[ic].style.display = param
+	}	
+} 
+
+
+function all_component_set_value(componrnt = "", param = "") {
+	let components = document.querySelectorAll(componrnt);
+	for (let ic = 0; ic < components.length; ic++) {
+		components[ic].value = param
+	}	
+} 
+
+document.addEventListener("DOMContentLoaded", () => {
+
+	let clBtnEvent = document.querySelectorAll('.sub-sclose');
+	for (let index = 0; index < clBtnEvent.length; index++) { 
+		clBtnEvent[index].addEventListener('click', function (e) { 
+			
+			all_component_set_display('.preSearchWrap', 'none')
+			all_component_set_value('.search__input', '')
+
+			clBtnEvent[index].style.display = "none"
+		});
+
+		
+	}
+
+
+	
+	let search = document.querySelectorAll('.search__input');
+	if (search) {
+		for (let index = 0; index < search.length; index++) { 
+
+			search[index].addEventListener('keydown', function (e) {
+				
+				console.log(search[index].value);
+				
+				var xhr = new XMLHttpRequest()
+
+				if (search[index].value.length < 4) {
+					
+					all_component_set_display('.preSearchWrap', 'none')
+					all_component_set_display('.sub-sclose', 'none')
+					
+					return;
+				}
+
+				all_component_set_display('.sub-sclose', 'block')
+				
+				var params = new URLSearchParams()
+				params.append('action', 'get_clue')
+				params.append('nonce', allAjax.nonce)
+				params.append('str', search[index].value)
+				
+
+				all_component_set_display('.sub-load', 'block')
+
+				xhr.onload = function (e) {
+					let searchElements = JSON.parse( xhr.response)
+					let rez_str = ""
+					
+					if (searchElements.length == 0) {
+						all_component_set_display('.sub-load', 'none')
+						return;
+					}
+
+					for (let i = 0; i<searchElements.length; i++){
+						rez_str += '<a class="preSearchElemLnk" href="'+searchElements[i].lnk+'">'+
+										'<div class="preSearchElem">'+
+					  						'<div class="img" style="background-image: url('+searchElements[i].img+')"></div>'+
+						  				
+										'<div class="text">'+
+											'<span>'+searchElements[i].name+'</span>'+
+										'</div>'+
+										
+										'<div class="price">'+
+											'<span class="cur">'+searchElements[i].price+' ₽</span>'+
+										'</div>'+
+									'</div>'+
+									'</a>'
+				
+
+					}
+
+
+
+						all_component_set_display('.sub-load', 'none')
+						
+
+						let inputClue = document.querySelectorAll('.preSearchWrap');
+						for (let ic = 0; ic < inputClue.length; ic++) {
+							inputClue[ic].style.display = "block"
+							inputClue[ic].innerHTML = rez_str;
+						}
+					
+
+					console.log(JSON.parse( xhr.response) );		
+				}
+
+				xhr.onerror = function () {
+					error(xhr, xhr.status);
+				};
+
+				xhr.open('POST', allAjax.ajaxurl, true);
+				xhr.send(params);
+			});
+		}
+		
+
+	}
+
+});

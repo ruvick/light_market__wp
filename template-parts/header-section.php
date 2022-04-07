@@ -29,8 +29,12 @@
 				</div>
 
 				<form action = "<?php echo home_url( '/' ) ?>" class="header__search search">
-					<input type="text" placeholder="Поиск по сайту" name = "s" value = "<?php echo get_search_query() ?>" class="search__input input">
+					<input autocomplete="off" type="text" placeholder="Поиск по сайту" name = "s" value = "<?php echo get_search_query() ?>" class="search__input input">
+					<div class = "sub-load"></div>
+					<div class = "sub-sclose"></div>
 					<button type="submit" tabindex="2" id="searchsubmit" class="sub-search" value=""></button>	
+
+					<?php get_template_part('template-parts/menu-search');?>
 				</form>
 				
 				<button class="mob-search"></button> 

@@ -1250,9 +1250,45 @@ body.ie .ibg img {
   right: 10px;
   width: 17px;
   height: 17px;
+  
   background-position: 0 0;
   background-repeat: no-repeat;
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNy4xMDQiIGhlaWdodD0iMTcuMSIgdmlld0JveD0iMCAwIDE3LjEwNCAxNy4xIj4NCiAgPHBhdGggaWQ9ItCa0L7QvdGC0YPRgF85IiBkYXRhLW5hbWU9ItCa0L7QvdGC0YPRgCA5IiBkPSJNMTQzMC4wMjMsMTE5LjI1M2E2LjI2NSw2LjI2NSwwLDAsMCwxMC4yMzIsNC44NDlsLjA2NC0uMDUyLDUuODg1LDUuODg1YS41NTMuNTUzLDAsMCwwLC43NjUsMCwuNTQyLjU0MiwwLDAsMCwwLS43NjZsLTUuODMtNS44My0uMDU4LS4wNTguMDUyLS4wNjNhNi4yNjMsNi4yNjMsMCwxLDAtMTEuMTEtMy45NjVabTEuMDgsMGE1LjE4MSw1LjE4MSwwLDEsMSw1LjE4MSw1LjE4MUE1LjE4Nyw1LjE4NywwLDAsMSwxNDMxLjEsMTE5LjI1M1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xNDMwLjAyMyAtMTEyLjk4OSkiIGZpbGw9IiNkMzgyMGYiLz4NCjwvc3ZnPg0K"); }
+
+  .sub-load {
+    display: none;
+  }
+  .sub-load:after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    right: 60px;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-image: url(img/icons/loader.svg); 
+
+  }
+  
+  .sub-sclose {
+    display: none;
+    cursor: pointer;
+  }
+  .sub-sclose:after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    right: 35px;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-image: url(img/icons/sclose.svg); 
+
+  }
 
 .header-bottom {
   border-top: 1px solid #edeeef;
@@ -3099,6 +3135,83 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   background-color: #00000050;
 }
 
+/* Меню поиска */
+.preSearchWrap {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 43px;
+  width: 100%;
+  max-height: 400px;
+  padding: 2%;
+  border: 1px solid #e0e1e3;
+  border-radius: 0;
+  background-color: white;
+  z-index: 100000;
+  overflow: auto;
+}
+.preSearchWrap::-webkit-scrollbar-thumb {
+  background-color: #d3820f;
+}
+.preSearchElem {
+  display: flex;
+  width: 100%;
+  min-height: 70px;
+  margin-bottom: 15px;
+}
+.preSearchElem .img {
+  width: 70px;
+  max-width: 70px;
+  height: 70px;
+  max-height: 70px;
+  flex: 1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.preSearchElem .text {
+  display: flex;
+  flex: 3;
+}
+.preSearchElem .text span {
+  margin: auto 10px;
+}
+.preSearchElem .price {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  max-width: 100px;
+}
+.preSearchElem .price .cur {
+  width: 100%;
+  color: black;
+  margin: auto;
+}
+/* Меню поиска END */ 
+
+/* Стилизация скролла сайта  */ 
+
+::-webkit-scrollbar-button  {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  overflow-y: scroll;
+  width: 7px;
+  background-color: #f9f9fd;
+  z-index: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: grey;
+}
+
+::-webkit-scrollbar-track {
+  
+}
+
+/* Меню поиска END */ 
+
 
 @media (max-width: 1340px) {
   .container {
@@ -3610,6 +3723,10 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
     transition: top 0.8s; }
   .sub-search:after {
     right: 20px; }
+    
+    .sub-sclose:after {
+    right: 41px; }
+
   .footer__col {
     -webkit-box-flex: 0;
     -ms-flex: 0 1 38%;
