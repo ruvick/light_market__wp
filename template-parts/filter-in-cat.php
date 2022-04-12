@@ -1,5 +1,5 @@
 
-<form id = "filterForm" class="menu-left">
+<form id = "categoryFilterForm" class="menu-left ">
 						<input id = "sortByParam" type = "hidden" name = "sortByParam" value = "def">
 						<?
 							$sqr =  get_search_query();

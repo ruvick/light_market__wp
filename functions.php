@@ -1,4 +1,7 @@
 <?php
+
+ini_set('memory_limit', '2048M'); 
+
 /**
  * light_market functions and definitions
  *
@@ -261,6 +264,8 @@ function light_market_scripts_styles(){
 	wp_enqueue_script( 'light_market-slick', get_template_directory_uri() . '/js/slick.min.js', array(), '1.0', true ); 
 
 	if( is_tax()) wp_enqueue_script( 'jquery-ui', 'https://code.jquery.com/ui/1.12.1/jquery-ui.min.js', array(), '1.0',  true );
+
+	wp_enqueue_script( 'filter', get_template_directory_uri(). '/js/filter.js', array(), null, true);
 
 	wp_enqueue_script( 'light_market-main', get_template_directory_uri() . '/js/main.js', array(), 1.0, true );
 
@@ -624,3 +629,111 @@ function get_clue()
 		wp_die('НО-НО-НО!', '', 403);
 	}
 }
+
+// Фильтр Start ================================================================================================================
+
+
+add_action('rest_api_init', function () {
+	register_rest_route('gensvet/v2', '/get_filter', array(
+		'methods'  => 'GET',
+		'callback' => 'get_filter',
+		'args' => array(
+			'catid' => array(
+				'default'           => null,
+				'required'          => true,
+			)
+		),
+	));
+});
+
+//https://marketsveta.su/wp-json/gensvet/v2/get_filter?catid=14
+function get_filter(WP_REST_Request $request)
+{
+  
+	$tax_array = array(
+		array(
+			'taxonomy' => 'lightcat',
+			'field'    => 'id',
+			'terms' =>  $request['catid']
+		)
+	);
+	
+
+	$queryParam = array(
+		'post_type' => 'light',
+		'posts_per_page' => 4000,
+	);
+
+	if (!empty($request['catid']))
+		$queryParam['tax_query'] = $tax_array;
+
+		
+	$queryMain = new WP_Query($queryParam);
+
+	// return array("memory_limit" => ini_get('memory_limit'));
+	
+
+	$rez = array();
+
+	
+	$rez["offer_style"] = array();
+	$rez["offer_forma"] = array();
+	$rez["offer_material_plaf"] = array();
+	$rez["offer_color_plaf"] = array();
+	$rez["offer_lamp_type"] = array();
+	$rez["offer_tsokol"] = array();
+
+	$min = PHP_INT_MAX;
+	$max = PHP_INT_MIN;
+
+	foreach ($queryMain->posts as $postM) {
+
+		$offer_style = get_post_meta($postM->ID, "_offer_style", true);
+		if (!empty($offer_style) && !in_array($offer_style, $rez["offer_style"]))
+			$rez["offer_style"][] = $offer_style;
+
+		$offer_forma = get_post_meta($postM->ID, "_offer_forma", true);
+		if (!empty($offer_forma) && !in_array($offer_forma, $rez["offer_forma"]))
+			$rez["offer_forma"][] = $offer_forma;
+		
+		$offer_material_plaf = get_post_meta($postM->ID, "_offer_material_plaf", true);
+		if (!empty($offer_material_plaf) && !in_array($offer_material_plaf, $rez["offer_material_plaf"]))
+			$rez["offer_material_plaf"][] = $offer_material_plaf;
+
+		$offer_color_plaf = get_post_meta($postM->ID, "_offer_color_plaf", true);
+		if (!empty($offer_color_plaf) && !in_array($offer_color_plaf, $rez["offer_color_plaf"]))
+			$rez["offer_color_plaf"][] = $offer_color_plaf;
+
+		$offer_lamp_type = get_post_meta($postM->ID, "_offer_lamp_type", true);
+		if (!empty($offer_lamp_type) && !in_array($offer_lamp_type, $rez["offer_lamp_type"]))
+			$rez["offer_lamp_type"][] = $offer_lamp_type;
+
+		$offer_tsokol = get_post_meta($postM->ID, "_offer_tsokol", true);
+		if (!empty($offer_tsokol) && !in_array($offer_tsokol, $rez["offer_tsokol"]))
+			$rez["offer_tsokol"][] = $offer_tsokol;
+
+
+		if ($min > (int)get_post_meta($postM->ID, "_offer_price", true))
+			$min = (int)get_post_meta($postM->ID, "_offer_price", true);
+
+		if ($max < (int)get_post_meta($postM->ID, "_offer_price", true))
+			$max = (int)get_post_meta($postM->ID, "_offer_price", true);
+	}
+
+	$rez["offer_price_max"] = $max;
+	$rez["offer_price_min"] = $min;
+
+	sort($rez["offer_style"]);
+	sort($rez["offer_forma"]);
+	sort($rez["offer_material_plaf"]);
+	sort($rez["offer_color_plaf"]);
+	sort($rez["offer_lamp_type"]);
+	sort($rez["offer_tsokol"]);
+
+	if (!empty($rez))
+		return $rez;
+	else
+		return new WP_Error('no_token', 'Токен не найден или пользователь уже разлогинен.', ['status' => 403]);
+}
+
+// Фильтр End ================================================================================================================

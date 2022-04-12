@@ -1258,6 +1258,8 @@ body.ie .ibg img {
   .sub-load {
     display: none;
   }
+  
+  .filterLooader:after,
   .sub-load:after {
     content: "";
     position: absolute;
@@ -1271,6 +1273,29 @@ body.ie .ibg img {
     background-image: url(img/icons/loader.svg); 
 
   }
+
+.categoryFilterLoader {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+  .filterLooader {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    background-position: center;
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-image: url(img/icons/loader.svg); 
+  }
+
+  .categoryFilterForm {
+    display: none;
+  }
+
+
   
   .sub-sclose {
     display: none;

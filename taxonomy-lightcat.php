@@ -4,6 +4,8 @@
 
 <!-- <main id="primary" class="site-main"> -->
 
+	<div style = "display:none" id = "tovarCategoryId" data-id = "<? echo get_queried_object()->term_id; ?>"></div>
+
 	<section id="page" class="page"> 
 		<div class="container">
 
@@ -128,7 +130,7 @@
 								} 
 							}
 
-							// $arg['meta_query'] = $metaquery;
+							//$arg['meta_query'] = $metaquery;
 							
 							if (isset($_REQUEST["sortByParam"]) && ($_REQUEST["sortByParam"] !== "def")) {
 								$arg['orderby'] = 'priceStart';
@@ -139,8 +141,10 @@
 							$queryM = new WP_Query($arg);
 
 							// echo "<pre>";
-							// print_r($queryM);
+							// print_r($arg);
 							// echo "</pre>";
+
+
 							$paget = isset ($queryM->query["paged"])?$queryM->query["paged"]:0;
 							$post_count_start = (int)$queryM->query_vars["posts_per_page"] * (int)$paget;
 							$post_count_start = (empty($post_count_start))?1:$post_count_start;
@@ -154,8 +158,8 @@
 
 				<aside class="page__side">
 					
-					<?php  //get_template_part('template-parts/filter','in-cat', array("wp_query" => $wp_query));?>		
-					<?php  get_template_part('template-parts/brand-slider-in-cat');?>		
+					<?php  get_template_part('template-parts/filter','in-cat-empty', array("wp_query" => $wp_query));?>		
+					<?php  //get_template_part('template-parts/brand-slider-in-cat');?>		
 					
 				</aside>
 

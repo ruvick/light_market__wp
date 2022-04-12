@@ -4,6 +4,8 @@
 
 <!-- <main id="primary" class="site-main"> -->
 
+	<div style = "display:none" id = "tovarCategoryId" data-id = "<? echo get_queried_object()->term_id; ?>"></div>
+
 	<section id="page" class="page"> 
 		<div class="container">
 
