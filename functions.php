@@ -649,7 +649,7 @@ add_action('rest_api_init', function () {
 //https://marketsveta.su/wp-json/gensvet/v2/get_filter?catid=14
 function get_filter(WP_REST_Request $request)
 {
-  
+	$start = microtime(true);
 	$tax_array = array(
 		array(
 			'taxonomy' => 'lightcat',
@@ -722,6 +722,7 @@ function get_filter(WP_REST_Request $request)
 
 	$rez["offer_price_max"] = $max;
 	$rez["offer_price_min"] = $min;
+	$rez["time"] = (microtime(true) - $start);
 
 	sort($rez["offer_style"]);
 	sort($rez["offer_forma"]);
@@ -736,4 +737,48 @@ function get_filter(WP_REST_Request $request)
 		return new WP_Error('no_token', 'Токен не найден или пользователь уже разлогинен.', ['status' => 403]);
 }
 
+
+add_action('rest_api_init', function () {
+	register_rest_route('gensvet/v2', '/get_filter_q', array(
+		'methods'  => 'GET',
+		'callback' => 'get_filter_q',
+		'args' => array(
+			'catid' => array(
+				'default'           => null,
+				'required'          => true,
+			)
+		),
+	));
+});
+
+//https://marketsveta.su/wp-json/gensvet/v2/get_filter_q?catid=14
+function get_filter_q(WP_REST_Request $request)
+{
+	$start = microtime(true);
+	
+	global $wpdb; 
+
+	$rez = array();
+
+	$rez["offer_style"] = $wpdb->get_results("SELECT `offer_style` FROM `mrksv_filter` WHERE (`cat`= ".$request['catid']." OR `cat1`= ".$request['catid']." OR `cat2`= ".$request['catid'].") AND `offer_style` != ''  GROUP BY `offer_style`", ARRAY_N );
+	$rez["offer_forma"] = $wpdb->get_results("SELECT `offer_forma` FROM `mrksv_filter` WHERE (`cat`= ".$request['catid']." OR `cat1`= ".$request['catid']." OR `cat2`= ".$request['catid'].") AND `offer_forma` != ''  GROUP BY `offer_forma`", ARRAY_N );
+	$rez["offer_material_plaf"] = $wpdb->get_results("SELECT `offer_material_plaf` FROM `mrksv_filter` WHERE (`cat`= ".$request['catid']." OR `cat1`= ".$request['catid']." OR `cat2`= ".$request['catid'].") AND `offer_material_plaf` != ''  GROUP BY `offer_material_plaf`", ARRAY_N );
+	$rez["offer_color_plaf"] = $wpdb->get_results("SELECT `offer_style` FROM `offer_color_plaf` WHERE (`cat`= ".$request['catid']." OR `cat1`= ".$request['catid']." OR `cat2`= ".$request['catid'].") AND `offer_color_plaf` != ''  GROUP BY `offer_color_plaf`", ARRAY_N );
+	$rez["offer_lamp_type"] = $wpdb->get_results("SELECT `offer_lamp_type` FROM `mrksv_filter` WHERE (`cat`= ".$request['catid']." OR `cat1`= ".$request['catid']." OR `cat2`= ".$request['catid'].") AND `offer_lamp_type` != ''  GROUP BY `offer_lamp_type`", ARRAY_N );
+	$rez["offer_tsokol"] = $wpdb->get_results("SELECT `offer_tsokol` FROM `mrksv_filter` WHERE (`cat`= ".$request['catid']." OR `cat1`= ".$request['catid']." OR `cat2`= ".$request['catid'].") AND `offer_tsokol` != ''  GROUP BY `offer_tsokol`", ARRAY_N );
+
+	$min = PHP_INT_MAX;
+	$max = PHP_INT_MIN;
+
+
+	$rez["offer_price_max"] = $max;
+	$rez["offer_price_min"] = $min;
+	$rez["time"] = (microtime(true) - $start);
+
+
+	if (!empty($rez))
+		return $rez;
+	else
+		return new WP_Error('no_token', 'Токен не найден или пользователь уже разлогинен.', ['status' => 403]);
+}
 // Фильтр End ================================================================================================================
