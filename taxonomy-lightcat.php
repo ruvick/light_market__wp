@@ -4,7 +4,7 @@
 
 <!-- <main id="primary" class="site-main"> -->
 
-	<div style = "display:none" id = "tovarCategoryId" data-id = "<? echo get_queried_object()->term_id; ?>"></div>
+	<div style = "display:none" id = "tovarCategoryId" data-id = "<? echo $thisCatID = get_queried_object()->term_id; ?>"></div>
 
 	<section id="page" class="page"> 
 		<div class="container">
@@ -16,142 +16,142 @@
 			?> 
 
 			<? 
-							$arg = $wp_query->query;
+							// $arg = $wp_query->query;
 
-							$startPrice = empty($_REQUEST["price_from"])?"0":$_REQUEST["price_from"];
-							$endPrice = empty($_REQUEST["price_to"])?PHP_INT_MAX:$_REQUEST["price_to"];
+							// $startPrice = empty($_REQUEST["price_from"])?"0":$_REQUEST["price_from"];
+							// $endPrice = empty($_REQUEST["price_to"])?PHP_INT_MAX:$_REQUEST["price_to"];
 
-							$metaquery = array(
-								'relation' => 'AND',
+							// $metaquery = array(
+							// 	'relation' => 'AND',
 								
-								'priceStart' => array (
-									'key'     => '_offer_price',
-									'value' => $startPrice,
-									'compare' => '>=',
-									'type'    => 'NUMERIC',
-								),
+							// 	'priceStart' => array (
+							// 		'key'     => '_offer_price',
+							// 		'value' => $startPrice,
+							// 		'compare' => '>=',
+							// 		'type'    => 'NUMERIC',
+							// 	),
 								
-								'priceEnd' => array (
-									'key'     => '_offer_price',
-									'value' => $endPrice,
-									'compare' => '<=',
-									'type'    => 'NUMERIC',
-								)
-							);
+							// 	'priceEnd' => array (
+							// 		'key'     => '_offer_price',
+							// 		'value' => $endPrice,
+							// 		'compare' => '<=',
+							// 		'type'    => 'NUMERIC',
+							// 	)
+							// );
 
-							if (!empty($_REQUEST["style"])) {
-								$metaquery["styleQuery"] = array(
-									'relation' => 'OR',
-								);
+							// if (!empty($_REQUEST["style"])) {
+							// 	$metaquery["styleQuery"] = array(
+							// 		'relation' => 'OR',
+							// 	);
 								
-								for ($i = 0; $i<count($_REQUEST["style"]); $i++) {
-									$metaquery["styleQuery"]["style".$i] = array(
-										'key'     => '_offer_style',
-										'value' => $_REQUEST["style"][$i],
-										'compare' => '=',
-										'type'    => 'CHAR',
-									);
-								} 
-							}
+							// 	for ($i = 0; $i<count($_REQUEST["style"]); $i++) {
+							// 		$metaquery["styleQuery"]["style".$i] = array(
+							// 			'key'     => '_offer_style',
+							// 			'value' => $_REQUEST["style"][$i],
+							// 			'compare' => '=',
+							// 			'type'    => 'CHAR',
+							// 		);
+							// 	} 
+							// }
 
-							if (!empty($_REQUEST["forma"])) {
-								$metaquery["formaQuery"] = array(
-									'relation' => 'OR',
-								);
+							// if (!empty($_REQUEST["forma"])) {
+							// 	$metaquery["formaQuery"] = array(
+							// 		'relation' => 'OR',
+							// 	);
 								
-								for ($i = 0; $i<count($_REQUEST["forma"]); $i++) {
-									$metaquery["formaQuery"]["forma".$i] = array(
-										'key'     => '_offer_forma',
-										'value' => $_REQUEST["forma"][$i],
-										'compare' => '=',
-										'type'    => 'CHAR',
-									);
-								} 
-							}
+							// 	for ($i = 0; $i<count($_REQUEST["forma"]); $i++) {
+							// 		$metaquery["formaQuery"]["forma".$i] = array(
+							// 			'key'     => '_offer_forma',
+							// 			'value' => $_REQUEST["forma"][$i],
+							// 			'compare' => '=',
+							// 			'type'    => 'CHAR',
+							// 		);
+							// 	} 
+							// }
 
-							if (!empty($_REQUEST["plafmat"])) {
-								$metaquery["plafmatQuery"] = array(
-									'relation' => 'OR',
-								);
+							// if (!empty($_REQUEST["plafmat"])) {
+							// 	$metaquery["plafmatQuery"] = array(
+							// 		'relation' => 'OR',
+							// 	);
 								
-								for ($i = 0; $i<count($_REQUEST["plafmat"]); $i++) {
-									$metaquery["plafmatQuery"]["plafmat".$i] = array(
-										'key'     => '_offer_material_plaf',
-										'value' => $_REQUEST["plafmat"][$i],
-										'compare' => '=',
-										'type'    => 'CHAR',
-									);
-								} 
-							}
+							// 	for ($i = 0; $i<count($_REQUEST["plafmat"]); $i++) {
+							// 		$metaquery["plafmatQuery"]["plafmat".$i] = array(
+							// 			'key'     => '_offer_material_plaf',
+							// 			'value' => $_REQUEST["plafmat"][$i],
+							// 			'compare' => '=',
+							// 			'type'    => 'CHAR',
+							// 		);
+							// 	} 
+							// }
 
-							if (!empty($_REQUEST["plafclr"])) {
-								$metaquery["plafclrQuery"] = array(
-									'relation' => 'OR',
-								);
+							// if (!empty($_REQUEST["plafclr"])) {
+							// 	$metaquery["plafclrQuery"] = array(
+							// 		'relation' => 'OR',
+							// 	);
 								
-								for ($i = 0; $i<count($_REQUEST["plafclr"]); $i++) {
-									$metaquery["plafclrQuery"]["plafclr".$i] = array(
-										'key'     => '_offer_color_plaf',
-										'value' => $_REQUEST["plafclr"][$i],
-										'compare' => '=',
-										'type'    => 'CHAR',
-									);
-								} 
-							}
+							// 	for ($i = 0; $i<count($_REQUEST["plafclr"]); $i++) {
+							// 		$metaquery["plafclrQuery"]["plafclr".$i] = array(
+							// 			'key'     => '_offer_color_plaf',
+							// 			'value' => $_REQUEST["plafclr"][$i],
+							// 			'compare' => '=',
+							// 			'type'    => 'CHAR',
+							// 		);
+							// 	} 
+							// }
 
 							
-							if (!empty($_REQUEST["lamptyp"])) {
-								$metaquery["lamptypQuery"] = array(
-									'relation' => 'OR',
-								);
+							// if (!empty($_REQUEST["lamptyp"])) {
+							// 	$metaquery["lamptypQuery"] = array(
+							// 		'relation' => 'OR',
+							// 	);
 								
-								for ($i = 0; $i<count($_REQUEST["lamptyp"]); $i++) {
-									$metaquery["lamptypQuery"]["lamptyp".$i] = array(
-										'key'     => '_offer_lamp_type',
-										'value' => $_REQUEST["lamptyp"][$i],
-										'compare' => '=',
-										'type'    => 'CHAR',
-									);
-								} 
-							}
+							// 	for ($i = 0; $i<count($_REQUEST["lamptyp"]); $i++) {
+							// 		$metaquery["lamptypQuery"]["lamptyp".$i] = array(
+							// 			'key'     => '_offer_lamp_type',
+							// 			'value' => $_REQUEST["lamptyp"][$i],
+							// 			'compare' => '=',
+							// 			'type'    => 'CHAR',
+							// 		);
+							// 	} 
+							// }
 
-							if (!empty($_REQUEST["tsotyp"])) {
-								$metaquery["lamptypQuery"] = array(
-									'relation' => 'OR',
-								);
+							// if (!empty($_REQUEST["tsotyp"])) {
+							// 	$metaquery["lamptypQuery"] = array(
+							// 		'relation' => 'OR',
+							// 	);
 								
-								for ($i = 0; $i<count($_REQUEST["tsotyp"]); $i++) {
-									$metaquery["tsotypQuery"]["tsotyp".$i] = array(
-										'key'     => '_offer_tsokol',
-										'value' => $_REQUEST["tsotyp"][$i],
-										'compare' => '=',
-										'type'    => 'CHAR',
-									);
-								} 
-							}
+							// 	for ($i = 0; $i<count($_REQUEST["tsotyp"]); $i++) {
+							// 		$metaquery["tsotypQuery"]["tsotyp".$i] = array(
+							// 			'key'     => '_offer_tsokol',
+							// 			'value' => $_REQUEST["tsotyp"][$i],
+							// 			'compare' => '=',
+							// 			'type'    => 'CHAR',
+							// 		);
+							// 	} 
+							// }
 
-							//$arg['meta_query'] = $metaquery;
+							// //$arg['meta_query'] = $metaquery;
 							
-							if (isset($_REQUEST["sortByParam"]) && ($_REQUEST["sortByParam"] !== "def")) {
-								$arg['orderby'] = 'priceStart';
-								$arg['order'] = $_REQUEST["sortByParam"];
+							// if (isset($_REQUEST["sortByParam"]) && ($_REQUEST["sortByParam"] !== "def")) {
+							// 	$arg['orderby'] = 'priceStart';
+							// 	$arg['order'] = $_REQUEST["sortByParam"];
 
-							}
+							// }
 
-							$queryM = new WP_Query($arg);
+							// // $queryM = new WP_Query($arg);
 
-							// echo "<pre>";
-							// print_r($arg);
-							// echo "</pre>";
+							// // echo "<pre>";
+							// // print_r($arg);
+							// // echo "</pre>";
 
 
-							$paget = isset ($queryM->query["paged"])?$queryM->query["paged"]:0;
-							$post_count_start = (int)$queryM->query_vars["posts_per_page"] * (int)$paget;
-							$post_count_start = (empty($post_count_start))?1:$post_count_start;
+							// $paget = isset ($queryM->query["paged"])?$queryM->query["paged"]:0;
+							// $post_count_start = (int)$queryM->query_vars["posts_per_page"] * (int)$paget;
+							// $post_count_start = (empty($post_count_start))?1:$post_count_start;
 							
-							$post_count_end = $post_count_start + $queryM->query_vars["posts_per_page"];
-							$post_count_end = (empty($post_count_end))?1:$post_count_end;
-							$post_count_end = ($post_count_end > $queryM->post_count)?$queryM->post_count:$post_count_end;
+							// $post_count_end = $post_count_start + $queryM->query_vars["posts_per_page"];
+							// $post_count_end = (empty($post_count_end))?1:$post_count_end;
+							// $post_count_end = ($post_count_end > $queryM->post_count)?$queryM->post_count:$post_count_end;
 			?>
 
 			<div class="page__body d-flex">
@@ -169,12 +169,30 @@
 					<?php  get_template_part('template-parts/sort', 'blk-in-cat', array("post_count_start" => $post_count_start, "post_count_end" => $post_count_end, "found_posts" =>  $queryM->found_posts));?>
 
 					<div class="main-prod-card prod-card d-flex">
-						<?php
-							while($queryM->have_posts()):
-								$queryM->the_post();
-								get_template_part('template-parts/product-elem'); 
-							endwhile;
-							wp_reset_postdata();
+						<?
+							global $wpdb;
+							
+							$usl = "";
+
+							if (!empty($_REQUEST["style"])) {
+								
+								for ($i = 0; $i<count($_REQUEST["style"]); $i++) {
+									$usl .= "(offer_style = '".$_REQUEST["style"][$i]."')";
+									if ($i != count($_REQUEST["style"]) - 1) $usl .= " OR ";
+								} 
+							}
+
+							if (!empty($usl)) $usl = "AND ".$usl;
+
+							$start = microtime(true);
+						
+							$rez = $wpdb->get_results( "SELECT * FROM mrksv_filter WHERE (cat= ".$thisCatID." OR cat1= ".$thisCatID." OR cat2= ".$thisCatID.") ".$usl." LIMIT 0, 48");
+							$totalTime = microtime(true) - $start;
+
+							foreach ($rez as $tov) {
+								$arg = $tov;
+								get_template_part('template-parts/product-elem',"param", $arg); 
+							}
 						?>
 					</div>
 
@@ -187,24 +205,24 @@
 					<div class="main-prod-card prod-card d-flex">
 
         <?
-           $args = array(
-            'posts_per_page' => 4,
-            'post_type' => 'light',
-            'tax_query' => array(
-              array(
-                'taxonomy' => 'lightcat',
-                'field' => 'id',
-                'terms' => array(4,5)
-              )
-            )
-          );
-          $query = new WP_Query($args);
+        //    $args = array(
+        //     'posts_per_page' => 4,
+        //     'post_type' => 'light',
+        //     'tax_query' => array(
+        //       array(
+        //         'taxonomy' => 'lightcat',
+        //         'field' => 'id',
+        //         'terms' => array(4,5)
+        //       )
+        //     )
+        //   );
+        //   $query = new WP_Query($args);
           
-          foreach( $query->posts as $post ){
-            $query->the_post();
-            get_template_part('template-parts/product-elem');
-          }  
-          wp_reset_postdata();
+        //   foreach( $query->posts as $post ){
+        //     $query->the_post();
+        //     get_template_part('template-parts/product-elem');
+        //   }  
+        //   wp_reset_postdata();
         ?>
 
 					</div>

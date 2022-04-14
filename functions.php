@@ -760,19 +760,19 @@ function get_filter_q(WP_REST_Request $request)
 
 	$rez = array();
 
-	$rez["offer_style"] = $wpdb->get_results("SELECT `offer_style` FROM `mrksv_filter` WHERE (`cat`= ".$request['catid']." OR `cat1`= ".$request['catid']." OR `cat2`= ".$request['catid'].") AND `offer_style` != ''  GROUP BY `offer_style`", ARRAY_N );
-	$rez["offer_forma"] = $wpdb->get_results("SELECT `offer_forma` FROM `mrksv_filter` WHERE (`cat`= ".$request['catid']." OR `cat1`= ".$request['catid']." OR `cat2`= ".$request['catid'].") AND `offer_forma` != ''  GROUP BY `offer_forma`", ARRAY_N );
-	$rez["offer_material_plaf"] = $wpdb->get_results("SELECT `offer_material_plaf` FROM `mrksv_filter` WHERE (`cat`= ".$request['catid']." OR `cat1`= ".$request['catid']." OR `cat2`= ".$request['catid'].") AND `offer_material_plaf` != ''  GROUP BY `offer_material_plaf`", ARRAY_N );
-	$rez["offer_color_plaf"] = $wpdb->get_results("SELECT `offer_style` FROM `offer_color_plaf` WHERE (`cat`= ".$request['catid']." OR `cat1`= ".$request['catid']." OR `cat2`= ".$request['catid'].") AND `offer_color_plaf` != ''  GROUP BY `offer_color_plaf`", ARRAY_N );
-	$rez["offer_lamp_type"] = $wpdb->get_results("SELECT `offer_lamp_type` FROM `mrksv_filter` WHERE (`cat`= ".$request['catid']." OR `cat1`= ".$request['catid']." OR `cat2`= ".$request['catid'].") AND `offer_lamp_type` != ''  GROUP BY `offer_lamp_type`", ARRAY_N );
-	$rez["offer_tsokol"] = $wpdb->get_results("SELECT `offer_tsokol` FROM `mrksv_filter` WHERE (`cat`= ".$request['catid']." OR `cat1`= ".$request['catid']." OR `cat2`= ".$request['catid'].") AND `offer_tsokol` != ''  GROUP BY `offer_tsokol`", ARRAY_N );
+	$rez["offer_style"] = $wpdb->get_results("SELECT `offer_style` FROM `mrksv_filter` WHERE (`cat`= ".$request['catid']." OR `cat1`= ".$request['catid']." OR `cat2`= ".$request['catid']." OR `cat3`= ".$request['catid'].") AND `offer_style` != ''  GROUP BY `offer_style`", ARRAY_N );
+	$rez["offer_forma"] = $wpdb->get_results("SELECT `offer_forma` FROM `mrksv_filter` WHERE (`cat`= ".$request['catid']." OR `cat1`= ".$request['catid']." OR `cat2`= ".$request['catid']." OR `cat3`= ".$request['catid'].") AND `offer_forma` != ''  GROUP BY `offer_forma`", ARRAY_N );
+	$rez["offer_material_plaf"] = $wpdb->get_results("SELECT `offer_material_plaf` FROM `mrksv_filter` WHERE (`cat`= ".$request['catid']." OR `cat1`= ".$request['catid']." OR `cat2`= ".$request['catid']." OR `cat3`= ".$request['catid'].") AND `offer_material_plaf` != ''  GROUP BY `offer_material_plaf`", ARRAY_N );
+	$rez["offer_color_plaf"] = $wpdb->get_results("SELECT `offer_style` FROM `offer_color_plaf` WHERE (`cat`= ".$request['catid']." OR `cat1`= ".$request['catid']." OR `cat2`= ".$request['catid']." OR `cat3`= ".$request['catid'].") AND `offer_color_plaf` != ''  GROUP BY `offer_color_plaf`", ARRAY_N );
+	$rez["offer_lamp_type"] = $wpdb->get_results("SELECT `offer_lamp_type` FROM `mrksv_filter` WHERE (`cat`= ".$request['catid']." OR `cat1`= ".$request['catid']." OR `cat2`= ".$request['catid']." OR `cat3`= ".$request['catid'].") AND `offer_lamp_type` != ''  GROUP BY `offer_lamp_type`", ARRAY_N );
+	$rez["offer_tsokol"] = $wpdb->get_results("SELECT `offer_tsokol` FROM `mrksv_filter` WHERE (`cat`= ".$request['catid']." OR `cat1`= ".$request['catid']." OR `cat2`= ".$request['catid']." OR `cat3`= ".$request['catid'].") AND `offer_tsokol` != ''  GROUP BY `offer_tsokol`", ARRAY_N );
 
-	$min = PHP_INT_MAX;
-	$max = PHP_INT_MIN;
+	$mm = $wpdb->get_results("SELECT MIN(`offer_price`) as 'min', MAX(`offer_price`) as 'max' FROM `mrksv_filter` WHERE (`cat`= ".$request['catid']." OR `cat1`= ".$request['catid']." OR `cat2`= ".$request['catid']." OR `cat3`= ".$request['catid'].")" );
+	
 
 
-	$rez["offer_price_max"] = $max;
-	$rez["offer_price_min"] = $min;
+	$rez["offer_price_max"] = $mm[0]->max;
+	$rez["offer_price_min"] = $mm[0]->min;
 	$rez["time"] = (microtime(true) - $start);
 
 

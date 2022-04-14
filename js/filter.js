@@ -1,4 +1,4 @@
-const filterParamLoad = document.location.protocol+'//'+document.location.host+'/wp-json/gensvet/v2/get_filter'
+const filterParamLoad = document.location.protocol+'//'+document.location.host+'/wp-json/gensvet/v2/get_filter_q'
 
 function chengeSort(param) {
     sortFormFilter.value = param;
@@ -76,9 +76,9 @@ document.addEventListener("DOMContentLoaded", () => {
         let uStr = ""
         xhr.response.offer_style.forEach((element, index) => {
             
-            let checed = (qParam.style != undefined && qParam.style.includes(element) )?"checked":"";
+            let checed = (qParam.style != undefined && qParam.style.includes(element[0]) )?"checked":"";
 
-            uStr += '<li><label><input type="checkbox" name="style[]" '+checed+' value = "'+element+'">'+element+'</label></li>';
+            uStr += '<li><label><input type="checkbox" name="style[]" '+checed+' value = "'+element[0]+'">'+element[0]+'</label></li>';
 
         });
         if (document.getElementById("tov_style")) tov_style.innerHTML = uStr;
@@ -88,11 +88,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
         xhr.response.offer_forma.forEach((element, index) => {
 
-            let checed = (qParam.forma != undefined && qParam.forma.includes(element) )?"checked":"";
+            let checed = (qParam.forma != undefined && qParam.forma.includes(element[0]) )?"checked":"";
             
-            uStr1 += '<li><label><input type="checkbox" name="forma[]" '+checed+' value = "'+element+'">'+element+'</label></li>';
+            uStr1 += '<li><label><input type="checkbox" name="forma[]" '+checed+' value = "'+element[0]+'">'+element[0]+'</label></li>';
 
-            console.log(element);
         });
 
         if (document.getElementById("tov_forma")) tov_forma.innerHTML = uStr1;
@@ -109,6 +108,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (document.getElementById("categoryFilterLoader")) categoryFilterLoader.style.display = "none";
         if (document.getElementById("categoryFilterForm")) categoryFilterForm.style.display = "block";
 
+        console.log(xhr.response.time);
         // let selects = document.getElementsByTagName('select');
         // if (selects.length > 0) {
         //   selects_init(selects);
