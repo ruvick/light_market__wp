@@ -2180,11 +2180,19 @@ line-height: 1.2;}
 
   .filter_wrapper ul li label {
     display: inline-flex;
+    font-size: 14px;
   }
 
   .filter_wrapper ul li label input[type=checkbox] {
     margin: auto 10px auto auto;
   }
+
+.fp_count {
+  color: lightgray;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-top: 2px;
+}
 
 .form-choice .category-params-item-price-table .cell input {
   max-width: 95px;
@@ -2403,9 +2411,28 @@ line-height: 1.2;}
     display: none;
   }
 
-  .pagination .nav-links {
+  .pagination ul {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .pagination ul li::before{ 
+    display: none;
+  } 
+
+  .pagination ul li a {
+    margin:  0 5px;
+    padding: 5px 10px;
+    
+  }
+
+  .pagination ul li a.current { 
+    border: 0.4px solid #D3820F ;
+    padding: 5px 10px;
+    color: white;
+    background-color: #D3820F;
   }
 
   .pagination .nav-links,

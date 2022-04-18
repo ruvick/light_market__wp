@@ -16,6 +16,9 @@
 			?> 
 
 			<? 
+						$curent_page = (empty($_REQUEST["page_number"]))?1:$_REQUEST["page_number"];
+						$rez = get_tovar($thisCatID, ($curent_page-1)*IN_PAGE_COUNT);
+
 							// $arg = $wp_query->query;
 
 							// $startPrice = empty($_REQUEST["price_from"])?"0":$_REQUEST["price_from"];
@@ -166,37 +169,20 @@
 				<main class="page__main main">
 					<h1><?php single_cat_title( '', true );?></h1> 
 
-					<?php  get_template_part('template-parts/sort', 'blk-in-cat', array("post_count_start" => $post_count_start, "post_count_end" => $post_count_end, "found_posts" =>  $queryM->found_posts));?>
+					<?php  get_template_part('template-parts/sort', 'blk-in-cat', array("post_count_start" => ($curent_page-1)*IN_PAGE_COUNT, "post_count_end" => (($curent_page-1)*IN_PAGE_COUNT)+IN_PAGE_COUNT, "found_posts" =>  $rez["total_count"]));?>
 
 					<div class="main-prod-card prod-card d-flex">
 						<?
-							global $wpdb;
 							
-							$usl = "";
 
-							if (!empty($_REQUEST["style"])) {
-								
-								for ($i = 0; $i<count($_REQUEST["style"]); $i++) {
-									$usl .= "(offer_style = '".$_REQUEST["style"][$i]."')";
-									if ($i != count($_REQUEST["style"]) - 1) $usl .= " OR ";
-								} 
-							}
-
-							if (!empty($usl)) $usl = "AND ".$usl;
-
-							$start = microtime(true);
-						
-							$rez = $wpdb->get_results( "SELECT * FROM mrksv_filter WHERE (cat= ".$thisCatID." OR cat1= ".$thisCatID." OR cat2= ".$thisCatID.") ".$usl." LIMIT 0, 48");
-							$totalTime = microtime(true) - $start;
-
-							foreach ($rez as $tov) {
+							foreach ($rez["tovars"] as $tov) {
 								$arg = $tov;
 								get_template_part('template-parts/product-elem',"param", $arg); 
 							}
 						?>
 					</div>
 
-					<?php  get_template_part('template-parts/page','navigation-in-cat', array("max_num_pages" => $queryM->max_num_pages));?>
+					<?php  get_template_part('template-parts/page','navigation-in-cat', array("total_count" => $rez["total_count"], "page_number" => $curent_page));?>
 					<?php  get_template_part('template-parts/banner', 'incat'); ?>
 
 

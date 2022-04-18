@@ -55,12 +55,26 @@
 												<input type="number" name="price_do" value = "" id="price_do">
 											</div>
 										</div>
-										<div id="range" class="category-params-item-price-range"></div>
+										<!-- <div id="range" class="category-params-item-price-range"></div> -->
 									</div>
 								</div>
 									
 								<button type = "submit" class = "filter_submit">Применить</button>		
 							</div> 
+							
+						</div>
+
+						<div class="menu-choice">
+							<button class="menu-cat-left__btn icon-menu-left">Бренд</button>
+							<div class="block__form form-block form-choice" >
+								<div class = "filter_wrapper">
+								<ul id = "tov_brand" class = "tov_brand">
+									
+									
+								</ul>
+								<button type = "submit" class = "filter_submit">Применить</button>	
+								</div>
+							</div>
 							
 						</div>
 

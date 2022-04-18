@@ -1,4 +1,4 @@
-const filterParamLoad = document.location.protocol+'//'+document.location.host+'/wp-json/gensvet/v2/get_filter_q'
+const filterParamLoad = document.location.protocol+'//'+document.location.host+'/wp-json/gensvet/v2/get_filter_count'
 
 function chengeSort(param) {
     sortFormFilter.value = param;
@@ -29,19 +29,6 @@ function getRequests() {
     return r;
 };
 
-function get_color_name(color) { 
-    if ( color == '#000000') return "Черный";
-	if ( color == '#EC1C24') return "Красный";
-	if ( color == '#39B44A')  return "Зеленый";
-	if ( color == '#7d0000')  return "Бордовый";
-	if ( color == '##00ADEE')  return "Синий";
-	if ( color == '#FFFF00')  return "Желтый";
-	if ( color == '#6f00cc')  return "Фиолетовый";
-	if ( color == '#D9A52A')  return "Золотой";
-	if ( color == '#C0C0C0')  return "Серебристый";
-
-    return ""
-}
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -65,39 +52,52 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const xhr = new XMLHttpRequest()
 
-    xhr.open('GET', filterParamLoad+"?catid="+category)
+
+
+    xhr.open('GET', filterParamLoad+"?catid="+category+"&filter_param="+JSON.stringify(qParam))
     xhr.responseType='json'
     xhr.setRequestHeader('Content-Type', 'application/json')
 
     xhr.onload = () => {
         console.log(xhr.response);
         
-        // Стиль
+        // Бренд
         let uStr = ""
-        xhr.response.offer_style.forEach((element, index) => {
-            
-            let checed = (qParam.style != undefined && qParam.style.includes(element[0]) )?"checked":"";
+        Object.keys(xhr.response.offer_brend).forEach(key => {
+            let e_value = xhr.response.offer_brend[key];
 
-            uStr += '<li><label><input type="checkbox" name="style[]" '+checed+' value = "'+element[0]+'">'+element[0]+'</label></li>';
+            if (e_value != 0 ) {
+                let checed = (qParam.brand != undefined && qParam.brand.includes(key) )?"checked":"";
+                uStr += '<li><label><input type="checkbox" name="brand[]" '+checed+' value = "'+key+'"><span class = "fp_key">'+key+'</span> <span class = "fp_count">('+e_value+')</span></label></li>';
+            }
+        });
+        if (document.getElementById("tov_brand")) tov_brand.innerHTML = uStr;
 
+
+        // Стиль
+        uStr = ""
+        Object.keys(xhr.response.offer_style).forEach(key => {
+            let e_value = xhr.response.offer_style[key];
+
+            if (e_value != 0 ) {
+                let checed = (qParam.style != undefined && qParam.style.includes(key) )?"checked":"";
+                uStr += '<li><label><input type="checkbox" name="style[]" '+checed+' value = "'+key+'"><span class = "fp_key">'+key+'</span> <span class = "fp_count">('+e_value+')</span></label></li>';
+            }
         });
         if (document.getElementById("tov_style")) tov_style.innerHTML = uStr;
 
         // Форма
-        let uStr1 = ""
+        uStr = ""
+        Object.keys(xhr.response.offer_forma).forEach(key => {
+            let e_value = xhr.response.offer_forma[key];
 
-        xhr.response.offer_forma.forEach((element, index) => {
-
-            let checed = (qParam.forma != undefined && qParam.forma.includes(element[0]) )?"checked":"";
-            
-            uStr1 += '<li><label><input type="checkbox" name="forma[]" '+checed+' value = "'+element[0]+'">'+element[0]+'</label></li>';
-
+            if (e_value != 0 ) {
+                let checed = (qParam.forma != undefined && qParam.forma.includes(key) )?"checked":"";
+                uStr += '<li><label><input type="checkbox" name="forma[]" '+checed+' value = "'+key+'"><span class = "fp_key">'+key+'</span> <span class = "fp_count">('+e_value+')</span></label></li>';
+            }
         });
+        if (document.getElementById("tov_forma")) tov_forma.innerHTML = uStr;
 
-        if (document.getElementById("tov_forma")) tov_forma.innerHTML = uStr1;
-
-    
-        
 
         // check_nal.checked  = (qParam.nal == undefined)?false:true;
         

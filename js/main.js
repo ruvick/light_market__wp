@@ -418,65 +418,51 @@ $(document).ready(function () {
 
 
 	//RANGE
-	if ($("#range").length > 0) {
+	// if ($("#range").length > 0) {
 
-		$("#range").slider({
-			range: true,
-			min: 0,
-			max: 50000,
-			values: [$("#rangefrom").val(), $("#rangeto").val()],
-			slide: function (event, ui) {
-				$('#rangefrom').val(ui.values[0]);
-				$('#rangeto').val(ui.values[1]);
+	// 	$("#range").slider({
+	// 		range: true,
+	// 		min: 0,
+	// 		max: 50000,
+	// 		values: [$("#rangefrom").val(), $("#rangeto").val()],
+	// 		slide: function (event, ui) {
+	// 			$('#rangefrom').val(ui.values[0]);
+	// 			$('#rangeto').val(ui.values[1]);
 
-			},
-			change: function (event, ui) {
+	// 		},
+	// 		change: function (event, ui) {
 
-			},
-			create: function (event, ui) {
-				$("#range").slider("option", "min", renge_min);
-				$("#range").slider("option", "max", renge_max);
-			}
-		});
+	// 		},
+	// 		create: function (event, ui) {
+	// 			$("#range").slider("option", "min", renge_min);
+	// 			$("#range").slider("option", "max", renge_max);
+	// 		}
+	// 	});
 
-		// $("#range").slider("option", "min", $("#rangefrom").val() );
-		// $("#range").slider("option", "max", $("#rangeto").val() );
-		// console.log($( "#range" ).slider( "option","min"));
-		// console.log($( "#range" ).slider( "option","max"));
-		// console.log($( "#range" ).slider( "option","values"));
+		
 
-		// $('#rangefrom').val($( "#range" ).slider( "values", 0 )); 
-		// $('#rangeto').val($( "#range" ).slider( "values", 1 ));
+	// 	$("#rangefrom").bind("change", function () {
+	// 		if ($(this).val() * 1 > $("#range").slider("option", "max") * 1) {
+	// 			$(this).val($("#range").slider("option", "max"));
+	// 		}
+	// 		if ($(this).val() * 1 < $("#range").slider("option", "min") * 1) {
+	// 			$(this).val($("#range").slider("option", "min"));
+	// 		}
+	// 		$("#range").slider("values", 0, $(this).val());
+	// 	});
 
-		// $('#rangefrom').val($("#rangefrom").val()); 
-		// $('#rangeto').val($("#rangeto").val());
+	// 	$("#rangeto").bind("change", function () {
+	// 		if ($(this).val() * 1 > $("#range").slider("option", "max") * 1) {
+	// 			$(this).val($("#range").slider("option", "max"));
+	// 		}
+	// 		if ($(this).val() * 1 < $("#range").slider("option", "min") * 1) {
+	// 			$(this).val($("#range").slider("option", "min"));
+	// 		}
+	// 		$("#range").slider("values", 1, $(this).val());
+	// 	});
 
-		// $("#range" ).find('.ui-slider-handle').eq(0).html('<span>'+$( "#range" ).slider( "option","min")+'</span>');
-		// $("#range" ).find('.ui-slider-handle').eq(1).html('<span>'+$( "#range" ).slider( "option","max")+'</span>');
 
-		$("#rangefrom").bind("change", function () {
-			if ($(this).val() * 1 > $("#range").slider("option", "max") * 1) {
-				$(this).val($("#range").slider("option", "max"));
-			}
-			if ($(this).val() * 1 < $("#range").slider("option", "min") * 1) {
-				$(this).val($("#range").slider("option", "min"));
-			}
-			$("#range").slider("values", 0, $(this).val());
-		});
-
-		$("#rangeto").bind("change", function () {
-			if ($(this).val() * 1 > $("#range").slider("option", "max") * 1) {
-				$(this).val($("#range").slider("option", "max"));
-			}
-			if ($(this).val() * 1 < $("#range").slider("option", "min") * 1) {
-				$(this).val($("#range").slider("option", "min"));
-			}
-			$("#range").slider("values", 1, $(this).val());
-		});
-
-		// $("#range" ).find('.ui-slider-handle').eq(0).addClass('left');
-		// $("#range" ).find('.ui-slider-handle').eq(1).addClass('right');
-	}
+	// }
 
 
 	if ($('.t,.tip').length > 0) {

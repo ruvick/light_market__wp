@@ -107,7 +107,7 @@ function change_menu_item_css_classes( $classes, $item, $args, $depth ) {
 
 if ( ! defined( '_S_VERSION' ) ) {
 	// Replace the version number of the theme on each release. 
-	define( '_S_VERSION', '1.0.11' );
+	define( '_S_VERSION', '1.0.111' );
 }
 
 if ( ! function_exists( 'light_market_setup' ) ) :
@@ -265,9 +265,9 @@ function light_market_scripts_styles(){
 
 	if( is_tax()) wp_enqueue_script( 'jquery-ui', 'https://code.jquery.com/ui/1.12.1/jquery-ui.min.js', array(), '1.0',  true );
 
-	wp_enqueue_script( 'filter', get_template_directory_uri(). '/js/filter.js', array(), null, true);
+	wp_enqueue_script( 'filter', get_template_directory_uri(). '/js/filter.js', array(), ALL_VERSION, true);
 
-	wp_enqueue_script( 'light_market-main', get_template_directory_uri() . '/js/main.js', array(), 1.0, true );
+	wp_enqueue_script( 'light_market-main', get_template_directory_uri() . '/js/main.js', array(), ALL_VERSION, true );
 
 	wp_localize_script( 'light_market-main', 'allAjax', array(
       'ajaxurl' => admin_url( 'admin-ajax.php' ),
@@ -782,3 +782,6 @@ function get_filter_q(WP_REST_Request $request)
 		return new WP_Error('no_token', 'Токен не найден или пользователь уже разлогинен.', ['status' => 403]);
 }
 // Фильтр End ================================================================================================================
+
+include "filter_content.php";
+include "mainTovarOperation.php";
