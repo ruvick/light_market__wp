@@ -58,21 +58,35 @@ function get_tovar_count($thisCatID) {
     return $rez[0]->total_count;
 }
 
+function cat_query_param($thisCatID, $sparam) {
+    if ($thisCatID == "%")
+        return "(title LIKE '%".$sparam."%' OR offer_brend LIKE '%".$sparam."%' OR offer_material_plaf LIKE '%".$sparam."%') ";
+    else
+        return "(cat= ".$thisCatID." OR cat1= ".$thisCatID." OR cat2= ".$thisCatID.") ";
+}
+
 function get_tovar($thisCatID, $offset) {
     global $wpdb;
 
+    $cat_query = cat_query_param($thisCatID,$_REQUEST["s"]);
+    
     $dopquery = generate_query([]);
+
 
     $total_count = get_tovar_count($thisCatID);
 
-    $start = microtime(true);					
-	$rez = $wpdb->get_results( "SELECT * FROM mrksv_filter WHERE (cat= ".$thisCatID." OR cat1= ".$thisCatID." OR cat2= ".$thisCatID.") ".$dopquery." LIMIT ".$offset.", ".IN_PAGE_COUNT);
+    $start = microtime(true);
+    $qq = "SELECT * FROM mrksv_filter WHERE ".$cat_query.$dopquery." LIMIT ".$offset.", ".IN_PAGE_COUNT;					
+	
+    $rez = $wpdb->get_results($qq);
+
 	$totalTime = microtime(true) - $start;
 
     return array(
         "total_count" => $total_count,
         "time" => $totalTime,
-        "tovars" => $rez
+        "tovars" => $rez,
+        "query" => $qq
     ); 
 }
 
@@ -102,9 +116,11 @@ function get_filter_count(WP_REST_Request $request)
 
 	$filter = FILTER_CONTENT;
 
+    $cat_query = cat_query_param($request["catid"],json_decode($request['filter_param'], true)["s"]);
+
     $dopquery = generate_query(json_decode($request['filter_param'], true));
     
-    $q = "SELECT `offer_brend`, `offer_style`, `offer_forma`, `offer_material_plaf`, `offer_color_plaf`, `offer_lamp_type`, `offer_tsokol` FROM `mrksv_filter` WHERE (`cat`= ".$request['catid']." OR `cat1`= ".$request['catid']." OR `cat2`= ".$request['catid']." OR `cat3`= ".$request['catid'].") ".$dopquery;
+    $q = "SELECT `offer_brend`, `offer_style`, `offer_forma`, `offer_material_plaf`, `offer_color_plaf`, `offer_lamp_type`, `offer_tsokol` FROM `mrksv_filter` WHERE ".$cat_query.$dopquery;
 
 	$rez = $wpdb->get_results($q, ARRAY_A );
 	
@@ -131,7 +147,7 @@ function get_filter_count(WP_REST_Request $request)
             $filter["offer_tsokol"][$r["offer_tsokol"]]+=1;
     }
 
-    $mm = $wpdb->get_results("SELECT MIN(`offer_price`) as 'min', MAX(`offer_price`) as 'max' FROM `mrksv_filter` WHERE (`cat`= ".$request['catid']." OR `cat1`= ".$request['catid']." OR `cat2`= ".$request['catid']." OR `cat3`= ".$request['catid'].")" );
+    $mm = $wpdb->get_results("SELECT MIN(`offer_price`) as 'min', MAX(`offer_price`) as 'max' FROM `mrksv_filter` WHERE ".$cat_query );
 	$filter["offer_price_max"] = $mm[0]->max;
 	$filter["offer_price_min"] = $mm[0]->min;
 
