@@ -29,30 +29,25 @@ function getRequests() {
     return r;
 };
 
+function repaint_filter() {
+    var form = document.getElementById('categoryFilterForm');
+    var data = new FormData(form);
+    var qParam = {};
+    data.forEach(function(value, key){
+        if(!Reflect.has(qParam, key)){
+            qParam[key] = value;
+            return;
+        }
+        if(!Array.isArray(qParam[key])){
+            qParam[key] = [qParam[key]];    
+        }
+        qParam[key].push(value);
+    });
+    console.log(qParam);
+}
 
-document.addEventListener("DOMContentLoaded", () => {
-
-    let qParam = getRequests();
-
-    if (qParam.sort == "price_ub")  {
-        price_ub.checked  = true;
-    }
-
-    if (qParam.sort == "price_vozr")  {
-        price_vozr.checked  = true;
-    }
-
-    
-
-    if (document.getElementById('tovarCategoryId') == null) return;
-    
-    let category = tovarCategoryId.dataset.id;
-    
-    console.log(category);
-
+function acsept_filter(category, qParam) {
     const xhr = new XMLHttpRequest()
-
-
 
     xhr.open('GET', filterParamLoad+"?catid="+category+"&filter_param="+JSON.stringify(qParam))
     xhr.responseType='json'
@@ -68,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             if (e_value != 0 ) {
                 let checed = (qParam.brand != undefined && qParam.brand.includes(key) )?"checked":"";
-                uStr += '<li><label><input type="checkbox" name="brand[]" '+checed+' value = "'+key+'"><span class = "fp_key">'+key+'</span> <span class = "fp_count">('+e_value+')</span></label></li>';
+                uStr += '<li><label><input onclick = "repaint_filter()" type="checkbox" name="brand[]" '+checed+' value = "'+key+'"><span class = "fp_key">'+key+'</span> <span class = "fp_count">('+e_value+')</span></label></li>';
             }
         });
         if (document.getElementById("tov_brand")) tov_brand.innerHTML = uStr;
@@ -117,5 +112,32 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     xhr.send();
+}
+
+
+document.addEventListener("DOMContentLoaded", () => {
+
+
+
+
+    let qParam = getRequests();
+
+    if (qParam.sort == "price_ub")  {
+        price_ub.checked  = true;
+    }
+
+    if (qParam.sort == "price_vozr")  {
+        price_vozr.checked  = true;
+    }
+
+    
+
+    if (document.getElementById('tovarCategoryId') == null) return;
+    
+    let category = tovarCategoryId.dataset.id;
+    
+    acsept_filter(category, qParam);
+    
+
 
 });
