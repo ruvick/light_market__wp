@@ -151,10 +151,18 @@ function get_filter_count(WP_REST_Request $request)
 	$filter["offer_price_max"] = $mm[0]->max;
 	$filter["offer_price_min"] = $mm[0]->min;
 
+	$filter["count"] = count($rez);
 	$filter["query"] = $q;
 	$filter["filter"] = json_decode($request['filter_param']);
 	$filter["time"] = (microtime(true) - $start);
 
+    uasort($filter["offer_brend"], function($a, $b) { return $a < $b; });
+    uasort($filter["offer_style"], function($a, $b) { return $a < $b; });
+    uasort($filter["offer_forma"], function($a, $b) { return $a < $b; });
+    uasort($filter["offer_material_plaf"], function($a, $b) { return $a < $b; });
+    uasort($filter["offer_color_plaf"], function($a, $b) { return $a < $b; });
+    uasort($filter["offer_lamp_type"], function($a, $b) { return $a < $b; });
+    uasort($filter["offer_tsokol"], function($a, $b) { return $a < $b; });
 
 	if (!empty($filter))
 		return $filter;

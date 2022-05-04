@@ -29,24 +29,36 @@ function getRequests() {
     return r;
 };
 
-function repaint_filter() {
+
+function repaint_filter(element) {
+
+    if (document.getElementById('tovarCategoryId') == null) return;
+
     var form = document.getElementById('categoryFilterForm');
     var data = new FormData(form);
     var qParam = {};
     data.forEach(function(value, key){
-        if(!Reflect.has(qParam, key)){
-            qParam[key] = value;
+        let keykey = key.replace("[]","")
+        let isArrayParam = (key.indexOf("[]") > 0)?true:false;
+
+        if(!Reflect.has(qParam, keykey)){
+            if (isArrayParam){ 
+                qParam[keykey] = [] 
+                qParam[keykey].push(value) 
+            }
+            else qParam[keykey] = value
+
             return;
         }
-        if(!Array.isArray(qParam[key])){
-            qParam[key] = [qParam[key]];    
-        }
-        qParam[key].push(value);
-    });
-    console.log(qParam);
-}
 
-function acsept_filter(category, qParam) {
+        qParam[keykey].push(value);
+        
+    });
+    
+   
+    
+    let category = tovarCategoryId.dataset.id;
+    
     const xhr = new XMLHttpRequest()
 
     xhr.open('GET', filterParamLoad+"?catid="+category+"&filter_param="+JSON.stringify(qParam))
@@ -54,17 +66,50 @@ function acsept_filter(category, qParam) {
     xhr.setRequestHeader('Content-Type', 'application/json')
 
     xhr.onload = () => {
+        Object.keys(xhr.response.offer_brend).forEach(key => {
+            let e_value = xhr.response.offer_brend[key]
+
+            let countEl = document.querySelector('.fp_count[data-vals="'+key+'"]')
+            if (countEl) countEl.innerHTML = e_value
+        });
+
+        if (document.getElementById("flter_pods")) {
+            let inp = element.getBoundingClientRect();
+            let win = document.getElementById("categoryFilterForm").getBoundingClientRect();
+            console.log(inp.top)
+            console.log(win.top)
+            flter_pods.style.top = (inp.top - win.top)+"px"
+            flter_pods.style.display = "block"
+            flter_pods.innerHTML = "Найдено: <br/>"+xhr.response.count
+
+        }
+        console.log(xhr.response.count)
+    }
+
+    xhr.send();
+}
+
+function acsept_filter(category, qParam) {
+    console.log(qParam);
+
+    const xhr = new XMLHttpRequest()
+
+    xhr.open('GET', filterParamLoad+"?catid="+category+"&filter_param="+JSON.stringify(qParam))
+    xhr.responseType='json'
+    xhr.setRequestHeader('Content-Type', 'application/json')
+
+    xhr.onload = () => {
+        
         console.log(xhr.response);
         
         // Бренд
         let uStr = ""
         Object.keys(xhr.response.offer_brend).forEach(key => {
             let e_value = xhr.response.offer_brend[key];
-
-            if (e_value != 0 ) {
+            
+                let disabled = (e_value == 0)?"disabled":""; 
                 let checed = (qParam.brand != undefined && qParam.brand.includes(key) )?"checked":"";
-                uStr += '<li><label><input onclick = "repaint_filter()" type="checkbox" name="brand[]" '+checed+' value = "'+key+'"><span class = "fp_key">'+key+'</span> <span class = "fp_count">('+e_value+')</span></label></li>';
-            }
+                uStr += '<li><label><input '+disabled+' data-vals = "'+key+'" onclick = "repaint_filter(this)" type="checkbox" name="brand[]" '+checed+' value = "'+key+'"><span class = "fp_key">'+key+'</span> <span data-vals = "'+key+'" class = "fp_count">('+e_value+')</span></label></li>';
         });
         if (document.getElementById("tov_brand")) tov_brand.innerHTML = uStr;
 
@@ -74,10 +119,10 @@ function acsept_filter(category, qParam) {
         Object.keys(xhr.response.offer_style).forEach(key => {
             let e_value = xhr.response.offer_style[key];
 
-            if (e_value != 0 ) {
+                let disabled = (e_value == 0)?"disabled":"";
                 let checed = (qParam.style != undefined && qParam.style.includes(key) )?"checked":"";
-                uStr += '<li><label><input type="checkbox" name="style[]" '+checed+' value = "'+key+'"><span class = "fp_key">'+key+'</span> <span class = "fp_count">('+e_value+')</span></label></li>';
-            }
+                uStr += '<li><label><input '+disabled+' data-vals = "'+key+'" type="checkbox" name="style[]" '+checed+' value = "'+key+'"><span class = "fp_key">'+key+'</span> <span class = "fp_count">('+e_value+')</span></label></li>';
+            
         });
         if (document.getElementById("tov_style")) tov_style.innerHTML = uStr;
 
@@ -86,10 +131,10 @@ function acsept_filter(category, qParam) {
         Object.keys(xhr.response.offer_forma).forEach(key => {
             let e_value = xhr.response.offer_forma[key];
 
-            if (e_value != 0 ) {
+                let disabled = (e_value == 0)?"disabled":"";
                 let checed = (qParam.forma != undefined && qParam.forma.includes(key) )?"checked":"";
-                uStr += '<li><label><input type="checkbox" name="forma[]" '+checed+' value = "'+key+'"><span class = "fp_key">'+key+'</span> <span class = "fp_count">('+e_value+')</span></label></li>';
-            }
+                uStr += '<li><label><input '+disabled+' data-vals = "'+key+'" type="checkbox" name="forma[]" '+checed+' value = "'+key+'"><span class = "fp_key">'+key+'</span> <span class = "fp_count">('+e_value+')</span></label></li>';
+            
         });
         if (document.getElementById("tov_forma")) tov_forma.innerHTML = uStr;
 

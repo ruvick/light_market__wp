@@ -3,6 +3,10 @@
 	<p>Загрузка...</p>
 </div>
 
+<div style = "display:none" class = "flter_pods" id = "flter_pods" >
+
+</div>
+
 <form id = "categoryFilterForm" class="menu-left categoryFilterForm">
 						<input id = "sortByParam" type = "hidden" name = "sortByParam" value = "def">
 						<?

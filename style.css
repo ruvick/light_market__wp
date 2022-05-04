@@ -1259,7 +1259,6 @@ body.ie .ibg img {
     display: none;
   }
   
-  .filterLooader:after,
   .sub-load:after {
     content: "";
     position: absolute;
@@ -1271,7 +1270,6 @@ body.ie .ibg img {
     background-position: 0 0;
     background-repeat: no-repeat;
     background-image: url(img/icons/loader.svg); 
-
   }
 
 .categoryFilterLoader {
@@ -2049,7 +2047,9 @@ line-height: 1.2;}
 
 
 .page__side {
-  width: 20%; }
+  width: 20%; 
+  position: relative;
+}
 
 .menu-choice,
 .menu-cat-left {
@@ -2988,6 +2988,18 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
 .bascet_form .form-line { 
   margin-bottom: 20px;
+}
+
+.flter_pods {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  background-color: #D3820F;
+  color:white;
+  text-align: center;
+  right:calc(0px - 100px);
+  z-index: 10000000;
+
 }
 
 @media (max-width: 600px) {
