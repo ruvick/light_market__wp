@@ -147,7 +147,7 @@ function get_filter_count(WP_REST_Request $request)
             $filter["offer_tsokol"][$r["offer_tsokol"]]+=1;
     }
 
-    $mm = $wpdb->get_results("SELECT MIN(`offer_price`) as 'min', MAX(`offer_price`) as 'max' FROM `mrksv_filter` WHERE ".$cat_query );
+    $mm = $wpdb->get_results("SELECT MIN(`offer_price`) as 'min', MAX(`offer_price`) as 'max' FROM `mrksv_filter` WHERE ".$cat_query.$dopquery );
 	$filter["offer_price_max"] = $mm[0]->max;
 	$filter["offer_price_min"] = $mm[0]->min;
 

@@ -29,9 +29,19 @@ function getRequests() {
     return r;
 };
 
+// Изменение элемента фильтра
+function filter_element_chenge(e_value, key) {
+    let inpEl = document.querySelector('.fp_inp[data-vals="'+key+'"]')
+    if (inpEl) inpEl.disabled = (e_value == 0)?true:false
+    let countEl = document.querySelector('.fp_count[data-vals="'+key+'"]')
+    if (countEl) countEl.innerHTML = e_value
+}
+
+// Изменение фильтра в реальном времени
 
 function repaint_filter(element) {
-
+    let fname = element.dataset.fname
+    console.log(fname)
     if (document.getElementById('tovarCategoryId') == null) return;
 
     var form = document.getElementById('categoryFilterForm');
@@ -59,6 +69,16 @@ function repaint_filter(element) {
     
     let category = tovarCategoryId.dataset.id;
     
+    // Показываем подсказку
+    document.querySelector(".flter_pods .loader_white").style.display = "block"
+    document.querySelector(".flter_pods .loader_info").style.display = "none"
+    let inp = element.getBoundingClientRect();
+    let win = document.getElementById("categoryFilterForm").getBoundingClientRect();
+    console.log(inp.top)
+    console.log(win.top)
+    flter_pods.style.top = (inp.top - win.top)+"px"
+    flter_pods.style.display = "block"
+
     const xhr = new XMLHttpRequest()
 
     xhr.open('GET', filterParamLoad+"?catid="+category+"&filter_param="+JSON.stringify(qParam))
@@ -66,22 +86,33 @@ function repaint_filter(element) {
     xhr.setRequestHeader('Content-Type', 'application/json')
 
     xhr.onload = () => {
-        Object.keys(xhr.response.offer_brend).forEach(key => {
-            let e_value = xhr.response.offer_brend[key]
 
-            let countEl = document.querySelector('.fp_count[data-vals="'+key+'"]')
-            if (countEl) countEl.innerHTML = e_value
+        console.log(xhr.response)
+
+        if (fname != "Бренд")
+        Object.keys(xhr.response.offer_brend).forEach(key => {
+            filter_element_chenge(xhr.response.offer_brend[key], key)
         });
 
-        if (document.getElementById("flter_pods")) {
-            let inp = element.getBoundingClientRect();
-            let win = document.getElementById("categoryFilterForm").getBoundingClientRect();
-            console.log(inp.top)
-            console.log(win.top)
-            flter_pods.style.top = (inp.top - win.top)+"px"
-            flter_pods.style.display = "block"
-            flter_pods.innerHTML = "Найдено: <br/>"+xhr.response.count
+        if (fname != "Стиль")
+        Object.keys(xhr.response.offer_style).forEach(key => {
+            filter_element_chenge(xhr.response.offer_style[key], key)
+        });
 
+        if (fname != "Форма")
+        Object.keys(xhr.response.offer_forma).forEach(key => {
+            filter_element_chenge(xhr.response.offer_forma[key], key)
+        });
+        
+        if (fname != "Цена") {
+            if (document.getElementById("price_ot")) price_ot.value = xhr.response.offer_price_min;
+            if (document.getElementById("price_do")) price_do.value = xhr.response.offer_price_max;
+        }
+        if (document.getElementById("flter_pods")) {
+           
+            pds_naideno.innerHTML = "Найдено: <br/>"+xhr.response.count
+            document.querySelector(".flter_pods .loader_white").style.display = "none"
+            document.querySelector(".flter_pods .loader_info").style.display = "block"
         }
         console.log(xhr.response.count)
     }
@@ -107,9 +138,10 @@ function acsept_filter(category, qParam) {
         Object.keys(xhr.response.offer_brend).forEach(key => {
             let e_value = xhr.response.offer_brend[key];
             
-                let disabled = (e_value == 0)?"disabled":""; 
+            if (e_value != 0) {  
                 let checed = (qParam.brand != undefined && qParam.brand.includes(key) )?"checked":"";
-                uStr += '<li><label><input '+disabled+' data-vals = "'+key+'" onclick = "repaint_filter(this)" type="checkbox" name="brand[]" '+checed+' value = "'+key+'"><span class = "fp_key">'+key+'</span> <span data-vals = "'+key+'" class = "fp_count">('+e_value+')</span></label></li>';
+                uStr += '<li><label><input class = "fp_inp" data-vals = "'+key+'" data-fname = "Бренд" onclick = "repaint_filter(this)" type="checkbox" name="brand[]" '+checed+' value = "'+key+'"><span class = "fp_key">'+key+'</span> <span data-vals = "'+key+'" class = "fp_count">('+e_value+')</span></label></li>';
+            }
         });
         if (document.getElementById("tov_brand")) tov_brand.innerHTML = uStr;
 
@@ -119,10 +151,10 @@ function acsept_filter(category, qParam) {
         Object.keys(xhr.response.offer_style).forEach(key => {
             let e_value = xhr.response.offer_style[key];
 
-                let disabled = (e_value == 0)?"disabled":"";
+            if (e_value != 0) {
                 let checed = (qParam.style != undefined && qParam.style.includes(key) )?"checked":"";
-                uStr += '<li><label><input '+disabled+' data-vals = "'+key+'" type="checkbox" name="style[]" '+checed+' value = "'+key+'"><span class = "fp_key">'+key+'</span> <span class = "fp_count">('+e_value+')</span></label></li>';
-            
+                uStr += '<li><label><input class = "fp_inp" data-fname = "Стиль" onclick = "repaint_filter(this)" data-vals = "'+key+'" type="checkbox" name="style[]" '+checed+' value = "'+key+'"><span class = "fp_key">'+key+'</span> <span data-vals = "'+key+'" class = "fp_count">('+e_value+')</span></label></li>';
+            }
         });
         if (document.getElementById("tov_style")) tov_style.innerHTML = uStr;
 
@@ -131,10 +163,10 @@ function acsept_filter(category, qParam) {
         Object.keys(xhr.response.offer_forma).forEach(key => {
             let e_value = xhr.response.offer_forma[key];
 
-                let disabled = (e_value == 0)?"disabled":"";
+            if (e_value != 0) {
                 let checed = (qParam.forma != undefined && qParam.forma.includes(key) )?"checked":"";
-                uStr += '<li><label><input '+disabled+' data-vals = "'+key+'" type="checkbox" name="forma[]" '+checed+' value = "'+key+'"><span class = "fp_key">'+key+'</span> <span class = "fp_count">('+e_value+')</span></label></li>';
-            
+                uStr += '<li><label><input class = "fp_inp" data-fname = "Форма" onclick = "repaint_filter(this)" data-vals = "'+key+'" type="checkbox" name="forma[]" '+checed+' value = "'+key+'"><span class = "fp_key">'+key+'</span> <span data-vals = "'+key+'" class = "fp_count">('+e_value+')</span></label></li>';
+            }
         });
         if (document.getElementById("tov_forma")) tov_forma.innerHTML = uStr;
 

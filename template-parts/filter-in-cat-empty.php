@@ -3,12 +3,20 @@
 	<p>Загрузка...</p>
 </div>
 
-<div style = "display:none" class = "flter_pods" id = "flter_pods" >
 
-</div>
 
 <form id = "categoryFilterForm" class="menu-left categoryFilterForm">
-						<input id = "sortByParam" type = "hidden" name = "sortByParam" value = "def">
+	<div style = "display:none" class = "flter_pods" id = "flter_pods" >
+		
+		<div class = "loader_white"></div>
+			
+		<div class = "loader_info">
+			<p  class = "pds_naideno" id = "pds_naideno" class = "naideno"></p>
+			<button type = "submit" class = "pds_submit">Показать</button>	
+		</div>
+	</div>
+
+	<input id = "sortByParam" type = "hidden" name = "sortByParam" value = "def">
 						<?
 							$sqr =  get_search_query();
 							if (!empty($sqr)) {
@@ -53,17 +61,17 @@
 									<div class="category-params-item-price">
 										<div class="category-params-item-price-table table">
 											<div class="cell">
-												<input type="number" name="price_ot" value = "" id="price_ot">
+												<input data-fname = "Цена" onkeypress = "repaint_filter(this)" type="number" name="price_ot" value = "" id="price_ot">
 											</div>
 											<div class="cell">
-												<input type="number" name="price_do" value = "" id="price_do">
+												<input data-fname = "Цена" onkeypress = "repaint_filter(this)" type="number" name="price_do" value = "" id="price_do">
 											</div>
 										</div>
 										<!-- <div id="range" class="category-params-item-price-range"></div> -->
 									</div>
 								</div>
 									
-								<button type = "submit" class = "filter_submit">Применить</button>		
+										
 							</div> 
 							
 						</div>
@@ -76,7 +84,7 @@
 									
 									
 								</ul>
-								<button type = "submit" class = "filter_submit">Применить</button>	
+									
 								</div>
 							</div>
 							
@@ -90,7 +98,7 @@
 									
 									
 								</ul>
-								<button type = "submit" class = "filter_submit">Применить</button>	
+									
 								</div>
 							</div>
 							
@@ -103,7 +111,7 @@
 								<ul id = "tov_forma" class = "tov_forma">
 									
 								</ul>
-								<button type = "submit" class = "filter_submit">Применить</button>	
+									
 								</div>
 							</div>
 						</div>					
@@ -115,7 +123,7 @@
 								<ul>
 									
 								</ul>
-								<button type = "submit" class = "filter_submit">Применить</button>	
+									
 								</div>
 							</div>
 						</div>
@@ -127,7 +135,7 @@
 								<ul>
 
 								</ul>
-								<button type = "submit" class = "filter_submit">Применить</button>	
+									
 								</div>
 							</div>
 						</div>
@@ -140,7 +148,7 @@
 								<ul>
 									
 								</ul>
-								<button type = "submit" class = "filter_submit">Применить</button>	
+									
 								</div>
 							</div>
 						</div>
@@ -152,9 +160,11 @@
 								<ul>
 									
 								</ul>
-								<button type = "submit" class = "filter_submit">Применить</button>	
+									
 								</div>
 							</div>
 						</div>
 
+						<button type = "submit" class = "filter_submit">Применить</button>
+						<a onclick = "clearFilter()" href="#" class="clear_filte">Сбросить фильтр</a>
 </form>

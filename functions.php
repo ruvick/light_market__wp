@@ -107,7 +107,7 @@ function change_menu_item_css_classes( $classes, $item, $args, $depth ) {
 
 if ( ! defined( '_S_VERSION' ) ) {
 	// Replace the version number of the theme on each release. 
-	define( '_S_VERSION', '1.0.111' );
+	define( '_S_VERSION', '1.0.115' );
 }
 
 if ( ! function_exists( 'light_market_setup' ) ) :
